@@ -58,12 +58,12 @@ movedata MOVE_KARATE_CHOP, "Karate Chop"
     movedescription MOVE_KARATE_CHOP, "The foe is attacked\nwith a sharp chop.\nIt has a high\ncritical-hit ratio.\n"
 
 movedata MOVE_DOUBLE_SLAP, "Double Slap"
-    battleeffect MOVE_EFFECT_MULTI_HIT
+    battleeffect MOVE_EFFECT_HIT_TWICE
     pss SPLIT_PHYSICAL
-    basepower 15
-    type TYPE_NORMAL
-    accuracy 85
-    pp 10
+    basepower 30
+    type TYPE_FAIRY
+    accuracy 100
+    pp 30
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -71,7 +71,7 @@ movedata MOVE_DOUBLE_SLAP, "Double Slap"
     appeal 0x07
     contesttype CONTEST_TOUGH
     terminatedata
-    movedescription MOVE_DOUBLE_SLAP, "The foe is slapped\nrepeatedly, back\nand forth, two to\nfive times in a row.\n"
+    movedescription MOVE_DOUBLE_SLAP, "The foe is slapped\nrepeatedly, back\nand forth, twice\n in a row.\n"
 
 movedata MOVE_COMET_PUNCH, "Comet Punch"
     battleeffect MOVE_EFFECT_MULTI_HIT
@@ -540,7 +540,7 @@ movedata MOVE_HORN_DRILL, "Horn Drill"
 movedata MOVE_TACKLE, "Tackle"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 40
+    basepower 50
     type TYPE_NORMAL
     accuracy 100
     pp 35

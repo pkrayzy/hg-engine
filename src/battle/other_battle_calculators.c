@@ -1125,23 +1125,25 @@ void LONG_CALL DynamicSortClientExecutionOrder(void *bw, struct BattleStruct *sp
     // debugsyscall(buf);
 }
 
-const u8 CriticalRateTable[] =
-{
-     24,
-     8,
-     2,
-     1,
-     1
-};
+// const u8 CriticalRateTable[] =
+// {
+//      24,
+//      8,
+//      2,
+//      1,
+//      1
+// };
 
 // calculates the critical hit multiplier
 int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, int critical_count, u32 side_condition)
 {
     u16 temp;
+    u16 critrate;
     u16 item;
     int hold_effect;
     u16 species;
     u32 defender_condition;
+    u32 speed; 
     u32 condition2;
     u32 move_effect;
     int multiplier = 1;
@@ -1149,6 +1151,7 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
 
     item = GetBattleMonItem(sp, attacker);
     hold_effect = BattleItemDataGet(sp, item, 1);
+    speed = sp->battlemon[attacker].speed; 
 
     species = sp->battlemon[attacker].species;
     defender_condition = sp->battlemon[defender].condition;
@@ -1156,7 +1159,11 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
     move_effect = sp->battlemon[defender].effect_of_moves;
     ability = sp->battlemon[attacker].ability;
 
-    temp = (((condition2 & STATUS2_FOCUS_ENERGY) != 0) * 2) + (hold_effect == HOLD_EFFECT_CRITRATE_UP) + critical_count + (ability == ABILITY_SUPER_LUCK)
+    temp = 
+        (((condition2 & STATUS2_FOCUS_ENERGY) != 0) * 2)
+         + critical_count
+         + (hold_effect == HOLD_EFFECT_CRITRATE_UP)
+         + (2 * (ability == ABILITY_SUPER_LUCK))
          + (2 * ((hold_effect == HOLD_EFFECT_CHANSEY_CRITRATE_UP) && (species == SPECIES_CHANSEY)))
          + (2 * ((hold_effect == HOLD_EFFECT_FARFETCHD_CRITRATE_UP) && (species == SPECIES_FARFETCHD)));
 
@@ -1165,9 +1172,17 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
         temp = 4;
     }
 
+    critrate = (speed * temp); 
+
+    if (critrate > 512)
+    {
+        critrate = 512;
+    }
+
     if
     (
-        BattleRand(bw) % CriticalRateTable[temp] == 0
+        // BattleRand(bw) % CriticalRateTable[temp] == 0
+        BattleRand(bw) % (512 / critrate) == 0
         || (ability == ABILITY_MERCILESS && (defender_condition & STATUS_POISON_ANY))
         //|| (GetMoveData(sp->current_move_index, MOVE_DATA_EFFECT) == MOVE_EFFECT_ALWAYS_CRITICAL)
         || (sp->moveTbl[sp->current_move_index].effect == MOVE_EFFECT_ALWAYS_CRITICAL)
