@@ -52,6 +52,13 @@ const u16 PowderMovesList[] = {
     MOVE_MAGIC_POWDER,
 };
 
+const u16 BoneMovesList[] = {
+    MOVE_BONE_CLUB,
+    MOVE_BONE_RUSH,
+    MOVE_BONEMERANG,
+    MOVE_SHADOW_BONE,
+};
+
 // Moves that Triage boosts the priority of.
 // Move effects might be a tidier way to do it, but we don't have those defined for some of these moves yet.
 const u16 TriageMovesList[] = {
