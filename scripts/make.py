@@ -20,8 +20,8 @@ if sys.platform.startswith('win'):
     if PATH == '':
         PATH = 'C://devkitPro//devkitARM//bin'
         if os.path.isdir(PATH) is False:
-            print('Devkit not found.')
-            sys.exit(1)
+            print('Devkit not found, trying executables on PATH...')
+            PATH = ''
 
     PREFIX = 'arm-none-eabi-'
     OBJDUMP = os.path.join(PATH, PREFIX + 'objdump')
@@ -52,6 +52,7 @@ OUTPUT_STATBUFFCHANGE = 'build/output_btl_scr_cmd_33_statbuffchange.bin'
 OUTPUT_CALCBASEDAMAGE = 'build/output_calcbasedamage.bin'
 OUTPUT_BATTLEFORMCHANGECHECK = 'build/output_battleformchangecheck.bin'
 OUTPUT_CHECKDEFENDERITEMEFFECTONHIT = 'build/output_checkdefenderitemeffectonhit.bin'
+OUTPUT_SERVERFIELDCONDITIONCHECK = 'build/output_serverfieldconditioncheck.bin'
 BYTE_REPLACEMENT = 'bytereplacement'
 HOOKS = 'hooks'
 ARM_HOOKS = 'armhooks'
@@ -59,7 +60,7 @@ REPOINTS = 'repoints'
 ROUTINE_POINTERS = 'routinepointers'
 
 NEW_OVERLAYS_NO_ARM9_EXT = [OUTPUT_BATTLE, OUTPUT_FIELD, OUTPUT_POKEDEX, OUTPUT_GETMONEVOLUTION, OUTPUT_GETMONEVOLUTION_BATTLE, OUTPUT_MOVEHITDEFENDERABILITYCHECK, OUTPUT_SWITCHINABILITYCHECK, OUTPUT_STATBUFFCHANGE,
-                            OUTPUT_CALCBASEDAMAGE, OUTPUT_BATTLEFORMCHANGECHECK, OUTPUT_CHECKDEFENDERITEMEFFECTONHIT]
+                            OUTPUT_CALCBASEDAMAGE, OUTPUT_BATTLEFORMCHANGECHECK, OUTPUT_CHECKDEFENDERITEMEFFECTONHIT, OUTPUT_SERVERFIELDCONDITIONCHECK]
 
 LINKED_SECTIONS = ['build/linked.o', 'build/battle_linked.o', 'build/field_linked.o', 'build/pokedex_linked.o']
 OFFSET_START_IN_129 = 0x600
