@@ -10,14 +10,22 @@ struct LinkedOverlayList gLinkedOverlayList[] =
     {OVERLAY_BATTLE, OVERLAY_BATTLE_EXTENSION},
     {OVERLAY_FIELD, OVERLAY_FIELD_EXTENSION},
     {OVERLAY_HALL_OF_FAME, OVERLAY_FIELD_EXTENSION},
+    {OVERLAY_HALL_OF_FAME_PC, OVERLAY_FIELD_EXTENSION},
     {OVERLAY_POKEATHLON, OVERLAY_FIELD_EXTENSION},
     {OVERLAY_POKEWALKER, OVERLAY_FIELD_EXTENSION},
     {OVERLAY_POKEDEX, OVERLAY_POKEDEX_EXTENSION},
 };
 
+// entirely clean up overlays if the first one is being unloaded
+u8 gCleanupOverlayList[][4] =
+{
+    {OVERLAY_BATTLE_EXTENSION, OVERLAY_BATTLECONTROLLER_BEFOREMOVE, OVERLAY_SERVERBEFOREACT, OVERLAY_BATTLECONTROLLER_MOVEEND}
+};
+
 
 void LONG_CALL UnloadOverlayByID(u32 ovyId) {
-    u32 i;
+    u32 i, j = 0, k = 1;
+    BOOL cleanupMode = FALSE;
     PMiLoadedOverlay *table;
 #ifdef DEBUG_PRINT_OVERLAY_LOADS
     u8 buf[64];
@@ -34,7 +42,7 @@ unloadSecond:
 
 #ifdef DEBUG_PRINT_OVERLAY_LOADS
     sprintf(buf, "Freed overlay %d.\n", ovyId);
-    debugsyscall(buf);
+    debug_printf(buf);
 #endif // DEBUG_PRINT_OVERLAY_LOADS
 
     for (i = 0; i < NELEMS(gLinkedOverlayList); i++)
@@ -43,6 +51,28 @@ unloadSecond:
         {
             ovyId = gLinkedOverlayList[i].ext_id;
             goto unloadSecond;
+        }
+    }
+
+    // alright we want to clear overlays
+    for (; j < NELEMS(gCleanupOverlayList); j++) {
+        if (k >= NELEMS(gCleanupOverlayList[0])) {
+            cleanupMode = FALSE;
+            k = 1;
+            continue; // increases j
+        }
+        if ((gCleanupOverlayList[j][0] == ovyId) || cleanupMode) {
+            if (gCleanupOverlayList[j][k]) {
+                ovyId = gCleanupOverlayList[j][k++];
+                cleanupMode = TRUE;
+#ifdef DEBUG_PRINT_OVERLAY_LOADS
+                debug_printf("Cleaning up overlay %d linked to overlay %d... ", ovyId, gCleanupOverlayList[j][0]);
+#endif // DEBUG_PRINT_OVERLAY_LOADS
+                goto unloadSecond;
+            } else {
+                k = 1;
+                continue; // increases j
+            }
         }
     }
 }
@@ -61,8 +91,19 @@ u32 LONG_CALL HandleLoadOverlay(u32 ovyId, u32 loadType) {
 loadExtension:
     if (!CanOverlayBeLoaded(ovyId)) {
 #ifdef DEBUG_PRINT_OVERLAY_LOADS
+        overlayRegion = GetOverlayLoadDestination(ovyId);
+        loadedOverlays = GetLoadedOverlaysInRegion(overlayRegion);
         sprintf(buf, "ERROR: Can't load in overlay_%04d.bin.\n", ovyId);
-        debugsyscall(buf);
+        debug_printf(buf);
+        debug_printf("    Loaded overlays: ");
+        for (i = 0; i < MAX_ACTIVE_OVERLAYS; i++)
+        {
+            if (loadedOverlays[i].active == TRUE)
+            {
+                debug_printf("%04d, ", loadedOverlays[i].id);
+            }
+        }
+        debug_printf("\n");
 #endif // DEBUG_PRINT_OVERLAY_LOADS
         return FALSE;
     }
@@ -81,12 +122,12 @@ loadExtension:
 
 #ifdef DEBUG_PRINT_OVERLAY_LOADS
     sprintf(buf, "Loaded in overlay_%04d.bin. Total of %d overlays loaded.\n", ovyId, i+1);
-    debugsyscall(buf);
+    debug_printf(buf);
 #endif // DEBUG_PRINT_OVERLAY_LOADS
 
     if (i >= MAX_ACTIVE_OVERLAYS) {
 #ifdef DEBUG_PRINT_OVERLAY_LOADS
-        debugsyscall("ERROR: Too many overlays!\n");
+        debug_printf("ERROR: Too many overlays!\n");
 #endif // DEBUG_PRINT_OVERLAY_LOADS
         GF_ASSERT(0);
         return FALSE;
@@ -118,7 +159,7 @@ loadExtension:
     if (result == FALSE) {
 #ifdef DEBUG_PRINT_OVERLAY_LOADS
         sprintf(buf, "Failed to load overlay_%04d.bin.\n", ovyId);
-        debugsyscall(buf);
+        debug_printf(buf);
 #endif // DEBUG_PRINT_OVERLAY_LOADS
         GF_ASSERT(0);
         return FALSE;
@@ -132,7 +173,7 @@ loadExtension:
             loadType = 2;
 #ifdef DEBUG_PRINT_OVERLAY_LOADS
             sprintf(buf, "Trying to load linked overlay_%04d.bin.\n", ovyId);
-            debugsyscall(buf);
+            debug_printf(buf);
 #endif // DEBUG_PRINT_OVERLAY_LOADS
             goto loadExtension;
         }
