@@ -374,6 +374,10 @@
 #define MOVE_EFFECT_HIGH_CRITICAL_RAISE_SPEED_HIT           368
 #define MOVE_EFFECT_MORTAL_SPIN                             369
 #define MOVE_EFFECT_TIDY_UP                                 370
+// New Effects
+#define MOVE_EFFECT_RETURN_BRN                              371
+#define MOVE_EFFECT_RETURN_FRZ                              372
+#define MOVE_EFFECT_RETURN_PLZ                              373
 
 #define RANGE_SINGLE_TARGET           0
 #define RANGE_SINGLE_TARGET_SPECIAL   (1 << 0)

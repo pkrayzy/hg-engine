@@ -945,8 +945,14 @@
 // define your new moves below like this
 // #define MOVE_CUSTOM_MOVE_1 924
 
+#define MOVE_FIRE_PUNCH_SIGNATURE, 923
+#define MOVE_ICE_PUNCH_SIGNATURE, 924
+#define MOVE_THUNDER_PUNCH_SIGNATURE, 925
+#define MOVE_MEGA_PUNCH_SIGNATURE, 926
+#define MOVE_MEGA_KICK_SIGNATURE, 927
+
 // update this number yourself manually
-#define NUM_OF_MOVES 923
+#define NUM_OF_MOVES 928
 
 #define MOVE_G_MAX_WILDFIRE (NUM_OF_MOVES-1+1)
 #define MOVE_G_MAX_BEFUDDLE (NUM_OF_MOVES-1+2)

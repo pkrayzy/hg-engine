@@ -77,13 +77,13 @@ movedata MOVE_DOUBLE_SLAP, "Double Slap"
 movedata MOVE_COMET_PUNCH, "Comet Punch"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_PHYSICAL
-    basepower 18
+    basepower 25
     type TYPE_NORMAL
-    accuracy 85
+    accuracy 100
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
-    priority 0
+    priority 1
     flags FLAG_KEEP_HP_BAR | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x07
     contesttype CONTEST_TOUGH
@@ -93,9 +93,9 @@ movedata MOVE_COMET_PUNCH, "Comet Punch"
 movedata MOVE_MEGA_PUNCH, "Mega Punch"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 90 // gives reason to use it instead of strength
     type TYPE_NORMAL
-    accuracy 85
+    accuracy 100
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -106,17 +106,34 @@ movedata MOVE_MEGA_PUNCH, "Mega Punch"
     terminatedata
     movedescription MOVE_MEGA_PUNCH, "The foe is slugged\nby a punch thrown\nwith muscle-packed\npower.\n"
 
+// Add Signature Move
+movedata MOVE_MEGA_PUNCH_SIGNATURE, "Mega Punch"
+    battleeffect MOVE_EFFECT_POWER_BASED_ON_FRIENDSHIP
+    pss SPLIT_PHYSICAL
+    basepower 1
+    type TYPE_FIGHTING
+    accuracy 100
+    pp 20
+    effectchance 0
+    target RANGE_SINGLE_TARGET
+    priority 0
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0x12
+    contesttype CONTEST_TOUGH
+    terminatedata
+    movedescription MOVE_MEGA_PUNCH_SIGNATURE, "The foe is slugged\nby a punch thrown\nwith muscle-packed\npower.\n"
+
 movedata MOVE_PAY_DAY, "Pay Day"
     battleeffect MOVE_EFFECT_INCREASE_PRIZE_MONEY
     pss SPLIT_PHYSICAL
-    basepower 40
+    basepower 1
     type TYPE_NORMAL
     accuracy 100
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
-    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_KEEP_HP_BAR | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
@@ -138,6 +155,23 @@ movedata MOVE_FIRE_PUNCH, "Fire Punch"
     terminatedata
     movedescription MOVE_FIRE_PUNCH, "The foe is punched\nwith a fiery fist.\nIt may leave the\ntarget with a burn.\n"
 
+// Add Signature Move
+movedata MOVE_FIRE_PUNCH_SIGNATURE, "Fire Punch"
+    battleeffect MOVE_EFFECT_RETURN_BRN
+    pss SPLIT_PHYSICAL
+    basepower 1
+    type TYPE_FIRE
+    accuracy 100
+    pp 20
+    effectchance 10
+    target RANGE_SINGLE_TARGET
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0x11
+    contesttype CONTEST_BEAUTY
+    terminatedata
+    movedescription MOVE_FIRE_PUNCH_SIGNATURE, "The foe is punched\nwith a fiery fist.\nIt may leave the\ntarget with a burn.\n"
+
 movedata MOVE_ICE_PUNCH, "Ice Punch"
     battleeffect MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_PHYSICAL
@@ -154,6 +188,23 @@ movedata MOVE_ICE_PUNCH, "Ice Punch"
     terminatedata
     movedescription MOVE_ICE_PUNCH, "The foe is punched\nwith an icy fist.\nIt may leave the\ntarget frozen.\n"
 
+// Add Signature Move
+movedata MOVE_ICE_PUNCH_SIGNATURE, "Ice Punch"
+    battleeffect MOVE_EFFECT_RETURN_FRZ
+    pss SPLIT_PHYSICAL
+    basepower 1
+    type TYPE_ICE
+    accuracy 100
+    pp 20
+    effectchance 10
+    target RANGE_SINGLE_TARGET
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0x11
+    contesttype CONTEST_BEAUTY
+    terminatedata
+    movedescription MOVE_ICE_PUNCH_SIGNATURE, "The foe is punched\nwith an icy fist.\nIt may leave the\ntarget frozen.\n"
+
 movedata MOVE_THUNDER_PUNCH, "Thunder Punch"
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
@@ -169,6 +220,23 @@ movedata MOVE_THUNDER_PUNCH, "Thunder Punch"
     contesttype CONTEST_COOL
     terminatedata
     movedescription MOVE_THUNDER_PUNCH, "The foe is punched\nwith an electrified\nfist. It may leave\nthe target with\nparalysis."
+
+// Add Signature Move
+movedata MOVE_THUNDER_PUNCH_SIGNATURE, "Thunder Punch"
+    battleeffect MOVE_EFFECT_RETURN_PLZ
+    pss SPLIT_PHYSICAL
+    basepower 1
+    type TYPE_ELECTRIC
+    accuracy 100
+    pp 20
+    effectchance 10
+    target RANGE_SINGLE_TARGET
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0x11
+    contesttype CONTEST_COOL
+    terminatedata
+    movedescription MOVE_THUNDER_PUNCH_SIGNATURE, "The foe is punched\nwith an electrified\nfist. It may leave\nthe target with\nparalysis."
 
 movedata MOVE_SCRATCH, "Scratch"
     battleeffect MOVE_EFFECT_HIT
@@ -415,8 +483,8 @@ movedata MOVE_MEGA_KICK, "Mega Kick"
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_NORMAL
-    accuracy 75
-    pp 5
+    accuracy 85 // align with Megahorn
+    pp 10 // align with Megahorn
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
@@ -425,6 +493,23 @@ movedata MOVE_MEGA_KICK, "Mega Kick"
     contesttype CONTEST_COOL
     terminatedata
     movedescription MOVE_MEGA_KICK, "The foe is attacked\nby a kick launched\nwith muscle-packed\npower.\n"
+
+// Add Signature Move
+movedata MOVE_MEGA_KICK_SIGNATURE, "Mega Kick"
+    battleeffect MOVE_EFFECT_POWER_BASED_ON_FRIENDSHIP
+    pss SPLIT_PHYSICAL
+    basepower 1
+    type TYPE_FIGHTING
+    accuracy 100
+    pp 20
+    effectchance 0
+    target RANGE_SINGLE_TARGET
+    priority 0
+    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0x12
+    contesttype CONTEST_COOL
+    terminatedata
+    movedescription MOVE_MEGA_KICK_SIGNATURE, "The foe is attacked\nby a kick launched\nwith muscle-packed\npower.\n"
 
 movedata MOVE_JUMP_KICK, "Jump Kick"
     battleeffect MOVE_EFFECT_CRASH_ON_MISS
@@ -2747,20 +2832,20 @@ movedata MOVE_MIND_READER, "Mind Reader"
     movedescription MOVE_MIND_READER, "The user senses the\nfoe’s movements\nwith its mind to\nensure its next\nattack does not miss."
 
 movedata MOVE_NIGHTMARE, "Nightmare"
-    battleeffect MOVE_EFFECT_STATUS_NIGHTMARE
-    pss SPLIT_STATUS
-    basepower 0
+    battleeffect MOVE_EFFECT_DOUBLE_POWER_HEAL_SLEEP
+    pss SPLIT_SPECIAL
+    basepower 70
     type TYPE_GHOST
     accuracy 100
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
-    movedescription MOVE_NIGHTMARE, "A sleeping foe is\nshown a nightmare\nthat inflicts some\ndamage every turn.\n"
+    movedescription MOVE_NIGHTMARE, "This attack inflicts\nhigh damage on a\nsleeping foe. It\nalso wakes the foe\nup, however."
 
 movedata MOVE_FLAME_WHEEL, "Flame Wheel"
     battleeffect MOVE_EFFECT_THAW_AND_BURN_HIT
@@ -5744,7 +5829,7 @@ movedata MOVE_WAKE_UP_SLAP, "Wake-Up Slap"
     basepower 70
     type TYPE_FIGHTING
     accuracy 100
-    pp 10
+    pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0

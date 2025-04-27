@@ -52,13 +52,6 @@ const u16 PowderMovesList[] = {
     MOVE_MAGIC_POWDER,
 };
 
-const u16 BoneMovesList[] = {
-    MOVE_BONE_CLUB,
-    MOVE_BONE_RUSH,
-    MOVE_BONEMERANG,
-    MOVE_SHADOW_BONE,
-};
-
 // Moves that Triage boosts the priority of.
 // Move effects might be a tidier way to do it, but we don't have those defined for some of these moves yet.
 const u16 TriageMovesList[] = {
@@ -1167,87 +1160,14 @@ void LONG_CALL CalcPriorityAndQuickClawCustapBerry(void *bsys, struct BattleStru
     }
 }
 
-void LONG_CALL CalcPriorityAndQuickClawCustapBerry(void *bsys, struct BattleStruct *ctx) {
-    int move = 0;
-    int priority = 0;
-    int command;
-    int move_pos;
-    u32 i;
-    int hold_effect;
-    int hold_atk;
-
-    int maxBattlers = BattleWorkClientSetMaxGet(bsys);
-
-    for (int client = 0; client < maxBattlers; client++) {
-
-        command = ctx->playerActions[client][3];
-        move_pos = ctx->waza_no_pos[client];
-
-        if (command == SELECT_FIGHT_COMMAND) {
-            if (ctx->oneTurnFlag[client].struggle_flag) {
-                move = MOVE_STRUGGLE;
-            } else {
-                move = BattlePokemonParamGet(ctx, client, BATTLE_MON_DATA_MOVE_1 + move_pos, NULL);
-            }
-        }
-        priority = ctx->moveTbl[move].priority;
-
-        // Handle Grassy Glide
-        if (move == MOVE_GRASSY_GLIDE && ctx->terrainOverlay.type == GRASSY_TERRAIN) {
-            priority++;
-        }
-
-        // Handle Prankster
-        if (GetBattlerAbility(ctx, client) == ABILITY_PRANKSTER && GetMoveSplit(ctx, move) == SPLIT_STATUS) {
-            priority++;
-        }
-
-        // Handle Gale Wings
-        if (
-            GetBattlerAbility(ctx, client) == ABILITY_GALE_WINGS && ctx->moveTbl[move].type == TYPE_FLYING && ctx->battlemon[client].hp == (s32)ctx->battlemon[client].maxhp) {
-            priority++;
-        }
-
-        // handle Triage
-        if (GetBattlerAbility(ctx, client) == ABILITY_TRIAGE) {
-            for (i = 0; i < NELEMS(TriageMovesList); i++) {
-                if (TriageMovesList[i] == move) {
-                    priority = priority + 3;
-                    break;
-                }
-            }
-        }
-
-        hold_effect = HeldItemHoldEffectGet(ctx, client);
-        hold_atk = HeldItemAtkGet(ctx, client, 0);
-
-        if (hold_effect == HOLD_EFFECT_SOMETIMES_PRIORITY) {
-            if ((ctx->agi_rand[client] % (100 / hold_atk)) == 0) {
-                ctx->battlemon[client].moveeffect.quickClawFlag = 1;
-            }
-        }
-
-        if (hold_effect == HOLD_EFFECT_PINCH_PRIORITY) {
-            if (GetBattlerAbility(ctx, client) == ABILITY_GLUTTONY) {
-                hold_atk /= 2;
-            }
-            if (ctx->battlemon[client].hp <= (s32)(ctx->battlemon[client].maxhp / hold_atk)) {
-                ctx->battlemon[client].moveeffect.custapBerryFlag = 1;
-            }
-        }
-
-        ctx->clientPriority[client] = priority;
-    }
-}
-
-// const u8 CriticalRateTable[] =
-// {
-//      24,
-//      8,
-//      2,
-//      1,
-//      1
-// };
+//const u8 CriticalRateTable[] =
+//{
+//     24,
+//     8,
+//     2,
+//     1,
+//     1
+//};
 
 // calculates the critical hit multiplier
 int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, int critical_count, u32 side_condition)
@@ -1258,7 +1178,7 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
     int hold_effect;
     u16 species;
     u32 defender_condition;
-    u32 speed; 
+    u32 speed;
     u32 condition2;
     u32 move_effect;
     int multiplier = 1;
@@ -1266,7 +1186,7 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
 
     item = GetBattleMonItem(sp, attacker);
     hold_effect = BattleItemDataGet(sp, item, 1);
-    speed = sp->battlemon[attacker].speed; 
+    speed = sp->battlemon[attacker].speed;
 
     species = sp->battlemon[attacker].species;
     defender_condition = sp->battlemon[defender].condition;
@@ -1274,27 +1194,20 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
     move_effect = sp->battlemon[defender].effect_of_moves;
     ability = sp->battlemon[attacker].ability;
 
-    temp = 
+    temp =
         (((condition2 & STATUS2_FOCUS_ENERGY) != 0) * 2)
-         + critical_count
-         + (hold_effect == HOLD_EFFECT_CRITRATE_UP)
-         + (2 * (ability == ABILITY_SUPER_LUCK))
-         + (2 * ((hold_effect == HOLD_EFFECT_CHANSEY_CRITRATE_UP) && (species == SPECIES_CHANSEY)))
-         + (2 * ((hold_effect == HOLD_EFFECT_FARFETCHD_CRITRATE_UP) && (species == SPECIES_FARFETCHD)));
+        + (hold_effect == HOLD_EFFECT_CRITRATE_UP)
+        + critical_count
+        + (ability == ABILITY_SUPER_LUCK)
+        + (2 * ((hold_effect == HOLD_EFFECT_CHANSEY_CRITRATE_UP) && (species == SPECIES_CHANSEY)))
+        + (2 * ((hold_effect == HOLD_EFFECT_FARFETCHD_CRITRATE_UP) && (species == SPECIES_FARFETCHD)));
 
     if (temp > 4)
     {
         temp = 4;
     }
-
-    critrate = (speed * temp); 
-
-    if (critrate > 512)
-    {
-        critrate = 512;
-    }
-
-    critrate = (speed * temp); 
+    
+    critrate = (speed * temp);
 
     if (critrate > 512)
     {

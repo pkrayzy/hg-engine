@@ -85,9 +85,12 @@ levelup SPECIES_VENUSAUR
 
 
 levelup SPECIES_CHARMANDER
-    learnset MOVE_SCRATCH, 1
-    learnset MOVE_GROWL, 1
-    learnset MOVE_EMBER, 5
+    ; learnset MOVE_SCRATCH, 1
+    ; learnset MOVE_GROWL, 1
+    ; learnset MOVE_EMBER, 5
+    learnset MOVE_FIRE_PUNCH_SIGNATURE, 1
+    learnset MOVE_MEGA_PUNCH_SIGNATURE, 1
+    learnset MOVE_MEGA_KICK_SIGNATURE, 1
     learnset MOVE_SMOKESCREEN, 8
     learnset MOVE_DRAGON_BREATH, 12
     learnset MOVE_DRAGON_RAGE, 16

@@ -937,7 +937,6 @@
 .equ MOVE_UPPER_HAND, 921
 .equ MOVE_MALIGNANT_CHAIN, 922
 
-
 // there are a bunch more here but that is fine
 
 .equ NUM_OF_CANONICAL_MOVES, 923
@@ -946,8 +945,15 @@
 // define your new moves below like this
 // .equ MOVE_CUSTOM_MOVE_1, 924
 
+// Add Signature Moves
+.equ MOVE_FIRE_PUNCH_SIGNATURE, 923
+.equ MOVE_ICE_PUNCH_SIGNATURE, 924
+.equ MOVE_THUNDER_PUNCH_SIGNATURE, 925
+.equ MOVE_MEGA_PUNCH_SIGNATURE, 926
+.equ MOVE_MEGA_KICK_SIGNATURE, 927
+
 // update this number yourself manually
-.equ NUM_OF_MOVES, 923
+.equ NUM_OF_MOVES, 928
 
 .equ MOVE_G_MAX_WILDFIRE, (NUM_OF_MOVES-1+1)
 .equ MOVE_G_MAX_BEFUDDLE, (NUM_OF_MOVES-1+2)
