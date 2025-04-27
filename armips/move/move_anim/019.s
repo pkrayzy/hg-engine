@@ -45,9 +45,9 @@ a010_019:
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    checkturn _0180, _0260
-    end
-_0180:
+;    checkturn _0260, _0260
+;    end
+;_0180:
     cmd43
     cmd0C 4, 1
     cmd0C 0, 0
@@ -61,24 +61,24 @@ _0180:
     playsepan 1917, -117
     callfunction 40, 2, 2, 1, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
-    waitparticle
-    unloadparticle 0
-    unloadparticle 1
-    cmd43
-    cmd0C 4, 1
-    cmd0C 0, 0
-    cmd0C 1, 32
-    resetbg 55, 0x40001
-    waitforchangebg
-    end
-_0260:
-    cmd43
-    cmd0C 4, 1
-    cmd0C 0, 0
-    cmd0C 1, -32
-    changebg 55, 0x20001
-    playsepan 2064, 117
-    waitforchangebg
+;    waitparticle
+;    unloadparticle 0
+;    unloadparticle 1
+;    cmd43
+;    cmd0C 4, 1
+;    cmd0C 0, 0
+;    cmd0C 1, 32
+;    resetbg 55, 0x40001
+;    waitforchangebg
+;    end
+;_0260:
+;    cmd43
+;    cmd0C 4, 1
+;    cmd0C 0, 0
+;    cmd0C 1, -32
+;    changebg 55, 0x20001
+;    playsepan 2064, 117
+;    waitforchangebg
     addparticle 0, 3, 3
     callfunction 73, 5, 0, 1, 0, 10, 4, "NaN", "NaN", "NaN", "NaN", "NaN"
     wait 10

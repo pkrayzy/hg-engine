@@ -91,6 +91,7 @@ levelup SPECIES_CHARMANDER
     learnset MOVE_FIRE_PUNCH_SIGNATURE, 1
     learnset MOVE_MEGA_PUNCH_SIGNATURE, 1
     learnset MOVE_MEGA_KICK_SIGNATURE, 1
+    learnset MOVE_FLY, 1
     learnset MOVE_SMOKESCREEN, 8
     learnset MOVE_DRAGON_BREATH, 12
     learnset MOVE_DRAGON_RAGE, 16
@@ -2372,6 +2373,7 @@ levelup SPECIES_MAROWAK
 levelup SPECIES_HITMONLEE
     learnset MOVE_BRICK_BREAK, 0
     learnset MOVE_DOUBLE_KICK, 0
+    learnset MOVE_MEGA_KICK_SIGNATURE, 0
     learnset MOVE_BRICK_BREAK, 1
     learnset MOVE_FEINT, 1
     learnset MOVE_LOW_SWEEP, 1
@@ -2411,6 +2413,7 @@ levelup SPECIES_HITMONLEE
 levelup SPECIES_HITMONCHAN
     learnset MOVE_DRAIN_PUNCH, 0
     learnset MOVE_COMET_PUNCH, 0
+    learnset MOVE_MEGA_PUNCH_SIGNATURE, 0
     learnset MOVE_DRAIN_PUNCH, 1
     learnset MOVE_FEINT, 1
     learnset MOVE_VACUUM_WAVE, 1
@@ -2836,6 +2839,7 @@ levelup SPECIES_SCYTHER
 
 
 levelup SPECIES_JYNX
+    learnset MOVE_ICE_PUNCH_SIGNATURE, 0
     learnset MOVE_SWEET_KISS, 1
     learnset MOVE_LICK, 1
     learnset MOVE_POUND, 1
@@ -2866,6 +2870,7 @@ levelup SPECIES_JYNX
 
 
 levelup SPECIES_ELECTABUZZ
+    learnset MOVE_THUNDER_PUNCH_SIGNATURE, 0
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_LEER, 1
     learnset MOVE_THUNDER_SHOCK, 1
@@ -2887,6 +2892,7 @@ levelup SPECIES_ELECTABUZZ
 
 
 levelup SPECIES_MAGMAR
+    learnset MOVE_FIRE_PUNCH_SIGNATURE, 0
     learnset MOVE_SMOG, 1
     learnset MOVE_LEER, 1
     learnset MOVE_EMBER, 1
@@ -5399,6 +5405,7 @@ levelup SPECIES_HITMONTOP
 
 
 levelup SPECIES_SMOOCHUM
+    learnset MOVE_ICE_PUNCH_SIGNATURE, 1
     learnset MOVE_LICK, 1
     learnset MOVE_POUND, 1
     learnset MOVE_LICK, 5
@@ -5421,6 +5428,7 @@ levelup SPECIES_SMOOCHUM
 
 
 levelup SPECIES_ELEKID
+    learnset MOVE_THUNDER_PUNCH_SIGNATURE, 1
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_LEER, 1
     learnset MOVE_THUNDER_SHOCK, 4
@@ -5440,6 +5448,7 @@ levelup SPECIES_ELEKID
 
 
 levelup SPECIES_MAGBY
+    learnset MOVE_FIRE_PUNCH_SIGNATURE, 1
     learnset MOVE_SMOG, 1
     learnset MOVE_LEER, 1
     learnset MOVE_EMBER, 4

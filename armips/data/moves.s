@@ -83,7 +83,7 @@ movedata MOVE_COMET_PUNCH, "Comet Punch"
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
-    priority 1
+    priority 1 // Making it a priority move at least makes it somewhat intersting
     flags FLAG_KEEP_HP_BAR | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x07
     contesttype CONTEST_TOUGH
@@ -255,12 +255,12 @@ movedata MOVE_SCRATCH, "Scratch"
     movedescription MOVE_SCRATCH, "Hard, pointed, and\nsharp claws rake the\nfoe to inflict damage.\n\n"
 
 movedata MOVE_VICE_GRIP, "Vise Grip"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIGH_CRITICAL // Make it like Razor Leaf
     pss SPLIT_PHYSICAL
     basepower 55
     type TYPE_NORMAL
     accuracy 100
-    pp 30
+    pp 25
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
@@ -271,36 +271,36 @@ movedata MOVE_VICE_GRIP, "Vise Grip"
     movedescription MOVE_VICE_GRIP, "Huge, impressive\npincers grip and\nsqueeze the foe.\n\n"
 
 movedata MOVE_GUILLOTINE, "Guillotine"
-    battleeffect MOVE_EFFECT_ONE_HIT_KO
+    battleeffect MOVE_EFFECT_HIGH_CRITICAL // Make it like Crabhammer
     pss SPLIT_PHYSICAL
-    basepower 1
+    basepower 100
     type TYPE_NORMAL
-    accuracy 30
-    pp 5
+    accuracy 90
+    pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x09
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_GUILLOTINE, "A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits."
+    movedescription MOVE_GUILLOTINE, "A vicious, tearing\nattack with pincers.\nThis move has a high\ncritical-hit ratio.\n"
 
 movedata MOVE_RAZOR_WIND, "Razor Wind"
-    battleeffect MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT
+    battleeffect MOVE_EFFECT_HIGH_CRITICAL // Flying Type Slash
     pss SPLIT_SPECIAL
-    basepower 80
-    type TYPE_NORMAL
+    basepower 70
+    type TYPE_FLYING
     accuracy 100
-    pp 10
+    pp 20
     effectchance 0
     target RANGE_ADJACENT_OPPONENTS
     priority 0
-    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_KEEP_HP_BAR | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x06
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_RAZOR_WIND, "A two-turn attack.\nBlades of wind hit the\nfoe on the second\nturn. It has a high\ncritical-hit ratio."
+    movedescription MOVE_RAZOR_WIND, "Blades of wind hit the\nfoe. It has a high\ncritical-hit ratio."
 
 movedata MOVE_SWORDS_DANCE, "Swords Dance"
     battleeffect MOVE_EFFECT_ATK_UP_2
@@ -319,11 +319,11 @@ movedata MOVE_SWORDS_DANCE, "Swords Dance"
     movedescription MOVE_SWORDS_DANCE, "A frenetic dance to\nuplift the fighting\nspirit. It sharply\nraises the user’s\nAttack stat."
 
 movedata MOVE_CUT, "Cut"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIGH_CRITICAL // Make it like Razor Leaf
     pss SPLIT_PHYSICAL
-    basepower 50
+    basepower 55
     type TYPE_NORMAL
-    accuracy 95
+    accuracy 100
     pp 30
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -368,26 +368,26 @@ movedata MOVE_WING_ATTACK, "Wing Attack"
 
 movedata MOVE_WHIRLWIND, "Whirlwind"
     battleeffect MOVE_EFFECT_FORCE_SWITCH
-    pss SPLIT_STATUS
-    basepower 0
+    pss SPLIT_SPECIAL
+    basepower 60
     type TYPE_NORMAL
-    accuracy 0
+    accuracy 100
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority -6
-    flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x09
     contesttype CONTEST_SMART
     terminatedata
     movedescription MOVE_WHIRLWIND, "The foe is blown away,\nto be replaced by\nanother Pokémon\nin its party. In the\nwild, the battle ends."
 
 movedata MOVE_FLY, "Fly"
-    battleeffect MOVE_EFFECT_FLY
+    battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_FLYING
-    accuracy 95
+    accuracy 100
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
