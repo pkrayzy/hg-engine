@@ -415,20 +415,20 @@ movedata MOVE_BIND, "Bind"
     movedescription MOVE_BIND, "A long body or\ntentacles are used\nto bind and squeeze\nthe foe for two to\nfive turns."
 
 movedata MOVE_SLAM, "Slam"
-    battleeffect MOVE_EFFECT_DOUBLE_DAMAGE_IF_HIT // Normal type revenge
+    battleeffect MOVE_EFFECT_DOUBLE_POWER_IF_HIT // normal type payback
     pss SPLIT_PHYSICAL
-    basepower 60
+    basepower 50
     type TYPE_NORMAL
     accuracy 100
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
-    priority -1
+    priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
-    movedescription MOVE_SLAM, "The foe is slammed\nwith a long tail,\nvines, etc., and inflicts double the\ndamage if the user\nhas been hurt by the\nfoe in the same turn."
+    movedescription MOVE_SLAM, "The foe is slammed\nwith a long tail,\nvines, etc. If the\nuser attacks last,\n its power is doubled."
 
 movedata MOVE_VINE_WHIP, "Vine Whip"
     battleeffect MOVE_EFFECT_HIT

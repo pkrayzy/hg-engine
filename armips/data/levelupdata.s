@@ -14,10 +14,12 @@ levelup SPECIES_NONE
 
 
 levelup SPECIES_BULBASAUR
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_GROWL, 1
-    learnset MOVE_GROWL, 3
-    learnset MOVE_VINE_WHIP, 5
+    ; learnset MOVE_TACKLE, 1
+    ; learnset MOVE_GROWL, 1
+    ; learnset MOVE_GROWL, 3
+    ; learnset MOVE_VINE_WHIP, 5
+    learnset MOVE_SLAM, 1
+    learnset MOVE_SOLAR_BEAM, 1
     learnset MOVE_LEECH_SEED, 8
     learnset MOVE_GROWTH, 14
     learnset MOVE_POISON_POWDER, 14

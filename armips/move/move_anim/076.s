@@ -28,23 +28,23 @@ a010_076:
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    checkturn _00C8, _0174
-    end
-_00C8:
-    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    addparticle 0, 19, 3
-    wait 10
-    playsepan 2113, -117
-    wait 20
-    callfunction 34, 6, 2, 0, 2, 13311, 10, 0, "NaN", "NaN", "NaN", "NaN"
-    waitparticle
-    unloadparticle 0
-    waitstate
-    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    end
-_0174:
+;     checkturn _00C8, _0174
+;     end
+; _00C8:
+;     callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+;     waitstate
+;     addparticle 0, 19, 3
+;     wait 10
+;     playsepan 2113, -117
+;     wait 20
+;     callfunction 34, 6, 2, 0, 2, 13311, 10, 0, "NaN", "NaN", "NaN", "NaN"
+;     waitparticle
+;     unloadparticle 0
+;     waitstate
+;     callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+;     waitstate
+;     end
+; _0174:
     callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
     addparticle 0, 0, 3
