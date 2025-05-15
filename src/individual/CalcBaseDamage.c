@@ -963,6 +963,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
             damage /= 2;
         }
 
+        if ((field_cond & (WEATHER_SUNNY_ANY)) && (moveno == MOVE_SOLAR_BEAM || moveno == MOVE_SOLAR_BLADE)) // solar beam buff
+        {
+            damage *15 /10;
+        }
+
         if (field_cond & WEATHER_SUNNY_ANY) // sun boosts fire but nerfs water
         {
             switch (movetype)
