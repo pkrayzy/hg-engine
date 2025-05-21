@@ -941,9 +941,12 @@
 
 #define NUM_OF_CANONICAL_MOVES 923
 
-// make.py doesn't support constants for now
 // define your new moves below like this
-// #define MOVE_CUSTOM_MOVE_1 924
+// #define MOVE_CUSTOM_MOVE_1 (NUM_OF_CANONICAL_MOVES)
+// #define MOVE_CUSTOM_MOVE_2 (NUM_OF_CANONICAL_MOVES + 1)
+// ...
+
+
 
 #define MOVE_FIRE_PUNCH_SIGNATURE 923
 #define MOVE_ICE_PUNCH_SIGNATURE 924
@@ -952,7 +955,9 @@
 #define MOVE_MEGA_KICK_SIGNATURE 927
 
 // update this number yourself manually
-#define NUM_OF_MOVES 928
+#define NUM_OF_CUSTOM_MOVES 0
+
+#define NUM_OF_MOVES (NUM_OF_CANONICAL_MOVES + NUM_OF_CUSTOM_MOVES)
 
 #define MOVE_G_MAX_WILDFIRE (NUM_OF_MOVES-1+1)
 #define MOVE_G_MAX_BEFUDDLE (NUM_OF_MOVES-1+2)
