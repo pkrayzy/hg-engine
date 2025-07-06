@@ -2007,6 +2007,11 @@ void LONG_CALL getEquivalentAttackAndDefense(struct BattleStruct *sp, u16 attack
         case MOVE_SECRET_SWORD:
             *equivalentDefense = rawPhysicalDefense;
             break;
+        // add Hyper Beam and Dragon Rage to use physical attack and special defense
+        case MOVE_HYPER_BEAM:
+        case MOVE_DRAGON_RAGE:
+            *equivalentAttack = rawPhysicalAttack;
+            break;
         case MOVE_PHOTON_GEYSER:
             if (tempPhysicalAttack > tempSpecialAttack) {
                 *movesplit = SPLIT_PHYSICAL;

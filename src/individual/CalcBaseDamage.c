@@ -160,6 +160,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
             atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
             break;
 
+        // extremespeed uses speed
+        case MOVE_EXTREME_SPEED:
+            attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_SPE, NULL);
+            atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_SPE, NULL) - 6;
+            break;
+
         default:
             attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_ATK, NULL);
             atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
@@ -750,7 +756,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // handle iron fist
     if ((AttackingMon.ability == ABILITY_IRON_FIST) && IsElementInArray(PunchingMovesTable, (u16 *)&moveno, NELEMS(PunchingMovesTable), sizeof(PunchingMovesTable[0])))
     {
-        movepower = movepower * 12 / 10;
+        movepower = movepower * 15 / 10; // make iron fist equivalent to STAB 
     }
 
     // handle strong jaw
