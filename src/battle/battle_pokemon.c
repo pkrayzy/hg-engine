@@ -62,11 +62,11 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_FLYING, TYPE_ROCK, 0x05 },
     { TYPE_FLYING, TYPE_BUG, 0x14 },
     { TYPE_FLYING, TYPE_STEEL, 0x05 },
-    // { TYPE_FLYING, TYPE_GRASS, 0x14 }, Remove Type Interactions between Flying and Grass
+    { TYPE_FLYING, TYPE_GRASS, 0x14 },
     { TYPE_FLYING, TYPE_ELECTRIC, 0x05 },
     { TYPE_POISON, TYPE_POISON, 0x05 },
     { TYPE_POISON, TYPE_STELLAR, 0x05 },
-    // { TYPE_POISON, TYPE_GROUND, 0x05 }, Ground no longer resists Poison
+    { TYPE_POISON, TYPE_GROUND, 0x05 },
     { TYPE_POISON, TYPE_ROCK, 0x05 },
     { TYPE_POISON, TYPE_GHOST, 0x05 },
 
@@ -75,9 +75,9 @@ u8 TypeEffectivenessTable[][3] =
 #endif
 
     { TYPE_POISON, TYPE_GRASS, 0x14 },
-    // { TYPE_GROUND, TYPE_POISON, 0x14 }, Remove Type Interactions between Ground and Poison
+    { TYPE_GROUND, TYPE_POISON, 0x14 },
     { TYPE_GROUND, TYPE_STELLAR, 0x14 },
-    // { TYPE_GROUND, TYPE_ROCK, 0x14 }, Ground no longer effecitve agaisnt Rock
+    { TYPE_GROUND, TYPE_ROCK, 0x14 },
     { TYPE_GROUND, TYPE_BUG, 0x05 },
     { TYPE_GROUND, TYPE_STEEL, 0x14 },
     { TYPE_GROUND, TYPE_FIRE, 0x14 },
@@ -90,11 +90,11 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_ROCK, TYPE_STEEL, 0x05 },
     { TYPE_ROCK, TYPE_FIRE, 0x14 },
     { TYPE_ROCK, TYPE_ICE, 0x14 },
-    // { TYPE_BUG, TYPE_FIGHTING, 0x05 }, Bug now hits fighting normally
+    { TYPE_BUG, TYPE_FIGHTING, 0x05 },
     { TYPE_BUG, TYPE_FLYING, 0x05 },
-    // { TYPE_BUG, TYPE_POISON, 0x05 }, Bug now hits Poison normally
+    { TYPE_BUG, TYPE_POISON, 0x05 },
     { TYPE_BUG, TYPE_STELLAR, 0x05 },
-    // { TYPE_BUG, TYPE_GHOST, 0x05 }, Bug now hits Ghost normally
+    { TYPE_BUG, TYPE_GHOST, 0x05 },
     { TYPE_BUG, TYPE_STEEL, 0x05 },
 
 #if FAIRY_TYPE_IMPLEMENTED == 1
@@ -119,7 +119,7 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_STEEL, TYPE_WATER, 0x05 },
     { TYPE_STEEL, TYPE_ELECTRIC, 0x05 },
     { TYPE_STEEL, TYPE_ICE, 0x14 },
-    // { TYPE_STEEL, TYPE_DARK, 0x0A }, What is this?
+    { TYPE_STEEL, TYPE_DARK, 0x0A },
 
 #if FAIRY_TYPE_IMPLEMENTED == 1
     { TYPE_FAIRY, TYPE_FIGHTING, 0x14 },
@@ -140,13 +140,12 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_FIRE, TYPE_ICE, 0x14 },
     { TYPE_FIRE, TYPE_DRAGON, 0x05 },
     { TYPE_WATER, TYPE_GROUND, 0x14 },
-    // { TYPE_WATER, TYPE_ROCK, 0x14 },
-    { TYPE_WATER, TYPE_ROCK, 0x05 }, // Rock now resists Water
+    { TYPE_WATER, TYPE_ROCK, 0x14 },
     { TYPE_WATER, TYPE_FIRE, 0x14 },
     { TYPE_WATER, TYPE_WATER, 0x05 },
     { TYPE_WATER, TYPE_GRASS, 0x05 },
     { TYPE_WATER, TYPE_DRAGON, 0x05 },
-    // { TYPE_GRASS, TYPE_FLYING, 0x05 }, // Grass now hits Flying normally
+    { TYPE_GRASS, TYPE_FLYING, 0x05 },
     { TYPE_GRASS, TYPE_POISON, 0x05 },
     { TYPE_GRASS, TYPE_STELLAR, 0x05 },
     { TYPE_GRASS, TYPE_GROUND, 0x14 },
@@ -161,7 +160,6 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_ELECTRIC, TYPE_WATER, 0x14 },
     { TYPE_ELECTRIC, TYPE_GRASS, 0x05 },
     { TYPE_ELECTRIC, TYPE_ELECTRIC, 0x05 },
-    { TYPE_ELECTRIC, TYPE_ICE, 0x05 }, // Ice now resists Electric
     { TYPE_ELECTRIC, TYPE_DRAGON, 0x05 },
     { TYPE_PSYCHIC, TYPE_FIGHTING, 0x14 },
     { TYPE_PSYCHIC, TYPE_POISON, 0x14 },
@@ -170,9 +168,6 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_PSYCHIC, TYPE_PSYCHIC, 0x05 },
     { TYPE_ICE, TYPE_FLYING, 0x14 },
     { TYPE_ICE, TYPE_GROUND, 0x14 },
-    { TYPE_ICE, TYPE_ROCK, 0x05 }, // Rock now resists Ice
-    { TYPE_ICE, TYPE_STELLAR, 0x05 },
-    // { TYPE_ICE, TYPE_BUG, 0x05 }, // What is this?
     { TYPE_ICE, TYPE_STEEL, 0x05 },
     { TYPE_ICE, TYPE_FIRE, 0x05 },
     { TYPE_ICE, TYPE_WATER, 0x05 },
