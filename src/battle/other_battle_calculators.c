@@ -88,43 +88,6 @@ const u16 TriageMovesList[] = {
     MOVE_WISH,
 };
 
-const u16 SoundProofMovesList[] = {
-    MOVE_ALLURING_VOICE,
-    MOVE_BOOMBURST,
-    MOVE_BUG_BUZZ,
-    MOVE_CHATTER,
-    MOVE_CLANGING_SCALES,
-    MOVE_CLANGOROUS_SOUL,
-    MOVE_CLANGOROUS_SOULBLAZE,
-    MOVE_CONFIDE,
-    MOVE_DISARMING_VOICE,
-    MOVE_ECHOED_VOICE,
-    MOVE_EERIE_SPELL,
-    MOVE_GRASS_WHISTLE,
-    MOVE_GROWL,
-    MOVE_HEAL_BELL,
-    MOVE_HOWL,
-    MOVE_HYPER_VOICE,
-    MOVE_METAL_SOUND,
-    MOVE_NOBLE_ROAR,
-    MOVE_OVERDRIVE,
-    MOVE_PARTING_SHOT,
-    MOVE_PERISH_SONG,
-    MOVE_PSYCHIC_NOISE,
-    MOVE_RELIC_SONG,
-    MOVE_ROAR,
-    MOVE_ROUND,
-    MOVE_SCREECH,
-    //MOVE_SHADOW_PANIC,
-    MOVE_SING,
-    MOVE_SNARL,
-    MOVE_SNORE,
-    MOVE_SPARKLING_ARIA,
-    MOVE_SUPERSONIC,
-    MOVE_TORCH_SONG,
-    MOVE_UPROAR
-};
-
 const u16 BulletproofMoveList[] =
 {
     MOVE_ACID_SPRAY,
@@ -1604,30 +1567,6 @@ int LONG_CALL GetTypeEffectiveness(struct BattleSystem *bw, struct BattleStruct 
     }
 
     // TODO: Refactor, probably.
-
-        // Add Corrosion
-    if (defender_type_1 == TYPE_STEEL && defender_type_2 == TYPE_STEEL && (GetBattlerAbility(sp, attack_client) == ABILITY_CORROSION) && move_type == TYPE_POISON) {
-        return TYPE_MUL_NORMAL;
-    }
-    if (defender_type_1 == TYPE_STEEL && defender_type_2 != TYPE_STEEL && (GetBattlerAbility(sp, attack_client) == ABILITY_CORROSION) && move_type == TYPE_POISON) {
-        return type2Effectiveness;
-    }
-    if (defender_type_1 != TYPE_STEEL && defender_type_2 == TYPE_STEEL && (GetBattlerAbility(sp, attack_client) == ABILITY_CORROSION) && move_type == TYPE_POISON) {
-        return type1Effectiveness;
-    }
-    // End Corrosion
-    // Add Sound Effectiveness vs Ghost
-    if (defender_type_1 == TYPE_GHOST && defender_type_2 == TYPE_GHOST && IsMoveSoundMove(sp->current_move_index)) {
-        return TYPE_MUL_NORMAL;
-    }
-    if (defender_type_1 == TYPE_GHOST && defender_type_2 != TYPE_GHOST && IsMoveSoundMove(sp->current_move_index)) {
-        return type2Effectiveness;
-    }
-    if (defender_type_1 != TYPE_GHOST && defender_type_2 == TYPE_GHOST && IsMoveSoundMove(sp->current_move_index)) {
-        return type1Effectiveness;
-    }
-    // End Sound Effectiveness vs Ghost
-
     // Returns the correct multiplier but moved to the right 3 decimal places.
     int typeMul = type1Effectiveness * type2Effectiveness * type3Effectiveness;
     // Unfortunately this can't be directly converted into the double or triple flags, so we're stuck with this switch statement.
@@ -2529,15 +2468,6 @@ BOOL LONG_CALL IsMoveWindMove(u16 move)
     return IsElementInArray(WindMovesTable, (u16 *)&move, NELEMS(WindMovesTable), sizeof(WindMovesTable[0]));
 }
 
-/**
- * @brief checks if the move index is a sound move
- * @param move move index to check
- * @return TRUE/FALSE
-*/
-BOOL LONG_CALL IsMoveSoundMove(u16 move)
-{
-    return IsElementInArray(SoundProofMovesList, (u16 *)&move, NELEMS(SoundProofMovesList), sizeof(SoundProofMovesList[0]));
-}
 
 /**
  * @brief checks if contact is being made, checking abilities and items
