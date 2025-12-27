@@ -599,7 +599,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                             src = (u8 *)&sp->battlemon[sp->attack_client];
                             dest = (u8 *)&sp->battlemon[sp->defence_client];
 
-                            for (num = 0; num <= (int)offsetof(struct BattlePokemon, ability); num++) {
+                            for (num = 0; num <= (int)0x26/*offsetof(struct BattlePokemon, ability)*/; num++) {
                                 src[num] = dest[num];
                             }
 
@@ -785,6 +785,19 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         if (IS_ITEM_TERRAIN_SEED(heldItem) && TerrainSeedShouldActivate(sp, heldItem)) {
                             sp->state_client = client_no;
                             scriptnum = SUB_SEQ_HANDLE_TERRAIN_SEEDS;
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
+                    }
+
+                    // Room Service
+                    {
+                        u16 heldItem;
+
+                        heldItem = GetBattleMonItem(sp, client_no);
+                        if (heldItem == ITEM_ROOM_SERVICE && sp->field_condition & FIELD_STATUS_TRICK_ROOM) {
+                            sp->state_client = client_no;
+                            scriptnum = SUB_SEQ_HANDLE_ROOM_SERVICE;
                             ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                             break;
                         }
