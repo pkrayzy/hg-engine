@@ -270,28 +270,6 @@ bx r3
 .pool
 
 
-.global UseItemMonAttrChangeCheck_hook
-UseItemMonAttrChangeCheck_hook:
-push {r1-r7}
-
-mov r0, r5
-mov r1, r4 // so that the memory can be freed
-bl UseItemMonAttrChangeCheck
-
-pop {r1-r7}
-cmp r0, #1
-bne return_to_0207C2D2
-mov r0, #31
-ldr r1, =0x0207C2D0 | 1 // else return 31
-bx r1
-
-return_to_0207C2D2:
-ldr r0, =0x0207C2D2 | 1
-bx r0
-
-.pool
-
-
 .global UseItemMonAttrLoadDiffMessage_hook
 UseItemMonAttrLoadDiffMessage_hook:
 ldr r1, =partyMenuSignal
@@ -786,6 +764,39 @@ add sp, #0x10
 ldr r0, [sp, #0x4] // field
 ldr r1, =0x0206EE30 | 1
 bx r1
+
+.pool
+
+.global AddBoxMonData_EditedCases_hook
+AddBoxMonData_EditedCases_hook:
+sub sp, #0x14
+mov r3, sp
+str r4, [r3, #0x0]   // blockA
+str r5, [r3, #0x4]   // blockB
+str r1, [r3, #0x8]   // blockC
+str r0, [r3, #0xC]   // blockD
+ldr r1, [r3, #(0x14 + 0x4)]  // field
+mov r2, r6                   // data
+mov r0, r3                   // blocks
+bl AddBoxMonData_EditedCases
+cmp r0, #1
+bne _vanillaAddBoxMonHandling
+add sp, #0x14
+ldr r0, =0x0206FA54 | 1
+bx  r0
+
+_vanillaAddBoxMonHandling:
+add sp, #0x14
+cmp r7, #0xba
+bls _returnTo0206F684
+ldr r0, =0x0206FA50 | 1
+bx  r0
+
+_returnTo0206F684:
+mov r0, r7
+lsl r0, #1
+ldr r1, =0x0206F684 | 1
+bx  r1
 
 .pool
 
