@@ -126,7 +126,7 @@ movedata MOVE_MEGA_PUNCH_SIGNATURE, "Mega Punch"
 movedata MOVE_PAY_DAY, "Pay Day"
     battleeffect MOVE_EFFECT_INCREASE_PRIZE_MONEY
     pss SPLIT_PHYSICAL
-    basepower 1
+    basepower 1 //MOVE_EFFECT_POWER_BASED_ON_FRIENDSHIP
     type TYPE_NORMAL
     accuracy 100
     pp 20
@@ -167,7 +167,7 @@ movedata MOVE_FIRE_PUNCH_SIGNATURE, "Fire Punch"
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0x11
+    appeal APPEAL_FIRST_HEARTS
     contesttype CONTEST_BEAUTY
     terminatedata
     movedescription MOVE_FIRE_PUNCH_SIGNATURE, "The foe is punched\nwith a fiery fist.\nIt may leave the\ntarget with a burn.\n"
@@ -200,7 +200,7 @@ movedata MOVE_ICE_PUNCH_SIGNATURE, "Ice Punch"
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0x11
+    appeal APPEAL_FIRST_HEARTS
     contesttype CONTEST_BEAUTY
     terminatedata
     movedescription MOVE_ICE_PUNCH_SIGNATURE, "The foe is punched\nwith an icy fist.\nIt may leave the\ntarget frozen.\n"
@@ -233,7 +233,7 @@ movedata MOVE_THUNDER_PUNCH_SIGNATURE, "Thunder Punch"
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0x11
+    appeal APPEAL_FIRST_HEARTS
     contesttype CONTEST_COOL
     terminatedata
     movedescription MOVE_THUNDER_PUNCH_SIGNATURE, "The foe is punched\nwith an electrified\nfist. It may leave\nthe target with\nparalysis."
@@ -506,7 +506,7 @@ movedata MOVE_MEGA_KICK_SIGNATURE, "Mega Kick"
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0x12
+    appeal APPEAL_LAST_HEARTS
     contesttype CONTEST_COOL
     terminatedata
     movedescription MOVE_MEGA_KICK_SIGNATURE, "The foe is attacked\nby a kick launched\nwith muscle-packed\npower.\n"
