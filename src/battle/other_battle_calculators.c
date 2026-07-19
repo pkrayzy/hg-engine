@@ -1524,8 +1524,7 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
 #ifdef DEBUG_BATTLE_SCENARIOS
         attackerHasLaserFocus // only allow crits with Laser Focus
 #else
-        // BattleRand(bw) % CriticalRateTable[temp] == 0
-        BattleRand(bw) % (512 / critrate) == 0
+        BattleRand(bw) % CriticalRateTable[temp] == 0
 #endif
         || (ability == ABILITY_MERCILESS && (defender_condition & STATUS_POISON_ALL))
         || (sp->moveTbl[sp->current_move_index].effect == MOVE_EFFECT_ALWAYS_CRITICAL)
