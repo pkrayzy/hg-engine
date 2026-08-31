@@ -403,14 +403,14 @@
 #define MOVE_EFFECT_STUFF_CHEEKS                            397
 #define MOVE_EFFECT_POWDER                                  398
 #define MOVE_EFFECT_LASER_FOCUS                             399
-#define MOVE_EFFECT_GLAIVE_RUSH                             400 
+#define MOVE_EFFECT_GLAIVE_RUSH                             400
 #define MOVE_EFFECT_THROAT_CHOP                             401
 #define MOVE_EFFECT_FINAL_GAMBIT                            402
 #define MOVE_EFFECT_RECOIL_HALF_MAX_HP                      403
 #define MOVE_EFFECT_GIVE_HELD_ITEM                          404
 #define MOVE_EFFECT_IGNORE_PROTECT                          405
 
-#define MAX_BASE_MOVE_EFFECT_NUM                            405
+#define MAX_BASE_MOVE_EFFECT_NUM 405
 
 // New Effects
 #define MOVE_EFFECT_RETURN_BRN (MAX_BASE_MOVE_EFFECT_NUM + 1)
