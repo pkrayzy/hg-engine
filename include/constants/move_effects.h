@@ -411,8 +411,9 @@
 #define MOVE_EFFECT_IGNORE_PROTECT                          405
 #define MOVE_EFFECT_SMACK_DOWN                              406
 #define MOVE_EFFECT_MAGIC_ROOM                              407
+#define MOVE_EFFECT_STEEL_BEAM                              408
 
-#define MAX_BASE_MOVE_EFFECT_NUM 407
+#define MAX_BASE_MOVE_EFFECT_NUM 408
 
 // New Effects
 #define MOVE_EFFECT_RETURN_BRN (MAX_BASE_MOVE_EFFECT_NUM + 1)
