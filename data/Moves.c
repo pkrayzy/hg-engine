@@ -3194,12 +3194,12 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .fullName = "Metronome",
         },
         .data = {
-            .effect = MOVE_EFFECT_CALL_RANDOM_MOVE,
+            .effect = MOVE_EFFECT_LEARN_MOVE_PERMANENT,
             .split = SPLIT_STATUS,
             .power = 0,
             .type = TYPE_NORMAL,
             .accuracy = 0,
-            .pp = 10,
+            .pp = 1,
             .effectChance = 0,
         },
         .battle = {

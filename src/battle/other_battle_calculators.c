@@ -2767,13 +2767,11 @@ BOOL LONG_CALL BattleSystem_CheckMoveEffect(void *bw, struct BattleStruct *sp, i
         return TRUE;
     }
 
-
     if (move == MOVE_MEGA_KICK && 
         sp->battlemon[battlerIdAttacker].species == SPECIES_HITMONLEE) {
         sp->waza_status_flag &= ~MOVE_STATUS_MISSED;
         return TRUE;
     }    
-
 // END SIGNATURE MOVE ADJUSTMENTS
     
         // 3. Check if the target has Telekinesis.

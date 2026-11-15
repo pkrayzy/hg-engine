@@ -5590,10 +5590,6 @@
         "Move": "MOVE_LIFE_DEW"
       },
       {
-        "Level": 20,
-        "Move": "MOVE_METRONOME"
-      },
-      {
         "Level": 24,
         "Move": "MOVE_MOONLIGHT"
       },
@@ -5620,6 +5616,46 @@
       {
         "Level": 48,
         "Move": "MOVE_HEALING_WISH"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 11,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 21,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 31,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 41,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 51,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 61,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 71,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 81,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 91,
+        "Move": "MOVE_METRONOME"
       }
     ],
     "MachineMoves": [
@@ -26834,7 +26870,7 @@
       },
       {
         "Level": 60,
-        "Move": "MOVE_METRONOME"
+        "Move": "MOVE_PSYCHIC"
       },
       {
         "Level": 70,
@@ -26850,7 +26886,47 @@
       },
       {
         "Level": 100,
-        "Move": "MOVE_PSYCHIC"
+        "Move": "MOVE_JUDGMENT"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 11,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 21,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 31,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 41,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 51,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 61,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 71,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 81,
+        "Move": "MOVE_METRONOME"
+      },
+      {
+        "Level": 91,
+        "Move": "MOVE_METRONOME"
       }
     ],
     "MachineMoves": [
@@ -41852,6 +41928,42 @@
     "LevelMoves": [
       {
         "Level": 1,
+        "Move": "MOVE_SKETCH"
+      },
+      {
+        "Level": 11,
+        "Move": "MOVE_SKETCH"
+      },
+      {
+        "Level": 21,
+        "Move": "MOVE_SKETCH"
+      },
+      {
+        "Level": 31,
+        "Move": "MOVE_SKETCH"
+      },
+      {
+        "Level": 41,
+        "Move": "MOVE_SKETCH"
+      },
+      {
+        "Level": 51,
+        "Move": "MOVE_SKETCH"
+      },
+      {
+        "Level": 61,
+        "Move": "MOVE_SKETCH"
+      },
+      {
+        "Level": 71,
+        "Move": "MOVE_SKETCH"
+      },
+      {
+        "Level": 81,
+        "Move": "MOVE_SKETCH"
+      },
+      {
+        "Level": 91,
         "Move": "MOVE_SKETCH"
       }
     ],
