@@ -2741,7 +2741,42 @@ BOOL LONG_CALL BattleSystem_CheckMoveEffect(void *bw, struct BattleStruct *sp, i
         return TRUE;
     }
 
-    // 3. Check if the target has Telekinesis.
+// SIGNATURE MOVE ADJUSTMENTS    
+    if (move == MOVE_SING && 
+        (sp->battlemon[battlerIdAttacker].species == SPECIES_JIGGLYPUFF
+            || sp->battlemon[battlerIdAttacker].species == SPECIES_WIGGLYTUFF)) {
+        sp->waza_status_flag &= ~MOVE_STATUS_MISSED;
+        return TRUE;
+    }
+
+    if (move == MOVE_GLARE && 
+        sp->battlemon[battlerIdAttacker].species == SPECIES_ARBOK) {
+        sp->waza_status_flag &= ~MOVE_STATUS_MISSED;
+        return TRUE;
+    }
+
+    if (move == MOVE_HYPNOSIS && 
+        sp->battlemon[battlerIdAttacker].species == SPECIES_HYPNO) {
+        sp->waza_status_flag &= ~MOVE_STATUS_MISSED;
+        return TRUE;
+    }    
+
+    if (move == MOVE_MEGA_PUNCH && 
+        sp->battlemon[battlerIdAttacker].species == SPECIES_HITMONCHAN) {
+        sp->waza_status_flag &= ~MOVE_STATUS_MISSED;
+        return TRUE;
+    }
+
+
+    if (move == MOVE_MEGA_KICK && 
+        sp->battlemon[battlerIdAttacker].species == SPECIES_HITMONLEE) {
+        sp->waza_status_flag &= ~MOVE_STATUS_MISSED;
+        return TRUE;
+    }    
+
+// END SIGNATURE MOVE ADJUSTMENTS
+    
+        // 3. Check if the target has Telekinesis.
 
     // TODO
 
