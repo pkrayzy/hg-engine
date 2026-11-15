@@ -322,6 +322,91 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
             movepower = 20;
         }
         break;
+// Add Signature Moves
+    case MOVE_SILVER_WIND:
+        if (AttackingMon.species == SPECIES_BUTTERFREE) {
+            movepower = 100;
+        }
+        break;        
+    case MOVE_HYPER_FANG:
+        if ((AttackingMon.species == SPECIES_RATTATA)
+            || (AttackingMon.species == SPECIES_RATICATE)
+            || (AttackingMon.species == SPECIES_RATTATA_ALOLAN)      
+            || (AttackingMon.species == SPECIES_RATICATE_ALOLAN)) {
+            movepower = 100;
+        }
+        break;
+    case MOVE_DRILL_PECK:
+        if (AttackingMon.species == SPECIES_FEAROW) {
+            movepower = 100;
+        }
+        break;
+    case MOVE_POISON_FANG:
+        if ((AttackingMon.species == SPECIES_GOLBAT)    
+            || (AttackingMon.species == SPECIES_CROBAT)) {
+            movepower = 100;
+        }
+        break;
+    case MOVE_DIG:
+        if ((AttackingMon.species == SPECIES_DIGLETT)
+            || (AttackingMon.species == SPECIES_DUGTRIO)
+            || (AttackingMon.species == SPECIES_DIGLETT_ALOLAN)      
+            || (AttackingMon.species == SPECIES_DUGTRIO_ALOLAN)) {
+            movepower = 100;
+        }
+        break;
+    case MOVE_PAY_DAY:
+        if ((AttackingMon.species == SPECIES_MEOWTH)
+            || (AttackingMon.species == SPECIES_PERSIAN)
+            || (AttackingMon.species == SPECIES_MEOWTH_ALOLAN)      
+            || (AttackingMon.species == SPECIES_PERSIAN_ALOLAN)
+            || (AttackingMon.species == SPECIES_MEOWTH_GALARIAN)
+            || (AttackingMon.species == SPECIES_PERRSERKER)) {
+            movepower = 100;
+        }
+        break;
+    case MOVE_BIND:
+        if (AttackingMon.species == SPECIES_ONIX) {
+            movepower = 30;
+        }
+        break;
+    case MOVE_SMOG:
+        if ((AttackingMon.species == SPECIES_KOFFING)
+            || (AttackingMon.species == SPECIES_WEEZING)
+            || (AttackingMon.species == SPECIES_WEEZING_GALARIAN)) {
+            movepower = 70;
+        }
+    case MOVE_WATERFALL:
+        if (AttackingMon.species == SPECIES_SEAKING) {
+            movepower = 100;
+        }
+        break;        
+    case MOVE_ICE_PUNCH:
+        if (AttackingMon.species == SPECIES_JYNX) {
+            movepower = 100;
+        }
+        break;        
+    case MOVE_THUNDER_PUNCH:
+        if (AttackingMon.species == SPECIES_ELECTABUZZ) {
+            movepower = 100;
+        }
+        break;
+    case MOVE_FIRE_PUNCH:
+        if (AttackingMon.species == SPECIES_MAGMAR) {
+            movepower = 100;
+        }
+        break;
+    case MOVE_VICE_GRIP:
+        if (AttackingMon.species == SPECIES_PINSIR) {
+            movepower = 100;
+        }
+        break;
+    case MOVE_BODY_SLAM:
+        if (AttackingMon.species == SPECIES_SNORLAX) {
+            movepower = 100;
+        }
+        break;
+// End Signature Moves
     case MOVE_BOLT_BEAK:
     case MOVE_FISHIOUS_REND:
         // https://www.smogon.com/forums/threads/sword-shield-battle-mechanics-research.3655528/post-8433978
