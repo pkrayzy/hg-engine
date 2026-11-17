@@ -26889,11 +26889,11 @@
         "Move": "MOVE_JUDGMENT"
       },
       {
-        "Level": 1,
+        "Level": 5,
         "Move": "MOVE_METRONOME"
       },
       {
-        "Level": 11,
+        "Level": 15,
         "Move": "MOVE_METRONOME"
       },
       {
@@ -26901,31 +26901,31 @@
         "Move": "MOVE_METRONOME"
       },
       {
-        "Level": 31,
+        "Level": 35,
         "Move": "MOVE_METRONOME"
       },
       {
-        "Level": 41,
+        "Level": 45,
         "Move": "MOVE_METRONOME"
       },
       {
-        "Level": 51,
+        "Level": 55,
         "Move": "MOVE_METRONOME"
       },
       {
-        "Level": 61,
+        "Level": 65,
         "Move": "MOVE_METRONOME"
       },
       {
-        "Level": 71,
+        "Level": 75,
         "Move": "MOVE_METRONOME"
       },
       {
-        "Level": 81,
+        "Level": 85,
         "Move": "MOVE_METRONOME"
       },
       {
-        "Level": 91,
+        "Level": 95,
         "Move": "MOVE_METRONOME"
       }
     ],
