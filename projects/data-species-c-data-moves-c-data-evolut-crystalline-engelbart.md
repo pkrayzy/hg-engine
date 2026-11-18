@@ -44,10 +44,12 @@ No existing files modified. Build verified with `make` after a sample import.
 - Scope: `data/Species.c`, `data/Moves.c`, `data/Evolutions.c` only.
 
 ## Verification
-1. `node data_csv.js selftest` passes (round-trip identical).
+1. `node data_csv.js selftest` — Evolutions.c passes fully identical round-trip. Species.c and Moves.c pass C syntax validation (balanced braces/parens/brackets) but have cosmetic whitespace formatting differences vs. original (compact output vs. expanded original formatting).
 2. Export each file, confirm CSV row counts match species/move counts.
 3. Hand-edit one CSV cell (e.g. a base stat), import, run `make` to confirm it compiles, and spot-check the regenerated C.
 4. Confirm git diff only touches the intended data values.
+
+All three data files pass C syntax validation after import round-trip.
 
 ## Usage
 ```bash
@@ -69,3 +71,4 @@ node data_csv.js selftest
 - Cells contain **raw C tokens verbatim**: numbers (`45`), string literals (`"Bulbasaur"`), identifiers (`TYPE_GRASS`, `ABILITY_OVERGROW`, `EVO_LEVEL`, `MOVE_EFFECT_HIT`), compound constants (`FLAG_CONTACT | FLAG_PROTECT`)
 - No constant name mapping — edit the literal token, import writes it back
 - String fields (names, descriptions) keep their quotes on import
+- **Stale CSV files**: If you exported before a script fix, re-run `export` to regenerate — old CSVs may show blank evolution fields (e.g. `evo1_method` empty) due to parsing bugs that have since been fixed.
