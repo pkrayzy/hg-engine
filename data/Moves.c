@@ -1,6 +1,7 @@
 #include "../include/move_data.h"
 
 const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
+
     [MOVE_NONE] = {
         .names = {
             .name = "-",
@@ -27,7 +28,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "\\n\\n\\n\\n",
     },
-
     [MOVE_POUND] = {
         .names = {
             .name = "Pound",
@@ -54,7 +54,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is physically\\npounded with a long\\ntail or a foreleg,\\netc.\\n",
     },
-
     [MOVE_KARATE_CHOP] = {
         .names = {
             .name = "Karate Chop",
@@ -81,7 +80,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith a sharp chop.\\nIt has a high\\ncritical-hit ratio.\\n",
     },
-
     [MOVE_DOUBLE_SLAP] = {
         .names = {
             .name = "Double Slap",
@@ -108,7 +106,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is slapped\\nrepeatedly, back\\nand forth, two to\\nfive times in a row.\\n",
     },
-
     [MOVE_COMET_PUNCH] = {
         .names = {
             .name = "Comet Punch",
@@ -135,7 +132,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is hit with\\na flurry of punches\\nthat strike two to\\nfive times in a row.\\n",
     },
-
     [MOVE_MEGA_PUNCH] = {
         .names = {
             .name = "Mega Punch",
@@ -162,7 +158,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is slugged\\nby a punch thrown\\nwith muscle-packed\\npower.\\n",
     },
-
     [MOVE_PAY_DAY] = {
         .names = {
             .name = "Pay Day",
@@ -189,7 +184,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Numerous coins are\\nhurled at the foe to\\ninflict damage.\\nMoney is earned\\nafter battle.",
     },
-
     [MOVE_FIRE_PUNCH] = {
         .names = {
             .name = "Fire Punch",
@@ -216,7 +210,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is punched\\nwith a fiery fist.\\nIt may leave the\\ntarget with a burn.\\n",
     },
-
     [MOVE_ICE_PUNCH] = {
         .names = {
             .name = "Ice Punch",
@@ -243,7 +236,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is punched\\nwith an icy fist.\\nIt may leave the\\ntarget frozen.\\n",
     },
-
     [MOVE_THUNDER_PUNCH] = {
         .names = {
             .name = "Thunder Punch",
@@ -270,7 +262,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is punched\\nwith an electrified\\nfist. It may leave\\nthe target with\\nparalysis.",
     },
-
     [MOVE_SCRATCH] = {
         .names = {
             .name = "Scratch",
@@ -297,7 +288,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Hard, pointed, and\\nsharp claws rake the\\nfoe to inflict damage.\\n\\n",
     },
-
     [MOVE_VICE_GRIP] = {
         .names = {
             .name = "Vise Grip",
@@ -324,7 +314,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Huge, impressive\\npincers grip and\\nsqueeze the foe.\\n\\n",
     },
-
     [MOVE_GUILLOTINE] = {
         .names = {
             .name = "Guillotine",
@@ -351,7 +340,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A vicious, tearing\\nattack with pincers.\\nThe foe will faint\\ninstantly if this\\nattack hits.",
     },
-
     [MOVE_RAZOR_WIND] = {
         .names = {
             .name = "Razor Wind",
@@ -378,7 +366,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A two-turn attack.\\nBlades of wind hit the\\nfoe on the second\\nturn. It has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_SWORDS_DANCE] = {
         .names = {
             .name = "Swords Dance",
@@ -405,7 +392,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A frenetic dance to\\nuplift the fighting\\nspirit. It sharply\\nraises the user’s\\nAttack stat.",
     },
-
     [MOVE_CUT] = {
         .names = {
             .name = "Cut",
@@ -432,7 +418,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is cut with a\\nscythe or a claw.\\nIt can also be used\\nto cut down thin\\ntrees.",
     },
-
     [MOVE_GUST] = {
         .names = {
             .name = "Gust",
@@ -459,7 +444,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A gust of wind is\\nwhipped up by wings\\nand launched at the\\nfoe to inflict damage.\\n",
     },
-
     [MOVE_WING_ATTACK] = {
         .names = {
             .name = "Wing Attack",
@@ -486,7 +470,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is struck\\nwith large, imposing\\nwings spread wide\\nto inflict damage.\\n",
     },
-
     [MOVE_WHIRLWIND] = {
         .names = {
             .name = "Whirlwind",
@@ -513,7 +496,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is blown away,\\nto be replaced by\\nanother Pokémon\\nin its party. In the\\nwild, the battle ends.",
     },
-
     [MOVE_FLY] = {
         .names = {
             .name = "Fly",
@@ -540,7 +522,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user soars, then\\nstrikes on the second\\nturn. It can also be\\nused for flying to\\nany familiar town.",
     },
-
     [MOVE_BIND] = {
         .names = {
             .name = "Bind",
@@ -567,7 +548,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A long body or\\ntentacles are used\\nto bind and squeeze\\nthe foe for two to\\nfive turns.",
     },
-
     [MOVE_SLAM] = {
         .names = {
             .name = "Slam",
@@ -594,7 +574,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is slammed\\nwith a long tail,\\nvines, etc., to inflict\\ndamage.\\n",
     },
-
     [MOVE_VINE_WHIP] = {
         .names = {
             .name = "Vine Whip",
@@ -621,7 +600,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is struck\\nwith slender, whiplike\\nvines to inflict\\ndamage.\\n",
     },
-
     [MOVE_STOMP] = {
         .names = {
             .name = "Stomp",
@@ -648,7 +626,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is stomped\\nwith a big foot.\\nIt may also make the\\ntarget flinch.\\n",
     },
-
     [MOVE_DOUBLE_KICK] = {
         .names = {
             .name = "Double Kick",
@@ -675,7 +652,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is quickly\\nkicked twice in\\nsuccession using both\\nfeet.\\n",
     },
-
     [MOVE_MEGA_KICK] = {
         .names = {
             .name = "Mega Kick",
@@ -702,7 +678,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nby a kick launched\\nwith muscle-packed\\npower.\\n",
     },
-
     [MOVE_JUMP_KICK] = {
         .names = {
             .name = "Jump Kick",
@@ -729,7 +704,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user jumps up\\nhigh, then strikes\\nwith a kick. If the\\nkick misses, the\\nuser hurts itself.",
     },
-
     [MOVE_ROLLING_KICK] = {
         .names = {
             .name = "Rolling Kick",
@@ -756,7 +730,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lashes \\nout with a quick,\\nspinning kick. It\\nmay also make the\\ntarget flinch.",
     },
-
     [MOVE_SAND_ATTACK] = {
         .names = {
             .name = "Sand Attack",
@@ -783,7 +756,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Sand is hurled in the\\nfoe’s face, reducing\\nits accuracy.\\n\\n",
     },
-
     [MOVE_HEADBUTT] = {
         .names = {
             .name = "Headbutt",
@@ -810,7 +782,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nits head. It may make\\nthe foe flinch. To find\\nPokémon, hit trees.",
     },
-
     [MOVE_HORN_ATTACK] = {
         .names = {
             .name = "Horn Attack",
@@ -837,7 +808,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is jabbed\\nwith a sharply\\npointed horn to\\ninflict damage.\\n",
     },
-
     [MOVE_FURY_ATTACK] = {
         .names = {
             .name = "Fury Attack",
@@ -864,7 +834,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is jabbed\\nrepeatedly with a\\nhorn or beak two to\\nfive times in a row.\\n",
     },
-
     [MOVE_HORN_DRILL] = {
         .names = {
             .name = "Horn Drill",
@@ -891,7 +860,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is stabbed\\nwith a horn rotating\\nlike a drill.\\nThe foe instantly\\nfaints if it hits.",
     },
-
     [MOVE_TACKLE] = {
         .names = {
             .name = "Tackle",
@@ -918,7 +886,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A physical attack\\nin which the user\\ncharges and slams\\ninto the foe with\\nits whole body.",
     },
-
     [MOVE_BODY_SLAM] = {
         .names = {
             .name = "Body Slam",
@@ -945,7 +912,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user drops onto\\nthe foe with its full\\nbody weight.\\nIt may leave the foe\\nparalyzed.",
     },
-
     [MOVE_WRAP] = {
         .names = {
             .name = "Wrap",
@@ -972,7 +938,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A long body or vines\\nare used to wrap and\\nsqueeze the foe for\\ntwo to five turns.\\n",
     },
-
     [MOVE_TAKE_DOWN] = {
         .names = {
             .name = "Take Down",
@@ -999,7 +964,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A reckless, full-body\\ncharge attack for\\nslamming into the foe.\\nIt also damages the\\nuser a little.",
     },
-
     [MOVE_THRASH] = {
         .names = {
             .name = "Thrash",
@@ -1026,7 +990,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rampages\\nand attacks for two\\nto three turns.\\nIt then becomes\\nconfused, however.",
     },
-
     [MOVE_DOUBLE_EDGE] = {
         .names = {
             .name = "Double-Edge",
@@ -1053,7 +1016,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A reckless, life-\\nrisking tackle.\\nIt also damages the\\nuser by a fairly large\\namount, however.",
     },
-
     [MOVE_TAIL_WHIP] = {
         .names = {
             .name = "Tail Whip",
@@ -1080,7 +1042,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user wags its tail\\ncutely, making the\\nfoe less wary.\\nThe target’s Defense\\nstat is lowered.",
     },
-
     [MOVE_POISON_STING] = {
         .names = {
             .name = "Poison Sting",
@@ -1107,7 +1068,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is stabbed\\nwith a poisonous\\nbarb of some sort.\\nIt may also poison\\nthe target.",
     },
-
     [MOVE_TWINEEDLE] = {
         .names = {
             .name = "Twineedle",
@@ -1134,7 +1094,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is stabbed\\ntwice by a pair of\\nstingers.\\nIt may also poison\\nthe target.",
     },
-
     [MOVE_PIN_MISSILE] = {
         .names = {
             .name = "Pin Missile",
@@ -1161,7 +1120,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Sharp pins are shot\\nat the foe in rapid\\nsuccession.\\nThey hit two to five\\ntimes in a row.",
     },
-
     [MOVE_LEER] = {
         .names = {
             .name = "Leer",
@@ -1188,7 +1146,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is given an\\nintimidating leer with\\nsharp eyes.\\nThe target’s Defense\\nstat is reduced.",
     },
-
     [MOVE_BITE] = {
         .names = {
             .name = "Bite",
@@ -1215,7 +1172,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is bitten with\\nviciously sharp fangs.\\nIt may make the\\ntarget flinch.\\n",
     },
-
     [MOVE_GROWL] = {
         .names = {
             .name = "Growl",
@@ -1242,7 +1198,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user growls in an\\nendearing way, making\\nthe foe less wary.\\nThe target’s Attack\\nstat is lowered.",
     },
-
     [MOVE_ROAR] = {
         .names = {
             .name = "Roar",
@@ -1269,7 +1224,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is scared off,\\nto be replaced by\\nanother Pokémon in\\nits party. In the\\nwild, the battle ends.",
     },
-
     [MOVE_SING] = {
         .names = {
             .name = "Sing",
@@ -1296,7 +1250,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A soothing lullaby is\\nsung in a calming\\nvoice that puts the\\nfoe into a deep\\nslumber.",
     },
-
     [MOVE_SUPERSONIC] = {
         .names = {
             .name = "Supersonic",
@@ -1323,7 +1276,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user generates\\nodd sound waves from\\nits body.\\nIt may confuse the\\ntarget.",
     },
-
     [MOVE_SONIC_BOOM] = {
         .names = {
             .name = "Sonic Boom",
@@ -1350,7 +1302,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is hit with a\\ndestructive shock\\nwave that always\\ninflicts 20 HP damage.\\n",
     },
-
     [MOVE_DISABLE] = {
         .names = {
             .name = "Disable",
@@ -1377,7 +1328,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "For several turns,\\nthis move prevents\\nthe foe from using\\nthe move it last\\nused.",
     },
-
     [MOVE_ACID] = {
         .names = {
             .name = "Acid",
@@ -1404,7 +1354,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith a spray of harsh\\nacid. It may also\\nlower the target’s\\nSp. Def stat.",
     },
-
     [MOVE_EMBER] = {
         .names = {
             .name = "Ember",
@@ -1431,7 +1380,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith small flames.\\nThe target may also\\nbe left with a burn.\\n",
     },
-
     [MOVE_FLAMETHROWER] = {
         .names = {
             .name = "Flamethrower",
@@ -1458,7 +1406,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is scorched\\nwith an intense blast\\nof fire. The target\\nmay also be left with\\na burn.",
     },
-
     [MOVE_MIST] = {
         .names = {
             .name = "Mist",
@@ -1485,7 +1432,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user cloaks its\\nbody with a white mist\\nthat prevents any of\\nits stats from being\\ncut for five turns.",
     },
-
     [MOVE_WATER_GUN] = {
         .names = {
             .name = "Water Gun",
@@ -1512,7 +1458,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is blasted\\nwith a forceful shot\\nof water.\\n\\n",
     },
-
     [MOVE_HYDRO_PUMP] = {
         .names = {
             .name = "Hydro Pump",
@@ -1539,7 +1484,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is blasted by\\na huge volume of\\nwater launched under\\ngreat pressure.\\n",
     },
-
     [MOVE_SURF] = {
         .names = {
             .name = "Surf",
@@ -1566,7 +1510,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "It swamps the entire\\nbattlefield with a\\ngiant wave.\\nIt can also be used\\nfor crossing water.",
     },
-
     [MOVE_ICE_BEAM] = {
         .names = {
             .name = "Ice Beam",
@@ -1593,7 +1536,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is struck\\nwith an icy-cold\\nbeam of energy.\\nIt may also freeze\\nthe target solid.",
     },
-
     [MOVE_BLIZZARD] = {
         .names = {
             .name = "Blizzard",
@@ -1620,7 +1562,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A howling blizzard is\\nsummoned to strike\\nthe foe.\\nIt may also freeze\\nthe target solid.",
     },
-
     [MOVE_PSYBEAM] = {
         .names = {
             .name = "Psybeam",
@@ -1647,7 +1588,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith a peculiar ray.\\nIt may also leave the\\ntarget confused.\\n",
     },
-
     [MOVE_BUBBLE_BEAM] = {
         .names = {
             .name = "Bubble Beam",
@@ -1674,7 +1614,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A spray of bubbles is\\nforcefully ejected\\nat the foe.\\nIt may also lower the\\ntarget’s Speed stat.",
     },
-
     [MOVE_AURORA_BEAM] = {
         .names = {
             .name = "Aurora Beam",
@@ -1701,7 +1640,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is hit with a\\nrainbow-colored beam.\\nIt may also lower the\\ntarget’s Attack\\nstat.",
     },
-
     [MOVE_HYPER_BEAM] = {
         .names = {
             .name = "Hyper Beam",
@@ -1728,7 +1666,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith a powerful beam.\\nThe user must rest\\non the next turn to\\nregain its energy.",
     },
-
     [MOVE_PECK] = {
         .names = {
             .name = "Peck",
@@ -1755,7 +1692,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is jabbed\\nwith a sharply\\npointed beak or\\nhorn.\\n",
     },
-
     [MOVE_DRILL_PECK] = {
         .names = {
             .name = "Drill Peck",
@@ -1782,7 +1718,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A corkscrewing\\nattack with the\\nsharp beak acting\\nas a drill.\\n",
     },
-
     [MOVE_SUBMISSION] = {
         .names = {
             .name = "Submission",
@@ -1809,7 +1744,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user grabs the\\nfoe and recklessly\\ndives for the ground.\\nIt also hurts the\\nuser slightly.",
     },
-
     [MOVE_LOW_KICK] = {
         .names = {
             .name = "Low Kick",
@@ -1836,7 +1770,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A powerful low kick\\nthat makes the foe\\nfall over. It inflicts\\ngreater damage on\\nheavier foes.",
     },
-
     [MOVE_COUNTER] = {
         .names = {
             .name = "Counter",
@@ -1863,7 +1796,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A retaliation move\\nthat counters any\\nphysical attack,\\ninflicting double the\\ndamage taken.",
     },
-
     [MOVE_SEISMIC_TOSS] = {
         .names = {
             .name = "Seismic Toss",
@@ -1890,7 +1822,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is thrown\\nusing the power of\\ngravity. It inflicts\\ndamage equal to\\nthe user’s level.",
     },
-
     [MOVE_STRENGTH] = {
         .names = {
             .name = "Strength",
@@ -1917,7 +1848,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is slugged\\nwith a punch thrown\\nat maximum power.\\nIt can also be used\\nto move boulders.",
     },
-
     [MOVE_ABSORB] = {
         .names = {
             .name = "Absorb",
@@ -1944,7 +1874,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A nutrient-draining\\nattack. The user’s\\nHP is restored by\\nhalf the damage taken\\nby the target.",
     },
-
     [MOVE_MEGA_DRAIN] = {
         .names = {
             .name = "Mega Drain",
@@ -1971,7 +1900,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A nutrient-draining\\nattack. The user’s\\nHP is restored by\\nhalf the damage taken\\nby the target.",
     },
-
     [MOVE_LEECH_SEED] = {
         .names = {
             .name = "Leech Seed",
@@ -1998,7 +1926,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A seed is planted on\\nthe foe. It steals\\nsome HP from the foe\\nto heal the user on\\nevery turn.",
     },
-
     [MOVE_GROWTH] = {
         .names = {
             .name = "Growth",
@@ -2025,7 +1952,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user’s body is\\nforced to grow all at\\nonce. It raises the\\nSp. Atk stat.\\n",
     },
-
     [MOVE_RAZOR_LEAF] = {
         .names = {
             .name = "Razor Leaf",
@@ -2052,7 +1978,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Sharp-edged leaves\\nare launched to slash\\nat the foe. It has a\\nhigh critical-hit\\nratio.",
     },
-
     [MOVE_SOLAR_BEAM] = {
         .names = {
             .name = "Solar Beam",
@@ -2079,7 +2004,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A two-turn attack.\\nThe user gathers\\nlight, then blasts a\\nbundled beam on the\\nsecond turn.",
     },
-
     [MOVE_POISON_POWDER] = {
         .names = {
             .name = "Poison Powder",
@@ -2106,7 +2030,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A cloud of poisonous\\ndust is scattered on\\nthe foe.\\nIt may poison the\\ntarget.",
     },
-
     [MOVE_STUN_SPORE] = {
         .names = {
             .name = "Stun Spore",
@@ -2133,7 +2056,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user scatters a\\ncloud of paralyzing\\npowder.\\nIt may paralyze the\\ntarget.",
     },
-
     [MOVE_SLEEP_POWDER] = {
         .names = {
             .name = "Sleep Powder",
@@ -2160,7 +2082,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user scatters a\\nbig cloud of sleep-\\ninducing dust around\\nthe foe.\\n",
     },
-
     [MOVE_PETAL_DANCE] = {
         .names = {
             .name = "Petal Dance",
@@ -2187,7 +2108,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nscattering petals for\\ntwo to three turns.\\nThe user then\\nbecomes confused.",
     },
-
     [MOVE_STRING_SHOT] = {
         .names = {
             .name = "String Shot",
@@ -2214,7 +2134,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is bound with\\nsilk blown from the\\nuser’s mouth.\\nIt reduces the\\ntarget’s Speed stat.",
     },
-
     [MOVE_DRAGON_RAGE] = {
         .names = {
             .name = "Dragon Rage",
@@ -2241,7 +2160,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is stricken\\nby a shock wave.\\nThis attack always\\ninflicts 40 HP\\ndamage.",
     },
-
     [MOVE_FIRE_SPIN] = {
         .names = {
             .name = "Fire Spin",
@@ -2268,7 +2186,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe becomes\\ntrapped within a\\nfierce vortex of fire\\nthat rages for two\\nto five turns.",
     },
-
     [MOVE_THUNDER_SHOCK] = {
         .names = {
             .name = "Thunder Shock",
@@ -2295,7 +2212,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A jolt of electricity\\nis hurled at the foe\\nto inflict damage.\\nIt may also leave the\\nfoe paralyzed.",
     },
-
     [MOVE_THUNDERBOLT] = {
         .names = {
             .name = "Thunderbolt",
@@ -2322,7 +2238,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A strong electric\\nblast is loosed at\\nthe foe.\\nIt may also leave the\\nfoe paralyzed.",
     },
-
     [MOVE_THUNDER_WAVE] = {
         .names = {
             .name = "Thunder Wave",
@@ -2349,7 +2264,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A weak electric\\ncharge is launched at\\nthe foe.\\nIt causes paralysis if\\nit hits.",
     },
-
     [MOVE_THUNDER] = {
         .names = {
             .name = "Thunder",
@@ -2376,7 +2290,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A wicked thunderbolt\\nis dropped on the foe\\nto inflict damage.\\nIt may also leave the\\ntarget paralyzed.",
     },
-
     [MOVE_ROCK_THROW] = {
         .names = {
             .name = "Rock Throw",
@@ -2403,7 +2316,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user picks up\\nand throws a small\\nrock at the foe to\\nattack.\\n",
     },
-
     [MOVE_EARTHQUAKE] = {
         .names = {
             .name = "Earthquake",
@@ -2430,7 +2342,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user sets off an\\nearthquake that hits\\nall the Pokémon in\\nthe battle.\\n",
     },
-
     [MOVE_FISSURE] = {
         .names = {
             .name = "Fissure",
@@ -2457,7 +2368,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user opens up a\\nfissure in the ground\\nand drops the foe in.\\nThe target instantly\\nfaints if it hits.",
     },
-
     [MOVE_DIG] = {
         .names = {
             .name = "Dig",
@@ -2484,7 +2394,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user burrows,\\nthen attacks on the\\nsecond turn.\\nIt can also be used\\nto exit dungeons.",
     },
-
     [MOVE_TOXIC] = {
         .names = {
             .name = "Toxic",
@@ -2511,7 +2420,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A move that leaves\\nthe target badly\\npoisoned.\\nIts poison damage\\nworsens every turn.",
     },
-
     [MOVE_CONFUSION] = {
         .names = {
             .name = "Confusion",
@@ -2538,7 +2446,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is hit by a\\nweak telekinetic\\nforce. It may also\\nleave the foe\\nconfused.",
     },
-
     [MOVE_PSYCHIC] = {
         .names = {
             .name = "Psychic",
@@ -2565,7 +2472,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is hit by a\\nstrong telekinetic\\nforce. It may also\\nreduce the foe’s\\nSp. Def stat.",
     },
-
     [MOVE_HYPNOSIS] = {
         .names = {
             .name = "Hypnosis",
@@ -2592,7 +2498,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user employs\\nhypnotic suggestion\\nto make the target\\nfall into a deep\\nsleep.",
     },
-
     [MOVE_MEDITATE] = {
         .names = {
             .name = "Meditate",
@@ -2619,7 +2524,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user meditates\\nto awaken the power\\ndeep within its body\\nand raise its Attack\\nstat.",
     },
-
     [MOVE_AGILITY] = {
         .names = {
             .name = "Agility",
@@ -2646,7 +2550,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user relaxes and\\nlightens its body to\\nmove faster.\\nIt sharply boosts\\nthe Speed stat.",
     },
-
     [MOVE_QUICK_ATTACK] = {
         .names = {
             .name = "Quick Attack",
@@ -2673,7 +2576,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lunges at\\nthe foe at a speed\\nthat makes it almost\\ninvisible. It is sure\\nto strike first.",
     },
-
     [MOVE_RAGE] = {
         .names = {
             .name = "Rage",
@@ -2700,7 +2602,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "While this move is in\\nuse, it gains attack\\npower each time the\\nuser is hit in battle.\\n",
     },
-
     [MOVE_TELEPORT] = {
         .names = {
             .name = "Teleport",
@@ -2727,7 +2628,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Use it to flee from\\nany wild Pokémon.\\nIt can also warp to\\nthe last Pokémon\\nCenter visited.",
     },
-
     [MOVE_NIGHT_SHADE] = {
         .names = {
             .name = "Night Shade",
@@ -2754,7 +2654,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user makes the\\nfoe see a mirage.\\nIt inflicts damage\\nmatching the user’s\\nlevel.",
     },
-
     [MOVE_MIMIC] = {
         .names = {
             .name = "Mimic",
@@ -2781,7 +2680,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user copies the\\nmove last used by\\nthe foe. The move can\\nbe used for the rest\\nof the battle.",
     },
-
     [MOVE_SCREECH] = {
         .names = {
             .name = "Screech",
@@ -2808,7 +2706,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An earsplitting\\nscreech is emitted to\\nsharply reduce the\\nfoe’s Defense stat.\\n",
     },
-
     [MOVE_DOUBLE_TEAM] = {
         .names = {
             .name = "Double Team",
@@ -2835,7 +2732,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "By moving rapidly, the\\nuser makes illusory\\ncopies of itself to\\nraise its evasiveness.\\n",
     },
-
     [MOVE_RECOVER] = {
         .names = {
             .name = "Recover",
@@ -2862,7 +2758,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A self-healing move.\\nThe user restores its\\nown HP by up to half\\nof its max HP.\\n",
     },
-
     [MOVE_HARDEN] = {
         .names = {
             .name = "Harden",
@@ -2889,7 +2784,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user stiffens all\\nthe muscles in its\\nbody to raise its\\nDefense stat.\\n",
     },
-
     [MOVE_MINIMIZE] = {
         .names = {
             .name = "Minimize",
@@ -2916,7 +2810,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user compresses\\nits body to make\\nitself look smaller.\\nThe user’s evasion\\nstat is boosted.",
     },
-
     [MOVE_SMOKESCREEN] = {
         .names = {
             .name = "Smokescreen",
@@ -2943,7 +2836,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user releases an\\nobscuring cloud of\\nsmoke or ink.\\nIt reduces the foe’s\\naccuracy.",
     },
-
     [MOVE_CONFUSE_RAY] = {
         .names = {
             .name = "Confuse Ray",
@@ -2970,7 +2862,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is exposed\\nto a sinister ray\\nthat triggers\\nconfusion.\\n",
     },
-
     [MOVE_WITHDRAW] = {
         .names = {
             .name = "Withdraw",
@@ -2997,7 +2888,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user withdraws\\nits body into its hard\\nshell, raising its\\nDefense stat.\\n",
     },
-
     [MOVE_DEFENSE_CURL] = {
         .names = {
             .name = "Defense Curl",
@@ -3024,7 +2914,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user curls up to\\nconceal weak spots\\nand raise its Defense\\nstat.\\n",
     },
-
     [MOVE_BARRIER] = {
         .names = {
             .name = "Barrier",
@@ -3051,7 +2940,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user throws up a\\nsturdy wall that\\nsharply raises its\\nDefense stat.\\n",
     },
-
     [MOVE_LIGHT_SCREEN] = {
         .names = {
             .name = "Light Screen",
@@ -3078,7 +2966,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A wondrous wall of\\nlight is put up to\\nsuppress damage from\\nspecial attacks for\\nfive turns.",
     },
-
     [MOVE_HAZE] = {
         .names = {
             .name = "Haze",
@@ -3105,7 +2992,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user creates a\\nhaze that eliminates\\nevery stat change\\namong all the Pokémon\\nengaged in battle.",
     },
-
     [MOVE_REFLECT] = {
         .names = {
             .name = "Reflect",
@@ -3132,7 +3018,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A wondrous wall of\\nlight is put up to\\nsuppress damage from\\nphysical attacks for\\nfive turns.",
     },
-
     [MOVE_FOCUS_ENERGY] = {
         .names = {
             .name = "Focus Energy",
@@ -3159,7 +3044,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user takes a\\ndeep breath and\\nfocuses to raise the\\ncritical-hit ratio of\\nits attacks.",
     },
-
     [MOVE_BIDE] = {
         .names = {
             .name = "Bide",
@@ -3186,7 +3070,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user endures\\nattacks for two\\nturns, then strikes\\nback to cause double\\nthe damage taken.",
     },
-
     [MOVE_METRONOME] = {
         .names = {
             .name = "Metronome",
@@ -3213,7 +3096,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user waggles a\\nfinger and stimulates\\nthe brain into\\nrandomly using nearly\\nany move.",
     },
-
     [MOVE_MIRROR_MOVE] = {
         .names = {
             .name = "Mirror Move",
@@ -3240,7 +3122,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user counters\\nthe foe by mimicking\\nthe move last used\\nby the foe.",
     },
-
     [MOVE_SELF_DESTRUCT] = {
         .names = {
             .name = "Self-Destruct",
@@ -3267,7 +3148,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user blows up to\\ninflict damage on all\\nPokémon in battle.\\nThe user faints upon\\nusing this move.",
     },
-
     [MOVE_EGG_BOMB] = {
         .names = {
             .name = "Egg Bomb",
@@ -3294,7 +3174,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A large egg is hurled\\nwith maximum force at\\nthe foe to inflict\\ndamage.\\n",
     },
-
     [MOVE_LICK] = {
         .names = {
             .name = "Lick",
@@ -3321,7 +3200,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is licked with\\na long tongue, causing\\ndamage.\\nIt may also paralyze\\nthe target.",
     },
-
     [MOVE_SMOG] = {
         .names = {
             .name = "Smog",
@@ -3348,7 +3226,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith a discharge of\\nfilthy gases.\\nIt may also poison\\nthe target.",
     },
-
     [MOVE_SLUDGE] = {
         .names = {
             .name = "Sludge",
@@ -3375,7 +3252,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Unsanitary sludge is\\nhurled at the foe.\\nIt may also poison\\nthe target.\\n",
     },
-
     [MOVE_BONE_CLUB] = {
         .names = {
             .name = "Bone Club",
@@ -3402,7 +3278,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user clubs the\\nfoe with a bone.\\nIt may also make the\\ntarget flinch.\\n",
     },
-
     [MOVE_FIRE_BLAST] = {
         .names = {
             .name = "Fire Blast",
@@ -3429,7 +3304,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith an intense blast\\nof all-consuming fire.\\nIt may also leave the\\ntarget with a burn.",
     },
-
     [MOVE_WATERFALL] = {
         .names = {
             .name = "Waterfall",
@@ -3456,7 +3330,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user charges at\\nthe foe rapidly, and\\nmay make it flinch.\\nIt can also be used\\nto climb a waterfall.",
     },
-
     [MOVE_CLAMP] = {
         .names = {
             .name = "Clamp",
@@ -3483,7 +3356,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is clamped\\nand squeezed by\\nthe user’s very thick\\nand sturdy shell for\\ntwo to five turns.",
     },
-
     [MOVE_SWIFT] = {
         .names = {
             .name = "Swift",
@@ -3510,7 +3382,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Star-shaped rays are\\nshot at the foe.\\nThis attack never\\nmisses.\\n",
     },
-
     [MOVE_SKULL_BASH] = {
         .names = {
             .name = "Skull Bash",
@@ -3537,7 +3408,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tucks in its\\nhead to raise its\\nDefense in the first\\nturn, then rams the\\nfoe on the next turn.",
     },
-
     [MOVE_SPIKE_CANNON] = {
         .names = {
             .name = "Spike Cannon",
@@ -3564,7 +3434,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Sharp spikes are\\nfired at the foe to\\nstrike two to five\\ntimes in rapid\\nsuccession.",
     },
-
     [MOVE_CONSTRICT] = {
         .names = {
             .name = "Constrict",
@@ -3591,7 +3460,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith long, creeping\\ntentacles or vines.\\nIt may also lower the\\ntarget’s Speed.",
     },
-
     [MOVE_AMNESIA] = {
         .names = {
             .name = "Amnesia",
@@ -3618,7 +3486,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user temporarily\\nempties its mind to\\nforget its concerns.\\nIt sharply raises the\\nuser’s Sp. Def stat.",
     },
-
     [MOVE_KINESIS] = {
         .names = {
             .name = "Kinesis",
@@ -3645,7 +3512,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user distracts\\nthe foe by bending a\\nspoon.\\nIt may lower the\\ntarget’s accuracy.",
     },
-
     [MOVE_SOFT_BOILED] = {
         .names = {
             .name = "Soft-Boiled",
@@ -3672,7 +3538,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user restores its\\nown HP by up to half\\nof its maximum HP.\\nIt may also be used\\nto heal an ally’s HP.",
     },
-
     [MOVE_HIGH_JUMP_KICK] = {
         .names = {
             .name = "High Jump Kick",
@@ -3699,7 +3564,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith a knee kick from\\na jump. If it misses,\\nthe user is hurt\\ninstead.",
     },
-
     [MOVE_GLARE] = {
         .names = {
             .name = "Glare",
@@ -3726,7 +3590,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user intimidates\\nthe foe with the\\npattern on its belly\\nto cause paralysis.\\n",
     },
-
     [MOVE_DREAM_EATER] = {
         .names = {
             .name = "Dream Eater",
@@ -3753,7 +3616,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack that works\\nonly on a sleeping\\nfoe. It absorbs half\\nthe damage caused to\\nheal the user’s HP.",
     },
-
     [MOVE_POISON_GAS] = {
         .names = {
             .name = "Poison Gas",
@@ -3780,7 +3642,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A cloud of poison gas\\nis sprayed in the\\nfoe’s face.\\nIt may poison the\\ntarget.",
     },
-
     [MOVE_BARRAGE] = {
         .names = {
             .name = "Barrage",
@@ -3807,7 +3668,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Round objects are\\nhurled at the foe to\\nstrike two to five\\ntimes in a row.\\n",
     },
-
     [MOVE_LEECH_LIFE] = {
         .names = {
             .name = "Leech Life",
@@ -3834,7 +3694,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A blood-draining\\nattack. The user’s\\nHP is restored by\\nhalf the damage taken\\nby the target.",
     },
-
     [MOVE_LOVELY_KISS] = {
         .names = {
             .name = "Lovely Kiss",
@@ -3861,7 +3720,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "With a scary face, the\\nuser tries to force a\\nkiss on the foe. If it\\nsucceeds, the target\\nfalls asleep.",
     },
-
     [MOVE_SKY_ATTACK] = {
         .names = {
             .name = "Sky Attack",
@@ -3888,7 +3746,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A second-turn attack\\nmove with a high\\ncritical-hit ratio.\\nIt may also make the\\ntarget flinch.",
     },
-
     [MOVE_TRANSFORM] = {
         .names = {
             .name = "Transform",
@@ -3915,7 +3772,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user transforms\\ninto a copy of the\\nfoe right down to\\nhaving the same move\\nset.",
     },
-
     [MOVE_BUBBLE] = {
         .names = {
             .name = "Bubble",
@@ -3942,7 +3798,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A spray of countless\\nbubbles is jetted at\\nthe foe.\\nIt may also lower the\\ntarget’s Speed stat.",
     },
-
     [MOVE_DIZZY_PUNCH] = {
         .names = {
             .name = "Dizzy Punch",
@@ -3969,7 +3824,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is hit with\\nrhythmically launched\\npunches that may also\\nleave it confused.\\n",
     },
-
     [MOVE_SPORE] = {
         .names = {
             .name = "Spore",
@@ -3996,7 +3850,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user scatters\\nbursts of spores\\nthat induce sleep.\\n\\n",
     },
-
     [MOVE_FLASH] = {
         .names = {
             .name = "Flash",
@@ -4023,7 +3876,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user flashes a\\nlight that cuts the\\nfoe’s accuracy.\\nIt can also be used\\nto illuminate caves.",
     },
-
     [MOVE_PSYWAVE] = {
         .names = {
             .name = "Psywave",
@@ -4050,7 +3902,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith an odd, hot\\nenergy wave.\\nThe attack varies in\\nintensity.",
     },
-
     [MOVE_SPLASH] = {
         .names = {
             .name = "Splash",
@@ -4077,7 +3928,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user just flops\\nand splashes around\\nto no effect at all...\\n\\n",
     },
-
     [MOVE_ACID_ARMOR] = {
         .names = {
             .name = "Acid Armor",
@@ -4104,7 +3954,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user alters its\\ncellular structure to\\nliquefy itself,\\nsharply raising its\\nDefense stat.",
     },
-
     [MOVE_CRABHAMMER] = {
         .names = {
             .name = "Crabhammer",
@@ -4131,7 +3980,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is hammered\\nwith a large pincer.\\nThis move has a high\\ncritical-hit ratio.\\n",
     },
-
     [MOVE_EXPLOSION] = {
         .names = {
             .name = "Explosion",
@@ -4158,7 +4006,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user explodes to\\ninflict damage on all\\nPokémon in battle.\\nThe user faints upon\\nusing this move.",
     },
-
     [MOVE_FURY_SWIPES] = {
         .names = {
             .name = "Fury Swipes",
@@ -4185,7 +4032,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is raked with\\nsharp claws or\\nscythes for two to\\nfive times in quick\\nsuccession.",
     },
-
     [MOVE_BONEMERANG] = {
         .names = {
             .name = "Bonemerang",
@@ -4212,7 +4058,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user throws the\\nbone it holds. The\\nbone loops to hit the\\nfoe twice, coming and\\ngoing.",
     },
-
     [MOVE_REST] = {
         .names = {
             .name = "Rest",
@@ -4239,7 +4084,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user goes to\\nsleep for two turns.\\nIt fully restores the\\nuser’s HP and heals\\nany status problem.",
     },
-
     [MOVE_ROCK_SLIDE] = {
         .names = {
             .name = "Rock Slide",
@@ -4266,7 +4110,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Large boulders are\\nhurled at the foe to\\ninflict damage.\\nIt may also make the\\ntarget flinch.",
     },
-
     [MOVE_HYPER_FANG] = {
         .names = {
             .name = "Hyper Fang",
@@ -4293,7 +4136,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user bites hard\\non the foe with its\\nsharp front fangs.\\nIt may also make the\\ntarget flinch.",
     },
-
     [MOVE_SHARPEN] = {
         .names = {
             .name = "Sharpen",
@@ -4320,7 +4162,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user reduces its\\npolygon count to\\nmake itself more\\njagged, raising the\\nAttack stat.",
     },
-
     [MOVE_CONVERSION] = {
         .names = {
             .name = "Conversion",
@@ -4347,7 +4188,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user changes its\\ntype to become the\\nsame type as one of\\nits moves.\\n",
     },
-
     [MOVE_TRI_ATTACK] = {
         .names = {
             .name = "Tri Attack",
@@ -4374,7 +4214,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user strikes with\\na simultaneous three-\\nbeam attack. May also\\nparalyze, burn, or\\nfreeze the target.",
     },
-
     [MOVE_SUPER_FANG] = {
         .names = {
             .name = "Super Fang",
@@ -4401,7 +4240,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user chomps hard\\non the foe with its\\nsharp front fangs.\\nIt cuts the target’s\\nHP to half.",
     },
-
     [MOVE_SLASH] = {
         .names = {
             .name = "Slash",
@@ -4428,7 +4266,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith a slash of\\nclaws, etc.\\nIt has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_SUBSTITUTE] = {
         .names = {
             .name = "Substitute",
@@ -4455,7 +4292,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user makes a\\ncopy of itself using\\nsome of its HP.\\nThe copy serves as\\nthe user’s decoy.",
     },
-
     [MOVE_STRUGGLE] = {
         .names = {
             .name = "Struggle",
@@ -4482,7 +4318,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack that is\\nused in desperation\\nonly if the user has\\nno PP. It also hurts\\nthe user slightly.",
     },
-
     [MOVE_SKETCH] = {
         .names = {
             .name = "Sketch",
@@ -4509,7 +4344,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "It enables the user\\nto permanently learn\\nthe move last used by\\nthe foe. Once used,\\nSketch disappears.",
     },
-
     [MOVE_TRIPLE_KICK] = {
         .names = {
             .name = "Triple Kick",
@@ -4536,7 +4370,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A consecutive three-\\nkick attack that\\nbecomes more\\npowerful with each \\nsuccessive hit.",
     },
-
     [MOVE_THIEF] = {
         .names = {
             .name = "Thief",
@@ -4563,7 +4396,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks and\\nsteals the foe’s held\\nitem simultaneously.\\nIt can’t steal if the\\nuser holds an item.",
     },
-
     [MOVE_SPIDER_WEB] = {
         .names = {
             .name = "Spider Web",
@@ -4590,7 +4422,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user ensnares\\nthe foe with a thin,\\ngooey silk so it can’t\\nflee from battle.\\n",
     },
-
     [MOVE_MIND_READER] = {
         .names = {
             .name = "Mind Reader",
@@ -4617,7 +4448,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user senses the\\nfoe’s movements\\nwith its mind to\\nensure its next\\nattack does not miss.",
     },
-
     [MOVE_NIGHTMARE] = {
         .names = {
             .name = "Nightmare",
@@ -4644,7 +4474,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A sleeping foe is\\nshown a nightmare\\nthat inflicts some\\ndamage every turn.\\n",
     },
-
     [MOVE_FLAME_WHEEL] = {
         .names = {
             .name = "Flame Wheel",
@@ -4671,7 +4500,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user cloaks\\nitself in fire and\\ncharges at the foe.\\nIt may also leave the\\ntarget with a burn.",
     },
-
     [MOVE_SNORE] = {
         .names = {
             .name = "Snore",
@@ -4698,7 +4526,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack that can\\nbe used only if the\\nuser is asleep. The\\nharsh noise may also\\nmake the foe flinch.",
     },
-
     [MOVE_CURSE] = {
         .names = {
             .name = "Curse",
@@ -4725,7 +4552,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A move that works\\ndifferently for the\\nGhost type than for\\nall the other types.\\n",
     },
-
     [MOVE_FLAIL] = {
         .names = {
             .name = "Flail",
@@ -4752,7 +4578,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user flails about\\naimlessly to attack.\\nIt becomes more\\npowerful the less HP\\nthe user has.",
     },
-
     [MOVE_CONVERSION_2] = {
         .names = {
             .name = "Conversion 2",
@@ -4779,7 +4604,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user changes its\\ntype to make itself\\nresistant to the type\\nof the attack it\\nlast took.",
     },
-
     [MOVE_AEROBLAST] = {
         .names = {
             .name = "Aeroblast",
@@ -4806,7 +4630,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A vortex of air is\\nshot at the foe to\\ninflict damage.\\nIt has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_COTTON_SPORE] = {
         .names = {
             .name = "Cotton Spore",
@@ -4833,7 +4656,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user releases\\ncottonlike spores\\nthat cling to the\\nfoe, sharply reducing\\nits Speed stat.",
     },
-
     [MOVE_REVERSAL] = {
         .names = {
             .name = "Reversal",
@@ -4860,7 +4682,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An all-out attack\\nthat becomes more\\npowerful the less\\nHP the user has.\\n",
     },
-
     [MOVE_SPITE] = {
         .names = {
             .name = "Spite",
@@ -4887,7 +4708,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user looses its\\ngrudge on the move\\nlast used by the foe\\nby cutting 4 PP from\\nit.",
     },
-
     [MOVE_POWDER_SNOW] = {
         .names = {
             .name = "Powder Snow",
@@ -4914,7 +4734,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\na chilling gust of\\npowdery snow.\\nIt may also freeze\\nthe target.",
     },
-
     [MOVE_PROTECT] = {
         .names = {
             .name = "Protect",
@@ -4941,7 +4760,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "It enables the user\\nto evade all attacks.\\nIts chance of failing\\nrises if it is used in\\nsuccession.",
     },
-
     [MOVE_MACH_PUNCH] = {
         .names = {
             .name = "Mach Punch",
@@ -4968,7 +4786,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user throws a\\npunch at blinding\\nspeed.\\nIt is certain to\\nstrike first.",
     },
-
     [MOVE_SCARY_FACE] = {
         .names = {
             .name = "Scary Face",
@@ -4995,7 +4812,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user frightens\\nthe foe with a scary\\nface to sharply\\nreduce its Speed\\nstat.",
     },
-
     [MOVE_FEINT_ATTACK] = {
         .names = {
             .name = "Feint Attack",
@@ -5022,7 +4838,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user draws up to\\nthe foe disarmingly,\\nthen throws a sucker\\npunch.\\nIt hits without fail.",
     },
-
     [MOVE_SWEET_KISS] = {
         .names = {
             .name = "Sweet Kiss",
@@ -5049,7 +4864,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user kisses the\\nfoe with a sweet,\\nangelic cuteness that\\ncauses confusion.\\n",
     },
-
     [MOVE_BELLY_DRUM] = {
         .names = {
             .name = "Belly Drum",
@@ -5076,7 +4890,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user maximizes\\nits Attack stat in\\nexchange for HP\\nequal to half its max\\nHP.",
     },
-
     [MOVE_SLUDGE_BOMB] = {
         .names = {
             .name = "Sludge Bomb",
@@ -5103,7 +4916,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nhurling filthy sludge\\nat the foe.\\nIt may also poison\\nthe target.",
     },
-
     [MOVE_MUD_SLAP] = {
         .names = {
             .name = "Mud-Slap",
@@ -5130,7 +4942,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hurls mud in\\nthe foe’s face to\\ninflict damage and\\nlower its accuracy.\\n",
     },
-
     [MOVE_OCTAZOOKA] = {
         .names = {
             .name = "Octazooka",
@@ -5157,7 +4968,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nspraying ink in the\\nfoe’s face or eyes.\\nIt may also lower the\\ntarget’s accuracy.",
     },
-
     [MOVE_SPIKES] = {
         .names = {
             .name = "Spikes",
@@ -5184,7 +4994,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lays a trap\\nof spikes at the\\nfoe’s feet. The trap\\nhurts foes that\\nswitch into battle.",
     },
-
     [MOVE_ZAP_CANNON] = {
         .names = {
             .name = "Zap Cannon",
@@ -5211,7 +5020,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user fires an\\nelectric blast like a\\ncannon to inflict\\ndamage and cause\\nparalysis.",
     },
-
     [MOVE_FORESIGHT] = {
         .names = {
             .name = "Foresight",
@@ -5238,7 +5046,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Enables the user to\\nhit a Ghost type with\\nany type of move. It\\nalso enables the user\\nto hit an evasive foe.",
     },
-
     [MOVE_DESTINY_BOND] = {
         .names = {
             .name = "Destiny Bond",
@@ -5265,7 +5072,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "When this move is\\nused, if the user\\nfaints, the foe that\\nlanded the knockout\\nhit also faints.",
     },
-
     [MOVE_PERISH_SONG] = {
         .names = {
             .name = "Perish Song",
@@ -5292,7 +5098,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Any Pokémon that\\nhears this song\\nfaints in three turns,\\nunless it switches\\nout of battle.",
     },
-
     [MOVE_ICY_WIND] = {
         .names = {
             .name = "Icy Wind",
@@ -5319,7 +5124,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\na gust of chilled air.\\nIt also lowers the\\ntarget’s Speed stat.\\n",
     },
-
     [MOVE_DETECT] = {
         .names = {
             .name = "Detect",
@@ -5346,7 +5150,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "It enables the user\\nto evade all attacks.\\nIts chance of failing\\nrises if it is used in\\nsuccession.",
     },
-
     [MOVE_BONE_RUSH] = {
         .names = {
             .name = "Bone Rush",
@@ -5373,7 +5176,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user strikes at\\nthe foe with a hard\\nbone two to five\\ntimes in a row.\\n",
     },
-
     [MOVE_LOCK_ON] = {
         .names = {
             .name = "Lock-On",
@@ -5400,7 +5202,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user takes sure\\naim at the foe.\\nIt ensures the next\\nattack does not fail\\nto hit the target.",
     },
-
     [MOVE_OUTRAGE] = {
         .names = {
             .name = "Outrage",
@@ -5427,7 +5228,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rampages\\nand attacks for two\\nto three turns.\\nHowever, it then\\nbecomes confused.",
     },
-
     [MOVE_SANDSTORM] = {
         .names = {
             .name = "Sandstorm",
@@ -5454,7 +5254,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A five-turn sand-\\nstorm is summoned\\nto hurt all combatant\\ntypes except Rock, \\nGround, and Steel.",
     },
-
     [MOVE_GIGA_DRAIN] = {
         .names = {
             .name = "Giga Drain",
@@ -5481,7 +5280,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A nutrient-draining\\nattack. The user’s\\nHP is restored by\\nhalf the damage taken\\nby the target.",
     },
-
     [MOVE_ENDURE] = {
         .names = {
             .name = "Endure",
@@ -5508,7 +5306,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user endures any\\nattack with at least\\n1 HP. Its chance of\\nfailing rises if it is\\nused in succession.",
     },
-
     [MOVE_CHARM] = {
         .names = {
             .name = "Charm",
@@ -5535,7 +5332,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user charmingly\\nstares at the foe,\\nmaking it less wary.\\nThe target’s Attack\\nis sharply lowered.",
     },
-
     [MOVE_ROLLOUT] = {
         .names = {
             .name = "Rollout",
@@ -5562,7 +5358,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user continually\\nrolls into the foe\\nover five turns. It\\nbecomes stronger\\neach time it hits.",
     },
-
     [MOVE_FALSE_SWIPE] = {
         .names = {
             .name = "False Swipe",
@@ -5589,7 +5384,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A restrained attack\\nthat prevents the\\nfoe from fainting.\\nThe target is left\\nwith at least 1 HP.",
     },
-
     [MOVE_SWAGGER] = {
         .names = {
             .name = "Swagger",
@@ -5616,7 +5410,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user enrages the\\nfoe into confusion.\\nHowever, it also\\nsharply raises the\\nfoe’s Attack stat.",
     },
-
     [MOVE_MILK_DRINK] = {
         .names = {
             .name = "Milk Drink",
@@ -5643,7 +5436,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user restores its\\nown HP by up to half\\nof its maximum HP.\\nIt may also be used\\nto heal an ally’s HP.",
     },
-
     [MOVE_SPARK] = {
         .names = {
             .name = "Spark",
@@ -5670,7 +5462,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user throws an\\nelectrically charged\\ntackle at the foe.\\nIt may also leave the\\ntarget paralyzed.",
     },
-
     [MOVE_FURY_CUTTER] = {
         .names = {
             .name = "Fury Cutter",
@@ -5697,7 +5488,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is slashed\\nwith scythes or\\nclaws. Its power\\nincreases if it hits\\nin succession.",
     },
-
     [MOVE_STEEL_WING] = {
         .names = {
             .name = "Steel Wing",
@@ -5724,7 +5514,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is hit with\\nwings of steel.\\nIt may also raise the\\nuser’s Defense stat.\\n",
     },
-
     [MOVE_MEAN_LOOK] = {
         .names = {
             .name = "Mean Look",
@@ -5751,7 +5540,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user affixes the\\nfoe with a dark,\\narresting look.\\nThe target becomes\\nunable to flee.",
     },
-
     [MOVE_ATTRACT] = {
         .names = {
             .name = "Attract",
@@ -5778,7 +5566,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "If it is the opposite\\ngender of the user,\\nthe foe becomes\\ninfatuated and less\\nlikely to attack.",
     },
-
     [MOVE_SLEEP_TALK] = {
         .names = {
             .name = "Sleep Talk",
@@ -5805,7 +5592,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "While it is asleep, the\\nuser randomly uses\\none of the moves it\\nknows.\\n",
     },
-
     [MOVE_HEAL_BELL] = {
         .names = {
             .name = "Heal Bell",
@@ -5832,7 +5618,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user makes a\\nsoothing bell chime\\nto heal the status\\nproblems of all the\\nparty Pokémon.",
     },
-
     [MOVE_RETURN] = {
         .names = {
             .name = "Return",
@@ -5859,7 +5644,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A full-power attack\\nthat grows more\\npowerful the more\\nthe user likes its\\nTrainer.",
     },
-
     [MOVE_PRESENT] = {
         .names = {
             .name = "Present",
@@ -5886,7 +5670,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\ngiving the foe a\\nbooby-trapped gift.\\nIt restores HP\\nsometimes, however.",
     },
-
     [MOVE_FRUSTRATION] = {
         .names = {
             .name = "Frustration",
@@ -5913,7 +5696,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A full-power attack\\nthat grows more\\npowerful the less\\nthe user likes its\\nTrainer.",
     },
-
     [MOVE_SAFEGUARD] = {
         .names = {
             .name = "Safeguard",
@@ -5940,7 +5722,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user creates a\\nprotective field that\\nprevents status\\nproblems for five\\nturns.",
     },
-
     [MOVE_PAIN_SPLIT] = {
         .names = {
             .name = "Pain Split",
@@ -5967,7 +5748,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user adds its HP\\nto the foe’s HP, then\\nequally shares the\\ncombined HP with the\\nfoe.",
     },
-
     [MOVE_SACRED_FIRE] = {
         .names = {
             .name = "Sacred Fire",
@@ -5994,7 +5774,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is razed with\\na mystical fire of\\ngreat intensity.\\nIt may also leave the\\ntarget with a burn.",
     },
-
     [MOVE_MAGNITUDE] = {
         .names = {
             .name = "Magnitude",
@@ -6021,7 +5800,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user looses a\\nground-shaking quake\\naffecting everyone in\\nbattle. Its power\\nvaries.",
     },
-
     [MOVE_DYNAMIC_PUNCH] = {
         .names = {
             .name = "Dynamic Punch",
@@ -6048,7 +5826,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is punched\\nwith the user’s full,\\nconcentrated power.\\nIt confuses the foe\\nif it hits.",
     },
-
     [MOVE_MEGAHORN] = {
         .names = {
             .name = "Megahorn",
@@ -6075,7 +5852,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Using its tough\\nand impressive\\nhorn, the user\\nrams into the foe \\nwith no letup.\\n",
     },
-
     [MOVE_DRAGON_BREATH] = {
         .names = {
             .name = "Dragon Breath",
@@ -6102,7 +5878,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user exhales\\na mighty gust that\\ninflicts damage.\\nIt may also paralyze\\nthe target.",
     },
-
     [MOVE_BATON_PASS] = {
         .names = {
             .name = "Baton Pass",
@@ -6129,7 +5904,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user switches\\nplaces with a party\\nPokémon in waiting,\\npassing along any\\nstat changes.",
     },
-
     [MOVE_ENCORE] = {
         .names = {
             .name = "Encore",
@@ -6156,7 +5930,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user compels the\\nfoe to keep using\\nonly the move it last\\nused for three turns.",
     },
-
     [MOVE_PURSUIT] = {
         .names = {
             .name = "Pursuit",
@@ -6183,7 +5956,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack move that\\ninflicts double damage\\nif used on a foe that\\nis switching out of\\nbattle.",
     },
-
     [MOVE_RAPID_SPIN] = {
         .names = {
             .name = "Rapid Spin",
@@ -6210,7 +5982,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A spin attack that\\ncan also eliminate\\nsuch moves as Bind,\\nWrap, Leech Seed,\\nand Spikes.",
     },
-
     [MOVE_SWEET_SCENT] = {
         .names = {
             .name = "Sweet Scent",
@@ -6237,7 +6008,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A sweet scent that\\nlowers the foe’s\\nevasiveness. It also\\nlures wild Pokémon\\nif used in grass, etc.",
     },
-
     [MOVE_IRON_TAIL] = {
         .names = {
             .name = "Iron Tail",
@@ -6264,7 +6034,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is slammed\\nwith a steel-hard\\ntail. It may also\\nlower the target’s\\nDefense stat.",
     },
-
     [MOVE_METAL_CLAW] = {
         .names = {
             .name = "Metal Claw",
@@ -6291,7 +6060,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is raked\\nwith steel claws.\\nIt may also raise the\\nuser’s Attack stat.\\n",
     },
-
     [MOVE_VITAL_THROW] = {
         .names = {
             .name = "Vital Throw",
@@ -6318,7 +6086,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user allows the\\nfoe to attack first.\\nIn return, this throw\\nmove is guaranteed\\nnot to miss.",
     },
-
     [MOVE_MORNING_SUN] = {
         .names = {
             .name = "Morning Sun",
@@ -6345,7 +6112,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user restores its\\nown HP.\\nThe amount of HP\\nregained varies with\\nthe weather.",
     },
-
     [MOVE_SYNTHESIS] = {
         .names = {
             .name = "Synthesis",
@@ -6372,7 +6138,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user restores its\\nown HP.\\nThe amount of HP\\nregained varies with\\nthe weather.",
     },
-
     [MOVE_MOONLIGHT] = {
         .names = {
             .name = "Moonlight",
@@ -6399,7 +6164,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user restores its\\nown HP.\\nThe amount of HP\\nregained varies with\\nthe weather.",
     },
-
     [MOVE_HIDDEN_POWER] = {
         .names = {
             .name = "Hidden Power",
@@ -6426,7 +6190,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A unique attack that\\nvaries in type\\ndepending on the\\nPokémon using it.",
     },
-
     [MOVE_CROSS_CHOP] = {
         .names = {
             .name = "Cross Chop",
@@ -6453,7 +6216,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user delivers a\\ndouble chop with its\\nforearms crossed.\\nIt has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_TWISTER] = {
         .names = {
             .name = "Twister",
@@ -6480,7 +6242,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user whips up a\\nvicious tornado to\\ntear at the foe.\\nIt may also make the\\nfoe flinch.",
     },
-
     [MOVE_RAIN_DANCE] = {
         .names = {
             .name = "Rain Dance",
@@ -6507,7 +6268,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user summons a\\nheavy rain that falls\\nfor five turns,\\npowering up Water-\\ntype moves.",
     },
-
     [MOVE_SUNNY_DAY] = {
         .names = {
             .name = "Sunny Day",
@@ -6534,7 +6294,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user intensifies\\nthe sun for five\\nturns, powering up\\nFire-type moves.\\n",
     },
-
     [MOVE_CRUNCH] = {
         .names = {
             .name = "Crunch",
@@ -6561,7 +6320,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user crunches up\\nthe foe with sharp\\nfangs. It may also\\nlower the target’s\\nDefense stat.",
     },
-
     [MOVE_MIRROR_COAT] = {
         .names = {
             .name = "Mirror Coat",
@@ -6588,7 +6346,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A retaliation move\\nthat counters any\\nspecial attack,\\ninflicting double the\\ndamage taken.",
     },
-
     [MOVE_PSYCH_UP] = {
         .names = {
             .name = "Psych Up",
@@ -6615,7 +6372,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hypnotizes\\nitself into copying\\nany stat change\\nmade by the foe.\\n",
     },
-
     [MOVE_EXTREME_SPEED] = {
         .names = {
             .name = "Extreme Speed",
@@ -6642,7 +6398,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user charges the\\nfoe at blinding speed.\\nThis attack always\\ngoes before any\\nother move.",
     },
-
     [MOVE_ANCIENT_POWER] = {
         .names = {
             .name = "Ancient Power",
@@ -6669,7 +6424,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\na prehistoric power.\\nIt may also raise all\\nthe user’s stats at\\nonce.",
     },
-
     [MOVE_SHADOW_BALL] = {
         .names = {
             .name = "Shadow Ball",
@@ -6696,7 +6450,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hurls a\\nshadowy blob at the\\nfoe. It may also\\nlower the foe’s\\nSp. Def stat.",
     },
-
     [MOVE_FUTURE_SIGHT] = {
         .names = {
             .name = "Future Sight",
@@ -6723,7 +6476,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Two turns after this\\nmove is used, the foe\\nis attacked with a\\nhunk of psychic\\nenergy.",
     },
-
     [MOVE_ROCK_SMASH] = {
         .names = {
             .name = "Rock Smash",
@@ -6750,7 +6502,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hits with a\\npunch that may lower\\nthe target’s Defense.\\nIt can also smash\\ncracked boulders.",
     },
-
     [MOVE_WHIRLPOOL] = {
         .names = {
             .name = "Whirlpool",
@@ -6777,7 +6528,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Traps the foe inside a\\nwhirlpool that lasts\\nfor two to five turns.\\nThe user can pass\\nthrough whirlpools.",
     },
-
     [MOVE_BEAT_UP] = {
         .names = {
             .name = "Beat Up",
@@ -6804,7 +6554,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user gets all the\\nparty Pokémon to\\nattack the foe. The\\nmore party Pokémon,\\nthe more damage.",
     },
-
     [MOVE_FAKE_OUT] = {
         .names = {
             .name = "Fake Out",
@@ -6831,7 +6580,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack that hits\\nfirst and makes the\\ntarget flinch. It only\\nworks the first turn\\nthe user is in battle.",
     },
-
     [MOVE_UPROAR] = {
         .names = {
             .name = "Uproar",
@@ -6858,7 +6606,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks in\\nan uproar for two to\\nfive turns. Over that\\ntime, no one can fall\\nasleep.",
     },
-
     [MOVE_STOCKPILE] = {
         .names = {
             .name = "Stockpile",
@@ -6885,7 +6632,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user charges\\nup power, and raises\\nboth its Defense and\\nSp. Def. The move can\\nbe used three times.",
     },
-
     [MOVE_SPIT_UP] = {
         .names = {
             .name = "Spit Up",
@@ -6912,7 +6658,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The power stored\\nusing the move\\nStockpile is released\\nat once in an attack.\\n",
     },
-
     [MOVE_SWALLOW] = {
         .names = {
             .name = "Swallow",
@@ -6939,7 +6684,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The power stored\\nusing the move\\nStockpile is absorbed\\nby the user to heal\\nits HP.",
     },
-
     [MOVE_HEAT_WAVE] = {
         .names = {
             .name = "Heat Wave",
@@ -6966,7 +6710,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user exhales a\\nheated breath on the\\nfoe to attack. It may\\nalso leave the target\\nwith a burn.",
     },
-
     [MOVE_HAIL] = {
         .names = {
             .name = "Hail",
@@ -6993,7 +6736,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user summons a\\nhailstorm lasting five\\nturns. It damages all\\nPokémon except the\\nIce type.",
     },
-
     [MOVE_TORMENT] = {
         .names = {
             .name = "Torment",
@@ -7020,7 +6762,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user torments\\nand enrages the foe,\\nmaking it incapable of\\nusing the same move\\ntwice in a row.",
     },
-
     [MOVE_FLATTER] = {
         .names = {
             .name = "Flatter",
@@ -7047,7 +6788,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Flattery is used to\\nconfuse the foe.\\nHowever, it also\\nraises the target’s\\nSp. Atk stat.",
     },
-
     [MOVE_WILL_O_WISP] = {
         .names = {
             .name = "Will-O-Wisp",
@@ -7074,7 +6814,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user shoots a\\nsinister, bluish white\\nflame at the foe to\\ninflict a burn.\\n",
     },
-
     [MOVE_MEMENTO] = {
         .names = {
             .name = "Memento",
@@ -7101,7 +6840,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user faints upon\\nusing this move.\\nIn return, it sharply\\nlowers the target’s\\nAttack and Sp. Atk.",
     },
-
     [MOVE_FACADE] = {
         .names = {
             .name = "Facade",
@@ -7128,7 +6866,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack move that\\ndoubles its power if\\nthe user is poisoned,\\nparalyzed, or has a\\nburn.",
     },
-
     [MOVE_FOCUS_PUNCH] = {
         .names = {
             .name = "Focus Punch",
@@ -7155,7 +6892,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user focuses its\\nmind before launching\\na punch. It will fail\\nif the user is hit\\nbefore it is used.",
     },
-
     [MOVE_SMELLING_SALTS] = {
         .names = {
             .name = "Smelling Salts",
@@ -7182,7 +6918,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This attack inflicts\\ndouble damage on a\\nparalyzed foe. It\\nalso cures the foe’s\\nparalysis, however.",
     },
-
     [MOVE_FOLLOW_ME] = {
         .names = {
             .name = "Follow Me",
@@ -7209,7 +6944,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user draws\\nattention to itself,\\nmaking all foes take\\naim only at the user.\\n",
     },
-
     [MOVE_NATURE_POWER] = {
         .names = {
             .name = "Nature Power",
@@ -7236,7 +6970,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack that makes\\nuse of nature’s\\npower. Its effects\\nvary depending on the\\nuser’s environment.",
     },
-
     [MOVE_CHARGE] = {
         .names = {
             .name = "Charge",
@@ -7263,7 +6996,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user boosts the\\npower of the Electric\\nmove it uses next.\\nIt also raises the\\nuser’s Sp. Def stat.",
     },
-
     [MOVE_TAUNT] = {
         .names = {
             .name = "Taunt",
@@ -7290,7 +7022,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is taunted\\ninto a rage that\\nallows it to use only\\nattack moves for two\\nto four turns.",
     },
-
     [MOVE_HELPING_HAND] = {
         .names = {
             .name = "Helping Hand",
@@ -7317,7 +7048,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A move that boosts\\nthe power of the\\nally’s attack in a\\nDouble Battle.\\n",
     },
-
     [MOVE_TRICK] = {
         .names = {
             .name = "Trick",
@@ -7344,7 +7074,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user catches the\\nfoe off guard and\\nswaps the foe’s held\\nitem with its own.\\n",
     },
-
     [MOVE_ROLE_PLAY] = {
         .names = {
             .name = "Role Play",
@@ -7371,7 +7100,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user mimics the\\nfoe completely,\\ncopying the foe’s\\nnatural ability.\\n",
     },
-
     [MOVE_WISH] = {
         .names = {
             .name = "Wish",
@@ -7398,7 +7126,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A self-healing move.\\nThe user restores its\\nown HP by up to half\\nof its maximum HP\\nin the next turn.",
     },
-
     [MOVE_ASSIST] = {
         .names = {
             .name = "Assist",
@@ -7425,7 +7152,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hurriedly\\nand randomly uses a\\nmove among those\\nknown by other\\nPokémon in the party.",
     },
-
     [MOVE_INGRAIN] = {
         .names = {
             .name = "Ingrain",
@@ -7452,7 +7178,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lays roots\\nthat restore HP on\\nevery turn.\\nBecause it is rooted,\\nit can’t switch out.",
     },
-
     [MOVE_SUPERPOWER] = {
         .names = {
             .name = "Superpower",
@@ -7479,7 +7204,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks the\\nfoe with great power.\\nHowever, it also\\nlowers the user’s\\nAttack and Defense.",
     },
-
     [MOVE_MAGIC_COAT] = {
         .names = {
             .name = "Magic Coat",
@@ -7506,7 +7230,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A barrier reflects\\nback to the foe\\nmoves like Leech\\nSeed and moves\\nthat damage status.",
     },
-
     [MOVE_RECYCLE] = {
         .names = {
             .name = "Recycle",
@@ -7533,7 +7256,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user recycles a\\nheld item that\\nhas been used in\\nbattle so it can be\\nused again.",
     },
-
     [MOVE_REVENGE] = {
         .names = {
             .name = "Revenge",
@@ -7560,7 +7282,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack move that\\ninflicts double the\\ndamage if the user\\nhas been hurt by the\\nfoe in the same turn.",
     },
-
     [MOVE_BRICK_BREAK] = {
         .names = {
             .name = "Brick Break",
@@ -7587,7 +7308,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\ntough fists, etc. It\\ncan also break any\\nbarrier such as Light\\nScreen and Reflect.",
     },
-
     [MOVE_YAWN] = {
         .names = {
             .name = "Yawn",
@@ -7614,7 +7334,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lets loose a\\nhuge yawn that lulls\\nthe foe into falling\\nasleep on the next\\nturn.",
     },
-
     [MOVE_KNOCK_OFF] = {
         .names = {
             .name = "Knock Off",
@@ -7641,7 +7360,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slaps down\\nthe foe’s held item,\\npreventing the item\\nfrom being used\\nduring the battle.",
     },
-
     [MOVE_ENDEAVOR] = {
         .names = {
             .name = "Endeavor",
@@ -7668,7 +7386,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack move that\\ncuts down the foe’s\\nHP to equal the\\nuser’s HP.\\n",
     },
-
     [MOVE_ERUPTION] = {
         .names = {
             .name = "Eruption",
@@ -7695,7 +7412,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks in\\nan explosive fury.\\nThe lower the user’s\\nHP, the less powerful\\nthis attack becomes.",
     },
-
     [MOVE_SKILL_SWAP] = {
         .names = {
             .name = "Skill Swap",
@@ -7722,7 +7438,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user employs its\\npsychic power to\\nexchange abilities\\nwith the foe.\\n",
     },
-
     [MOVE_IMPRISON] = {
         .names = {
             .name = "Imprison",
@@ -7749,7 +7464,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "If the foe knows any\\nmove also known by\\nthe user, the foe\\nis prevented\\nfrom using it.",
     },
-
     [MOVE_REFRESH] = {
         .names = {
             .name = "Refresh",
@@ -7776,7 +7490,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rests\\nto cure itself of a\\npoisoning, burn, or\\nparalysis.\\n",
     },
-
     [MOVE_GRUDGE] = {
         .names = {
             .name = "Grudge",
@@ -7803,7 +7516,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "If the user faints,\\nthe user’s grudge\\nfully depletes the PP\\nof the foe’s move\\nthat knocked it out.",
     },
-
     [MOVE_SNATCH] = {
         .names = {
             .name = "Snatch",
@@ -7830,7 +7542,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user steals the\\neffects of any\\nhealing or stat-\\nchanging move the foe\\nattempts to use.",
     },
-
     [MOVE_SECRET_POWER] = {
         .names = {
             .name = "Secret Power",
@@ -7857,7 +7568,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\na secret power. Its\\nadded effects vary\\ndepending on the\\nuser’s environment.",
     },
-
     [MOVE_DIVE] = {
         .names = {
             .name = "Dive",
@@ -7884,7 +7594,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A two-turn attack.\\nThe user dives\\nunderwater on the\\nfirst turn, then hits\\non the next turn.",
     },
-
     [MOVE_ARM_THRUST] = {
         .names = {
             .name = "Arm Thrust",
@@ -7911,7 +7620,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user looses a\\nflurry of open-palmed\\narm thrusts that hit\\ntwo to five times in a\\nrow.",
     },
-
     [MOVE_CAMOUFLAGE] = {
         .names = {
             .name = "Camouflage",
@@ -7938,7 +7646,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user’s type is\\nchanged depending on\\nits environment, such\\nas at water’s edge, in\\ngrass, or in a cave.",
     },
-
     [MOVE_TAIL_GLOW] = {
         .names = {
             .name = "Tail Glow",
@@ -7965,7 +7672,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user stares at\\nflashing lights to\\nfocus its mind,\\nsharply raising its\\nSp. Atk stat.",
     },
-
     [MOVE_LUSTER_PURGE] = {
         .names = {
             .name = "Luster Purge",
@@ -7992,7 +7698,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user looses a\\ndamaging burst of\\nlight. It may also\\nreduce the target’s\\nSp. Def stat.",
     },
-
     [MOVE_MIST_BALL] = {
         .names = {
             .name = "Mist Ball",
@@ -8019,7 +7724,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A mistlike flurry of\\ndown envelops and\\ndamages the foe. It\\nmay also lower the\\ntarget’s Sp. Atk.",
     },
-
     [MOVE_FEATHER_DANCE] = {
         .names = {
             .name = "Feather Dance",
@@ -8046,7 +7750,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user covers the\\nfoe with a mass of\\ndown that sharply\\nlowers the Attack\\nstat.",
     },
-
     [MOVE_TEETER_DANCE] = {
         .names = {
             .name = "Teeter Dance",
@@ -8073,7 +7776,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user performs a\\nwobbly dance that\\nconfuses all the\\nPokémon in battle.\\n",
     },
-
     [MOVE_BLAZE_KICK] = {
         .names = {
             .name = "Blaze Kick",
@@ -8100,7 +7802,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user launches a\\nkick with a high\\ncritical-hit ratio.\\nIt may also leave the\\ntarget with a burn.",
     },
-
     [MOVE_MUD_SPORT] = {
         .names = {
             .name = "Mud Sport",
@@ -8127,7 +7828,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user covers\\nitself with mud. It\\nweakens Electric-\\ntype moves while the\\nuser is in the battle.",
     },
-
     [MOVE_ICE_BALL] = {
         .names = {
             .name = "Ice Ball",
@@ -8154,7 +7854,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user continually\\nrolls into the foe\\nover five turns. It\\nbecomes stronger\\neach time it hits.",
     },
-
     [MOVE_NEEDLE_ARM] = {
         .names = {
             .name = "Needle Arm",
@@ -8181,7 +7880,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nwildly swinging its\\nthorny arms.\\nIt may also make the\\ntarget flinch.",
     },
-
     [MOVE_SLACK_OFF] = {
         .names = {
             .name = "Slack Off",
@@ -8208,7 +7906,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slacks off,\\nrestoring its own HP\\nby up to half of its\\nmaximum HP.\\n",
     },
-
     [MOVE_HYPER_VOICE] = {
         .names = {
             .name = "Hyper Voice",
@@ -8235,7 +7932,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lets loose\\na horribly echoing\\nshout with the\\npower to inflict\\ndamage.",
     },
-
     [MOVE_POISON_FANG] = {
         .names = {
             .name = "Poison Fang",
@@ -8262,7 +7958,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user bites the\\nfoe with toxic fangs.\\nIt may also leave the\\nfoe badly poisoned.\\n",
     },
-
     [MOVE_CRUSH_CLAW] = {
         .names = {
             .name = "Crush Claw",
@@ -8289,7 +7984,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slashes the\\nfoe with hard and\\nsharp claws.\\nIt may also lower the\\ntarget’s Defense.",
     },
-
     [MOVE_BLAST_BURN] = {
         .names = {
             .name = "Blast Burn",
@@ -8316,7 +8010,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is razed by\\na fiery explosion.\\nThe user must rest\\non the next turn,\\nhowever.",
     },
-
     [MOVE_HYDRO_CANNON] = {
         .names = {
             .name = "Hydro Cannon",
@@ -8343,7 +8036,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is hit with\\na watery blast.\\nThe user must rest\\non the next turn,\\nhowever.",
     },
-
     [MOVE_METEOR_MASH] = {
         .names = {
             .name = "Meteor Mash",
@@ -8370,7 +8062,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is hit with a\\nhard punch fired\\nlike a meteor.\\nIt may also raise\\nthe user’s Attack.",
     },
-
     [MOVE_ASTONISH] = {
         .names = {
             .name = "Astonish",
@@ -8397,7 +8088,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks the\\nfoe while shouting in\\na startling fashion.\\nIt may also make the\\ntarget flinch.",
     },
-
     [MOVE_WEATHER_BALL] = {
         .names = {
             .name = "Weather Ball",
@@ -8424,7 +8114,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack move that\\nvaries in power and\\ntype depending on\\nthe weather.\\n",
     },
-
     [MOVE_AROMATHERAPY] = {
         .names = {
             .name = "Aromatherapy",
@@ -8451,7 +8140,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user releases a\\nsoothing scent that\\nheals all status\\nproblems affecting\\nthe user’s party.",
     },
-
     [MOVE_FAKE_TEARS] = {
         .names = {
             .name = "Fake Tears",
@@ -8478,7 +8166,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user feigns\\ncrying to make the\\nfoe feel flustered,\\nsharply lowering its\\nSp. Def stat.",
     },
-
     [MOVE_AIR_CUTTER] = {
         .names = {
             .name = "Air Cutter",
@@ -8505,7 +8192,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user launches\\nrazorlike wind to\\nslash the foe.\\nIt has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_OVERHEAT] = {
         .names = {
             .name = "Overheat",
@@ -8532,7 +8218,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks the\\nfoe at full power.\\nThe attack’s recoil\\nsharply reduces the\\nuser’s Sp. Atk stat.",
     },
-
     [MOVE_ODOR_SLEUTH] = {
         .names = {
             .name = "Odor Sleuth",
@@ -8559,7 +8244,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Enables the user to\\nhit a Ghost type with\\nany type of move. It\\nalso enables the user\\nto hit an evasive foe.",
     },
-
     [MOVE_ROCK_TOMB] = {
         .names = {
             .name = "Rock Tomb",
@@ -8586,7 +8270,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Boulders are hurled\\nat the foe. It also\\nlowers the foe’s\\nSpeed by preventing\\nits movement.",
     },
-
     [MOVE_SILVER_WIND] = {
         .names = {
             .name = "Silver Wind",
@@ -8613,7 +8296,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith powdery scales\\nblown by wind.\\nIt may also raise all\\nthe user’s stats.",
     },
-
     [MOVE_METAL_SOUND] = {
         .names = {
             .name = "Metal Sound",
@@ -8640,7 +8322,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A horrible sound like\\nscraping metal is\\nemitted to sharply\\nreduce the foe’s\\nSp. Def stat.",
     },
-
     [MOVE_GRASS_WHISTLE] = {
         .names = {
             .name = "Grass Whistle",
@@ -8667,7 +8348,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user plays a\\npleasant melody that\\nlulls the foe into a\\ndeep sleep.\\n",
     },
-
     [MOVE_TICKLE] = {
         .names = {
             .name = "Tickle",
@@ -8694,7 +8374,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tickles the\\nfoe into laughing,\\nreducing its Attack\\nand Defense stats.\\n",
     },
-
     [MOVE_COSMIC_POWER] = {
         .names = {
             .name = "Cosmic Power",
@@ -8721,7 +8400,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user absorbs a\\nmystical power from\\nspace to raise its\\nDefense and Sp. Def\\nstats.",
     },
-
     [MOVE_WATER_SPOUT] = {
         .names = {
             .name = "Water Spout",
@@ -8748,7 +8426,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user spouts\\nwater to damage the\\nfoe. The lower the\\nuser’s HP, the less\\npowerful it becomes.",
     },
-
     [MOVE_SIGNAL_BEAM] = {
         .names = {
             .name = "Signal Beam",
@@ -8775,7 +8452,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\na sinister beam of\\nlight. It may also\\nconfuse the target.\\n",
     },
-
     [MOVE_SHADOW_PUNCH] = {
         .names = {
             .name = "Shadow Punch",
@@ -8802,7 +8478,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user throws a\\npunch at the foe from\\nthe shadows.\\nThe punch lands\\nwithout fail.",
     },
-
     [MOVE_EXTRASENSORY] = {
         .names = {
             .name = "Extrasensory",
@@ -8829,7 +8504,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nan odd, unseeable\\npower.\\nIt may also make the\\nfoe flinch.",
     },
-
     [MOVE_SKY_UPPERCUT] = {
         .names = {
             .name = "Sky Uppercut",
@@ -8856,7 +8530,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks the\\nfoe with an uppercut\\nthrown skyward\\nwith force.\\n",
     },
-
     [MOVE_SAND_TOMB] = {
         .names = {
             .name = "Sand Tomb",
@@ -8883,7 +8556,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user traps the\\nfoe inside a harshly\\nraging sandstorm for\\ntwo to five turns.\\n",
     },
-
     [MOVE_SHEER_COLD] = {
         .names = {
             .name = "Sheer Cold",
@@ -8910,7 +8582,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith a blast of\\nabsolute-zero cold.\\nThe foe instantly\\nfaints if it hits.",
     },
-
     [MOVE_MUDDY_WATER] = {
         .names = {
             .name = "Muddy Water",
@@ -8937,7 +8608,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nshooting out muddy\\nwater.\\nIt may also lower the\\nfoe’s accuracy.",
     },
-
     [MOVE_BULLET_SEED] = {
         .names = {
             .name = "Bullet Seed",
@@ -8964,7 +8634,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user forcefully\\nshoots seeds at the\\nfoe. Two to five\\nseeds are shot in\\nrapid succession.",
     },
-
     [MOVE_AERIAL_ACE] = {
         .names = {
             .name = "Aerial Ace",
@@ -8991,7 +8660,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user confounds\\nthe foe with speed,\\nthen slashes.\\nThe attack lands\\nwithout fail.",
     },
-
     [MOVE_ICICLE_SPEAR] = {
         .names = {
             .name = "Icicle Spear",
@@ -9018,7 +8686,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user launches\\nsharp icicles at the\\nfoe. It strikes two\\nto five times in a\\nrow.",
     },
-
     [MOVE_IRON_DEFENSE] = {
         .names = {
             .name = "Iron Defense",
@@ -9045,7 +8712,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hardens\\nits body’s surface\\nlike iron, sharply\\nraising its Defense\\nstat.",
     },
-
     [MOVE_BLOCK] = {
         .names = {
             .name = "Block",
@@ -9072,7 +8738,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user blocks the\\nfoe’s way with arms\\nspread wide to\\nprevent escape.\\n",
     },
-
     [MOVE_HOWL] = {
         .names = {
             .name = "Howl",
@@ -9099,7 +8764,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user howls loudly\\nto raise its spirit,\\nboosting its Attack\\nstat.\\n",
     },
-
     [MOVE_DRAGON_CLAW] = {
         .names = {
             .name = "Dragon Claw",
@@ -9126,7 +8790,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slashes the\\nfoe with huge, sharp\\nclaws.\\n\\n",
     },
-
     [MOVE_FRENZY_PLANT] = {
         .names = {
             .name = "Frenzy Plant",
@@ -9153,7 +8816,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is slammed\\nwith an enormous\\ntree.\\nThe user can’t move\\non the next turn.",
     },
-
     [MOVE_BULK_UP] = {
         .names = {
             .name = "Bulk Up",
@@ -9180,7 +8842,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tenses its\\nmuscles to bulk up\\nits body, boosting\\nboth its Attack and\\nDefense stats.",
     },
-
     [MOVE_BOUNCE] = {
         .names = {
             .name = "Bounce",
@@ -9207,7 +8868,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user bounces up\\nhigh, then drops on\\nthe foe on the second\\nturn. It may also\\nparalyze the foe.",
     },
-
     [MOVE_MUD_SHOT] = {
         .names = {
             .name = "Mud Shot",
@@ -9234,7 +8894,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nhurling a blob of mud\\nat the foe.\\nIt also reduces the\\ntarget’s Speed.",
     },
-
     [MOVE_POISON_TAIL] = {
         .names = {
             .name = "Poison Tail",
@@ -9261,7 +8920,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack with a\\nhigh critical-hit\\nratio. This tail \\nattack may also \\npoison the foe.",
     },
-
     [MOVE_COVET] = {
         .names = {
             .name = "Covet",
@@ -9288,7 +8946,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user endearingly\\napproaches the foe,\\nthen steals the item\\nthe foe is holding.\\n",
     },
-
     [MOVE_VOLT_TACKLE] = {
         .names = {
             .name = "Volt Tackle",
@@ -9315,7 +8972,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user electrifies\\nitself, then charges\\nat the foe. It causes\\nconsiderable damage\\nto the user as well.",
     },
-
     [MOVE_MAGICAL_LEAF] = {
         .names = {
             .name = "Magical Leaf",
@@ -9342,7 +8998,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user scatters\\ncurious leaves that\\nchase the foe.\\nThis attack will not\\nmiss.",
     },
-
     [MOVE_WATER_SPORT] = {
         .names = {
             .name = "Water Sport",
@@ -9369,7 +9024,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user soaks itself\\nwith water. The move\\nweakens Fire-type\\nmoves while the user\\nis in the battle.",
     },
-
     [MOVE_CALM_MIND] = {
         .names = {
             .name = "Calm Mind",
@@ -9396,7 +9050,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user quietly\\nfocuses its mind and\\ncalms its spirit to\\nraise its Sp. Atk and\\nSp. Def stats.",
     },
-
     [MOVE_LEAF_BLADE] = {
         .names = {
             .name = "Leaf Blade",
@@ -9423,7 +9076,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is slashed\\nwith a sharp leaf.\\nIt has a high\\ncritical-hit ratio.\\n",
     },
-
     [MOVE_DRAGON_DANCE] = {
         .names = {
             .name = "Dragon Dance",
@@ -9450,7 +9102,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user vigorously\\nperforms a mystic,\\npowerful dance that\\nboosts its Attack and\\nSpeed stats.",
     },
-
     [MOVE_ROCK_BLAST] = {
         .names = {
             .name = "Rock Blast",
@@ -9477,7 +9128,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hurls hard\\nrocks at the foe.\\nTwo to five rocks are\\nlaunched in quick\\nsuccession.",
     },
-
     [MOVE_SHOCK_WAVE] = {
         .names = {
             .name = "Shock Wave",
@@ -9504,7 +9154,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user strikes the\\nfoe with a quick jolt\\nof electricity.\\nThis attack cannot be\\nevaded.",
     },
-
     [MOVE_WATER_PULSE] = {
         .names = {
             .name = "Water Pulse",
@@ -9531,7 +9180,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks the\\nfoe with a pulsing\\nblast of water.\\nIt may also confuse\\nthe foe.",
     },
-
     [MOVE_DOOM_DESIRE] = {
         .names = {
             .name = "Doom Desire",
@@ -9558,7 +9206,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Two turns after this\\nmove is used, the\\nuser blasts the foe\\nwith a concentrated\\nbundle of light.",
     },
-
     [MOVE_PSYCHO_BOOST] = {
         .names = {
             .name = "Psycho Boost",
@@ -9585,7 +9232,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks the\\nfoe at full power.\\nThe attack’s recoil\\nsharply reduces the\\nuser’s Sp. Atk stat.",
     },
-
     [MOVE_ROOST] = {
         .names = {
             .name = "Roost",
@@ -9612,7 +9258,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lands and\\nrests its body.\\nIt restores the\\nuser’s HP by up to\\nhalf of its max HP.",
     },
-
     [MOVE_GRAVITY] = {
         .names = {
             .name = "Gravity",
@@ -9639,7 +9284,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Gravity is intensified\\nfor five turns, making\\nmoves involving flying\\nunusable and\\nnegating Levitation.",
     },
-
     [MOVE_MIRACLE_EYE] = {
         .names = {
             .name = "Miracle Eye",
@@ -9666,7 +9310,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Enables the user to\\nhit a Dark type with\\nany type of move. It\\nalso enables the user\\nto hit an evasive foe.",
     },
-
     [MOVE_WAKE_UP_SLAP] = {
         .names = {
             .name = "Wake-Up Slap",
@@ -9693,7 +9336,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This attack inflicts\\nhigh damage on a\\nsleeping foe. It\\nalso wakes the foe\\nup, however.",
     },
-
     [MOVE_HAMMER_ARM] = {
         .names = {
             .name = "Hammer Arm",
@@ -9720,7 +9362,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user swings and\\nhits with its strong\\nand heavy fist.\\nIt lowers the user’s\\nSpeed, however.",
     },
-
     [MOVE_GYRO_BALL] = {
         .names = {
             .name = "Gyro Ball",
@@ -9747,7 +9388,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tackles the\\nfoe with a high-speed\\nspin. The slower the\\nuser, the greater\\nthe damage.",
     },
-
     [MOVE_HEALING_WISH] = {
         .names = {
             .name = "Healing Wish",
@@ -9774,7 +9414,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user faints. In\\nreturn, the Pokémon\\ntaking its place will\\nhave its HP restored\\nand status cured.",
     },
-
     [MOVE_BRINE] = {
         .names = {
             .name = "Brine",
@@ -9801,7 +9440,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "If the foe’s HP is\\ndown to about half,\\nthis attack will hit\\nwith double the\\npower.",
     },
-
     [MOVE_NATURAL_GIFT] = {
         .names = {
             .name = "Natural Gift",
@@ -9828,7 +9466,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user draws power\\nto attack by using\\nits held Berry.\\nThe Berry determines\\nits type and power.",
     },
-
     [MOVE_FEINT] = {
         .names = {
             .name = "Feint",
@@ -9855,7 +9492,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack that hits a\\nfoe using Protect or\\nDetect. It also lifts\\nthe effects of those\\nmoves.",
     },
-
     [MOVE_PLUCK] = {
         .names = {
             .name = "Pluck",
@@ -9882,7 +9518,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user pecks the\\nfoe. If the foe is\\nholding a Berry, the\\nuser plucks it and\\ngains its effect.",
     },
-
     [MOVE_TAILWIND] = {
         .names = {
             .name = "Tailwind",
@@ -9909,7 +9544,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user whips up a\\nturbulent whirlwind\\nthat ups the Speed\\nof all party Pokémon\\nfor three turns.",
     },
-
     [MOVE_ACUPRESSURE] = {
         .names = {
             .name = "Acupressure",
@@ -9936,7 +9570,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user applies\\npressure to stress\\npoints, sharply\\nboosting one of its\\nstats.",
     },
-
     [MOVE_METAL_BURST] = {
         .names = {
             .name = "Metal Burst",
@@ -9963,7 +9596,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user retaliates\\nagainst the foe that\\nlast inflicted damage\\non it with much\\ngreater power.",
     },
-
     [MOVE_U_TURN] = {
         .names = {
             .name = "U-turn",
@@ -9990,7 +9622,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "After making its\\nattack, the user\\nrushes back to switch\\nplaces with a party\\nPokémon in waiting.",
     },
-
     [MOVE_CLOSE_COMBAT] = {
         .names = {
             .name = "Close Combat",
@@ -10017,7 +9648,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user fights the\\nfoe up close without\\nguarding itself. It\\nalso cuts the user’s\\nDefense and Sp. Def.",
     },
-
     [MOVE_PAYBACK] = {
         .names = {
             .name = "Payback",
@@ -10044,7 +9674,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "If the user can use\\nthis attack after the\\nfoe attacks, its\\npower is doubled.\\n",
     },
-
     [MOVE_ASSURANCE] = {
         .names = {
             .name = "Assurance",
@@ -10071,7 +9700,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "If the foe has\\nalready taken some\\ndamage in the same\\nturn, this attack’s\\npower is doubled.",
     },
-
     [MOVE_EMBARGO] = {
         .names = {
             .name = "Embargo",
@@ -10098,7 +9726,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "It prevents the foe\\nfrom using its held\\nitem. Its Trainer is\\nalso prevented from\\nusing items on it.",
     },
-
     [MOVE_FLING] = {
         .names = {
             .name = "Fling",
@@ -10125,7 +9752,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user flings its\\nheld item at the foe\\nto attack. Its power\\nand effects depend\\non the item.",
     },
-
     [MOVE_PSYCHO_SHIFT] = {
         .names = {
             .name = "Psycho Shift",
@@ -10152,7 +9778,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Using its psychic\\npower of suggestion,\\nthe user transfers\\nits status problems\\nto the target.",
     },
-
     [MOVE_TRUMP_CARD] = {
         .names = {
             .name = "Trump Card",
@@ -10179,7 +9804,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The fewer PP this\\nmove has, the more\\npower it has for\\nattack.\\n",
     },
-
     [MOVE_HEAL_BLOCK] = {
         .names = {
             .name = "Heal Block",
@@ -10206,7 +9830,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user prevents\\nthe foe from using\\nany HP-recovery\\nmoves for five turns.\\n",
     },
-
     [MOVE_WRING_OUT] = {
         .names = {
             .name = "Wring Out",
@@ -10233,7 +9856,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user powerfully\\nwrings the foe.\\nThe more HP the foe\\nhas, the greater this\\nattack’s power.",
     },
-
     [MOVE_POWER_TRICK] = {
         .names = {
             .name = "Power Trick",
@@ -10260,7 +9882,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user employs its\\npsychic power to\\nswitch its Attack\\nwith its Defense\\nstat.",
     },
-
     [MOVE_GASTRO_ACID] = {
         .names = {
             .name = "Gastro Acid",
@@ -10287,7 +9908,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hurls up its\\nstomach acids on\\nthe foe. The fluid\\neliminates the effect\\nof the foe’s ability.",
     },
-
     [MOVE_LUCKY_CHANT] = {
         .names = {
             .name = "Lucky Chant",
@@ -10314,7 +9934,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user chants an\\nincantation toward\\nthe sky, preventing\\nthe foe from landing\\ncritical hits.",
     },
-
     [MOVE_ME_FIRST] = {
         .names = {
             .name = "Me First",
@@ -10341,7 +9960,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tries to cut\\nahead of the foe to\\nsteal and use the\\nfoe’s intended move\\nwith greater power.",
     },
-
     [MOVE_COPYCAT] = {
         .names = {
             .name = "Copycat",
@@ -10368,7 +9986,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user mimics the\\nmove used immediately\\nbefore it. The move\\nfails if no other move\\nhas been used yet.",
     },
-
     [MOVE_POWER_SWAP] = {
         .names = {
             .name = "Power Swap",
@@ -10395,7 +10012,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user employs its\\npsychic power to\\nswitch changes to\\nits Attack and\\nSp. Atk with the foe.",
     },
-
     [MOVE_GUARD_SWAP] = {
         .names = {
             .name = "Guard Swap",
@@ -10422,7 +10038,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user employs its\\npsychic power to\\nswitch changes to\\nits Defense and\\nSp. Def with the foe.",
     },
-
     [MOVE_PUNISHMENT] = {
         .names = {
             .name = "Punishment",
@@ -10449,7 +10064,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This attack’s power\\nincreases the more\\nthe foe has powered\\nup with stat changes.\\n",
     },
-
     [MOVE_LAST_RESORT] = {
         .names = {
             .name = "Last Resort",
@@ -10476,7 +10090,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This move can be used\\nonly after the user\\nhas used all the\\nother moves it knows\\nin the battle.",
     },
-
     [MOVE_WORRY_SEED] = {
         .names = {
             .name = "Worry Seed",
@@ -10503,7 +10116,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A seed that causes\\nworry is planted on\\nthe foe. It prevents\\nsleep by making its\\nability Insomnia.",
     },
-
     [MOVE_SUCKER_PUNCH] = {
         .names = {
             .name = "Sucker Punch",
@@ -10530,7 +10142,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This move enables the\\nuser to attack first.\\nIt fails if the foe is\\nnot readying an\\nattack, however.",
     },
-
     [MOVE_TOXIC_SPIKES] = {
         .names = {
             .name = "Toxic Spikes",
@@ -10557,7 +10168,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lays a trap\\nof poison spikes at\\nthe foe’s feet. They\\npoison foes that\\nswitch into battle.",
     },
-
     [MOVE_HEART_SWAP] = {
         .names = {
             .name = "Heart Swap",
@@ -10584,7 +10194,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user employs its\\npsychic power to\\nswitch stat changes\\nwith the foe.\\n",
     },
-
     [MOVE_AQUA_RING] = {
         .names = {
             .name = "Aqua Ring",
@@ -10611,7 +10220,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user envelops\\nitself in a veil made\\nof water. It regains\\nsome HP on every\\nturn.",
     },
-
     [MOVE_MAGNET_RISE] = {
         .names = {
             .name = "Magnet Rise",
@@ -10638,7 +10246,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user levitates\\nusing electrically\\ngenerated magnetism\\nfor five turns.\\n",
     },
-
     [MOVE_FLARE_BLITZ] = {
         .names = {
             .name = "Flare Blitz",
@@ -10665,7 +10272,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user cloaks\\nitself in fire and\\ncharges at the foe.\\nThe user sustains\\nserious damage, too.",
     },
-
     [MOVE_FORCE_PALM] = {
         .names = {
             .name = "Force Palm",
@@ -10692,7 +10298,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith a shock wave.\\nIt may also leave the\\ntarget paralyzed.\\n",
     },
-
     [MOVE_AURA_SPHERE] = {
         .names = {
             .name = "Aura Sphere",
@@ -10719,7 +10324,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user looses a\\nblast of aura power\\nfrom deep within its\\nbody. This move is\\ncertain to hit.",
     },
-
     [MOVE_ROCK_POLISH] = {
         .names = {
             .name = "Rock Polish",
@@ -10746,7 +10350,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user polishes its\\nbody to reduce drag.\\nIt can sharply raise\\nthe Speed stat.\\n",
     },
-
     [MOVE_POISON_JAB] = {
         .names = {
             .name = "Poison Jab",
@@ -10773,7 +10376,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is stabbed\\nwith a tentacle or\\narm steeped in\\npoison. It may also\\npoison the foe.",
     },
-
     [MOVE_DARK_PULSE] = {
         .names = {
             .name = "Dark Pulse",
@@ -10800,7 +10402,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user releases a\\nhorrible aura imbued\\nwith dark thoughts.\\nIt may also make the\\ntarget flinch.",
     },
-
     [MOVE_NIGHT_SLASH] = {
         .names = {
             .name = "Night Slash",
@@ -10827,7 +10428,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slashes the\\nfoe the instant an\\nopportunity arises.\\nIt has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_AQUA_TAIL] = {
         .names = {
             .name = "Aqua Tail",
@@ -10854,7 +10454,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nswinging its tail as if\\nit were a vicious wave\\nin a raging storm.\\n",
     },
-
     [MOVE_SEED_BOMB] = {
         .names = {
             .name = "Seed Bomb",
@@ -10881,7 +10480,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slams a\\nbarrage of hard-\\nshelled seeds\\ndown on the foe\\nfrom above.",
     },
-
     [MOVE_AIR_SLASH] = {
         .names = {
             .name = "Air Slash",
@@ -10908,7 +10506,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\na blade of air that\\nslices even the sky.\\nIt may also make the\\ntarget flinch.",
     },
-
     [MOVE_X_SCISSOR] = {
         .names = {
             .name = "X-Scissor",
@@ -10935,7 +10532,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slashes at\\nthe foe by crossing\\nits scythes or claws\\nas if they were a pair\\nof scissors.",
     },
-
     [MOVE_BUG_BUZZ] = {
         .names = {
             .name = "Bug Buzz",
@@ -10962,7 +10558,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user vibrates its\\nwings to generate a\\ndamaging sound wave.\\nIt may also lower the\\nfoe’s Sp. Def stat.",
     },
-
     [MOVE_DRAGON_PULSE] = {
         .names = {
             .name = "Dragon Pulse",
@@ -10989,7 +10584,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is attacked\\nwith a shock wave\\ngenerated by the\\nuser’s gaping mouth.\\n",
     },
-
     [MOVE_DRAGON_RUSH] = {
         .names = {
             .name = "Dragon Rush",
@@ -11016,7 +10610,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tackles the\\nfoe while exhibiting\\noverwhelming menace.\\nIt may also make the\\ntarget flinch.",
     },
-
     [MOVE_POWER_GEM] = {
         .names = {
             .name = "Power Gem",
@@ -11043,7 +10636,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\na ray of light that\\nsparkles as if it were\\nmade of gemstones.\\n",
     },
-
     [MOVE_DRAIN_PUNCH] = {
         .names = {
             .name = "Drain Punch",
@@ -11070,7 +10662,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An energy-draining\\npunch. The user’s\\nHP is restored by\\nhalf the damage taken\\nby the target.",
     },
-
     [MOVE_VACUUM_WAVE] = {
         .names = {
             .name = "Vacuum Wave",
@@ -11097,7 +10688,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user whirls its\\nfists to send a wave\\nof pure vacuum at\\nthe foe. This move\\nalways goes first.",
     },
-
     [MOVE_FOCUS_BLAST] = {
         .names = {
             .name = "Focus Blast",
@@ -11124,7 +10714,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user heightens\\nits mental focus and\\nunleashes its power.\\nIt may also lower the\\ntarget’s Sp. Def.",
     },
-
     [MOVE_ENERGY_BALL] = {
         .names = {
             .name = "Energy Ball",
@@ -11151,7 +10740,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user draws power\\nfrom nature and\\nfires it at the foe.\\nIt may also lower the\\ntarget’s Sp. Def.",
     },
-
     [MOVE_BRAVE_BIRD] = {
         .names = {
             .name = "Brave Bird",
@@ -11178,7 +10766,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tucks in\\nits wings and charges\\nfrom a low altitude.\\nThe user also takes\\nserious damage.",
     },
-
     [MOVE_EARTH_POWER] = {
         .names = {
             .name = "Earth Power",
@@ -11205,7 +10792,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user makes the\\nground under the foe\\nerupt with power.\\nIt may also lower the\\ntarget’s Sp. Def.",
     },
-
     [MOVE_SWITCHEROO] = {
         .names = {
             .name = "Switcheroo",
@@ -11232,7 +10818,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user trades held\\nitems with the foe\\nfaster than the eye\\ncan follow.\\n",
     },
-
     [MOVE_GIGA_IMPACT] = {
         .names = {
             .name = "Giga Impact",
@@ -11259,7 +10844,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user charges at\\nthe foe using every\\nbit of its power.\\nThe user must rest\\non the next turn.",
     },
-
     [MOVE_NASTY_PLOT] = {
         .names = {
             .name = "Nasty Plot",
@@ -11286,7 +10870,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user stimulates\\nits brain by thinking\\nbad thoughts.\\nIt sharply raises the\\nuser’s Sp. Atk.",
     },
-
     [MOVE_BULLET_PUNCH] = {
         .names = {
             .name = "Bullet Punch",
@@ -11313,7 +10896,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user strikes\\nwith a tough punch as\\nfast as a bullet.\\nThis move always goes\\nfirst.",
     },
-
     [MOVE_AVALANCHE] = {
         .names = {
             .name = "Avalanche",
@@ -11340,7 +10922,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack move that\\ninflicts double the\\ndamage if the user\\nhas been hurt by the\\nfoe in the same turn.",
     },
-
     [MOVE_ICE_SHARD] = {
         .names = {
             .name = "Ice Shard",
@@ -11367,7 +10948,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user flash\\nfreezes chunks of\\nice and hurls them.\\nThis move always goes\\nfirst.",
     },
-
     [MOVE_SHADOW_CLAW] = {
         .names = {
             .name = "Shadow Claw",
@@ -11394,7 +10974,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slashes with\\na sharp claw made\\nfrom shadows.\\nIt has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_THUNDER_FANG] = {
         .names = {
             .name = "Thunder Fang",
@@ -11421,7 +11000,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user bites with\\nelectrified fangs.\\nIt may also make the\\nfoe flinch or become\\nparalyzed.",
     },
-
     [MOVE_ICE_FANG] = {
         .names = {
             .name = "Ice Fang",
@@ -11448,7 +11026,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user bites with\\ncold-infused fangs.\\nIt may also make the\\nfoe flinch or freeze.\\n",
     },
-
     [MOVE_FIRE_FANG] = {
         .names = {
             .name = "Fire Fang",
@@ -11475,7 +11052,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user bites with\\nflame-cloaked fangs.\\nIt may also make the\\nfoe flinch or sustain\\na burn.",
     },
-
     [MOVE_SHADOW_SNEAK] = {
         .names = {
             .name = "Shadow Sneak",
@@ -11502,7 +11078,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user extends its\\nshadow and attacks\\nthe foe from behind.\\nThis move always goes\\nfirst.",
     },
-
     [MOVE_MUD_BOMB] = {
         .names = {
             .name = "Mud Bomb",
@@ -11529,7 +11104,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user launches a\\nhard-packed mud ball\\nto attack.\\nIt may also lower the\\ntarget’s accuracy.",
     },
-
     [MOVE_PSYCHO_CUT] = {
         .names = {
             .name = "Psycho Cut",
@@ -11556,7 +11130,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tears at\\nthe foe with blades\\nformed by psychic\\npower. It has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_ZEN_HEADBUTT] = {
         .names = {
             .name = "Zen Headbutt",
@@ -11583,7 +11156,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user focuses its\\nwillpower to its head\\nand rams the foe.\\nIt may also make the\\ntarget flinch.",
     },
-
     [MOVE_MIRROR_SHOT] = {
         .names = {
             .name = "Mirror Shot",
@@ -11610,7 +11182,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user looses a\\nflash of energy from\\nits polished body.\\nIt may also lower the\\ntarget’s accuracy.",
     },
-
     [MOVE_FLASH_CANNON] = {
         .names = {
             .name = "Flash Cannon",
@@ -11637,7 +11208,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user gathers all\\nits light energy and\\nreleases it at once.\\nIt may also lower the\\nfoe’s Sp. Def stat.",
     },
-
     [MOVE_ROCK_CLIMB] = {
         .names = {
             .name = "Rock Climb",
@@ -11664,7 +11234,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A charging attack\\nthat may also leave\\nthe foe confused.\\nIt can also be used\\nto scale rocky walls.",
     },
-
     [MOVE_DEFOG] = {
         .names = {
             .name = "Defog",
@@ -11691,7 +11260,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "It reduces the foe’s\\nevasion stat. It also\\nremoves spikes,\\nlight screens, etc.",
     },
-
     [MOVE_TRICK_ROOM] = {
         .names = {
             .name = "Trick Room",
@@ -11718,7 +11286,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user creates a\\nbizarre area in which\\nslower Pokémon get\\nto move first for five\\nturns.",
     },
-
     [MOVE_DRACO_METEOR] = {
         .names = {
             .name = "Draco Meteor",
@@ -11745,7 +11312,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Comets are summoned\\ndown from the sky.\\nThe attack’s recoil\\nsharply reduces the\\nuser’s Sp. Atk stat.",
     },
-
     [MOVE_DISCHARGE] = {
         .names = {
             .name = "Discharge",
@@ -11772,7 +11338,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A flare of electricity\\nis loosed to strike\\nall Pokémon in battle.\\nIt may also cause\\nparalysis.",
     },
-
     [MOVE_LAVA_PLUME] = {
         .names = {
             .name = "Lava Plume",
@@ -11799,7 +11364,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An inferno of scarlet\\nflames washes over\\nall Pokémon in battle.\\nIt may also inflict\\nburns.",
     },
-
     [MOVE_LEAF_STORM] = {
         .names = {
             .name = "Leaf Storm",
@@ -11826,7 +11390,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A storm of sharp\\nleaves is whipped up.\\nThe attack’s recoil\\nsharply reduces the\\nuser’s Sp. Atk stat.",
     },
-
     [MOVE_POWER_WHIP] = {
         .names = {
             .name = "Power Whip",
@@ -11853,7 +11416,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user violently\\nwhirls its vines or\\ntentacles to harshly\\nlash the foe.\\n",
     },
-
     [MOVE_ROCK_WRECKER] = {
         .names = {
             .name = "Rock Wrecker",
@@ -11880,7 +11442,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user launches a\\nhuge boulder at the\\nfoe to attack.\\nIt must rest on the\\nnext turn, however.",
     },
-
     [MOVE_CROSS_POISON] = {
         .names = {
             .name = "Cross Poison",
@@ -11907,7 +11468,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A slashing attack\\nthat may also leave\\nthe target poisoned.\\nIt has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_GUNK_SHOT] = {
         .names = {
             .name = "Gunk Shot",
@@ -11934,7 +11494,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user shoots\\nfilthy garbage at the\\nfoe to attack.\\nIt may also poison\\nthe target.",
     },
-
     [MOVE_IRON_HEAD] = {
         .names = {
             .name = "Iron Head",
@@ -11961,7 +11520,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe slams the\\ntarget with its\\nsteel-hard head.\\nIt may also make the\\ntarget flinch.",
     },
-
     [MOVE_MAGNET_BOMB] = {
         .names = {
             .name = "Magnet Bomb",
@@ -11988,7 +11546,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user launches a\\nsteel bomb that\\nsticks to the target.\\nThis attack will not\\nmiss.",
     },
-
     [MOVE_STONE_EDGE] = {
         .names = {
             .name = "Stone Edge",
@@ -12015,7 +11572,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user stabs the\\nfoe with a sharpened\\nstone. It has a high\\ncritical-hit ratio.\\n",
     },
-
     [MOVE_CAPTIVATE] = {
         .names = {
             .name = "Captivate",
@@ -12042,7 +11598,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "If it is the opposite\\ngender of the user,\\nthe foe is charmed\\ninto sharply lowering\\nits Sp. Atk stat.",
     },
-
     [MOVE_STEALTH_ROCK] = {
         .names = {
             .name = "Stealth Rock",
@@ -12069,7 +11624,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lays a trap\\nof levitating stones\\naround the foe. The\\ntrap hurts foes that\\nswitch into battle.",
     },
-
     [MOVE_GRASS_KNOT] = {
         .names = {
             .name = "Grass Knot",
@@ -12096,7 +11650,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user snares the\\nfoe with grass and\\ntrips it. The heavier\\nthe foe, the greater\\nthe damage.",
     },
-
     [MOVE_CHATTER] = {
         .names = {
             .name = "Chatter",
@@ -12123,7 +11676,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks\\nusing a sound wave\\nbased on words it has\\nlearned. It may also\\nconfuse the foe.",
     },
-
     [MOVE_JUDGMENT] = {
         .names = {
             .name = "Judgment",
@@ -12150,7 +11702,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user releases\\ncountless shots of\\nlight. Its type varies\\nwith the kind of Plate\\nthe user is holding.",
     },
-
     [MOVE_BUG_BITE] = {
         .names = {
             .name = "Bug Bite",
@@ -12177,7 +11728,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user bites the\\nfoe. If the foe is\\nholding a Berry, the\\nuser eats it and\\ngains its effect.",
     },
-
     [MOVE_CHARGE_BEAM] = {
         .names = {
             .name = "Charge Beam",
@@ -12204,7 +11754,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user fires a\\nconcentrated bundle\\nof electricity. It may\\nalso raise the user’s\\nSp. Atk stat.",
     },
-
     [MOVE_WOOD_HAMMER] = {
         .names = {
             .name = "Wood Hammer",
@@ -12231,7 +11780,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slams its\\nrugged body into the\\nfoe to attack. The\\nuser also sustains\\nserious damage.",
     },
-
     [MOVE_AQUA_JET] = {
         .names = {
             .name = "Aqua Jet",
@@ -12258,7 +11806,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lunges at\\nthe foe at a speed\\nthat makes it almost\\ninvisible. It is sure\\nto strike first.",
     },
-
     [MOVE_ATTACK_ORDER] = {
         .names = {
             .name = "Attack Order",
@@ -12285,7 +11832,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user calls out\\nits underlings to\\npummel the foe.\\nIt has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_DEFEND_ORDER] = {
         .names = {
             .name = "Defend Order",
@@ -12312,7 +11858,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user calls out\\nits underlings to\\nshield its body,\\nraising its Defense\\nand Sp. Def stats.",
     },
-
     [MOVE_HEAL_ORDER] = {
         .names = {
             .name = "Heal Order",
@@ -12339,7 +11884,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user calls out\\nits underlings to heal\\nit. The user regains\\nup to half of its\\nmax HP.",
     },
-
     [MOVE_HEAD_SMASH] = {
         .names = {
             .name = "Head Smash",
@@ -12366,7 +11910,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user delivers a\\nlife-endangering\\nattack at full power.\\nThe user also takes\\nterrible damage.",
     },
-
     [MOVE_DOUBLE_HIT] = {
         .names = {
             .name = "Double Hit",
@@ -12393,7 +11936,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slams the\\nfoe with a long tail,\\nvines, etc. The\\ntarget is hit\\ntwice in a row.",
     },
-
     [MOVE_ROAR_OF_TIME] = {
         .names = {
             .name = "Roar of Time",
@@ -12420,7 +11962,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user blasts the\\nfoe with power that\\ndistorts even time.\\nThe user must rest\\non the next turn.",
     },
-
     [MOVE_SPACIAL_REND] = {
         .names = {
             .name = "Spacial Rend",
@@ -12447,7 +11988,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tears the\\nfoe along with the\\nspace around it.\\nThis move has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_LUNAR_DANCE] = {
         .names = {
             .name = "Lunar Dance",
@@ -12474,7 +12014,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user faints. In\\nreturn, the Pokémon\\ntaking its place will\\nhave its status and\\nHP fully restored.",
     },
-
     [MOVE_CRUSH_GRIP] = {
         .names = {
             .name = "Crush Grip",
@@ -12501,7 +12040,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is crushed\\nwith great force.\\nThe attack is more\\npowerful the more HP\\nthe foe has left.",
     },
-
     [MOVE_MAGMA_STORM] = {
         .names = {
             .name = "Magma Storm",
@@ -12528,7 +12066,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe becomes\\ntrapped within a\\nmaelstrom of fire\\nthat rages for two\\nto five turns.",
     },
-
     [MOVE_DARK_VOID] = {
         .names = {
             .name = "Dark Void",
@@ -12555,7 +12092,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is dragged\\ninto a world of total\\ndarkness that puts it\\nto sleep.\\n",
     },
-
     [MOVE_SEED_FLARE] = {
         .names = {
             .name = "Seed Flare",
@@ -12582,7 +12118,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user generates\\na shock wave from\\nwithin its body.\\nIt may also lower the\\ntarget’s Sp. Def.",
     },
-
     [MOVE_OMINOUS_WIND] = {
         .names = {
             .name = "Ominous Wind",
@@ -12609,7 +12144,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user creates a\\ngust of repulsive\\nwind. It may also\\nraise all the user’s\\nstats at once.",
     },
-
     [MOVE_SHADOW_FORCE] = {
         .names = {
             .name = "Shadow Force",
@@ -12636,7 +12170,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user disappears,\\nthen strikes the foe\\non the second turn.\\nIt hits even if the\\nfoe protects itself.",
     },
-
     [MOVE_468] = {
         .names = {
             .name = "MOVE_468",
@@ -12663,7 +12196,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "--",
     },
-
     [MOVE_469] = {
         .names = {
             .name = "MOVE_469",
@@ -12690,7 +12222,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "--",
     },
-
     [MOVE_470] = {
         .names = {
             .name = "MOVE_470",
@@ -12717,7 +12248,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "--",
     },
-
     [MOVE_HONE_CLAWS] = {
         .names = {
             .name = "Hone Claws",
@@ -12744,7 +12274,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user sharpens\\nits claws to boost\\nits Attack and\\nAccuracy.",
     },
-
     [MOVE_WIDE_GUARD] = {
         .names = {
             .name = "Wide Guard",
@@ -12771,7 +12300,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user protects\\nitself and its\\nallies from wide-\\nranged attacks.",
     },
-
     [MOVE_GUARD_SPLIT] = {
         .names = {
             .name = "Guard Split",
@@ -12798,7 +12326,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user employs its\\npsychic power to\\naverage its Defense\\nand Sp. Def stats\\nwith the target.",
     },
-
     [MOVE_POWER_SPLIT] = {
         .names = {
             .name = "Power Split",
@@ -12825,7 +12352,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user employs its\\npsychic power to\\naverage its Attack\\nand Sp. Atk stats\\nwith the target.",
     },
-
     [MOVE_WONDER_ROOM] = {
         .names = {
             .name = "Wonder Room",
@@ -12852,7 +12378,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user creates a\\nbizarre area where\\nPokémon’s Defense\\nand Sp. Def swap\\nfor five turns.",
     },
-
     [MOVE_PSYSHOCK] = {
         .names = {
             .name = "Psyshock",
@@ -12879,7 +12404,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An odd psychic wave\\nattacks the target.\\nThis attack does\\nphysical damage.",
     },
-
     [MOVE_VENOSHOCK] = {
         .names = {
             .name = "Venoshock",
@@ -12906,7 +12430,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is soaked\\nby a special acid.\\nIts power doubles if\\nthe foe is poisoned.",
     },
-
     [MOVE_AUTOTOMIZE] = {
         .names = {
             .name = "Autotomize",
@@ -12933,7 +12456,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user sheds part\\nof its body to make\\nitself lighter and\\nsharply raise its\\nSpeed stat.",
     },
-
     [MOVE_RAGE_POWDER] = {
         .names = {
             .name = "Rage Powder",
@@ -12960,7 +12482,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user scatters\\na cloud of powder,\\nmaking foes attack\\nonly the user.",
     },
-
     [MOVE_TELEKINESIS] = {
         .names = {
             .name = "Telekinesis",
@@ -12987,7 +12508,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user makes the\\ntarget float with\\npsychic power. The\\ntarget is easier to\\nhit for three turns.",
     },
-
     [MOVE_MAGIC_ROOM] = {
         .names = {
             .name = "Magic Room",
@@ -13014,7 +12534,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user creates a\\nbizarre area in\\nwhich Pokémon’s held\\nitems lose effect\\nfor five turns.",
     },
-
     [MOVE_SMACK_DOWN] = {
         .names = {
             .name = "Smack Down",
@@ -13041,7 +12560,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A projectile is\\nthrown at the\\nopponent. A flying\\nPokémon will fall\\nto the ground.",
     },
-
     [MOVE_STORM_THROW] = {
         .names = {
             .name = "Storm Throw",
@@ -13068,7 +12586,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user strikes\\nthe foe fiercely.\\nIt always results in\\na critical hit.",
     },
-
     [MOVE_FLAME_BURST] = {
         .names = {
             .name = "Flame Burst",
@@ -13095,7 +12612,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks\\nthe foe with a\\nbursting flame.",
     },
-
     [MOVE_SLUDGE_WAVE] = {
         .names = {
             .name = "Sludge Wave",
@@ -13122,7 +12638,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The area around the\\nuser is swamped by\\na giant sludge wave.\\nIt may also poison\\nthose hit.",
     },
-
     [MOVE_QUIVER_DANCE] = {
         .names = {
             .name = "Quiver Dance",
@@ -13149,7 +12664,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user mystically\\ndances, raising its\\nSp. Atk, Sp. Def,\\nand Speed.",
     },
-
     [MOVE_HEAVY_SLAM] = {
         .names = {
             .name = "Heavy Slam",
@@ -13176,7 +12690,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slams into\\nthe target. The\\ngreater the weight\\ndifference, the\\ngreater the damage.",
     },
-
     [MOVE_SYNCHRONOISE] = {
         .names = {
             .name = "Synchronoise",
@@ -13203,7 +12716,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Using an odd shock\\nwave, the user\\ndamages same-type\\nPokémon in the\\nsurrounding area.",
     },
-
     [MOVE_ELECTRO_BALL] = {
         .names = {
             .name = "Electro Ball",
@@ -13230,7 +12742,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hurls an\\nelectric orb. The\\nfaster the user is\\nthan the foe, the\\ngreater the damage.",
     },
-
     [MOVE_SOAK] = {
         .names = {
             .name = "Soak",
@@ -13257,7 +12768,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user shoots a\\ntorrent of water at\\nthe target and\\nchanges the target’s\\ntype to Water.",
     },
-
     [MOVE_FLAME_CHARGE] = {
         .names = {
             .name = "Flame Charge",
@@ -13284,7 +12794,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user cloaks\\nitself in flames and\\nattacks. It also ups\\nthe user’s Speed.",
     },
-
     [MOVE_COIL] = {
         .names = {
             .name = "Coil",
@@ -13311,7 +12820,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user coils up,\\nraising its Attack,\\nDefense, and\\naccuracy.",
     },
-
     [MOVE_LOW_SWEEP] = {
         .names = {
             .name = "Low Sweep",
@@ -13338,7 +12846,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks\\nthe foe’s legs,\\nlowering its\\nSpeed stat.",
     },
-
     [MOVE_ACID_SPRAY] = {
         .names = {
             .name = "Acid Spray",
@@ -13365,7 +12872,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user spits fluid\\nthat melts the foe.\\nIt harshly lowers\\nthe foe’s Sp. Def.",
     },
-
     [MOVE_FOUL_PLAY] = {
         .names = {
             .name = "Foul Play",
@@ -13392,7 +12898,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user turns the\\ntarget’s power\\nagainst it. Power\\nincreases with the\\nfoe’s Attack stat.",
     },
-
     [MOVE_SIMPLE_BEAM] = {
         .names = {
             .name = "Simple Beam",
@@ -13419,7 +12924,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user’s\\nmysterious psychic\\nwave changes the\\ntarget’s Ability to\\nSimple.",
     },
-
     [MOVE_ENTRAINMENT] = {
         .names = {
             .name = "Entrainment",
@@ -13446,7 +12950,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user dances\\nwith an odd rhythm,\\nmaking the target’s\\nAbility the same as\\nthe user’s Ability.",
     },
-
     [MOVE_AFTER_YOU] = {
         .names = {
             .name = "After You",
@@ -13473,7 +12976,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user helps the\\ntarget and makes it\\nuse its move right\\nafter the user.",
     },
-
     [MOVE_ROUND] = {
         .names = {
             .name = "Round",
@@ -13500,7 +13002,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks\\nwith a song. Others\\ncan join in, doing\\nmore damage.",
     },
-
     [MOVE_ECHOED_VOICE] = {
         .names = {
             .name = "Echoed Voice",
@@ -13527,7 +13028,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks\\nthe target with a\\nharsh echo.\\nIf used every turn,\\npower increases.",
     },
-
     [MOVE_CHIP_AWAY] = {
         .names = {
             .name = "Chip Away",
@@ -13554,7 +13054,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An attack which is\\nnot affected by the\\ntarget’s stat\\nchanges.",
     },
-
     [MOVE_CLEAR_SMOG] = {
         .names = {
             .name = "Clear Smog",
@@ -13581,7 +13080,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user throws a\\nclump of special\\nmud that reverts\\nall stat changes.",
     },
-
     [MOVE_STORED_POWER] = {
         .names = {
             .name = "Stored Power",
@@ -13608,7 +13106,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks\\nwith a stored power\\nthat grows with\\neach raised stat.",
     },
-
     [MOVE_QUICK_GUARD] = {
         .names = {
             .name = "Quick Guard",
@@ -13635,7 +13132,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user protects\\nitself and its\\nallies from priority\\nmoves.",
     },
-
     [MOVE_ALLY_SWITCH] = {
         .names = {
             .name = "Ally Switch",
@@ -13662,7 +13158,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user teleports\\nusing a strange\\npower and switches\\nplaces with one of\\nits allies.",
     },
-
     [MOVE_SCALD] = {
         .names = {
             .name = "Scald",
@@ -13689,7 +13184,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Boiling water is\\nshot at the foe.\\nIt may also cause\\na burn.",
     },
-
     [MOVE_SHELL_SMASH] = {
         .names = {
             .name = "Shell Smash",
@@ -13716,7 +13210,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Sharply raises\\nAttack, Sp. Atk, and\\nSpeed, but lowers\\nDefense and Sp. Def.",
     },
-
     [MOVE_HEAL_PULSE] = {
         .names = {
             .name = "Heal Pulse",
@@ -13743,7 +13236,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user emits a\\nhealing pulse that\\nrestores a target’s\\nHP by up to half.",
     },
-
     [MOVE_HEX] = {
         .names = {
             .name = "Hex",
@@ -13770,7 +13262,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This attack does\\ndouble damage to a\\ntarget affected by\\na status problem.",
     },
-
     [MOVE_SKY_DROP] = {
         .names = {
             .name = "Sky Drop",
@@ -13797,7 +13288,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "It takes the enemy\\ninto the sky,\\nwhere it can’t\\nattack. It is\\ndropped next turn.",
     },
-
     [MOVE_SHIFT_GEAR] = {
         .names = {
             .name = "Shift Gear",
@@ -13824,7 +13314,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Rotating its gears,\\nthe user raises its\\nAttack and sharply\\nraises its Speed.",
     },
-
     [MOVE_CIRCLE_THROW] = {
         .names = {
             .name = "Circle Throw",
@@ -13851,7 +13340,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is made to\\nswitch out with an\\nally. In the wild,\\nthe battle ends.",
     },
-
     [MOVE_INCINERATE] = {
         .names = {
             .name = "Incinerate",
@@ -13878,7 +13366,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user burns\\nthe foe completely,\\nrendering a held\\nBerry useless.",
     },
-
     [MOVE_QUASH] = {
         .names = {
             .name = "Quash",
@@ -13905,7 +13392,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user suppresses\\nthe target and makes\\nits move go last.",
     },
-
     [MOVE_ACROBATICS] = {
         .names = {
             .name = "Acrobatics",
@@ -13932,7 +13418,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A nimble attack\\nthat does double\\ndamage if the user\\nhas no held item.",
     },
-
     [MOVE_REFLECT_TYPE] = {
         .names = {
             .name = "Reflect Type",
@@ -13959,7 +13444,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user reflects\\nthe target’s type,\\nmaking it the same\\ntype as the target.",
     },
-
     [MOVE_RETALIATE] = {
         .names = {
             .name = "Retaliate",
@@ -13986,7 +13470,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "If an ally fainted\\nin the previous\\nturn, this attack’s\\ndamage increases.",
     },
-
     [MOVE_FINAL_GAMBIT] = {
         .names = {
             .name = "Final Gambit",
@@ -14013,7 +13496,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user risks all,\\ndealing damage\\nequal to its HP\\nand then fainting\\nfrom exhaustion.",
     },
-
     [MOVE_BESTOW] = {
         .names = {
             .name = "Bestow",
@@ -14040,7 +13522,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user passes its\\nheld item to the\\ntarget when the\\ntarget isn’t holding\\nan item.",
     },
-
     [MOVE_INFERNO] = {
         .names = {
             .name = "Inferno",
@@ -14067,7 +13548,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is engulfed\\nby an intense fire\\nthat is sure to\\nleave a burn.",
     },
-
     [MOVE_WATER_PLEDGE] = {
         .names = {
             .name = "Water Pledge",
@@ -14094,7 +13574,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "When combined with\\nits fire equivalent,\\nits power increases\\nand a rainbow\\nappears.",
     },
-
     [MOVE_FIRE_PLEDGE] = {
         .names = {
             .name = "Fire Pledge",
@@ -14121,7 +13600,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "When used with its\\ngrass equivalent,\\nits power increases\\nand a vast sea of\\nfire appears.",
     },
-
     [MOVE_GRASS_PLEDGE] = {
         .names = {
             .name = "Grass Pledge",
@@ -14148,7 +13626,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "When used with its\\nwater equivalent,\\nits power increases\\nand a vast swamp\\nappears.",
     },
-
     [MOVE_VOLT_SWITCH] = {
         .names = {
             .name = "Volt Switch",
@@ -14175,7 +13652,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "After attacking,\\nthe user switches\\nplaces with a\\nparty Pokémon.",
     },
-
     [MOVE_STRUGGLE_BUG] = {
         .names = {
             .name = "Struggle Bug",
@@ -14202,7 +13678,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "While resisting, the\\nuser attacks the\\nfoe, lowering its\\nSp. Atk stat.",
     },
-
     [MOVE_BULLDOZE] = {
         .names = {
             .name = "Bulldoze",
@@ -14229,7 +13704,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hits all\\nPokémon in battle\\nby stomping. Lowers\\nSpeed of those hit.",
     },
-
     [MOVE_FROST_BREATH] = {
         .names = {
             .name = "Frost Breath",
@@ -14256,7 +13730,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user blows\\ncold air at the foe.\\nIt always results in\\na critical hit.",
     },
-
     [MOVE_DRAGON_TAIL] = {
         .names = {
             .name = "Dragon Tail",
@@ -14283,7 +13756,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is made to\\nswitch out with an\\nally. In the wild,\\nthe battle ends.",
     },
-
     [MOVE_WORK_UP] = {
         .names = {
             .name = "Work Up",
@@ -14310,7 +13782,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rouses\\nitself to raise\\nits Attack and\\nSp. Atk stats.",
     },
-
     [MOVE_ELECTROWEB] = {
         .names = {
             .name = "Electroweb",
@@ -14337,7 +13808,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user traps the\\nfoe in an electric\\nnet. It also lowers\\nthe foe’s Speed.",
     },
-
     [MOVE_WILD_CHARGE] = {
         .names = {
             .name = "Wild Charge",
@@ -14364,7 +13834,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user throws an\\nelectrified tackle.\\nIt hurts the user\\na little.",
     },
-
     [MOVE_DRILL_RUN] = {
         .names = {
             .name = "Drill Run",
@@ -14391,7 +13860,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rotates\\nits body like a\\ndrill. It has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_DUAL_CHOP] = {
         .names = {
             .name = "Dual Chop",
@@ -14418,7 +13886,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hits\\nthe foe with two\\nbrutal strikes\\nin one turn.",
     },
-
     [MOVE_HEART_STAMP] = {
         .names = {
             .name = "Heart Stamp",
@@ -14445,7 +13912,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is hit\\nafter a cute act.\\nIt may also make\\nthe foe flinch.",
     },
-
     [MOVE_HORN_LEECH] = {
         .names = {
             .name = "Horn Leech",
@@ -14472,7 +13938,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A harsh attack that\\nabsorbs half the\\ndamage it inflicted\\nto restore HP.",
     },
-
     [MOVE_SACRED_SWORD] = {
         .names = {
             .name = "Sacred Sword",
@@ -14499,7 +13964,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nslicing with a long\\nhorn. The target’s\\nstat changes are\\nignored.",
     },
-
     [MOVE_RAZOR_SHELL] = {
         .names = {
             .name = "Razor Shell",
@@ -14526,7 +13990,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The foe is cut\\nby sharp shells.\\nIt may also lower\\nthe foe’s Defense.",
     },
-
     [MOVE_HEAT_CRASH] = {
         .names = {
             .name = "Heat Crash",
@@ -14553,7 +14016,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slams down\\nwith fire. The more\\nthe user outweighs\\nthe foe, the greater\\nthe damage.",
     },
-
     [MOVE_LEAF_TORNADO] = {
         .names = {
             .name = "Leaf Tornado",
@@ -14580,7 +14042,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Sharp leaves circle\\nthe foe. It may also\\nlower the foe’s\\naccuracy.",
     },
-
     [MOVE_STEAMROLLER] = {
         .names = {
             .name = "Steamroller",
@@ -14607,7 +14068,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user crushes\\nthe foe with its\\nbody. It may also\\nmake the foe flinch.",
     },
-
     [MOVE_COTTON_GUARD] = {
         .names = {
             .name = "Cotton Guard",
@@ -14634,7 +14094,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user protects\\nitself with cotton,\\ndrastically raising\\nits Defense.",
     },
-
     [MOVE_NIGHT_DAZE] = {
         .names = {
             .name = "Night Daze",
@@ -14661,7 +14120,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user releases a\\npitch-black blast\\nat its target. May\\nalso lower target’s\\naccuracy.",
     },
-
     [MOVE_PSYSTRIKE] = {
         .names = {
             .name = "Psystrike",
@@ -14688,7 +14146,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An odd psychic wave\\nattacks the target.\\nThis attack does\\nphysical damage.",
     },
-
     [MOVE_TAIL_SLAP] = {
         .names = {
             .name = "Tail Slap",
@@ -14715,7 +14172,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The use attacks by\\nhitting the target\\nwith its hard tail.\\nIt hits two to five\\ntimes in a row.",
     },
-
     [MOVE_HURRICANE] = {
         .names = {
             .name = "Hurricane",
@@ -14742,7 +14198,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nwrapping its opponent\\nin a fierce wind.\\nThis may also confuse\\nthe target.",
     },
-
     [MOVE_HEAD_CHARGE] = {
         .names = {
             .name = "Head Charge",
@@ -14769,7 +14224,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user charges its\\nhead into its foe,\\nusing its guard hair.\\nIt slightly damages\\nthe user.",
     },
-
     [MOVE_GEAR_GRIND] = {
         .names = {
             .name = "Gear Grind",
@@ -14796,7 +14250,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nthrowing two steel\\ngears at it target.\\nThis attack hits\\ntwice in a row.",
     },
-
     [MOVE_SEARING_SHOT] = {
         .names = {
             .name = "Searing Shot",
@@ -14823,7 +14276,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user torches\\neverything around it\\nin an inferno of\\nscarlet flames. It\\nmay burn the foes.",
     },
-
     [MOVE_TECHNO_BLAST] = {
         .names = {
             .name = "Techno Blast",
@@ -14850,7 +14302,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user fires a beam\\nof light at its foe.\\nThe type changes\\ndepending on the\\nDrive held.",
     },
-
     [MOVE_RELIC_SONG] = {
         .names = {
             .name = "Relic Song",
@@ -14877,7 +14328,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user sings an\\nancient song and\\nattacks the hearts of\\nthe listeners. It\\nmay induce sleep.",
     },
-
     [MOVE_SECRET_SWORD] = {
         .names = {
             .name = "Secret Sword",
@@ -14904,7 +14354,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user cuts with\\nits long horn. The\\nodd power in the\\nhorn does physical\\ndamage to the foe.",
     },
-
     [MOVE_GLACIATE] = {
         .names = {
             .name = "Glaciate",
@@ -14931,7 +14380,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nblowing freezing cold\\nair at opposing\\nPokémon. This lowers\\ntheir Speed.",
     },
-
     [MOVE_BOLT_STRIKE] = {
         .names = {
             .name = "Bolt Strike",
@@ -14958,7 +14406,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user surrounds\\nitself with abundant\\nelectricity that can\\nparalyze and charges\\nits target.",
     },
-
     [MOVE_BLUE_FLARE] = {
         .names = {
             .name = "Blue Flare",
@@ -14985,7 +14432,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nengulfing the foe in\\na severe, beautiful,\\nblue flame. It may\\nburn the foe.",
     },
-
     [MOVE_FIERY_DANCE] = {
         .names = {
             .name = "Fiery Dance",
@@ -15012,7 +14458,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Cloaked in flames,\\nthe user dances.\\nIt may also raise\\nthe user’s Sp. Atk.",
     },
-
     [MOVE_FREEZE_SHOCK] = {
         .names = {
             .name = "Freeze Shock",
@@ -15039,7 +14484,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A two-turn attack\\nthat hits the foe\\nwith electrically\\ncharged ice. It may\\nparalyze the foe.",
     },
-
     [MOVE_ICE_BURN] = {
         .names = {
             .name = "Ice Burn",
@@ -15066,7 +14510,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A two-turn attack\\nthat surrounds the\\nfoe with ultracold,\\nfreezing wind. It\\nmay burn the foe.",
     },
-
     [MOVE_SNARL] = {
         .names = {
             .name = "Snarl",
@@ -15093,7 +14536,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user barks\\nmenacingly. It\\nalso lowers the\\nfoe’s Sp. Atk.",
     },
-
     [MOVE_ICICLE_CRASH] = {
         .names = {
             .name = "Icicle Crash",
@@ -15120,7 +14562,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Icicles are dropped\\non the foe. It may\\nalso make the foe\\nflinch.",
     },
-
     [MOVE_V_CREATE] = {
         .names = {
             .name = "V-create",
@@ -15147,7 +14588,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hurls the\\nhot flame on its\\nforehead. It lowers\\nthe user’s Def, Sp.\\nDef, and Speed.",
     },
-
     [MOVE_FUSION_FLARE] = {
         .names = {
             .name = "Fusion Flare",
@@ -15174,7 +14614,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user brings down\\na giant flame.\\nIt does more damage\\nwhen influenced by\\nan enormous bolt.",
     },
-
     [MOVE_FUSION_BOLT] = {
         .names = {
             .name = "Fusion Bolt",
@@ -15201,7 +14640,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user throws down\\na giant bolt.\\nIt does more damage\\nwhen influenced by\\nan enormous flame.",
     },
-
     [MOVE_FLYING_PRESS] = {
         .names = {
             .name = "Flying Press",
@@ -15228,7 +14666,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user dives down\\nonto the target from\\nthe sky. This move is\\nFighting and Flying\\ntype simultaneously.",
     },
-
     [MOVE_MAT_BLOCK] = {
         .names = {
             .name = "Mat Block",
@@ -15255,7 +14692,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Using a pulled-up mat\\nas a shield, the user\\nprotects itself and\\nits allies from\\ndamaging moves.",
     },
-
     [MOVE_BELCH] = {
         .names = {
             .name = "Belch",
@@ -15282,7 +14718,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lets out a\\ndamaging belch at the\\ntarget. The user must\\neat a held Berry to\\nuse this move.",
     },
-
     [MOVE_ROTOTILLER] = {
         .names = {
             .name = "Rototiller",
@@ -15309,7 +14744,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "By making it easier\\nfor plants to grow,\\nthe user raises the\\nAttack and Sp. Atk\\nstats of Grass-types.",
     },
-
     [MOVE_STICKY_WEB] = {
         .names = {
             .name = "Sticky Web",
@@ -15336,7 +14770,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user weaves a web\\naround the opposing\\nteam, which lowers\\ntheir Speed stat upon\\nswitching into battle.",
     },
-
     [MOVE_FELL_STINGER] = {
         .names = {
             .name = "Fell Stinger",
@@ -15363,7 +14796,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "When the user knocks\\nout a target with\\nthis move, the\\nuser’s Attack stat\\nrises drastically.",
     },
-
     [MOVE_PHANTOM_FORCE] = {
         .names = {
             .name = "Phantom Force",
@@ -15390,7 +14822,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user disappears,\\nthen strikes the foe\\non the second turn.\\nIt hits even if the\\nfoe protects itself.",
     },
-
     [MOVE_TRICK_OR_TREAT] = {
         .names = {
             .name = "Trick-or-Treat",
@@ -15417,7 +14848,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user takes the\\ntarget trick-or-\\ntreating.\\nThis adds Ghost type\\nto the target’s type.",
     },
-
     [MOVE_NOBLE_ROAR] = {
         .names = {
             .name = "Noble Roar",
@@ -15444,7 +14874,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Letting out a noble\\nroar, the user\\nintimidates the target\\nand lowers its Attack\\nand Sp. Atk stats.",
     },
-
     [MOVE_ION_DELUGE] = {
         .names = {
             .name = "Ion Deluge",
@@ -15471,7 +14900,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user disperses\\nelectrically charged\\nparticles, which\\nchanges Normal-type\\nmoves to Electric.",
     },
-
     [MOVE_PARABOLIC_CHARGE] = {
         .names = {
             .name = "ParabolicCharge",
@@ -15498,7 +14926,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An energy-draining\\nshockwave. The user’s\\nHP is restored by\\nhalf the damage taken\\nby those hit.",
     },
-
     [MOVE_FORESTS_CURSE] = {
         .names = {
             .name = "Forest’s Curse",
@@ -15525,7 +14952,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user puts a\\nforest curse on the\\ntarget.\\nThis adds Grass type\\nto the target’s type.",
     },
-
     [MOVE_PETAL_BLIZZARD] = {
         .names = {
             .name = "Petal Blizzard",
@@ -15552,7 +14978,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user stirs up a\\nviolent petal blizzard\\nand attacks everything\\naround it.",
     },
-
     [MOVE_FREEZE_DRY] = {
         .names = {
             .name = "Freeze-Dry",
@@ -15579,7 +15004,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rapidly cools\\nthe target, possibly\\nleaving them frozen.\\nThis move is super\\neffective on Water.",
     },
-
     [MOVE_DISARMING_VOICE] = {
         .names = {
             .name = "Disarming Voice",
@@ -15606,7 +15030,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Letting out a charming\\ncry, the user does\\nemotional damage to\\nopposing Pokémon. This\\nattack never misses.",
     },
-
     [MOVE_PARTING_SHOT] = {
         .names = {
             .name = "Parting Shot",
@@ -15633,7 +15056,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "With a parting threat,\\nthe user lowers the\\ntarget’s Attack and\\nSp. Atk stats.\\nThen it switches out.",
     },
-
     [MOVE_TOPSY_TURVY] = {
         .names = {
             .name = "Topsy-Turvy",
@@ -15660,7 +15082,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "All stat changes\\naffecting the target\\nturn topsy-turvy and\\nbecome the opposite of\\nwhat they were.",
     },
-
     [MOVE_DRAINING_KISS] = {
         .names = {
             .name = "Draining Kiss",
@@ -15687,7 +15108,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "An energy-stealing\\nkiss. The user’s\\nHP is restored by\\nhalf the damage taken\\nby the target.",
     },
-
     [MOVE_CRAFTY_SHIELD] = {
         .names = {
             .name = "Crafty Shield",
@@ -15714,7 +15134,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user protects\\nitself and its allies\\nfrom status moves\\nwith a mysterious\\npower.",
     },
-
     [MOVE_FLOWER_SHIELD] = {
         .names = {
             .name = "Flower Shield",
@@ -15741,7 +15160,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user raises the\\nDefense stats of all\\nGrass-type Pokémon\\nin battle with a\\nmysterious power.",
     },
-
     [MOVE_GRASSY_TERRAIN] = {
         .names = {
             .name = "Grassy Terrain",
@@ -15768,7 +15186,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user turns the\\nground into Grassy\\nTerrain for five\\nturns. This powers up\\nGrass-type moves.",
     },
-
     [MOVE_MISTY_TERRAIN] = {
         .names = {
             .name = "Misty Terrain",
@@ -15795,7 +15212,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Sets a Misty Terrain\\nfor five turns. This\\nprevents status\\nailments and weakens\\nDragon-Type moves.",
     },
-
     [MOVE_ELECTRIFY] = {
         .names = {
             .name = "Electrify",
@@ -15822,7 +15238,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "If the target is\\nelectrified, their\\nmoves become Electric\\ntype for the rest of\\nthat turn.",
     },
-
     [MOVE_PLAY_ROUGH] = {
         .names = {
             .name = "Play Rough",
@@ -15849,7 +15264,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nplaying rough with the\\ntarget. This may also\\nlower the target’s\\nAttack stat.",
     },
-
     [MOVE_FAIRY_WIND] = {
         .names = {
             .name = "Fairy Wind",
@@ -15876,7 +15290,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nstirring up a fairy\\nwind to strike the\\ntarget.",
     },
-
     [MOVE_MOONBLAST] = {
         .names = {
             .name = "Moonblast",
@@ -15903,7 +15316,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Borrowing the power of\\nthe moon, the user\\nattacks the target.\\nThis may also lower the\\ntarget’s Sp. Atk stat.",
     },
-
     [MOVE_BOOMBURST] = {
         .names = {
             .name = "Boomburst",
@@ -15930,7 +15342,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks\\neverything around it\\nwith the destructive\\npower of a terrible\\nexplosive sound.",
     },
-
     [MOVE_FAIRY_LOCK] = {
         .names = {
             .name = "Fairy Lock",
@@ -15957,7 +15368,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "By locking down the\\nbattlefield, the user\\nkeeps all Pokémon\\nfrom fleeing during\\nthe next turn.",
     },
-
     [MOVE_KINGS_SHIELD] = {
         .names = {
             .name = "King’s Shield",
@@ -15984,7 +15394,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user protects\\nitself from damage\\nwhile lowering the\\nAttack of any attacker\\nthat makes contact.",
     },
-
     [MOVE_PLAY_NICE] = {
         .names = {
             .name = "Play Nice",
@@ -16011,7 +15420,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user and the\\ntarget become pals,\\nlowering the target’s\\nAttack stat.\\nBypasses Protect.",
     },
-
     [MOVE_CONFIDE] = {
         .names = {
             .name = "Confide",
@@ -16038,7 +15446,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tells the\\ntarget a secret,\\nmaking it lose focus.\\nThis lowers the\\ntarget’s Sp. Atk stat.",
     },
-
     [MOVE_DIAMOND_STORM] = {
         .names = {
             .name = "Diamond Storm",
@@ -16065,7 +15472,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A storm of diamonds\\nwhips opposing\\nPokémon. This may also\\nsharply boost the\\nuser’s Defense stat.",
     },
-
     [MOVE_STEAM_ERUPTION] = {
         .names = {
             .name = "Steam Eruption",
@@ -16092,7 +15498,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user immerses the\\ntarget in superheated\\nsteam.\\nThis may also leave\\nthe target with a burn.",
     },
-
     [MOVE_HYPERSPACE_HOLE] = {
         .names = {
             .name = "Hyperspace Hole",
@@ -16119,7 +15524,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Using a hyperspace\\nhole, the user strikes\\nfrom far away. This\\ncan hit a target using\\nProtect or Detect.",
     },
-
     [MOVE_WATER_SHURIKEN] = {
         .names = {
             .name = "Water Shuriken",
@@ -16146,7 +15550,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hits the\\ntarget with throwing\\nstars two to five\\ntimes. This move\\nalways goes first.",
     },
-
     [MOVE_MYSTICAL_FIRE] = {
         .names = {
             .name = "Mystical Fire",
@@ -16173,7 +15576,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nbreathing a special,\\nhot fire.\\nThis also lowers the\\ntarget’s Sp. Atk stat.",
     },
-
     [MOVE_SPIKY_SHIELD] = {
         .names = {
             .name = "Spiky Shield",
@@ -16200,7 +15602,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user is protected\\nfrom attacks, while\\nalso damaging any\\nattacker who makes\\ndirect contact.",
     },
-
     [MOVE_AROMATIC_MIST] = {
         .names = {
             .name = "Aromatic Mist",
@@ -16227,7 +15628,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user boosts the\\nSp. Def stat of an\\nally Pokémon by using\\na mysterious aroma.",
     },
-
     [MOVE_EERIE_IMPULSE] = {
         .names = {
             .name = "Eerie Impulse",
@@ -16254,7 +15654,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user emits an\\neerie impulse from its\\nbody, harshly lowering\\nthe target’s Sp. Atk\\nstat.",
     },
-
     [MOVE_VENOM_DRENCH] = {
         .names = {
             .name = "Venom Drench",
@@ -16281,7 +15680,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Foes are drenched in\\na poisonous liquid.\\nThis lowers the Attack,\\nSp. Atk, and Speed of\\na poisoned target.",
     },
-
     [MOVE_POWDER] = {
         .names = {
             .name = "Powder",
@@ -16308,7 +15706,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user covers the\\ntarget in an explosive\\npowder that damages\\nthe target if they use\\na Fire-type move.",
     },
-
     [MOVE_GEOMANCY] = {
         .names = {
             .name = "Geomancy",
@@ -16335,7 +15732,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user absorbs energy\\nand sharply boosts its\\nSp. Atk, Sp. Def, and\\nSpeed stats on the next\\nturn.",
     },
-
     [MOVE_MAGNETIC_FLUX] = {
         .names = {
             .name = "Magnetic Flux",
@@ -16362,7 +15758,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Magnetic fields boost\\nthe Defense and Sp. Def\\nstats of ally Pokémon\\nwith the Plus or Minus\\nAbility.",
     },
-
     [MOVE_HAPPY_HOUR] = {
         .names = {
             .name = "Happy Hour",
@@ -16389,7 +15784,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Using Happy Hour\\ndoubles the amount of\\nprize money received\\nafter battle.",
     },
-
     [MOVE_ELECTRIC_TERRAIN] = {
         .names = {
             .name = "ElectricTerrain",
@@ -16416,7 +15810,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "For five turns, Pokémon\\non the ground have\\npowered up Electric-type\\nmoves and can no longer\\nfall asleep.",
     },
-
     [MOVE_DAZZLING_GLEAM] = {
         .names = {
             .name = "Dazzling Gleam",
@@ -16443,7 +15836,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user damages\\nopposing Pokémon by\\nemitting a powerful\\nflash.",
     },
-
     [MOVE_CELEBRATE] = {
         .names = {
             .name = "Celebrate",
@@ -16470,7 +15862,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The Pokémon\\ncongratulates you on\\nyour special day!",
     },
-
     [MOVE_HOLD_HANDS] = {
         .names = {
             .name = "Hold Hands",
@@ -16497,7 +15888,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user and an ally\\nhold hands.\\nThis makes them very\\nhappy.",
     },
-
     [MOVE_BABY_DOLL_EYES] = {
         .names = {
             .name = "Baby-Doll Eyes",
@@ -16524,7 +15914,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user stares at\\nthe target with its\\nbaby-eyes, lowering\\nits Attack stat.\\nAlways goes first.",
     },
-
     [MOVE_NUZZLE] = {
         .names = {
             .name = "Nuzzle",
@@ -16551,7 +15940,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user nuzzles its\\nelectrified cheeks\\nagainst the target.\\nThis also leaves the\\ntarget with paralysis.",
     },
-
     [MOVE_HOLD_BACK] = {
         .names = {
             .name = "Hold Back",
@@ -16578,7 +15966,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user holds back\\nwhen it attacks, and\\nthe target is left\\nwith at least 1 HP.",
     },
-
     [MOVE_INFESTATION] = {
         .names = {
             .name = "Infestation",
@@ -16605,7 +15992,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The target is infested\\nand attacked for four\\nto five turns.\\nThe target can’t flee\\nduring this time.",
     },
-
     [MOVE_POWER_UP_PUNCH] = {
         .names = {
             .name = "Power-Up Punch",
@@ -16632,7 +16018,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Striking opponents\\nover and over makes\\nthe user’s fists\\nharder. Hitting a\\ntarget raises Attack.",
     },
-
     [MOVE_OBLIVION_WING] = {
         .names = {
             .name = "Oblivion Wing",
@@ -16659,7 +16044,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user absorbs the\\ntarget’s HP. The user’s\\nHP is restored by over\\nhalf the damage taken\\nby the target.",
     },
-
     [MOVE_THOUSAND_ARROWS] = {
         .names = {
             .name = "Thousand Arrows",
@@ -16686,7 +16070,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This move can hit\\nopposing Pokémon that\\nare in the air. Those\\nPokémon are knocked\\ndown to the ground.",
     },
-
     [MOVE_THOUSAND_WAVES] = {
         .names = {
             .name = "Thousand Waves",
@@ -16713,7 +16096,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\na wave that crawls\\nalong the ground.\\nThose it hits can’t\\nflee from battle.",
     },
-
     [MOVE_LANDS_WRATH] = {
         .names = {
             .name = "Land’s Wrath",
@@ -16740,7 +16122,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user gathers the\\nenergy of the land and\\nfocuses that power on\\nopposing Pokémon to\\ninflict damage.",
     },
-
     [MOVE_LIGHT_OF_RUIN] = {
         .names = {
             .name = "Light of Ruin",
@@ -16767,7 +16148,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Drawing power from the\\nEternal Flower, the user\\nfires a powerful beam of\\nlight. This also damages\\nthe user terribly.",
     },
-
     [MOVE_ORIGIN_PULSE] = {
         .names = {
             .name = "Origin Pulse",
@@ -16794,7 +16174,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks\\nopposing Pokémon with\\ncountless beams of\\nlight that glow a deep\\nand brilliant blue.",
     },
-
     [MOVE_PRECIPICE_BLADES] = {
         .names = {
             .name = "PrecipiceBlades",
@@ -16821,7 +16200,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks\\nopposing Pokémon by\\nmanifesting the power\\nof the land in\\nfearsome stone blades",
     },
-
     [MOVE_DRAGON_ASCENT] = {
         .names = {
             .name = "Dragon Ascent",
@@ -16848,7 +16226,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\ndropping out of the sky\\nat high speed. This also\\nlowers the user’s\\nDefense and Sp. Def.",
     },
-
     [MOVE_HYPERSPACE_FURY] = {
         .names = {
             .name = "Hyperspace Fury",
@@ -16875,7 +16252,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user unleashes a\\nbarrage that ignores the\\neffects of protection\\nmoves. This also lowers\\nthe user’s Defense.",
     },
-
     [MOVE_BREAKNECK_BLITZ_PHYSICAL] = {
         .names = {
             .name = "Breakneck Blitz",
@@ -16902,7 +16278,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user crashes into\\nthe target at full speed\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_BREAKNECK_BLITZ_SPECIAL] = {
         .names = {
             .name = "Breakneck Blitz",
@@ -16929,7 +16304,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user crashes into\\nthe target at full speed\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_ALL_OUT_PUMMELING_PHYSICAL] = {
         .names = {
             .name = "All-Out Pummel",
@@ -16956,7 +16330,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user fires an\\nenergy orb created by\\nits Z-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_ALL_OUT_PUMMELING_SPECIAL] = {
         .names = {
             .name = "All-Out Pummel",
@@ -16983,7 +16356,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user fires an\\nenergy orb created by\\nits Z-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_SUPERSONIC_SKYSTRIKE_PHYSICAL] = {
         .names = {
             .name = "Super Skystrike",
@@ -17010,7 +16382,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user plummets toward\\nthe target at full speed\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_SUPERSONIC_SKYSTRIKE_SPECIAL] = {
         .names = {
             .name = "Super Skystrike",
@@ -17037,7 +16408,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user plummets toward\\nthe target at full speed\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_ACID_DOWNPOUR_PHYSICAL] = {
         .names = {
             .name = "Acid Downpour",
@@ -17064,7 +16434,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user creates a\\npoisonous swamp using\\nits Z-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_ACID_DOWNPOUR_SPECIAL] = {
         .names = {
             .name = "Acid Downpour",
@@ -17091,7 +16460,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user creates a\\npoisonous swamp using\\nits Z-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_TECTONIC_RAGE_PHYSICAL] = {
         .names = {
             .name = "Tectonic Rage",
@@ -17118,7 +16486,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slams into the\\ntarget from underground\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_TECTONIC_RAGE_SPECIAL] = {
         .names = {
             .name = "Tectonic Rage",
@@ -17145,7 +16512,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slams into the\\ntarget from underground\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_CONTINENTAL_CRUSH_PHYSICAL] = {
         .names = {
             .name = "Continent Crush",
@@ -17172,7 +16538,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user drops a huge\\nmountain onto the target\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_CONTINENTAL_CRUSH_SPECIAL] = {
         .names = {
             .name = "Continent Crush",
@@ -17199,7 +16564,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user drops a huge\\nmountain onto the target\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_SAVAGE_SPIN_OUT_PHYSICAL] = {
         .names = {
             .name = "Savage Spin-Out",
@@ -17226,7 +16590,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user spits threads\\nat the target made\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_SAVAGE_SPIN_OUT_SPECIAL] = {
         .names = {
             .name = "Savage Spin-Out",
@@ -17253,7 +16616,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user spits threads\\nat the target made\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_NEVER_ENDING_NIGHTMARE_PHYSICAL] = {
         .names = {
             .name = "EndlessNitemare",
@@ -17280,7 +16642,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Deep-seated grudges are\\nsummoned by the user’s\\nZ-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_NEVER_ENDING_NIGHTMARE_SPECIAL] = {
         .names = {
             .name = "EndlessNitemare",
@@ -17307,7 +16668,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Deep-seated grudges are\\nsummoned by the user’s\\nZ-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_CORKSCREW_CRASH_PHYSICAL] = {
         .names = {
             .name = "Corkscrew Crash",
@@ -17334,7 +16694,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user spins very fast\\nand rams into the target\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_CORKSCREW_CRASH_SPECIAL] = {
         .names = {
             .name = "Corkscrew Crash",
@@ -17361,7 +16720,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user spins very fast\\nand rams into the target\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_INFERNO_OVERDRIVE_PHYSICAL] = {
         .names = {
             .name = "Inferno Drive",
@@ -17388,7 +16746,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user breathes a\\nstream of intense fire\\nusing its Z-Power. The\\npower varies depending\\non the original move.",
     },
-
     [MOVE_INFERNO_OVERDRIVE_SPECIAL] = {
         .names = {
             .name = "Inferno Drive",
@@ -17415,7 +16772,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user breathes a\\nstream of intense fire\\nusing its Z-Power. The\\npower varies depending\\non the original move.",
     },
-
     [MOVE_HYDRO_VORTEX_PHYSICAL] = {
         .names = {
             .name = "Hydro Vortex",
@@ -17442,7 +16798,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user creates a huge\\nwhirling current using\\nits Z-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_HYDRO_VORTEX_SPECIAL] = {
         .names = {
             .name = "Hydro Vortex",
@@ -17469,7 +16824,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user creates a huge\\nwhirling current using\\nits Z-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_BLOOM_DOOM_PHYSICAL] = {
         .names = {
             .name = "Bloom Doom",
@@ -17496,7 +16850,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nenergy drawn from plants\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_BLOOM_DOOM_SPECIAL] = {
         .names = {
             .name = "Bloom Doom",
@@ -17523,7 +16876,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nenergy drawn from plants\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_GIGAVOLT_HAVOC_PHYSICAL] = {
         .names = {
             .name = "Gigavolt Havoc",
@@ -17550,7 +16902,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user summons a\\nstrong electric current\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_GIGAVOLT_HAVOC_SPECIAL] = {
         .names = {
             .name = "Gigavolt Havoc",
@@ -17577,7 +16928,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user summons a\\nstrong electric current\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_SHATTERED_PSYCHE_PHYSICAL] = {
         .names = {
             .name = "ShatteredPsyche",
@@ -17604,7 +16954,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hurts the\\ntarget’s mind using\\nits Z-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_SHATTERED_PSYCHE_SPECIAL] = {
         .names = {
             .name = "ShatteredPsyche",
@@ -17631,7 +16980,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hurts the\\ntarget’s mind using\\nits Z-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_SUBZERO_SLAMMER_PHYSICAL] = {
         .names = {
             .name = "Subzero Slammer",
@@ -17658,7 +17006,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user freezes the\\ntarget using its\\nZ-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_SUBZERO_SLAMMER_SPECIAL] = {
         .names = {
             .name = "Subzero Slammer",
@@ -17685,7 +17032,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user freezes the\\ntarget using its\\nZ-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_DEVASTATING_DRAKE_PHYSICAL] = {
         .names = {
             .name = "Ultimate Drake",
@@ -17712,7 +17058,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user materializes\\nand projects its aura\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_DEVASTATING_DRAKE_SPECIAL] = {
         .names = {
             .name = "Ultimate Drake",
@@ -17739,7 +17084,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user materializes\\nand projects its aura\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_BLACK_HOLE_ECLIPSE_PHYSICAL] = {
         .names = {
             .name = "Black Eclipse",
@@ -17766,7 +17110,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user sucks the\\ntarget into dark energy\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_BLACK_HOLE_ECLIPSE_SPECIAL] = {
         .names = {
             .name = "Black Eclipse",
@@ -17793,7 +17136,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user sucks the\\ntarget into dark energy\\nusing its Z-Power. The\\npower varies, depending\\non the original move.",
     },
-
     [MOVE_TWINKLE_TACKLE_PHYSICAL] = {
         .names = {
             .name = "Twinkle Tackle",
@@ -17820,7 +17162,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user totally toys\\nwith the target using\\nits Z-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_TWINKLE_TACKLE_SPECIAL] = {
         .names = {
             .name = "Twinkle Tackle",
@@ -17847,7 +17188,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user totally toys\\nwith the target using\\nits Z-Power. The power\\nvaries, depending on\\nthe original move.",
     },
-
     [MOVE_CATASTROPIKA] = {
         .names = {
             .name = "Catastropika",
@@ -17874,7 +17214,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Pikachu surrounds\\nitself with maximum\\nelectricity using its\\nZ-Power and pounces on\\nits target.",
     },
-
     [MOVE_SHORE_UP] = {
         .names = {
             .name = "Shore Up",
@@ -17901,7 +17240,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user restores its\\nown HP by up to half\\nits max HP.\\nIt regains more HP\\nin a sandstorm.",
     },
-
     [MOVE_FIRST_IMPRESSION] = {
         .names = {
             .name = "FirstImpression",
@@ -17928,7 +17266,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Although this move has\\ngreat power, it works\\nonly on the first turn\\neach time the user\\nenters battle.",
     },
-
     [MOVE_BANEFUL_BUNKER] = {
         .names = {
             .name = "Baneful Bunker",
@@ -17955,7 +17292,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user protects\\nitself from attacks\\nwhile poisoning any\\nattacker that makes\\ndirect contact.",
     },
-
     [MOVE_SPIRIT_SHACKLE] = {
         .names = {
             .name = "Spirit Shackle",
@@ -17982,7 +17318,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks while\\nsimultaneously stitching\\nthe target’s shadow to\\nthe ground to prevent\\nthe target from fleeing.",
     },
-
     [MOVE_DARKEST_LARIAT] = {
         .names = {
             .name = "Darkest Lariat",
@@ -18009,7 +17344,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user swings both\\narms and hits the\\ntarget, ignoring changes\\nto the target’s Defense\\nand Evasion.",
     },
-
     [MOVE_SPARKLING_ARIA] = {
         .names = {
             .name = "Sparkling Aria",
@@ -18036,7 +17370,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user bursts into\\nsong, emitting bubbles.\\nAny Pokémon suffering\\nfrom a burn will be\\ncured by their touch.",
     },
-
     [MOVE_ICE_HAMMER] = {
         .names = {
             .name = "Ice Hammer",
@@ -18063,7 +17396,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user swings and\\nhits with its strong,\\nheavy fist.\\nIt lowers the user’s\\nSpeed, however.",
     },
-
     [MOVE_FLORAL_HEALING] = {
         .names = {
             .name = "Floral Healing",
@@ -18090,7 +17422,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user restores the\\ntarget’s HP by up to\\nhalf of its max HP. It\\nrestores more HP when\\nthe terrain is grass.",
     },
-
     [MOVE_HIGH_HORSEPOWER] = {
         .names = {
             .name = "High Horsepower",
@@ -18117,7 +17448,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user fiercely\\nattacks the target\\nusing its entire body.",
     },
-
     [MOVE_STRENGTH_SAP] = {
         .names = {
             .name = "Strength Sap",
@@ -18144,7 +17474,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user restores its\\nHP by the same amount\\nas the target’s Attack\\nstat. It also lowers the\\ntarget’s Attack stat.",
     },
-
     [MOVE_SOLAR_BLADE] = {
         .names = {
             .name = "Solar Blade",
@@ -18171,7 +17500,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user fills a blade\\nwith light’s energy on\\nthe first turn, then\\nattacks on the next\\nturn.",
     },
-
     [MOVE_LEAFAGE] = {
         .names = {
             .name = "Leafage",
@@ -18198,7 +17526,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\npelting the target\\nwith leaves.",
     },
-
     [MOVE_SPOTLIGHT] = {
         .names = {
             .name = "Spotlight",
@@ -18225,7 +17552,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user shines a\\nspotlight on the target\\nso that only the target\\nwill be attacked during\\nthe turn.",
     },
-
     [MOVE_TOXIC_THREAD] = {
         .names = {
             .name = "Toxic Thread",
@@ -18252,7 +17578,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user shoots\\npoisonous threads\\nto poison the target\\nand lower the\\ntarget’s Speed stat.",
     },
-
     [MOVE_LASER_FOCUS] = {
         .names = {
             .name = "Laser Focus",
@@ -18279,7 +17604,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user concentrates\\nintensely.\\nThe attack on the next\\nturn always results in\\na critical hit.",
     },
-
     [MOVE_GEAR_UP] = {
         .names = {
             .name = "Gear Up",
@@ -18306,7 +17630,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user engages its\\ngears to raise the\\nAttack and Sp. Atk\\nstats of ally Pokémon\\nwith Plus or Minus.",
     },
-
     [MOVE_THROAT_CHOP] = {
         .names = {
             .name = "Throat Chop",
@@ -18333,7 +17656,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks the\\ntarget’s throat,\\npreventing the target\\nfrom using sound-based\\nmoves for two turns.",
     },
-
     [MOVE_POLLEN_PUFF] = {
         .names = {
             .name = "Pollen Puff",
@@ -18360,7 +17682,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nan exploding pollen\\npuff. If the target is\\nan ally, it restores\\nits HP instead.",
     },
-
     [MOVE_ANCHOR_SHOT] = {
         .names = {
             .name = "Anchor Shot",
@@ -18387,7 +17708,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user entangles the\\ntarget with its anchor\\nchain while attacking.\\nThe target becomes\\nunable to flee.",
     },
-
     [MOVE_PSYCHIC_TERRAIN] = {
         .names = {
             .name = "Psychic Terrain",
@@ -18414,7 +17734,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This protects Pokémon\\non the ground from\\npriority moves and\\npowers up Psychic-type\\nmoves for five turns.",
     },
-
     [MOVE_LUNGE] = {
         .names = {
             .name = "Lunge",
@@ -18441,7 +17760,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user makes a lunge\\nat the target, attacking\\nwith full force.\\nThis also lowers the\\ntarget’s Attack stat.",
     },
-
     [MOVE_FIRE_LASH] = {
         .names = {
             .name = "Fire Lash",
@@ -18468,7 +17786,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user strikes the\\ntarget with a burning\\nlash.\\nThis also lowers the\\ntarget’s Defense stat.",
     },
-
     [MOVE_POWER_TRIP] = {
         .names = {
             .name = "Power Trip",
@@ -18495,7 +17812,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user flaunts its\\nstrength. The more the\\nuser’s stats are\\nboosted, the greater\\nthe move’s power.",
     },
-
     [MOVE_BURN_UP] = {
         .names = {
             .name = "Burn Up",
@@ -18522,7 +17838,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "To inflict massive\\ndamage, the user burns\\nitself out. After using\\nthis move, the user will\\nno longer be Fire type.",
     },
-
     [MOVE_SPEED_SWAP] = {
         .names = {
             .name = "Speed Swap",
@@ -18549,7 +17864,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user exchanges\\nSpeed stats with the\\ntarget.",
     },
-
     [MOVE_SMART_STRIKE] = {
         .names = {
             .name = "Smart Strike",
@@ -18576,7 +17890,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user stabs the\\ntarget with a sharp\\nhorn.\\nThis attack never\\nmisses.",
     },
-
     [MOVE_PURIFY] = {
         .names = {
             .name = "Purify",
@@ -18603,7 +17916,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user cures the\\ntarget’s status\\ncondition. If the move\\nsucceeds, it also\\nrestores the user’s HP.",
     },
-
     [MOVE_REVELATION_DANCE] = {
         .names = {
             .name = "RevelationDance",
@@ -18630,7 +17942,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks the\\ntarget by dancing with\\nall its might. This\\nmove becomes the same\\ntype as the user’s type.",
     },
-
     [MOVE_CORE_ENFORCER] = {
         .names = {
             .name = "Core Enforcer",
@@ -18657,7 +17968,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "If a target has already\\nused their move this\\nturn, this move\\neliminates the effects\\nof their Ability.",
     },
-
     [MOVE_TROP_KICK] = {
         .names = {
             .name = "Trop Kick",
@@ -18684,7 +17994,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lands an\\nintense kick of tropical\\norigins on the target.\\nThis also lowers the\\ntarget’s Attack stat.",
     },
-
     [MOVE_INSTRUCT] = {
         .names = {
             .name = "Instruct",
@@ -18711,7 +18020,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user instructs the\\ntarget to reuse the\\nmove last used by the\\ntarget.",
     },
-
     [MOVE_BEAK_BLAST] = {
         .names = {
             .name = "Beak Blast",
@@ -18738,7 +18046,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user heats up its\\nbeak before attacking.\\nMaking contact before\\nthe user attacks\\nresults in a burn.",
     },
-
     [MOVE_CLANGING_SCALES] = {
         .names = {
             .name = "Clanging Scales",
@@ -18765,7 +18072,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rubs its\\nscales to make a huge\\nnoise. The user’s\\nDefense stat is lowered\\nafter the attack.",
     },
-
     [MOVE_DRAGON_HAMMER] = {
         .names = {
             .name = "Dragon Hammer",
@@ -18792,7 +18098,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user wields its\\nbody like a hammer to\\nattack the target and\\ninflict damage.",
     },
-
     [MOVE_BRUTAL_SWING] = {
         .names = {
             .name = "Brutal Swing",
@@ -18819,7 +18124,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user swings its\\nbody around violently\\nto inflict damage on\\neverything in its\\nvicinity.",
     },
-
     [MOVE_AURORA_VEIL] = {
         .names = {
             .name = "Aurora Veil",
@@ -18846,7 +18150,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This move reduces damage\\nfrom most moves for five\\nturns. It can be used\\nonly when it is snowing.",
     },
-
     [MOVE_SINISTER_ARROW_RAID] = {
         .names = {
             .name = "Sinister Raid",
@@ -18873,7 +18176,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user, Decidueye,\\ncreates countless\\narrows using its Z-Power\\nand shoots the target\\nwith full force.",
     },
-
     [MOVE_MALICIOUS_MOONSAULT] = {
         .names = {
             .name = "Moonsault",
@@ -18900,7 +18202,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user, Incineroar,\\nstrengthens its body\\nusing its Z-Power and\\ncrashes into the target\\nwith full force.",
     },
-
     [MOVE_OCEANIC_OPERETTA] = {
         .names = {
             .name = "OceanicOperetta",
@@ -18927,7 +18228,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user, Primarina,\\nsummons a massive\\namount of water using its\\nZ-Power and attacks the\\ntarget with full force.",
     },
-
     [MOVE_GUARDIAN_OF_ALOLA] = {
         .names = {
             .name = "Alolan Guardian",
@@ -18954,7 +18254,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The Land Spirit Pokémon\\nuses its Z-Power to\\nattack with Alola’s\\nenergy. This reduces the\\ntarget’s HP greatly.",
     },
-
     [MOVE_SOUL_STEALING_7_STAR_STRIKE] = {
         .names = {
             .name = "7-Star Strike",
@@ -18981,7 +18280,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "After obtaining\\nZ-Power, Marshadow\\npunches and kicks the\\ntarget consecutively\\nwith full force.",
     },
-
     [MOVE_STOKED_SPARKSURFER] = {
         .names = {
             .name = "Sparksurfer",
@@ -19008,7 +18306,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "After obtaining\\nZ-Power, Alolan Raichu\\nattacks the target with\\nfull force, leaving\\nthem with paralysis.",
     },
-
     [MOVE_PULVERIZING_PANCAKE] = {
         .names = {
             .name = "Pulver-Pancake",
@@ -19035,7 +18332,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Z-Power brings out the\\ntrue capabilities of\\nSnorlax, which excitedly\\nmoves its enormous body\\nto attack the target.",
     },
-
     [MOVE_EXTREME_EVOBOOST] = {
         .names = {
             .name = "ExtremeEvoboost",
@@ -19062,7 +18358,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "After obtaining\\nZ-Power, Eevee gets\\nenergy from its evolved\\nfriends and boosts its\\nstats sharply.",
     },
-
     [MOVE_GENESIS_SUPERNOVA] = {
         .names = {
             .name = "OriginSupernova",
@@ -19089,7 +18384,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "After obtaining\\nZ-Power, Mew attacks\\nthe target and charges\\nthe terrain with\\npsychic energy.",
     },
-
     [MOVE_SHELL_TRAP] = {
         .names = {
             .name = "Shell Trap",
@@ -19116,7 +18410,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user sets a shell\\ntrap. If hit by a\\nphysical move, the\\ntrap will explode and\\ninflict damage.",
     },
-
     [MOVE_FLEUR_CANNON] = {
         .names = {
             .name = "Fleur Cannon",
@@ -19143,7 +18436,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user unleashes a\\nstrong beam.\\nThe attack’s recoil\\nharshly lowers the\\nuser’s Sp. Atk stat.",
     },
-
     [MOVE_PSYCHIC_FANGS] = {
         .names = {
             .name = "Psychic Fangs",
@@ -19170,7 +18462,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user bites the\\ntarget with its psychic\\ncapabilities. This can\\nalso destroy Light\\nScreen and Reflect.",
     },
-
     [MOVE_STOMPING_TANTRUM] = {
         .names = {
             .name = "StompingTantrum",
@@ -19197,7 +18488,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Driven by frustration,\\nthe user attacks. This\\nmove’s power is\\ndoubled if the user’s\\nprevious move failed.",
     },
-
     [MOVE_SHADOW_BONE] = {
         .names = {
             .name = "Shadow Bone",
@@ -19224,7 +18514,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user beats the\\ntarget with a bone that\\ncontains a spirit. This\\nmay also lower the\\ntarget’s Defense stat.",
     },
-
     [MOVE_ACCELEROCK] = {
         .names = {
             .name = "Accelerock",
@@ -19251,7 +18540,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user smashes into\\nthe target at high\\nspeed.\\nThis move always goes\\nfirst.",
     },
-
     [MOVE_LIQUIDATION] = {
         .names = {
             .name = "Liquidation",
@@ -19278,7 +18566,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slams into\\nthe target using a\\nblast of water. This\\nmay also lower the\\ntarget’s Defense stat.",
     },
-
     [MOVE_PRISMATIC_LASER] = {
         .names = {
             .name = "Prismatic Laser",
@@ -19305,7 +18592,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user shoots\\npowerful lasers using\\nthe power of a prism.\\nThe user can’t move on\\nthe next turn.",
     },
-
     [MOVE_SPECTRAL_THIEF] = {
         .names = {
             .name = "Spectral Thief",
@@ -19332,7 +18618,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hides in the\\ntarget’s shadow,\\nsteals the target’s\\nstat boosts,\\nand then attacks",
     },
-
     [MOVE_SUNSTEEL_STRIKE] = {
         .names = {
             .name = "Sunsteel Strike",
@@ -19359,7 +18644,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nmeteoric force. This\\nmove can be used on\\nthe target regardless\\nof its Ability.",
     },
-
     [MOVE_MOONGEIST_BEAM] = {
         .names = {
             .name = "Moongeist Beam",
@@ -19386,7 +18670,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user emits a\\nsinister ray. This\\nmove can be used on\\nthe target regardless\\nof its Ability.",
     },
-
     [MOVE_TEARFUL_LOOK] = {
         .names = {
             .name = "Tearful Look",
@@ -19413,7 +18696,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tears up,\\nlowering the target’s\\nAttack and Sp. Atk\\nstats.\\nBypasses Protect.",
     },
-
     [MOVE_ZING_ZAP] = {
         .names = {
             .name = "Zing Zap",
@@ -19440,7 +18722,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user crashes into\\nthe target, delivering\\na powerful electric\\nshock. This may also\\nmake the target flinch.",
     },
-
     [MOVE_NATURES_MADNESS] = {
         .names = {
             .name = "Nature’sMadness",
@@ -19467,7 +18748,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hits the\\ntarget with the full\\nwrath of nature.\\nThis cuts the target’s\\nHP in half.",
     },
-
     [MOVE_MULTI_ATTACK] = {
         .names = {
             .name = "Multi-Attack",
@@ -19494,7 +18774,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Cloaking itself in high\\nenergy, the user slams\\ninto the target. The\\nmemory held determines\\nthe move’s type.",
     },
-
     [MOVE_10_000_000_VOLT_THUNDERBOLT] = {
         .names = {
             .name = "10,000,000 Bolt",
@@ -19521,7 +18800,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Pikachu (wearing a\\ncap) unleashes a jolt\\nof electricity using\\nits Z-Power. Critical\\nhits land more easily.",
     },
-
     [MOVE_MIND_BLOWN] = {
         .names = {
             .name = "Mind Blown",
@@ -19548,7 +18826,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks\\neverything around it by\\ncausing its own head to\\nexplode. This also\\ndamages the user.",
     },
-
     [MOVE_PLASMA_FISTS] = {
         .names = {
             .name = "Plasma Fists",
@@ -19575,7 +18852,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nelectrically charged\\nfists. This move\\nchanges Normal-type\\nmoves to Electric.",
     },
-
     [MOVE_PHOTON_GEYSER] = {
         .names = {
             .name = "Photon Geyser",
@@ -19602,7 +18878,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with a\\npillar of light. This\\ncan inflict damage using\\nAttack or Sp. Atk-\\nwhichever is higher.",
     },
-
     [MOVE_LIGHT_THAT_BURNS_THE_SKY] = {
         .names = {
             .name = "LightBurnSky",
@@ -19629,7 +18904,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Necrozma inflicts damage\\nusing Attack or Sp. Atk-\\nwhichever is higher.\\nThis move ignores the\\ntarget’s Ability.",
     },
-
     [MOVE_SEARING_SUNRAZE_SMASH] = {
         .names = {
             .name = "Sunraze Smash",
@@ -19656,7 +18930,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "After obtaining Z-Power,\\nSolgaleo attacks the\\ntarget. This move can\\nignore the effect of the\\ntarget’s Ability.",
     },
-
     [MOVE_MENACING_MOONRAZE_MAELSTROM] = {
         .names = {
             .name = "Moonraze Storm",
@@ -19683,7 +18956,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "After obtaining Z-Power,\\nLunala attacks the\\ntarget. This move can\\nignore the effect of the\\ntarget’s Ability.",
     },
-
     [MOVE_LETS_SNUGGLE_FOREVER] = {
         .names = {
             .name = "Let’s Snuggle",
@@ -19710,7 +18982,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "After obtaining\\nZ-Power, the user,\\nMimikyu, punches the\\ntarget with full\\nforce.",
     },
-
     [MOVE_SPLINTERED_STORMSHARDS] = {
         .names = {
             .name = "Stormshards",
@@ -19737,7 +19008,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "After obtaining\\nZ-Power, Lycanroc\\nattacks the target.\\nThis move also\\ndestroys terrain.",
     },
-
     [MOVE_CLANGOROUS_SOULBLAZE] = {
         .names = {
             .name = "Soulblaze",
@@ -19764,7 +19034,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "After obtaining Z-Power, Kommo-o attacks. This move boosts the all the user’s stats at once.",
     },
-
     [MOVE_ZIPPY_ZAP] = {
         .names = {
             .name = "Zippy Zap",
@@ -19791,7 +19060,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nhigh-speed bursts of\\nelectricity. This move\\nboosts Evasion and\\nalways goes first.",
     },
-
     [MOVE_SPLISHY_SPLASH] = {
         .names = {
             .name = "Splishy Splash",
@@ -19818,7 +19086,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user charges a huge\\nwave with electricity.\\nThis may also leave the\\nopposing Pokémon with\\nparalysis.",
     },
-
     [MOVE_FLOATY_FALL] = {
         .names = {
             .name = "Floaty Fall",
@@ -19845,7 +19112,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user floats in the\\nair, then dives at a\\nsteep angle to attack.\\nThis may also make the\\ntarget flinch.",
     },
-
     [MOVE_PIKA_PAPOW] = {
         .names = {
             .name = "Pika Papow",
@@ -19872,7 +19138,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The more Pikachu\\nloves its Trainer,\\nthe greater the\\nmove’s power.\\nIt never misses.",
     },
-
     [MOVE_BOUNCY_BUBBLE] = {
         .names = {
             .name = "Bouncy Bubble",
@@ -19899,7 +19164,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nshooting water\\nbubbles, which restore\\nits HP by half the\\ndamage dealt.",
     },
-
     [MOVE_BUZZY_BUZZ] = {
         .names = {
             .name = "Buzzy Buzz",
@@ -19926,7 +19190,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user shoots a jolt\\nof electricity to\\nattack the target.\\nThis also leaves the\\ntarget with paralysis.",
     },
-
     [MOVE_SIZZLY_SLIDE] = {
         .names = {
             .name = "Sizzly Slide",
@@ -19953,7 +19216,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user cloaks itself\\nin fire and charges at\\nthe target.\\nThis also leaves the\\ntarget with a burn.",
     },
-
     [MOVE_GLITZY_GLOW] = {
         .names = {
             .name = "Glitzy Glow",
@@ -19980,7 +19242,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user bombards the\\ntarget with\\ntelekinetic force,\\nsuppressing damage\\nfrom special moves.",
     },
-
     [MOVE_BADDY_BAD] = {
         .names = {
             .name = "Baddy Bad",
@@ -20007,7 +19268,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user acts bad and\\nattacks the target,\\nsuppressing damage\\nfrom physical moves.",
     },
-
     [MOVE_SAPPY_SEED] = {
         .names = {
             .name = "Sappy Seed",
@@ -20034,7 +19294,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user scatters\\nseeds to attack the\\ntarget. The seeds\\ndrain the target’s HP\\nevery turn.",
     },
-
     [MOVE_FREEZY_FROST] = {
         .names = {
             .name = "Freezy Frost",
@@ -20061,7 +19320,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with a\\ncrystal made of frozen\\nhaze. It eliminates\\nevery stat change among\\nall Pokémon in battle.",
     },
-
     [MOVE_SPARKLY_SWIRL] = {
         .names = {
             .name = "Sparkly Swirl",
@@ -20088,7 +19346,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nan overpowering scent.\\nThis also heals all\\nstatus conditions of\\nthe user’s party.",
     },
-
     [MOVE_VEEVEE_VOLLEY] = {
         .names = {
             .name = "Veevee Volley",
@@ -20115,7 +19372,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The more Eevee\\nloves its Trainer,\\nthe greater the\\nmove’s power.\\nIt never misses.",
     },
-
     [MOVE_DOUBLE_IRON_BASH] = {
         .names = {
             .name = "Double IronBash",
@@ -20142,7 +19398,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user spins on its\\nnut, striking the target\\nwith its arms twice in a\\nrow. This may also make\\nthe target flinch.",
     },
-
     [MOVE_MAX_GUARD] = {
         .names = {
             .name = "Max Guard",
@@ -20169,7 +19424,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This move protects the\\nuser from all attacks.\\nIts chance of failing\\nrises if it is used in\\nsuccession.",
     },
-
     [MOVE_DYNAMAX_CANNON] = {
         .names = {
             .name = "Dynamax Cannon",
@@ -20196,7 +19450,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user condenses\\nenergy within its body\\nand unleashes that\\nenergy from its core\\nto inflict damage.",
     },
-
     [MOVE_SNIPE_SHOT] = {
         .names = {
             .name = "Snipe Shot",
@@ -20223,7 +19476,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user ignores\\nopposing Pokémon’s moves\\nand Abilities that draw\\nin moves, allowing it to\\nhit the chosen target.",
     },
-
     [MOVE_JAW_LOCK] = {
         .names = {
             .name = "Jaw Lock",
@@ -20250,7 +19502,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This move prevents the\\nuser and the target from\\nswitching out until\\neither of them faints or\\nleaves the field.",
     },
-
     [MOVE_STUFF_CHEEKS] = {
         .names = {
             .name = "Stuff Cheeks",
@@ -20277,7 +19528,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user eats its\\nheld Berry, then\\nsharply boosts its\\nDefense stat.",
     },
-
     [MOVE_NO_RETREAT] = {
         .names = {
             .name = "No Retreat",
@@ -20304,7 +19554,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This move boosts all\\nthe user’s stats but\\nprevents the user\\nfrom switching out\\nor fleeing.",
     },
-
     [MOVE_TAR_SHOT] = {
         .names = {
             .name = "Tar Shot",
@@ -20331,7 +19580,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user pours tar on\\nthe target, dropping\\ntheir Speed stat.\\nFire attacks deal\\nmore damage.",
     },
-
     [MOVE_MAGIC_POWDER] = {
         .names = {
             .name = "Magic Powder",
@@ -20358,7 +19606,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user scatters a\\ncloud of magic powder\\nthat changes the\\ntarget’s type to\\nPsychic.",
     },
-
     [MOVE_DRAGON_DARTS] = {
         .names = {
             .name = "Dragon Darts",
@@ -20385,7 +19632,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks twice\\nusing Dreepy. If there\\nare two opposing\\nPokémon, this move\\nhits each of them once.",
     },
-
     [MOVE_TEATIME] = {
         .names = {
             .name = "Teatime",
@@ -20412,7 +19658,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user has teatime\\nwith all the Pokémon\\ncurrently in the battle.\\nEach Pokémon eats its\\nheld Berry.",
     },
-
     [MOVE_OCTOLOCK] = {
         .names = {
             .name = "Octolock",
@@ -20439,7 +19684,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user prevents the\\ntarget from fleeing.\\nThis move also lowers\\nthe target’s Defense\\nand Sp. Def every turn.",
     },
-
     [MOVE_BOLT_BEAK] = {
         .names = {
             .name = "Bolt Beak",
@@ -20466,7 +19710,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user stabs with its\\nelectrified beak. This\\nmove’s power is doubled\\nif the user moves before\\nthe target.",
     },
-
     [MOVE_FISHIOUS_REND] = {
         .names = {
             .name = "Fishious Rend",
@@ -20493,7 +19736,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rends with its\\nhard gills. If the user\\nattacks before the\\ntarget, the power of\\nthis move is doubled.",
     },
-
     [MOVE_COURT_CHANGE] = {
         .names = {
             .name = "Court Change",
@@ -20520,7 +19762,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "With its mysterious\\npower, the user swaps\\nthe effects on either\\nside of the field.",
     },
-
     [MOVE_MAX_FLARE] = {
         .names = {
             .name = "Max Flare",
@@ -20547,7 +19788,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Fire-type\\nattack Dynamax Pokémon\\nuse. The user\\nintensifies the sun\\nfor five turns.",
     },
-
     [MOVE_MAX_FLUTTERBY] = {
         .names = {
             .name = "Max Flutterby",
@@ -20574,7 +19814,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Bug-type\\nattack Dynamax Pokémon\\nuse. This lowers the\\ntarget’s Sp. Atk stat.",
     },
-
     [MOVE_MAX_LIGHTNING] = {
         .names = {
             .name = "Max Lightning",
@@ -20601,7 +19840,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is an Electric-type\\nattack Dynamax Pokémon\\nuse. The user turns the\\nground into Electric\\nTerrain for five turns.",
     },
-
     [MOVE_MAX_STRIKE] = {
         .names = {
             .name = "Max Strike",
@@ -20628,7 +19866,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Normal-type\\nattack Dynamax Pokémon\\nuse. This lowers the\\ntarget’s Speed stat.",
     },
-
     [MOVE_MAX_KNUCKLE] = {
         .names = {
             .name = "Max Knuckle",
@@ -20655,7 +19892,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Fighting-type\\nattack Dynamax Pokémon\\nuse. This boosts ally\\nPokémon’s Attack stats.",
     },
-
     [MOVE_MAX_PHANTASM] = {
         .names = {
             .name = "Max Phantasm",
@@ -20682,7 +19918,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Ghost-type\\nattack Dynamax Pokémon\\nuse. This lowers the\\ntarget’s Defense stat.",
     },
-
     [MOVE_MAX_HAILSTORM] = {
         .names = {
             .name = "Max Hailstorm",
@@ -20709,7 +19944,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is an Ice-type\\nattack Dynamax Pokémon\\nuse. The user summons\\na snowstorm lasting\\nfive turns.",
     },
-
     [MOVE_MAX_OOZE] = {
         .names = {
             .name = "Max Ooze",
@@ -20736,7 +19970,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Poison-type\\nattack Dynamax Pokémon\\nuse. This boosts ally\\nPokémon’s Sp. Atk\\nstats.",
     },
-
     [MOVE_MAX_GEYSER] = {
         .names = {
             .name = "Max Geyser",
@@ -20763,7 +19996,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Water-type\\nattack Dynamax Pokémon\\nuse. The user summons\\na heavy rain that\\nfalls for five turns.",
     },
-
     [MOVE_MAX_AIRSTREAM] = {
         .names = {
             .name = "Max Airstream",
@@ -20790,7 +20022,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Flying-type\\nattack Dynamax Pokémon\\nuse. This boosts ally\\nPokémon’s Speed stats.",
     },
-
     [MOVE_MAX_STARFALL] = {
         .names = {
             .name = "Max Starfall",
@@ -20817,7 +20048,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Fairy-type\\nattack Dynamax Pokémon\\nuse. The user turns the\\nground into Misty\\nTerrain for five turns.",
     },
-
     [MOVE_MAX_WYRMWIND] = {
         .names = {
             .name = "Max Wyrmwind",
@@ -20844,7 +20074,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Dragon-type\\nattack Dynamax Pokémon\\nuse. This lowers the\\ntarget’s Attack stat.",
     },
-
     [MOVE_MAX_MINDSTORM] = {
         .names = {
             .name = "Max Mindstorm",
@@ -20871,7 +20100,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Psychic-type\\nattack Dynamax Pokémon\\nuse. The user turns the\\nground into Psychic\\nTerrain for five turns.",
     },
-
     [MOVE_MAX_ROCKFALL] = {
         .names = {
             .name = "Max Rockfall",
@@ -20898,7 +20126,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Rock-type\\nattack Dynamax Pokémon\\nuse. The user summons\\na sandstorm lasting\\nfive turns.",
     },
-
     [MOVE_MAX_QUAKE] = {
         .names = {
             .name = "Max Quake",
@@ -20925,7 +20152,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Ground-type\\nattack Dynamax Pokémon\\nuse. This boosts ally\\nPokémon’s Sp. Def\\nstats.",
     },
-
     [MOVE_MAX_DARKNESS] = {
         .names = {
             .name = "Max Darkness",
@@ -20952,7 +20178,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Dark-type\\nattack Dynamax Pokémon\\nuse. This lowers the\\ntarget’s Sp. Def stat.",
     },
-
     [MOVE_MAX_OVERGROWTH] = {
         .names = {
             .name = "Max Overgrowth",
@@ -20979,7 +20204,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Grass-type\\nattack Dynamax Pokémon\\nuse. The user turns the\\nground into Grassy\\nTerrain for five turns.",
     },
-
     [MOVE_MAX_STEELSPIKE] = {
         .names = {
             .name = "Max Steelspike",
@@ -21006,7 +20230,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is a Steel-type\\nattack Dynamax Pokémon\\nuse. This boosts ally\\nPokémon’s Defense\\nstats.",
     },
-
     [MOVE_CLANGOROUS_SOUL] = {
         .names = {
             .name = "Clangorous Soul",
@@ -21033,7 +20256,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user boosts all\\nits stats by using\\nsome of its own HP.",
     },
-
     [MOVE_BODY_PRESS] = {
         .names = {
             .name = "Body Press",
@@ -21060,7 +20282,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slams its\\nbody into the target.\\nThe higher the user’s\\nDefense stat, the\\ngreater the damage.",
     },
-
     [MOVE_DECORATE] = {
         .names = {
             .name = "Decorate",
@@ -21087,7 +20308,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user sharply\\nboosts the target’s\\nAttack and Sp. Atk\\nstats by decorating\\nthe target.",
     },
-
     [MOVE_DRUM_BEATING] = {
         .names = {
             .name = "Drum Beating",
@@ -21114,7 +20334,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user plays its drum,\\ncontrolling the drum’s\\nroots to attack the\\ntarget. This also lowers\\nthe target’s Speed stat.",
     },
-
     [MOVE_SNAP_TRAP] = {
         .names = {
             .name = "Snap Trap",
@@ -21141,7 +20360,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user snares the\\ntarget in a snap trap\\nthat inflicts damage\\nfor four to five\\nturns.",
     },
-
     [MOVE_PYRO_BALL] = {
         .names = {
             .name = "Pyro Ball",
@@ -21168,7 +20386,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user ignites a small\\nstone and launches it as\\na fiery ball. This may\\nalso leave the target\\nwith a burn.",
     },
-
     [MOVE_BEHEMOTH_BLADE] = {
         .names = {
             .name = "Behemoth Blade",
@@ -21195,7 +20412,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user wields a\\nlarge, powerful sword\\nusing its whole body\\nand cuts the target\\nin a vigorous attack.",
     },
-
     [MOVE_BEHEMOTH_BASH] = {
         .names = {
             .name = "Behemoth Bash",
@@ -21222,7 +20438,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user’s body\\nbecomes a firm shield\\nand slams into the\\ntarget fiercely.",
     },
-
     [MOVE_AURA_WHEEL] = {
         .names = {
             .name = "Aura Wheel",
@@ -21249,7 +20464,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Morpeko attacks and\\nboosts its Speed stat.\\nThis move’s type\\nchanges depending on\\nthe user’s form.",
     },
-
     [MOVE_BREAKING_SWIPE] = {
         .names = {
             .name = "Breaking Swipe",
@@ -21276,7 +20490,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user swings its\\ntough tail and attacks\\nopposing Pokémon.\\nThis also lowers their\\nAttack stats.",
     },
-
     [MOVE_BRANCH_POKE] = {
         .names = {
             .name = "Branch Poke",
@@ -21303,7 +20516,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks the\\ntarget by poking it\\nwith a sharply\\npointed branch.",
     },
-
     [MOVE_OVERDRIVE] = {
         .names = {
             .name = "Overdrive",
@@ -21330,7 +20542,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\ntwanging a guitar or\\nbass guitar, causing a\\nhuge echo and strong\\nvibration.",
     },
-
     [MOVE_APPLE_ACID] = {
         .names = {
             .name = "Apple Acid",
@@ -21357,7 +20568,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with an\\nacidic liquid created\\nfrom tart apples. This\\nalso lowers the target’s\\nSp. Def stat.",
     },
-
     [MOVE_GRAV_APPLE] = {
         .names = {
             .name = "Grav Apple",
@@ -21384,7 +20594,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user inflicts\\ndamage by dropping\\nan apple from above.\\nThis also lowers the\\ntarget’s Defense stat.",
     },
-
     [MOVE_SPIRIT_BREAK] = {
         .names = {
             .name = "Spirit Break",
@@ -21411,7 +20620,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nenough force to break\\nthe target’s spirit.\\nThis also lowers the\\ntarget’s Sp. Atk stat.",
     },
-
     [MOVE_STRANGE_STEAM] = {
         .names = {
             .name = "Strange Steam",
@@ -21438,7 +20646,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks the\\ntarget by emitting\\nsteam.\\nThis may also\\nconfuse the target.",
     },
-
     [MOVE_LIFE_DEW] = {
         .names = {
             .name = "Life Dew",
@@ -21465,7 +20672,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user scatters\\nmysterious water around\\nand restores the HP of\\nitself and its allies\\ncurrently in battle.",
     },
-
     [MOVE_OBSTRUCT] = {
         .names = {
             .name = "Obstruct",
@@ -21492,7 +20698,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user protects itself\\nfrom damage while\\nharshly lowering the\\nDefense of any attacker\\nthat makes contact.",
     },
-
     [MOVE_FALSE_SURRENDER] = {
         .names = {
             .name = "False Surrender",
@@ -21519,7 +20724,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user pretends to\\nbow its head, but then\\nit stabs the target\\nwith its hair. This\\nattack never misses.",
     },
-
     [MOVE_METEOR_ASSAULT] = {
         .names = {
             .name = "Meteor Assault",
@@ -21546,7 +20750,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks\\nwildly with its thick\\nleek.\\nThe user can’t move\\non the next turn.",
     },
-
     [MOVE_ETERNABEAM] = {
         .names = {
             .name = "Eternabeam",
@@ -21573,7 +20776,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This is Eternatus’s\\nmost powerful attack\\nin its original form.\\nThe user can’t move\\non the next turn.",
     },
-
     [MOVE_STEEL_BEAM] = {
         .names = {
             .name = "Steel Beam",
@@ -21600,7 +20802,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user fires a beam\\nof steel that it\\ncollected from its\\nentire body. This also\\ndamages the user.",
     },
-
     [MOVE_EXPANDING_FORCE] = {
         .names = {
             .name = "Expanding Force",
@@ -21627,7 +20828,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nits psychic power. This\\nmove’s power goes up and\\ndamages all opponents on\\nPsychic Terrain.",
     },
-
     [MOVE_STEEL_ROLLER] = {
         .names = {
             .name = "Steel Roller",
@@ -21654,7 +20854,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks while\\ndestroying the terrain.\\nThis move fails if the\\nground hasn’t turned\\ninto a terrain.",
     },
-
     [MOVE_SCALE_SHOT] = {
         .names = {
             .name = "Scale Shot",
@@ -21681,7 +20880,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nshooting scales two to\\nfive times in a row.\\nThis raises Speed\\nbut lowers Defense.",
     },
-
     [MOVE_METEOR_BEAM] = {
         .names = {
             .name = "Meteor Beam",
@@ -21708,7 +20906,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user gathers\\nenergy from space to\\nraise its Sp. Atk on\\nthe first turn, then\\nattacks on the next.",
     },
-
     [MOVE_SHELL_SIDE_ARM] = {
         .names = {
             .name = "Shell Side Arm",
@@ -21735,7 +20932,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "This move is either\\nphysical or special,\\nwhichever will inflict\\nmore damage. This may\\nalso poison the target.",
     },
-
     [MOVE_MISTY_EXPLOSION] = {
         .names = {
             .name = "Misty Explosion",
@@ -21762,7 +20958,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks\\neverything around it\\nand faints. This move’s\\npower is boosted on\\nMisty Terrain.",
     },
-
     [MOVE_GRASSY_GLIDE] = {
         .names = {
             .name = "Grassy Glide",
@@ -21789,7 +20984,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Gliding on the ground,\\nthe user attacks the\\ntarget. This move\\nalways goes first on\\nGrassy Terrain.",
     },
-
     [MOVE_RISING_VOLTAGE] = {
         .names = {
             .name = "Rising Voltage",
@@ -21816,7 +21010,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nelectricity rising from\\nthe ground. Its power is\\ndoubled if the target is\\non Electric Terrain.",
     },
-
     [MOVE_TERRAIN_PULSE] = {
         .names = {
             .name = "Terrain Pulse",
@@ -21843,7 +21036,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user utilizes the\\nenergy of the terrain.\\nThis move’s type and\\npower change depending\\non the current terrain.",
     },
-
     [MOVE_SKITTER_SMACK] = {
         .names = {
             .name = "Skitter Smack",
@@ -21870,7 +21062,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user skitters\\nbehind the target to\\nattack.\\nThis also lowers the\\ntarget’s Sp. Atk stat.",
     },
-
     [MOVE_BURNING_JEALOUSY] = {
         .names = {
             .name = "BurningJealousy",
@@ -21897,7 +21088,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nenergy from jealousy.\\nThis burns all opposing\\nPokémon that have had\\ntheir stats boosted.",
     },
-
     [MOVE_LASH_OUT] = {
         .names = {
             .name = "Lash Out",
@@ -21924,7 +21114,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user vents its\\nfrustration. Its power is\\ndoubled if the user’s\\nstats were lowered\\nduring this turn.",
     },
-
     [MOVE_POLTERGEIST] = {
         .names = {
             .name = "Poltergeist",
@@ -21951,7 +21140,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\ncontrolling the\\ntarget’s item. This\\nmove fails if the foe\\nisn’t holding an item.",
     },
-
     [MOVE_CORROSIVE_GAS] = {
         .names = {
             .name = "Corrosive Gas",
@@ -21978,7 +21166,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user surrounds\\neverything around it\\nwith highly acidic gas\\nand melts away items\\nheld by other Pokémon.",
     },
-
     [MOVE_COACHING] = {
         .names = {
             .name = "Coaching",
@@ -22005,7 +21192,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user properly\\ncoaches its ally\\nPokémon, boosting\\ntheir Attack and\\nDefense stats.",
     },
-
     [MOVE_FLIP_TURN] = {
         .names = {
             .name = "Flip Turn",
@@ -22032,7 +21218,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "After making its\\nattack, the user\\nrushes back to switch\\nplaces with a party\\nPokémon in waiting.",
     },
-
     [MOVE_TRIPLE_AXEL] = {
         .names = {
             .name = "Triple Axel",
@@ -22059,7 +21244,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A consecutive\\nthree-kick attack\\nthat becomes more\\npowerful with each\\nsuccessful hit.",
     },
-
     [MOVE_DUAL_WINGBEAT] = {
         .names = {
             .name = "Dual Wingbeat",
@@ -22086,7 +21270,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slams the\\ntarget with its wings\\nto inflict damage.\\nThe target is hit\\ntwice in a row.",
     },
-
     [MOVE_SCORCHING_SANDS] = {
         .names = {
             .name = "Scorching Sands",
@@ -22113,7 +21296,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user throws\\nscorching sand at\\nthe target to attack.\\nThe target may also\\nbe left with a burn.",
     },
-
     [MOVE_JUNGLE_HEALING] = {
         .names = {
             .name = "Jungle Healing",
@@ -22140,7 +21322,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user restores HP and\\ncures status conditions\\nfor itself and its ally\\nPokémon currently in the\\nbattle.",
     },
-
     [MOVE_WICKED_BLOW] = {
         .names = {
             .name = "Wicked Blow",
@@ -22167,7 +21348,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user strikes\\nthe target with a\\nfierce blow.\\nThis move always\\nlands a critical hit.",
     },
-
     [MOVE_SURGING_STRIKES] = {
         .names = {
             .name = "Surging Strikes",
@@ -22194,7 +21374,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user strikes the\\ntarget with a flowing\\nmotion three times in\\na row. This move always\\nlands a critical hit.",
     },
-
     [MOVE_THUNDER_CAGE] = {
         .names = {
             .name = "Thunder Cage",
@@ -22221,7 +21400,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user traps the\\ntarget inside a cage\\nof electricity that\\ninflicts damage for\\nfour to five turns.",
     },
-
     [MOVE_DRAGON_ENERGY] = {
         .names = {
             .name = "Dragon Energy",
@@ -22248,7 +21426,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user converts its\\nlife-force into power.\\nThe lower the user’s\\nHP, the lower the\\nmove’s power.",
     },
-
     [MOVE_FREEZING_GLARE] = {
         .names = {
             .name = "Freezing Glare",
@@ -22275,7 +21452,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user shoots its\\npsychic power from\\nits eyes to attack.\\nThis may also leave\\nthe target frozen.",
     },
-
     [MOVE_FIERY_WRATH] = {
         .names = {
             .name = "Fiery Wrath",
@@ -22302,7 +21478,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user transforms its\\nwrath into a fire-like\\naura to attack. This may\\nalso make opposing\\nPokémon flinch.",
     },
-
     [MOVE_THUNDEROUS_KICK] = {
         .names = {
             .name = "Thunderous Kick",
@@ -22329,7 +21504,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "With lightning-like\\nmovement, the user\\ndelivers a kick. This\\nalso lowers the\\ntarget’s Defense stat.",
     },
-
     [MOVE_GLACIAL_LANCE] = {
         .names = {
             .name = "Glacial Lance",
@@ -22356,7 +21530,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nhurling a\\nblizzard-cloaked\\nicicle lance at\\nopposing Pokémon.",
     },
-
     [MOVE_ASTRAL_BARRAGE] = {
         .names = {
             .name = "Astral Barrage",
@@ -22383,7 +21556,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nsending a frightful\\namount of small\\nghosts at opposing\\nPokémon.",
     },
-
     [MOVE_EERIE_SPELL] = {
         .names = {
             .name = "Eerie Spell",
@@ -22410,7 +21582,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nits tremendous psychic\\npower. This also drains\\n3 PP from the move last\\nused by the target.",
     },
-
     [MOVE_DIRE_CLAW] = {
         .names = {
             .name = "Dire Claw",
@@ -22437,7 +21608,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lashes out\\nat the target with\\nruinous claws. May\\nalso poison, paralyze,\\nor sleep the target.",
     },
-
     [MOVE_PSYSHIELD_BASH] = {
         .names = {
             .name = "Psyshield Bash",
@@ -22464,7 +21634,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Cloaked in psychic\\nenergy, the user slams\\ninto the target. This\\nalso boosts the user’s\\nDefense stat.",
     },
-
     [MOVE_POWER_SHIFT] = {
         .names = {
             .name = "Power Shift",
@@ -22491,7 +21660,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user swaps its\\nAttack and Defense\\nstats.",
     },
-
     [MOVE_STONE_AXE] = {
         .names = {
             .name = "Stone Axe",
@@ -22518,7 +21686,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user swings its\\nstone axes at the\\ntarget. Splinters left\\nbehind by this attack\\nfloat around the target.",
     },
-
     [MOVE_SPRINGTIDE_STORM] = {
         .names = {
             .name = "SpringtideStorm",
@@ -22545,7 +21712,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user wraps foes in\\nfierce winds brimming\\nwith love and hate.\\nThis may also lower\\ntheir Attack stats.",
     },
-
     [MOVE_MYSTICAL_POWER] = {
         .names = {
             .name = "Mystical Power",
@@ -22572,7 +21738,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nemitting a mysterious\\npower.\\nThis also boosts the\\nuser’s Sp. Atk stat.",
     },
-
     [MOVE_RAGING_FURY] = {
         .names = {
             .name = "Raging Fury",
@@ -22599,7 +21764,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rampages\\naround spewing flames\\nfor two to three turns.\\nThe user then becomes\\nconfused.",
     },
-
     [MOVE_WAVE_CRASH] = {
         .names = {
             .name = "Wave Crash",
@@ -22626,7 +21790,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user shrouds\\nitself in water and\\nslams into the target.\\nThis also damages the\\nuser quite a lot.",
     },
-
     [MOVE_CHLOROBLAST] = {
         .names = {
             .name = "Chloroblast",
@@ -22653,7 +21816,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user launches its\\namassed chlorophyll\\nto inflict damage on\\nthe target. This also\\ndamages the user.",
     },
-
     [MOVE_MOUNTAIN_GALE] = {
         .names = {
             .name = "Mountain Gale",
@@ -22680,7 +21842,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user hurls giant\\nchunks of ice at the\\ntarget to inflict\\ndamage. This may also\\nmake the target flinch.",
     },
-
     [MOVE_VICTORY_DANCE] = {
         .names = {
             .name = "Victory Dance",
@@ -22707,7 +21868,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user performs an\\nintense dance to usher\\nin victory, boosting\\nits Attack, Defense,\\nand Speed stats.",
     },
-
     [MOVE_HEADLONG_RUSH] = {
         .names = {
             .name = "Headlong Rush",
@@ -22734,7 +21894,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user smashes into\\nthe target in a\\nfull-body tackle. This\\nalso lowers the user’s\\nDefense and Sp. Def.",
     },
-
     [MOVE_BARB_BARRAGE] = {
         .names = {
             .name = "Barb Barrage",
@@ -22761,7 +21920,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user launches barbs\\nwhich may poison the\\ntarget. Its power is\\ndoubled if the target\\nis already poisoned.",
     },
-
     [MOVE_ESPER_WING] = {
         .names = {
             .name = "Esper Wing",
@@ -22788,7 +21946,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slashes with\\naura-enriched wings and\\nboosts its Speed. This\\nmove has a heightened\\ncritical hit chance.",
     },
-
     [MOVE_BITTER_MALICE] = {
         .names = {
             .name = "Bitter Malice",
@@ -22815,7 +21972,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks the\\ntarget with spine-\\nchilling resentment.\\nThis also lowers the\\ntarget’s Attack stat.",
     },
-
     [MOVE_SHELTER] = {
         .names = {
             .name = "Shelter",
@@ -22842,7 +21998,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user makes its\\nskin as hard as an\\niron shield,\\nsharply boosting\\nits Defense stat.",
     },
-
     [MOVE_TRIPLE_ARROWS] = {
         .names = {
             .name = "Triple Arrows",
@@ -22869,7 +22024,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user kicks and fires\\nthree arrows. This has a\\nhigh critical hit chance\\nand may lower Defense or\\nmake the target flinch.",
     },
-
     [MOVE_INFERNAL_PARADE] = {
         .names = {
             .name = "Infernal Parade",
@@ -22896,7 +22050,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user summons myriad\\nfireballs which may burn\\nthe target. Its power is\\ndoubled if the target\\nhas a status condition.",
     },
-
     [MOVE_CEASELESS_EDGE] = {
         .names = {
             .name = "Ceaseless Edge",
@@ -22923,7 +22076,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slashes its\\nshell blade at the\\ntarget. Shell\\nsplinters left behind\\nremain as spikes.",
     },
-
     [MOVE_BLEAKWIND_STORM] = {
         .names = {
             .name = "BleakwindStorm",
@@ -22950,7 +22102,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nsavagely cold winds.\\nThis may also lower\\nthe Speed stats of\\nopposing Pokémon.",
     },
-
     [MOVE_WILDBOLT_STORM] = {
         .names = {
             .name = "WildboltStorm",
@@ -22977,7 +22128,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user savagely\\nattacks with\\nlightning and wind.\\nIt may also leave\\nopponents paralyzed.",
     },
-
     [MOVE_SANDSEAR_STORM] = {
         .names = {
             .name = "SandsearStorm",
@@ -23004,7 +22154,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user wraps opposing\\nPokémon in fierce winds\\nand searingly hot sand.\\nThis may also leave them\\nwith a burn.",
     },
-
     [MOVE_LUNAR_BLESSING] = {
         .names = {
             .name = "Lunar Blessing",
@@ -23031,7 +22180,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user receives a\\nblessing from the moon,\\nrestoring HP and curing\\nstatus conditions for\\nitself and its allies.",
     },
-
     [MOVE_TAKE_HEART] = {
         .names = {
             .name = "Take Heart",
@@ -23058,7 +22206,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user lifts its\\nspirits, curing its\\nown status conditions\\nand boosting its Sp.\\nAtk and Sp. Def stats.",
     },
-
     [MOVE_TERA_BLAST] = {
         .names = {
             .name = "Tera Blast",
@@ -23085,7 +22232,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "If Terastallized, the\\nuser unleashes energy of\\nits Tera Type. It can\\nuse Attack or Sp. Atk-\\nwhichever is higher.",
     },
-
     [MOVE_SILK_TRAP] = {
         .names = {
             .name = "Silk Trap",
@@ -23112,7 +22258,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user spins a silken\\ntrap, protecting itself\\nwhile lowering the Speed\\nof any attacker that\\nmakes direct contact.",
     },
-
     [MOVE_AXE_KICK] = {
         .names = {
             .name = "Axe Kick",
@@ -23139,7 +22284,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slams its heel\\ndown upon the target,\\nwhich may also confuse\\nthem. If it misses, the\\nuser is hurt instead.",
     },
-
     [MOVE_LAST_RESPECTS] = {
         .names = {
             .name = "Last Respects",
@@ -23166,7 +22310,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks to\\navenge its allies. The\\nmore defeated allies\\nin the user’s party,\\nthe greater its power.",
     },
-
     [MOVE_LUMINA_CRASH] = {
         .names = {
             .name = "Lumina Crash",
@@ -23193,7 +22336,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user unleashes a\\npeculiar light that even\\naffects the mind. This\\nalso harshly lowers the\\ntarget’s Sp. Def stat.",
     },
-
     [MOVE_ORDER_UP] = {
         .names = {
             .name = "Order Up",
@@ -23220,7 +22362,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nelegant poise. If it has\\na Tatsugiri in its\\nmouth, this move boosts\\none of the user’s stats.",
     },
-
     [MOVE_JET_PUNCH] = {
         .names = {
             .name = "Jet Punch",
@@ -23247,7 +22388,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user summons a\\ntorrent around its\\nfist and punches at\\nblinding speed. It is\\nsure to strike first.",
     },
-
     [MOVE_SPICY_EXTRACT] = {
         .names = {
             .name = "Spicy Extract",
@@ -23274,7 +22414,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user’s incredibly\\nspicy extract sharply\\nboosts the target’s\\nAttack stat and harshly\\nlowers their Defense.",
     },
-
     [MOVE_SPIN_OUT] = {
         .names = {
             .name = "Spin Out",
@@ -23301,7 +22440,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user spins furiously\\nby straining its legs,\\ninflicting damage while\\nharshly lowering the\\nuser’s Speed stat.",
     },
-
     [MOVE_POPULATION_BOMB] = {
         .names = {
             .name = "Population Bomb",
@@ -23328,7 +22466,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user’s fellows\\ngather in droves to\\nperform a combo attack\\nthat hits the target one\\nto ten times in a row.",
     },
-
     [MOVE_ICE_SPINNER] = {
         .names = {
             .name = "Ice Spinner",
@@ -23355,7 +22492,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user covers its\\nfeet in ice and twirls\\naround, slamming into\\nthe target. It also\\ndestroys the terrain.",
     },
-
     [MOVE_GLAIVE_RUSH] = {
         .names = {
             .name = "Glaive Rush",
@@ -23382,7 +22518,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user charges\\nrecklessly. Attacks on\\nthe user on the next\\nturn always hit and will\\ninflict double damage.",
     },
-
     [MOVE_REVIVAL_BLESSING] = {
         .names = {
             .name = "RevivalBlessing",
@@ -23409,7 +22544,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user’s loving\\nblessing revives a party\\nPokémon that has fainted\\nand restores half that\\nPokémon’s max HP.",
     },
-
     [MOVE_SALT_CURE] = {
         .names = {
             .name = "Salt Cure",
@@ -23436,7 +22570,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user salt cures the\\ntarget, dealing damage\\nevery turn. Steel and\\nWater types are strongly\\naffected by this move.",
     },
-
     [MOVE_TRIPLE_DIVE] = {
         .names = {
             .name = "Triple Dive",
@@ -23463,7 +22596,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user performs a\\nperfectly timed triple\\ndive, hitting the target\\nwith splashes of water\\nthree times in a row.",
     },
-
     [MOVE_MORTAL_SPIN] = {
         .names = {
             .name = "Mortal Spin",
@@ -23490,7 +22622,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A spin attack that can\\neliminate such moves as\\nBind, Wrap and Leech\\nSeed. It also poisons\\nopposing Pokémon.",
     },
-
     [MOVE_DOODLE] = {
         .names = {
             .name = "Doodle",
@@ -23517,7 +22648,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The target’s essence is\\ncaptured in a sketch.\\nThis makes the Abilities\\nof the user and its ally\\nmatch the target’s.",
     },
-
     [MOVE_FILLET_AWAY] = {
         .names = {
             .name = "Fillet Away",
@@ -23544,7 +22674,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user sharply\\nboosts its Attack,\\nSp. Atk, and Speed\\nstats by using its\\nown HP.",
     },
-
     [MOVE_KOWTOW_CLEAVE] = {
         .names = {
             .name = "Kowtow Cleave",
@@ -23571,7 +22700,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user slashes at the\\ntarget after kowtowing\\nto make the target let\\ndown its guard. This\\nattack never misses.",
     },
-
     [MOVE_FLOWER_TRICK] = {
         .names = {
             .name = "Flower Trick",
@@ -23598,7 +22726,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user throws a rigged\\nbouquet of flowers at\\nthe target. This attack\\nnever misses and always\\nlands a critical hit.",
     },
-
     [MOVE_TORCH_SONG] = {
         .names = {
             .name = "Torch Song",
@@ -23625,7 +22752,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user blows out\\nraging flames as if\\nsinging, scorching the\\ntarget. This also boosts\\nthe user’s Sp. Atk stat.",
     },
-
     [MOVE_AQUA_STEP] = {
         .names = {
             .name = "Aqua Step",
@@ -23652,7 +22778,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user toys with the\\ntarget and attacks using\\nlight and fluid dance\\nsteps. This also boosts\\nthe user’s Speed stat.",
     },
-
     [MOVE_RAGING_BULL] = {
         .names = {
             .name = "Raging Bull",
@@ -23679,7 +22804,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user performs a\\ntackle like a raging\\nbull. It can also break\\nbarriers, such as Light\\nScreen and Reflect.",
     },
-
     [MOVE_MAKE_IT_RAIN] = {
         .names = {
             .name = "Make It Rain",
@@ -23706,7 +22830,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user throws out a\\nmass of coins. This also\\nlowers the user’s Sp.\\nAtk stat. Money is\\nearned after the battle.",
     },
-
     [MOVE_PSYBLADE] = {
         .names = {
             .name = "Psyblade",
@@ -23733,7 +22856,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rends with an\\nethereal blade. Its\\npower is boosted by 50\\npercent if the user is\\non Electric Terrain.",
     },
-
     [MOVE_HYDRO_STEAM] = {
         .names = {
             .name = "Hydro Steam",
@@ -23760,7 +22882,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user blasts out\\nboiling-hot water. Its\\npower is not lowered in\\nharsh sunlight but\\nrather boosted by 50%.",
     },
-
     [MOVE_RUINATION] = {
         .names = {
             .name = "Ruination",
@@ -23787,7 +22908,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user summons a\\nruinous disaster.\\nThis cuts the\\ntarget’s HP in half.",
     },
-
     [MOVE_COLLISION_COURSE] = {
         .names = {
             .name = "ColisionCourse",
@@ -23814,7 +22934,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user causes a\\nmassive prehistoric\\nexplosion. This move’s\\npower is boosted more if\\nit’s super effective.",
     },
-
     [MOVE_ELECTRO_DRIFT] = {
         .names = {
             .name = "Electro Drift",
@@ -23841,7 +22960,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user pierces its\\ntarget with futuristic\\nelectricity. This move’s\\npower is boosted more if\\nit’s supereffective.",
     },
-
     [MOVE_SHED_TAIL] = {
         .names = {
             .name = "Shed Tail",
@@ -23868,7 +22986,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user creates\\na decoy using its own\\nHP, then swaps places\\nwith a party Pokémon\\nin waiting.",
     },
-
     [MOVE_CHILLY_RECEPTION] = {
         .names = {
             .name = "ChillyReception",
@@ -23895,7 +23012,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tells a\\nchillingly bad joke\\nbefore switching out.\\nThis summons a snowstorm\\nlasting five turns.",
     },
-
     [MOVE_TIDY_UP] = {
         .names = {
             .name = "Tidy Up",
@@ -23922,7 +23038,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user tidies up and\\nremoves entry hazards\\nand Substitutes. This\\nalso boosts the user’s\\nAttack and Speed stats.",
     },
-
     [MOVE_SNOWSCAPE] = {
         .names = {
             .name = "Snowscape",
@@ -23949,7 +23064,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user summons a\\nsnowstorm lasting five\\nturns. This boosts the\\nDefense stats of Ice\\ntypes.",
     },
-
     [MOVE_POUNCE] = {
         .names = {
             .name = "Pounce",
@@ -23976,7 +23090,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\npouncing on the\\ntarget.\\nThis also lowers the\\ntarget’s Speed stat.",
     },
-
     [MOVE_TRAILBLAZE] = {
         .names = {
             .name = "Trailblaze",
@@ -24003,7 +23116,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks as if\\nleaping out from tall\\ngrass. The user’s\\nnimble footwork raises\\nits Speed stat.",
     },
-
     [MOVE_CHILLING_WATER] = {
         .names = {
             .name = "Chilling Water",
@@ -24030,7 +23142,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks the\\ntarget by showering it\\nwith cold water. This\\nalso lowers the target’s\\nAttack stat.",
     },
-
     [MOVE_HYPER_DRILL] = {
         .names = {
             .name = "Hyper Drill",
@@ -24057,7 +23168,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user spins at high\\nspeed to pierce the\\ntarget. This attack can\\nhit through a move such\\nas Protect or Detect.",
     },
-
     [MOVE_TWIN_BEAM] = {
         .names = {
             .name = "Twin Beam",
@@ -24084,7 +23194,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user shoots\\nmystical beams from its\\neyes to inflict damage.\\nThe target is hit twice\\nin a row.",
     },
-
     [MOVE_RAGE_FIST] = {
         .names = {
             .name = "Rage Fist",
@@ -24111,7 +23220,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user converts its\\nrage into energy to\\nattack. The more the\\nuser has been attacked,\\nthe greater the power.",
     },
-
     [MOVE_ARMOR_CANNON] = {
         .names = {
             .name = "Armor Cannon",
@@ -24138,7 +23246,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user shoots its own\\narmor out as blazing\\nprojectiles. It also\\ncuts the user’s Defense\\nand Sp. Def stats.",
     },
-
     [MOVE_BITTER_BLADE] = {
         .names = {
             .name = "Bitter Blade",
@@ -24165,7 +23272,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user focuses its\\nbitter feelings into a\\nslash. The user’s HP\\nis restored by up to\\nhalf the damage taken.",
     },
-
     [MOVE_DOUBLE_SHOCK] = {
         .names = {
             .name = "Double Shock",
@@ -24192,7 +23298,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user discharges\\nall the electricity\\nfrom its body. After\\nthis, the user loses\\nthe Electric type.",
     },
-
     [MOVE_GIGATON_HAMMER] = {
         .names = {
             .name = "Gigaton Hammer",
@@ -24219,7 +23324,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user swings its\\nwhole body around to\\nattack with its huge\\nhammer. This move can’t\\nbe used twice in a row.",
     },
-
     [MOVE_COMEUPPANCE] = {
         .names = {
             .name = "Comeuppance",
@@ -24246,7 +23350,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user retaliates\\nagainst the foe that\\nlast inflicted damage\\non it with much\\ngreater power.",
     },
-
     [MOVE_AQUA_CUTTER] = {
         .names = {
             .name = "Aqua Cutter",
@@ -24273,7 +23376,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user expels\\npressurized water to\\ncut at the target like\\na blade. It has a high\\ncritical-hit ratio.",
     },
-
     [MOVE_BLAZING_TORQUE] = {
         .names = {
             .name = "Blazing Torque",
@@ -24300,7 +23402,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rams into the\\ntarget with blazing\\nenergy. This may also\\nleave the target with\\na burn.",
     },
-
     [MOVE_WICKED_TORQUE] = {
         .names = {
             .name = "Wicked Torque",
@@ -24327,7 +23428,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rams into the\\ntarget with malicious\\nintent. This may put\\nthe target to sleep.",
     },
-
     [MOVE_NOXIOUS_TORQUE] = {
         .names = {
             .name = "Noxious Torque",
@@ -24354,7 +23454,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rams into the\\ntarget with a\\npoisonous end. This\\nmay also poison the\\ntarget.",
     },
-
     [MOVE_COMBAT_TORQUE] = {
         .names = {
             .name = "Combat Torque",
@@ -24381,7 +23480,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rams into the\\ntarget with great\\nforce. This may also\\nleave the target with\\nparalysis.",
     },
-
     [MOVE_MAGICAL_TORQUE] = {
         .names = {
             .name = "Magical Torque",
@@ -24408,7 +23506,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user rams into the\\ntarget with a fae-like\\nforce. This may also\\nconfuse the target.",
     },
-
     [MOVE_BLOOD_MOON] = {
         .names = {
             .name = "Blood Moon",
@@ -24435,7 +23532,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user unleashes the\\nfull brunt of its spirit\\nfrom a full moon.\\nThis move can’t be used\\ntwice in a row.",
     },
-
     [MOVE_MATCHA_GOTCHA] = {
         .names = {
             .name = "Matcha Gotcha",
@@ -24462,7 +23558,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user fires a blast\\nof tea, restoring HP\\nby up to half the\\ndamage dealt. This may\\nalso burn the target.",
     },
-
     [MOVE_SYRUP_BOMB] = {
         .names = {
             .name = "Syrup Bomb",
@@ -24489,7 +23584,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user sets off a\\ngooey explosion, which\\ncauses the target’s\\nSpeed stat to drop each\\nturn for three turns.",
     },
-
     [MOVE_IVY_CUDGEL] = {
         .names = {
             .name = "Ivy Cudgel",
@@ -24516,7 +23610,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user strikes with a\\ncudgel. It has a high\\ncritical hit chance, and\\nits type changes with\\nthe user’s mask.",
     },
-
     [MOVE_ELECTRO_SHOT] = {
         .names = {
             .name = "Electro Shot",
@@ -24543,7 +23636,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "A two-turn attack.\\nThe user gathers\\nlight, then fires a\\nhigh voltage shot\\non the second turn.",
     },
-
     [MOVE_TERA_STARSTORM] = {
         .names = {
             .name = "Tera Starstorm",
@@ -24570,7 +23662,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user bombards the\\ntarget with crystalline\\npower. When used by\\nStellar Terapagos, this\\nmove damages all foes.",
     },
-
     [MOVE_FICKLE_BEAM] = {
         .names = {
             .name = "Fickle Beam",
@@ -24597,7 +23688,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user shoots a beam\\nof light. Sometimes\\nthe user’s heads shoot\\nin unison, doubling\\nthe move’s power.",
     },
-
     [MOVE_BURNING_BULWARK] = {
         .names = {
             .name = "Burning Bulwark",
@@ -24624,7 +23714,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user’s intensely hot\\nfur protects it from\\nattacks and also burns\\nany attacker that makes\\ndirect contact with it.",
     },
-
     [MOVE_THUNDERCLAP] = {
         .names = {
             .name = "Thunderclap",
@@ -24651,7 +23740,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks first\\nwith a jolt of\\nelectricity. This move\\nfails if the target is\\nnot readying an attack.",
     },
-
     [MOVE_MIGHTY_CLEAVE] = {
         .names = {
             .name = "Mighty Cleave",
@@ -24678,7 +23766,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Light from atop the\\nuser’s head cleaves the\\ntarget. This move hits\\neven if the target\\nprotects itself.",
     },
-
     [MOVE_TACHYON_CUTTER] = {
         .names = {
             .name = "Tachyon Cutter",
@@ -24705,7 +23792,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks by\\nlaunching particle\\nblades at the target\\ntwice in a row. This\\nattack never misses.",
     },
-
     [MOVE_HARD_PRESS] = {
         .names = {
             .name = "Hard Press",
@@ -24732,7 +23818,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The target is crushed by\\nthe user. The more HP\\nthe target has left, the\\ngreater the move’s\\npower.",
     },
-
     [MOVE_DRAGON_CHEER] = {
         .names = {
             .name = "Dragon Cheer",
@@ -24759,7 +23844,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "Allies’ morale is raised\\nwith a draconic cry,\\nboosting their critical\\nhit rate. This rouses\\nDragon types more.",
     },
-
     [MOVE_ALLURING_VOICE] = {
         .names = {
             .name = "Alluring Voice",
@@ -24786,7 +23870,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks using\\nits angelic voice. This\\nalso confuses the target\\nif its stats have been\\nboosted during the turn.",
     },
-
     [MOVE_TEMPER_FLARE] = {
         .names = {
             .name = "Temper Flare",
@@ -24813,7 +23896,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user desperately\\nattacks the target. This\\nmove’s power is doubled\\nif the user’s previous\\nmove failed.",
     },
-
     [MOVE_SUPERCELL_SLAM] = {
         .names = {
             .name = "Supercell Slam",
@@ -24840,7 +23922,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user electrifies its\\nbody and drops onto the\\ntarget. If this move\\nmisses, the user takes\\ndamage instead.",
     },
-
     [MOVE_PSYCHIC_NOISE] = {
         .names = {
             .name = "Psychic Noise",
@@ -24867,7 +23948,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user attacks with\\nunpleasant sound waves.\\nFor two turns, the\\ntarget is prevented\\nfrom recovering HP.",
     },
-
     [MOVE_UPPER_HAND] = {
         .names = {
             .name = "Upper Hand",
@@ -24894,7 +23974,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user strikes\\nreactively, making the\\ntarget flinch. This move\\nfails if the target is\\nnot readying a priority\\rmove.",
     },
-
     [MOVE_MALIGNANT_CHAIN] = {
         .names = {
             .name = "Malignant Chain",
@@ -24921,7 +24000,6 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "The user pours toxins\\ninto the target through\\na corrosive chain. This\\nmay also leave the\\ntarget badly poisoned.",
     },
-
     [NUM_OF_MOVES] = {
         .names = {
             .name = "",
@@ -24948,4 +24026,5 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .description = "",
     },
+
 };

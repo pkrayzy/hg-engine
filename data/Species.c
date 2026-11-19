@@ -1,6 +1,7 @@
 #include "../include/species_data.h"
 
 const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
+
     [SPECIES_NONE] = {
         .textData = {
             .name = "-----",
@@ -57,7 +58,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BULBASAUR] = {
         .textData = {
             .name = "Bulbasaur",
@@ -114,7 +114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_IVYSAUR] = {
         .textData = {
             .name = "Ivysaur",
@@ -171,7 +170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_VENUSAUR] = {
         .textData = {
             .name = "Venusaur",
@@ -228,7 +226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_CHARMANDER] = {
         .textData = {
             .name = "Charmander",
@@ -285,7 +282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_CHARMELEON] = {
         .textData = {
             .name = "Charmeleon",
@@ -342,7 +338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 15,
         },
     },
-
     [SPECIES_CHARIZARD] = {
         .textData = {
             .name = "Charizard",
@@ -399,7 +394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -1,
         },
     },
-
     [SPECIES_SQUIRTLE] = {
         .textData = {
             .name = "Squirtle",
@@ -456,7 +450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_WARTORTLE] = {
         .textData = {
             .name = "Wartortle",
@@ -513,7 +506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_BLASTOISE] = {
         .textData = {
             .name = "Blastoise",
@@ -570,7 +562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_CATERPIE] = {
         .textData = {
             .name = "Caterpie",
@@ -627,7 +618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_METAPOD] = {
         .textData = {
             .name = "Metapod",
@@ -684,7 +674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BUTTERFREE] = {
         .textData = {
             .name = "Butterfree",
@@ -741,7 +730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -4,
         },
     },
-
     [SPECIES_WEEDLE] = {
         .textData = {
             .name = "Weedle",
@@ -798,7 +786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_KAKUNA] = {
         .textData = {
             .name = "Kakuna",
@@ -855,7 +842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_BEEDRILL] = {
         .textData = {
             .name = "Beedrill",
@@ -912,7 +898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -7,
         },
     },
-
     [SPECIES_PIDGEY] = {
         .textData = {
             .name = "Pidgey",
@@ -969,7 +954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 31,
         },
     },
-
     [SPECIES_PIDGEOTTO] = {
         .textData = {
             .name = "Pidgeotto",
@@ -1026,7 +1010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_PIDGEOT] = {
         .textData = {
             .name = "Pidgeot",
@@ -1083,7 +1066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_RATTATA] = {
         .textData = {
             .name = "Rattata",
@@ -1140,7 +1122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_RATICATE] = {
         .textData = {
             .name = "Raticate",
@@ -1197,7 +1178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_SPEAROW] = {
         .textData = {
             .name = "Spearow",
@@ -1254,7 +1234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 30,
         },
     },
-
     [SPECIES_FEAROW] = {
         .textData = {
             .name = "Fearow",
@@ -1311,7 +1290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_EKANS] = {
         .textData = {
             .name = "Ekans",
@@ -1368,7 +1346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_ARBOK] = {
         .textData = {
             .name = "Arbok",
@@ -1425,7 +1402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_PIKACHU] = {
         .textData = {
             .name = "Pikachu",
@@ -1482,7 +1458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_RAICHU] = {
         .textData = {
             .name = "Raichu",
@@ -1539,7 +1514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_SANDSHREW] = {
         .textData = {
             .name = "Sandshrew",
@@ -1596,7 +1570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_SANDSLASH] = {
         .textData = {
             .name = "Sandslash",
@@ -1653,7 +1626,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_NIDORAN_F] = {
         .textData = {
             .name = "Nidoran♀",
@@ -1710,7 +1682,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_NIDORINA] = {
         .textData = {
             .name = "Nidorina",
@@ -1767,7 +1738,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_NIDOQUEEN] = {
         .textData = {
             .name = "Nidoqueen",
@@ -1824,7 +1794,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_NIDORAN_M] = {
         .textData = {
             .name = "Nidoran♂",
@@ -1881,7 +1850,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_NIDORINO] = {
         .textData = {
             .name = "Nidorino",
@@ -1938,7 +1906,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_NIDOKING] = {
         .textData = {
             .name = "Nidoking",
@@ -1995,7 +1962,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_CLEFAIRY] = {
         .textData = {
             .name = "Clefairy",
@@ -2052,7 +2018,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_CLEFABLE] = {
         .textData = {
             .name = "Clefable",
@@ -2109,7 +2074,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 13,
         },
     },
-
     [SPECIES_VULPIX] = {
         .textData = {
             .name = "Vulpix",
@@ -2166,7 +2130,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 21,
         },
     },
-
     [SPECIES_NINETALES] = {
         .textData = {
             .name = "Ninetales",
@@ -2223,7 +2186,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 9,
         },
     },
-
     [SPECIES_JIGGLYPUFF] = {
         .textData = {
             .name = "Jigglypuff",
@@ -2280,7 +2242,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_WIGGLYTUFF] = {
         .textData = {
             .name = "Wigglytuff",
@@ -2337,7 +2298,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_ZUBAT] = {
         .textData = {
             .name = "Zubat",
@@ -2394,7 +2354,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -11,
         },
     },
-
     [SPECIES_GOLBAT] = {
         .textData = {
             .name = "Golbat",
@@ -2451,7 +2410,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -4,
         },
     },
-
     [SPECIES_ODDISH] = {
         .textData = {
             .name = "Oddish",
@@ -2508,7 +2466,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_GLOOM] = {
         .textData = {
             .name = "Gloom",
@@ -2565,7 +2522,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_VILEPLUME] = {
         .textData = {
             .name = "Vileplume",
@@ -2622,7 +2578,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_PARAS] = {
         .textData = {
             .name = "Paras",
@@ -2679,7 +2634,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 30,
         },
     },
-
     [SPECIES_PARASECT] = {
         .textData = {
             .name = "Parasect",
@@ -2736,7 +2690,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 18,
         },
     },
-
     [SPECIES_VENONAT] = {
         .textData = {
             .name = "Venonat",
@@ -2793,7 +2746,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_VENOMOTH] = {
         .textData = {
             .name = "Venomoth",
@@ -2850,7 +2802,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -6,
         },
     },
-
     [SPECIES_DIGLETT] = {
         .textData = {
             .name = "Diglett",
@@ -2907,7 +2858,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 32,
         },
     },
-
     [SPECIES_DUGTRIO] = {
         .textData = {
             .name = "Dugtrio",
@@ -2964,7 +2914,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 21,
         },
     },
-
     [SPECIES_MEOWTH] = {
         .textData = {
             .name = "Meowth",
@@ -3021,7 +2970,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_PERSIAN] = {
         .textData = {
             .name = "Persian",
@@ -3078,7 +3026,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_PSYDUCK] = {
         .textData = {
             .name = "Psyduck",
@@ -3135,7 +3082,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 21,
         },
     },
-
     [SPECIES_GOLDUCK] = {
         .textData = {
             .name = "Golduck",
@@ -3192,7 +3138,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 9,
         },
     },
-
     [SPECIES_MANKEY] = {
         .textData = {
             .name = "Mankey",
@@ -3249,7 +3194,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_PRIMEAPE] = {
         .textData = {
             .name = "Primeape",
@@ -3306,7 +3250,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_GROWLITHE] = {
         .textData = {
             .name = "Growlithe",
@@ -3363,7 +3306,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_ARCANINE] = {
         .textData = {
             .name = "Arcanine",
@@ -3420,7 +3362,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_POLIWAG] = {
         .textData = {
             .name = "Poliwag",
@@ -3477,7 +3418,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_POLIWHIRL] = {
         .textData = {
             .name = "Poliwhirl",
@@ -3534,7 +3474,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_POLIWRATH] = {
         .textData = {
             .name = "Poliwrath",
@@ -3591,7 +3530,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_ABRA] = {
         .textData = {
             .name = "Abra",
@@ -3648,7 +3586,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_KADABRA] = {
         .textData = {
             .name = "Kadabra",
@@ -3705,7 +3642,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_ALAKAZAM] = {
         .textData = {
             .name = "Alakazam",
@@ -3762,7 +3698,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_MACHOP] = {
         .textData = {
             .name = "Machop",
@@ -3819,7 +3754,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_MACHOKE] = {
         .textData = {
             .name = "Machoke",
@@ -3876,7 +3810,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_MACHAMP] = {
         .textData = {
             .name = "Machamp",
@@ -3933,7 +3866,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_BELLSPROUT] = {
         .textData = {
             .name = "Bellsprout",
@@ -3990,7 +3922,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_WEEPINBELL] = {
         .textData = {
             .name = "Weepinbell",
@@ -4047,7 +3978,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_VICTREEBEL] = {
         .textData = {
             .name = "Victreebel",
@@ -4104,7 +4034,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_TENTACOOL] = {
         .textData = {
             .name = "Tentacool",
@@ -4161,7 +4090,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_TENTACRUEL] = {
         .textData = {
             .name = "Tentacruel",
@@ -4218,7 +4146,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -1,
         },
     },
-
     [SPECIES_GEODUDE] = {
         .textData = {
             .name = "Geodude",
@@ -4275,7 +4202,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_GRAVELER] = {
         .textData = {
             .name = "Graveler",
@@ -4332,7 +4258,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_GOLEM] = {
         .textData = {
             .name = "Golem",
@@ -4389,7 +4314,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_PONYTA] = {
         .textData = {
             .name = "Ponyta",
@@ -4446,7 +4370,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_RAPIDASH] = {
         .textData = {
             .name = "Rapidash",
@@ -4503,7 +4426,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SLOWPOKE] = {
         .textData = {
             .name = "Slowpoke",
@@ -4560,7 +4482,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SLOWBRO] = {
         .textData = {
             .name = "Slowbro",
@@ -4617,7 +4538,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_MAGNEMITE] = {
         .textData = {
             .name = "Magnemite",
@@ -4674,7 +4594,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -14,
         },
     },
-
     [SPECIES_MAGNETON] = {
         .textData = {
             .name = "Magneton",
@@ -4731,7 +4650,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FARFETCHD] = {
         .textData = {
             .name = "Farfetch’d",
@@ -4788,7 +4706,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_DODUO] = {
         .textData = {
             .name = "Doduo",
@@ -4845,7 +4762,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 12,
         },
     },
-
     [SPECIES_DODRIO] = {
         .textData = {
             .name = "Dodrio",
@@ -4902,7 +4818,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_SEEL] = {
         .textData = {
             .name = "Seel",
@@ -4959,7 +4874,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 13,
         },
     },
-
     [SPECIES_DEWGONG] = {
         .textData = {
             .name = "Dewgong",
@@ -5016,7 +4930,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_GRIMER] = {
         .textData = {
             .name = "Grimer",
@@ -5073,7 +4986,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_MUK] = {
         .textData = {
             .name = "Muk",
@@ -5130,7 +5042,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_SHELLDER] = {
         .textData = {
             .name = "Shellder",
@@ -5187,7 +5098,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 29,
         },
     },
-
     [SPECIES_CLOYSTER] = {
         .textData = {
             .name = "Cloyster",
@@ -5244,7 +5154,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_GASTLY] = {
         .textData = {
             .name = "Gastly",
@@ -5301,7 +5210,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -2,
         },
     },
-
     [SPECIES_HAUNTER] = {
         .textData = {
             .name = "Haunter",
@@ -5358,7 +5266,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -6,
         },
     },
-
     [SPECIES_GENGAR] = {
         .textData = {
             .name = "Gengar",
@@ -5415,7 +5322,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -1,
         },
     },
-
     [SPECIES_ONIX] = {
         .textData = {
             .name = "Onix",
@@ -5472,7 +5378,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_DROWZEE] = {
         .textData = {
             .name = "Drowzee",
@@ -5529,7 +5434,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_HYPNO] = {
         .textData = {
             .name = "Hypno",
@@ -5586,7 +5490,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_KRABBY] = {
         .textData = {
             .name = "Krabby",
@@ -5643,7 +5546,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 30,
         },
     },
-
     [SPECIES_KINGLER] = {
         .textData = {
             .name = "Kingler",
@@ -5700,7 +5602,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 11,
         },
     },
-
     [SPECIES_VOLTORB] = {
         .textData = {
             .name = "Voltorb",
@@ -5757,7 +5658,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_ELECTRODE] = {
         .textData = {
             .name = "Electrode",
@@ -5814,7 +5714,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 11,
         },
     },
-
     [SPECIES_EXEGGCUTE] = {
         .textData = {
             .name = "Exeggcute",
@@ -5871,7 +5770,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_EXEGGUTOR] = {
         .textData = {
             .name = "Exeggutor",
@@ -5928,7 +5826,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_CUBONE] = {
         .textData = {
             .name = "Cubone",
@@ -5985,7 +5882,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_MAROWAK] = {
         .textData = {
             .name = "Marowak",
@@ -6042,7 +5938,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 13,
         },
     },
-
     [SPECIES_HITMONLEE] = {
         .textData = {
             .name = "Hitmonlee",
@@ -6099,7 +5994,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_HITMONCHAN] = {
         .textData = {
             .name = "Hitmonchan",
@@ -6156,7 +6050,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_LICKITUNG] = {
         .textData = {
             .name = "Lickitung",
@@ -6213,7 +6106,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 10,
         },
     },
-
     [SPECIES_KOFFING] = {
         .textData = {
             .name = "Koffing",
@@ -6270,7 +6162,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -10,
         },
     },
-
     [SPECIES_WEEZING] = {
         .textData = {
             .name = "Weezing",
@@ -6327,7 +6218,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_RHYHORN] = {
         .textData = {
             .name = "Rhyhorn",
@@ -6384,7 +6274,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_RHYDON] = {
         .textData = {
             .name = "Rhydon",
@@ -6441,7 +6330,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_CHANSEY] = {
         .textData = {
             .name = "Chansey",
@@ -6498,7 +6386,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 10,
         },
     },
-
     [SPECIES_TANGELA] = {
         .textData = {
             .name = "Tangela",
@@ -6555,7 +6442,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_KANGASKHAN] = {
         .textData = {
             .name = "Kangaskhan",
@@ -6612,7 +6498,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_HORSEA] = {
         .textData = {
             .name = "Horsea",
@@ -6669,7 +6554,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -6,
         },
     },
-
     [SPECIES_SEADRA] = {
         .textData = {
             .name = "Seadra",
@@ -6726,7 +6610,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -4,
         },
     },
-
     [SPECIES_GOLDEEN] = {
         .textData = {
             .name = "Goldeen",
@@ -6783,7 +6666,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_SEAKING] = {
         .textData = {
             .name = "Seaking",
@@ -6840,7 +6722,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_STARYU] = {
         .textData = {
             .name = "Staryu",
@@ -6897,7 +6778,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_STARMIE] = {
         .textData = {
             .name = "Starmie",
@@ -6954,7 +6834,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_MR_MIME] = {
         .textData = {
             .name = "Mr. Mime",
@@ -7011,7 +6890,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 9,
         },
     },
-
     [SPECIES_SCYTHER] = {
         .textData = {
             .name = "Scyther",
@@ -7068,7 +6946,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_JYNX] = {
         .textData = {
             .name = "Jynx",
@@ -7125,7 +7002,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_ELECTABUZZ] = {
         .textData = {
             .name = "Electabuzz",
@@ -7182,7 +7058,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_MAGMAR] = {
         .textData = {
             .name = "Magmar",
@@ -7239,7 +7114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 10,
         },
     },
-
     [SPECIES_PINSIR] = {
         .textData = {
             .name = "Pinsir",
@@ -7296,7 +7170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_TAUROS] = {
         .textData = {
             .name = "Tauros",
@@ -7353,7 +7226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -1,
         },
     },
-
     [SPECIES_MAGIKARP] = {
         .textData = {
             .name = "Magikarp",
@@ -7410,7 +7282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_GYARADOS] = {
         .textData = {
             .name = "Gyarados",
@@ -7467,7 +7338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_LAPRAS] = {
         .textData = {
             .name = "Lapras",
@@ -7524,7 +7394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_DITTO] = {
         .textData = {
             .name = "Ditto",
@@ -7581,7 +7450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 30,
         },
     },
-
     [SPECIES_EEVEE] = {
         .textData = {
             .name = "Eevee",
@@ -7638,7 +7506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 29,
         },
     },
-
     [SPECIES_VAPOREON] = {
         .textData = {
             .name = "Vaporeon",
@@ -7695,7 +7562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_JOLTEON] = {
         .textData = {
             .name = "Jolteon",
@@ -7752,7 +7618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_FLAREON] = {
         .textData = {
             .name = "Flareon",
@@ -7809,7 +7674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_PORYGON] = {
         .textData = {
             .name = "Porygon",
@@ -7866,7 +7730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_OMANYTE] = {
         .textData = {
             .name = "Omanyte",
@@ -7923,7 +7786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_OMASTAR] = {
         .textData = {
             .name = "Omastar",
@@ -7980,7 +7842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_KABUTO] = {
         .textData = {
             .name = "Kabuto",
@@ -8037,7 +7898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_KABUTOPS] = {
         .textData = {
             .name = "Kabutops",
@@ -8094,7 +7954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_AERODACTYL] = {
         .textData = {
             .name = "Aerodactyl",
@@ -8151,7 +8010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_SNORLAX] = {
         .textData = {
             .name = "Snorlax",
@@ -8208,7 +8066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_ARTICUNO] = {
         .textData = {
             .name = "Articuno",
@@ -8265,7 +8122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZAPDOS] = {
         .textData = {
             .name = "Zapdos",
@@ -8322,7 +8178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MOLTRES] = {
         .textData = {
             .name = "Moltres",
@@ -8379,7 +8234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_DRATINI] = {
         .textData = {
             .name = "Dratini",
@@ -8436,7 +8290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_DRAGONAIR] = {
         .textData = {
             .name = "Dragonair",
@@ -8493,7 +8346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_DRAGONITE] = {
         .textData = {
             .name = "Dragonite",
@@ -8550,7 +8402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_MEWTWO] = {
         .textData = {
             .name = "Mewtwo",
@@ -8607,7 +8458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_MEW] = {
         .textData = {
             .name = "Mew",
@@ -8664,7 +8514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -14,
         },
     },
-
     [SPECIES_CHIKORITA] = {
         .textData = {
             .name = "Chikorita",
@@ -8721,7 +8570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_BAYLEEF] = {
         .textData = {
             .name = "Bayleef",
@@ -8778,7 +8626,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_MEGANIUM] = {
         .textData = {
             .name = "Meganium",
@@ -8835,7 +8682,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CYNDAQUIL] = {
         .textData = {
             .name = "Cyndaquil",
@@ -8892,7 +8738,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_QUILAVA] = {
         .textData = {
             .name = "Quilava",
@@ -8949,7 +8794,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_TYPHLOSION] = {
         .textData = {
             .name = "Typhlosion",
@@ -9006,7 +8850,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TOTODILE] = {
         .textData = {
             .name = "Totodile",
@@ -9063,7 +8906,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_CROCONAW] = {
         .textData = {
             .name = "Croconaw",
@@ -9120,7 +8962,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 13,
         },
     },
-
     [SPECIES_FERALIGATR] = {
         .textData = {
             .name = "Feraligatr",
@@ -9177,7 +9018,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_SENTRET] = {
         .textData = {
             .name = "Sentret",
@@ -9234,7 +9074,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 18,
         },
     },
-
     [SPECIES_FURRET] = {
         .textData = {
             .name = "Furret",
@@ -9291,7 +9130,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 18,
         },
     },
-
     [SPECIES_HOOTHOOT] = {
         .textData = {
             .name = "Hoothoot",
@@ -9348,7 +9186,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 21,
         },
     },
-
     [SPECIES_NOCTOWL] = {
         .textData = {
             .name = "Noctowl",
@@ -9405,7 +9242,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 3,
         },
     },
-
     [SPECIES_LEDYBA] = {
         .textData = {
             .name = "Ledyba",
@@ -9462,7 +9298,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_LEDIAN] = {
         .textData = {
             .name = "Ledian",
@@ -9519,7 +9354,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_SPINARAK] = {
         .textData = {
             .name = "Spinarak",
@@ -9576,7 +9410,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_ARIADOS] = {
         .textData = {
             .name = "Ariados",
@@ -9633,7 +9466,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 12,
         },
     },
-
     [SPECIES_CROBAT] = {
         .textData = {
             .name = "Crobat",
@@ -9690,7 +9522,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_CHINCHOU] = {
         .textData = {
             .name = "Chinchou",
@@ -9747,7 +9578,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_LANTURN] = {
         .textData = {
             .name = "Lanturn",
@@ -9804,7 +9634,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_PICHU] = {
         .textData = {
             .name = "Pichu",
@@ -9861,7 +9690,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_CLEFFA] = {
         .textData = {
             .name = "Cleffa",
@@ -9918,7 +9746,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 29,
         },
     },
-
     [SPECIES_IGGLYBUFF] = {
         .textData = {
             .name = "Igglybuff",
@@ -9975,7 +9802,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 29,
         },
     },
-
     [SPECIES_TOGEPI] = {
         .textData = {
             .name = "Togepi",
@@ -10032,7 +9858,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 31,
         },
     },
-
     [SPECIES_TOGETIC] = {
         .textData = {
             .name = "Togetic",
@@ -10089,7 +9914,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_NATU] = {
         .textData = {
             .name = "Natu",
@@ -10146,7 +9970,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 31,
         },
     },
-
     [SPECIES_XATU] = {
         .textData = {
             .name = "Xatu",
@@ -10203,7 +10026,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_MAREEP] = {
         .textData = {
             .name = "Mareep",
@@ -10260,7 +10082,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_FLAAFFY] = {
         .textData = {
             .name = "Flaaffy",
@@ -10317,7 +10138,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_AMPHAROS] = {
         .textData = {
             .name = "Ampharos",
@@ -10374,7 +10194,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_BELLOSSOM] = {
         .textData = {
             .name = "Bellossom",
@@ -10431,7 +10250,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_MARILL] = {
         .textData = {
             .name = "Marill",
@@ -10488,7 +10306,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_AZUMARILL] = {
         .textData = {
             .name = "Azumarill",
@@ -10545,7 +10362,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_SUDOWOODO] = {
         .textData = {
             .name = "Sudowoodo",
@@ -10602,7 +10418,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 11,
         },
     },
-
     [SPECIES_POLITOED] = {
         .textData = {
             .name = "Politoed",
@@ -10659,7 +10474,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_HOPPIP] = {
         .textData = {
             .name = "Hoppip",
@@ -10716,7 +10530,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -6,
         },
     },
-
     [SPECIES_SKIPLOOM] = {
         .textData = {
             .name = "Skiploom",
@@ -10773,7 +10586,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_JUMPLUFF] = {
         .textData = {
             .name = "Jumpluff",
@@ -10830,7 +10642,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -7,
         },
     },
-
     [SPECIES_AIPOM] = {
         .textData = {
             .name = "Aipom",
@@ -10887,7 +10698,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 15,
         },
     },
-
     [SPECIES_SUNKERN] = {
         .textData = {
             .name = "Sunkern",
@@ -10944,7 +10754,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_SUNFLORA] = {
         .textData = {
             .name = "Sunflora",
@@ -11001,7 +10810,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 18,
         },
     },
-
     [SPECIES_YANMA] = {
         .textData = {
             .name = "Yanma",
@@ -11058,7 +10866,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_WOOPER] = {
         .textData = {
             .name = "Wooper",
@@ -11115,7 +10922,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_QUAGSIRE] = {
         .textData = {
             .name = "Quagsire",
@@ -11172,7 +10978,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_ESPEON] = {
         .textData = {
             .name = "Espeon",
@@ -11229,7 +11034,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 12,
         },
     },
-
     [SPECIES_UMBREON] = {
         .textData = {
             .name = "Umbreon",
@@ -11286,7 +11090,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 15,
         },
     },
-
     [SPECIES_MURKROW] = {
         .textData = {
             .name = "Murkrow",
@@ -11343,7 +11146,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -7,
         },
     },
-
     [SPECIES_SLOWKING] = {
         .textData = {
             .name = "Slowking",
@@ -11400,7 +11202,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_MISDREAVUS] = {
         .textData = {
             .name = "Misdreavus",
@@ -11457,7 +11258,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -9,
         },
     },
-
     [SPECIES_UNOWN] = {
         .textData = {
             .name = "Unown",
@@ -11514,7 +11314,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_WOBBUFFET] = {
         .textData = {
             .name = "Wobbuffet",
@@ -11571,7 +11370,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_GIRAFARIG] = {
         .textData = {
             .name = "Girafarig",
@@ -11628,7 +11426,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_PINECO] = {
         .textData = {
             .name = "Pineco",
@@ -11685,7 +11482,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_FORRETRESS] = {
         .textData = {
             .name = "Forretress",
@@ -11742,7 +11538,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 9,
         },
     },
-
     [SPECIES_DUNSPARCE] = {
         .textData = {
             .name = "Dunsparce",
@@ -11799,7 +11594,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_GLIGAR] = {
         .textData = {
             .name = "Gligar",
@@ -11856,7 +11650,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_STEELIX] = {
         .textData = {
             .name = "Steelix",
@@ -11913,7 +11706,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 3,
         },
     },
-
     [SPECIES_SNUBBULL] = {
         .textData = {
             .name = "Snubbull",
@@ -11970,7 +11762,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_GRANBULL] = {
         .textData = {
             .name = "Granbull",
@@ -12027,7 +11818,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_QWILFISH] = {
         .textData = {
             .name = "Qwilfish",
@@ -12084,7 +11874,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_SCIZOR] = {
         .textData = {
             .name = "Scizor",
@@ -12141,7 +11930,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 9,
         },
     },
-
     [SPECIES_SHUCKLE] = {
         .textData = {
             .name = "Shuckle",
@@ -12198,7 +11986,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_HERACROSS] = {
         .textData = {
             .name = "Heracross",
@@ -12255,7 +12042,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_SNEASEL] = {
         .textData = {
             .name = "Sneasel",
@@ -12312,7 +12098,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_TEDDIURSA] = {
         .textData = {
             .name = "Teddiursa",
@@ -12369,7 +12154,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_URSARING] = {
         .textData = {
             .name = "Ursaring",
@@ -12426,7 +12210,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_SLUGMA] = {
         .textData = {
             .name = "Slugma",
@@ -12483,7 +12266,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_MAGCARGO] = {
         .textData = {
             .name = "Magcargo",
@@ -12540,7 +12322,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_SWINUB] = {
         .textData = {
             .name = "Swinub",
@@ -12597,7 +12378,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_PILOSWINE] = {
         .textData = {
             .name = "Piloswine",
@@ -12654,7 +12434,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 12,
         },
     },
-
     [SPECIES_CORSOLA] = {
         .textData = {
             .name = "Corsola",
@@ -12711,7 +12490,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_REMORAID] = {
         .textData = {
             .name = "Remoraid",
@@ -12768,7 +12546,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_OCTILLERY] = {
         .textData = {
             .name = "Octillery",
@@ -12825,7 +12602,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_DELIBIRD] = {
         .textData = {
             .name = "Delibird",
@@ -12882,7 +12658,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_MANTINE] = {
         .textData = {
             .name = "Mantine",
@@ -12939,7 +12714,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -1,
         },
     },
-
     [SPECIES_SKARMORY] = {
         .textData = {
             .name = "Skarmory",
@@ -12996,7 +12770,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_HOUNDOUR] = {
         .textData = {
             .name = "Houndour",
@@ -13053,7 +12826,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_HOUNDOOM] = {
         .textData = {
             .name = "Houndoom",
@@ -13110,7 +12882,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 9,
         },
     },
-
     [SPECIES_KINGDRA] = {
         .textData = {
             .name = "Kingdra",
@@ -13167,7 +12938,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_PHANPY] = {
         .textData = {
             .name = "Phanpy",
@@ -13224,7 +12994,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_DONPHAN] = {
         .textData = {
             .name = "Donphan",
@@ -13281,7 +13050,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_PORYGON2] = {
         .textData = {
             .name = "Porygon2",
@@ -13338,7 +13106,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -7,
         },
     },
-
     [SPECIES_STANTLER] = {
         .textData = {
             .name = "Stantler",
@@ -13395,7 +13162,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SMEARGLE] = {
         .textData = {
             .name = "Smeargle",
@@ -13452,7 +13218,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_TYROGUE] = {
         .textData = {
             .name = "Tyrogue",
@@ -13509,7 +13274,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_HITMONTOP] = {
         .textData = {
             .name = "Hitmontop",
@@ -13566,7 +13330,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 13,
         },
     },
-
     [SPECIES_SMOOCHUM] = {
         .textData = {
             .name = "Smoochum",
@@ -13623,7 +13386,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_ELEKID] = {
         .textData = {
             .name = "Elekid",
@@ -13680,7 +13442,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_MAGBY] = {
         .textData = {
             .name = "Magby",
@@ -13737,7 +13498,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_MILTANK] = {
         .textData = {
             .name = "Miltank",
@@ -13794,7 +13554,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 11,
         },
     },
-
     [SPECIES_BLISSEY] = {
         .textData = {
             .name = "Blissey",
@@ -13851,7 +13610,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_RAIKOU] = {
         .textData = {
             .name = "Raikou",
@@ -13908,7 +13666,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_ENTEI] = {
         .textData = {
             .name = "Entei",
@@ -13965,7 +13722,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 3,
         },
     },
-
     [SPECIES_SUICUNE] = {
         .textData = {
             .name = "Suicune",
@@ -14022,7 +13778,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_LARVITAR] = {
         .textData = {
             .name = "Larvitar",
@@ -14079,7 +13834,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_PUPITAR] = {
         .textData = {
             .name = "Pupitar",
@@ -14136,7 +13890,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_TYRANITAR] = {
         .textData = {
             .name = "Tyranitar",
@@ -14193,7 +13946,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_LUGIA] = {
         .textData = {
             .name = "Lugia",
@@ -14250,7 +14002,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_HO_OH] = {
         .textData = {
             .name = "Ho-oh",
@@ -14307,7 +14058,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CELEBI] = {
         .textData = {
             .name = "Celebi",
@@ -14364,7 +14114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -1,
         },
     },
-
     [SPECIES_TREECKO] = {
         .textData = {
             .name = "Treecko",
@@ -14421,7 +14170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_GROVYLE] = {
         .textData = {
             .name = "Grovyle",
@@ -14478,7 +14226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_SCEPTILE] = {
         .textData = {
             .name = "Sceptile",
@@ -14535,7 +14282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_TORCHIC] = {
         .textData = {
             .name = "Torchic",
@@ -14592,7 +14338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_COMBUSKEN] = {
         .textData = {
             .name = "Combusken",
@@ -14649,7 +14394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_BLAZIKEN] = {
         .textData = {
             .name = "Blaziken",
@@ -14706,7 +14450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_MUDKIP] = {
         .textData = {
             .name = "Mudkip",
@@ -14763,7 +14506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_MARSHTOMP] = {
         .textData = {
             .name = "Marshtomp",
@@ -14820,7 +14562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_SWAMPERT] = {
         .textData = {
             .name = "Swampert",
@@ -14877,7 +14618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_POOCHYENA] = {
         .textData = {
             .name = "Poochyena",
@@ -14934,7 +14674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_MIGHTYENA] = {
         .textData = {
             .name = "Mightyena",
@@ -14991,7 +14730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 10,
         },
     },
-
     [SPECIES_ZIGZAGOON] = {
         .textData = {
             .name = "Zigzagoon",
@@ -15048,7 +14786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_LINOONE] = {
         .textData = {
             .name = "Linoone",
@@ -15105,7 +14842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_WURMPLE] = {
         .textData = {
             .name = "Wurmple",
@@ -15162,7 +14898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_SILCOON] = {
         .textData = {
             .name = "Silcoon",
@@ -15219,7 +14954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_BEAUTIFLY] = {
         .textData = {
             .name = "Beautifly",
@@ -15276,7 +15010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -10,
         },
     },
-
     [SPECIES_CASCOON] = {
         .textData = {
             .name = "Cascoon",
@@ -15333,7 +15066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_DUSTOX] = {
         .textData = {
             .name = "Dustox",
@@ -15390,7 +15122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -9,
         },
     },
-
     [SPECIES_LOTAD] = {
         .textData = {
             .name = "Lotad",
@@ -15447,7 +15178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_LOMBRE] = {
         .textData = {
             .name = "Lombre",
@@ -15504,7 +15234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_LUDICOLO] = {
         .textData = {
             .name = "Ludicolo",
@@ -15561,7 +15290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_SEEDOT] = {
         .textData = {
             .name = "Seedot",
@@ -15618,7 +15346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_NUZLEAF] = {
         .textData = {
             .name = "Nuzleaf",
@@ -15675,7 +15402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_SHIFTRY] = {
         .textData = {
             .name = "Shiftry",
@@ -15732,7 +15458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_TAILLOW] = {
         .textData = {
             .name = "Taillow",
@@ -15789,7 +15514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -17,
         },
     },
-
     [SPECIES_SWELLOW] = {
         .textData = {
             .name = "Swellow",
@@ -15846,7 +15570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_WINGULL] = {
         .textData = {
             .name = "Wingull",
@@ -15903,7 +15626,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -2,
         },
     },
-
     [SPECIES_PELIPPER] = {
         .textData = {
             .name = "Pelipper",
@@ -15960,7 +15682,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_RALTS] = {
         .textData = {
             .name = "Ralts",
@@ -16017,7 +15738,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_KIRLIA] = {
         .textData = {
             .name = "Kirlia",
@@ -16074,7 +15794,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_GARDEVOIR] = {
         .textData = {
             .name = "Gardevoir",
@@ -16131,7 +15850,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_SURSKIT] = {
         .textData = {
             .name = "Surskit",
@@ -16188,7 +15906,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_MASQUERAIN] = {
         .textData = {
             .name = "Masquerain",
@@ -16245,7 +15962,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_SHROOMISH] = {
         .textData = {
             .name = "Shroomish",
@@ -16302,7 +16018,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_BRELOOM] = {
         .textData = {
             .name = "Breloom",
@@ -16359,7 +16074,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_SLAKOTH] = {
         .textData = {
             .name = "Slakoth",
@@ -16416,7 +16130,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_VIGOROTH] = {
         .textData = {
             .name = "Vigoroth",
@@ -16473,7 +16186,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_SLAKING] = {
         .textData = {
             .name = "Slaking",
@@ -16530,7 +16242,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_NINCADA] = {
         .textData = {
             .name = "Nincada",
@@ -16587,7 +16298,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_NINJASK] = {
         .textData = {
             .name = "Ninjask",
@@ -16644,7 +16354,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -2,
         },
     },
-
     [SPECIES_SHEDINJA] = {
         .textData = {
             .name = "Shedinja",
@@ -16701,7 +16410,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_WHISMUR] = {
         .textData = {
             .name = "Whismur",
@@ -16758,7 +16466,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_LOUDRED] = {
         .textData = {
             .name = "Loudred",
@@ -16815,7 +16522,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 13,
         },
     },
-
     [SPECIES_EXPLOUD] = {
         .textData = {
             .name = "Exploud",
@@ -16872,7 +16578,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_MAKUHITA] = {
         .textData = {
             .name = "Makuhita",
@@ -16929,7 +16634,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 13,
         },
     },
-
     [SPECIES_HARIYAMA] = {
         .textData = {
             .name = "Hariyama",
@@ -16986,7 +16690,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_AZURILL] = {
         .textData = {
             .name = "Azurill",
@@ -17043,7 +16746,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_NOSEPASS] = {
         .textData = {
             .name = "Nosepass",
@@ -17100,7 +16802,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_SKITTY] = {
         .textData = {
             .name = "Skitty",
@@ -17157,7 +16858,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 21,
         },
     },
-
     [SPECIES_DELCATTY] = {
         .textData = {
             .name = "Delcatty",
@@ -17214,7 +16914,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 12,
         },
     },
-
     [SPECIES_SABLEYE] = {
         .textData = {
             .name = "Sableye",
@@ -17271,7 +16970,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_MAWILE] = {
         .textData = {
             .name = "Mawile",
@@ -17328,7 +17026,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_ARON] = {
         .textData = {
             .name = "Aron",
@@ -17385,7 +17082,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_LAIRON] = {
         .textData = {
             .name = "Lairon",
@@ -17442,7 +17138,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 18,
         },
     },
-
     [SPECIES_AGGRON] = {
         .textData = {
             .name = "Aggron",
@@ -17499,7 +17194,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_MEDITITE] = {
         .textData = {
             .name = "Meditite",
@@ -17556,7 +17250,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_MEDICHAM] = {
         .textData = {
             .name = "Medicham",
@@ -17613,7 +17306,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_ELECTRIKE] = {
         .textData = {
             .name = "Electrike",
@@ -17670,7 +17362,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_MANECTRIC] = {
         .textData = {
             .name = "Manectric",
@@ -17727,7 +17418,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_PLUSLE] = {
         .textData = {
             .name = "Plusle",
@@ -17784,7 +17474,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_MINUN] = {
         .textData = {
             .name = "Minun",
@@ -17841,7 +17530,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_VOLBEAT] = {
         .textData = {
             .name = "Volbeat",
@@ -17898,7 +17586,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 21,
         },
     },
-
     [SPECIES_ILLUMISE] = {
         .textData = {
             .name = "Illumise",
@@ -17955,7 +17642,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_ROSELIA] = {
         .textData = {
             .name = "Roselia",
@@ -18012,7 +17698,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 29,
         },
     },
-
     [SPECIES_GULPIN] = {
         .textData = {
             .name = "Gulpin",
@@ -18069,7 +17754,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_SWALOT] = {
         .textData = {
             .name = "Swalot",
@@ -18126,7 +17810,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_CARVANHA] = {
         .textData = {
             .name = "Carvanha",
@@ -18183,7 +17866,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -12,
         },
     },
-
     [SPECIES_SHARPEDO] = {
         .textData = {
             .name = "Sharpedo",
@@ -18240,7 +17922,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -1,
         },
     },
-
     [SPECIES_WAILMER] = {
         .textData = {
             .name = "Wailmer",
@@ -18297,7 +17978,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 9,
         },
     },
-
     [SPECIES_WAILORD] = {
         .textData = {
             .name = "Wailord",
@@ -18354,7 +18034,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_NUMEL] = {
         .textData = {
             .name = "Numel",
@@ -18411,7 +18090,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_CAMERUPT] = {
         .textData = {
             .name = "Camerupt",
@@ -18468,7 +18146,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 3,
         },
     },
-
     [SPECIES_TORKOAL] = {
         .textData = {
             .name = "Torkoal",
@@ -18525,7 +18202,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_SPOINK] = {
         .textData = {
             .name = "Spoink",
@@ -18582,7 +18258,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_GRUMPIG] = {
         .textData = {
             .name = "Grumpig",
@@ -18639,7 +18314,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 15,
         },
     },
-
     [SPECIES_SPINDA] = {
         .textData = {
             .name = "Spinda",
@@ -18696,7 +18370,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_TRAPINCH] = {
         .textData = {
             .name = "Trapinch",
@@ -18753,7 +18426,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 21,
         },
     },
-
     [SPECIES_VIBRAVA] = {
         .textData = {
             .name = "Vibrava",
@@ -18810,7 +18482,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -4,
         },
     },
-
     [SPECIES_FLYGON] = {
         .textData = {
             .name = "Flygon",
@@ -18867,7 +18538,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_CACNEA] = {
         .textData = {
             .name = "Cacnea",
@@ -18924,7 +18594,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_CACTURNE] = {
         .textData = {
             .name = "Cacturne",
@@ -18981,7 +18650,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 12,
         },
     },
-
     [SPECIES_SWABLU] = {
         .textData = {
             .name = "Swablu",
@@ -19038,7 +18706,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -14,
         },
     },
-
     [SPECIES_ALTARIA] = {
         .textData = {
             .name = "Altaria",
@@ -19095,7 +18762,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZANGOOSE] = {
         .textData = {
             .name = "Zangoose",
@@ -19152,7 +18818,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_SEVIPER] = {
         .textData = {
             .name = "Seviper",
@@ -19209,7 +18874,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_LUNATONE] = {
         .textData = {
             .name = "Lunatone",
@@ -19266,7 +18930,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -4,
         },
     },
-
     [SPECIES_SOLROCK] = {
         .textData = {
             .name = "Solrock",
@@ -19323,7 +18986,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -8,
         },
     },
-
     [SPECIES_BARBOACH] = {
         .textData = {
             .name = "Barboach",
@@ -19380,7 +19042,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_WHISCASH] = {
         .textData = {
             .name = "Whiscash",
@@ -19437,7 +19098,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_CORPHISH] = {
         .textData = {
             .name = "Corphish",
@@ -19494,7 +19154,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_CRAWDAUNT] = {
         .textData = {
             .name = "Crawdaunt",
@@ -19551,7 +19210,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 12,
         },
     },
-
     [SPECIES_BALTOY] = {
         .textData = {
             .name = "Baltoy",
@@ -19608,7 +19266,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_CLAYDOL] = {
         .textData = {
             .name = "Claydol",
@@ -19665,7 +19322,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_LILEEP] = {
         .textData = {
             .name = "Lileep",
@@ -19722,7 +19378,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_CRADILY] = {
         .textData = {
             .name = "Cradily",
@@ -19779,7 +19434,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_ANORITH] = {
         .textData = {
             .name = "Anorith",
@@ -19836,7 +19490,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 3,
         },
     },
-
     [SPECIES_ARMALDO] = {
         .textData = {
             .name = "Armaldo",
@@ -19893,7 +19546,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_FEEBAS] = {
         .textData = {
             .name = "Feebas",
@@ -19950,7 +19602,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -1,
         },
     },
-
     [SPECIES_MILOTIC] = {
         .textData = {
             .name = "Milotic",
@@ -20007,7 +19658,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 3,
         },
     },
-
     [SPECIES_CASTFORM] = {
         .textData = {
             .name = "Castform",
@@ -20064,7 +19714,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -13,
         },
     },
-
     [SPECIES_KECLEON] = {
         .textData = {
             .name = "Kecleon",
@@ -20121,7 +19770,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 15,
         },
     },
-
     [SPECIES_SHUPPET] = {
         .textData = {
             .name = "Shuppet",
@@ -20178,7 +19826,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -10,
         },
     },
-
     [SPECIES_BANETTE] = {
         .textData = {
             .name = "Banette",
@@ -20235,7 +19882,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 13,
         },
     },
-
     [SPECIES_DUSKULL] = {
         .textData = {
             .name = "Duskull",
@@ -20292,7 +19938,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 21,
         },
     },
-
     [SPECIES_DUSCLOPS] = {
         .textData = {
             .name = "Dusclops",
@@ -20349,7 +19994,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_TROPIUS] = {
         .textData = {
             .name = "Tropius",
@@ -20406,7 +20050,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CHIMECHO] = {
         .textData = {
             .name = "Chimecho",
@@ -20463,7 +20106,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -13,
         },
     },
-
     [SPECIES_ABSOL] = {
         .textData = {
             .name = "Absol",
@@ -20520,7 +20162,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_WYNAUT] = {
         .textData = {
             .name = "Wynaut",
@@ -20577,7 +20218,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SNORUNT] = {
         .textData = {
             .name = "Snorunt",
@@ -20634,7 +20274,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_GLALIE] = {
         .textData = {
             .name = "Glalie",
@@ -20691,7 +20330,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -1,
         },
     },
-
     [SPECIES_SPHEAL] = {
         .textData = {
             .name = "Spheal",
@@ -20748,7 +20386,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_SEALEO] = {
         .textData = {
             .name = "Sealeo",
@@ -20805,7 +20442,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 15,
         },
     },
-
     [SPECIES_WALREIN] = {
         .textData = {
             .name = "Walrein",
@@ -20862,7 +20498,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_CLAMPERL] = {
         .textData = {
             .name = "Clamperl",
@@ -20919,7 +20554,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_HUNTAIL] = {
         .textData = {
             .name = "Huntail",
@@ -20976,7 +20610,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GOREBYSS] = {
         .textData = {
             .name = "Gorebyss",
@@ -21033,7 +20666,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_RELICANTH] = {
         .textData = {
             .name = "Relicanth",
@@ -21090,7 +20722,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -7,
         },
     },
-
     [SPECIES_LUVDISC] = {
         .textData = {
             .name = "Luvdisc",
@@ -21147,7 +20778,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -9,
         },
     },
-
     [SPECIES_BAGON] = {
         .textData = {
             .name = "Bagon",
@@ -21204,7 +20834,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_SHELGON] = {
         .textData = {
             .name = "Shelgon",
@@ -21261,7 +20890,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_SALAMENCE] = {
         .textData = {
             .name = "Salamence",
@@ -21318,7 +20946,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_BELDUM] = {
         .textData = {
             .name = "Beldum",
@@ -21375,7 +21002,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -7,
         },
     },
-
     [SPECIES_METANG] = {
         .textData = {
             .name = "Metang",
@@ -21432,7 +21058,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -2,
         },
     },
-
     [SPECIES_METAGROSS] = {
         .textData = {
             .name = "Metagross",
@@ -21489,7 +21114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 9,
         },
     },
-
     [SPECIES_REGIROCK] = {
         .textData = {
             .name = "Regirock",
@@ -21546,7 +21170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_REGICE] = {
         .textData = {
             .name = "Regice",
@@ -21603,7 +21226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_REGISTEEL] = {
         .textData = {
             .name = "Registeel",
@@ -21660,7 +21282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_LATIAS] = {
         .textData = {
             .name = "Latias",
@@ -21717,7 +21338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -2,
         },
     },
-
     [SPECIES_LATIOS] = {
         .textData = {
             .name = "Latios",
@@ -21774,7 +21394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_KYOGRE] = {
         .textData = {
             .name = "Kyogre",
@@ -21831,7 +21450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GROUDON] = {
         .textData = {
             .name = "Groudon",
@@ -21888,7 +21506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_RAYQUAZA] = {
         .textData = {
             .name = "Rayquaza",
@@ -21945,7 +21562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_JIRACHI] = {
         .textData = {
             .name = "Jirachi",
@@ -22002,7 +21618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -18,
         },
     },
-
     [SPECIES_DEOXYS] = {
         .textData = {
             .name = "Deoxys",
@@ -22059,7 +21674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_TURTWIG] = {
         .textData = {
             .name = "Turtwig",
@@ -22116,7 +21730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_GROTLE] = {
         .textData = {
             .name = "Grotle",
@@ -22173,7 +21786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_TORTERRA] = {
         .textData = {
             .name = "Torterra",
@@ -22230,7 +21842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CHIMCHAR] = {
         .textData = {
             .name = "Chimchar",
@@ -22287,7 +21898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_MONFERNO] = {
         .textData = {
             .name = "Monferno",
@@ -22344,7 +21954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_INFERNAPE] = {
         .textData = {
             .name = "Infernape",
@@ -22401,7 +22010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 13,
         },
     },
-
     [SPECIES_PIPLUP] = {
         .textData = {
             .name = "Piplup",
@@ -22458,7 +22066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_PRINPLUP] = {
         .textData = {
             .name = "Prinplup",
@@ -22515,7 +22122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 18,
         },
     },
-
     [SPECIES_EMPOLEON] = {
         .textData = {
             .name = "Empoleon",
@@ -22572,7 +22178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 3,
         },
     },
-
     [SPECIES_STARLY] = {
         .textData = {
             .name = "Starly",
@@ -22629,7 +22234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 29,
         },
     },
-
     [SPECIES_STARAVIA] = {
         .textData = {
             .name = "Staravia",
@@ -22686,7 +22290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_STARAPTOR] = {
         .textData = {
             .name = "Staraptor",
@@ -22743,7 +22346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 12,
         },
     },
-
     [SPECIES_BIDOOF] = {
         .textData = {
             .name = "Bidoof",
@@ -22800,7 +22402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_BIBAREL] = {
         .textData = {
             .name = "Bibarel",
@@ -22857,7 +22458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 15,
         },
     },
-
     [SPECIES_KRICKETOT] = {
         .textData = {
             .name = "Kricketot",
@@ -22914,7 +22514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_KRICKETUNE] = {
         .textData = {
             .name = "Kricketune",
@@ -22971,7 +22570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_SHINX] = {
         .textData = {
             .name = "Shinx",
@@ -23028,7 +22626,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_LUXIO] = {
         .textData = {
             .name = "Luxio",
@@ -23085,7 +22682,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_LUXRAY] = {
         .textData = {
             .name = "Luxray",
@@ -23142,7 +22738,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_BUDEW] = {
         .textData = {
             .name = "Budew",
@@ -23199,7 +22794,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 29,
         },
     },
-
     [SPECIES_ROSERADE] = {
         .textData = {
             .name = "Roserade",
@@ -23256,7 +22850,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_CRANIDOS] = {
         .textData = {
             .name = "Cranidos",
@@ -23313,7 +22906,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_RAMPARDOS] = {
         .textData = {
             .name = "Rampardos",
@@ -23370,7 +22962,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 3,
         },
     },
-
     [SPECIES_SHIELDON] = {
         .textData = {
             .name = "Shieldon",
@@ -23427,7 +23018,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_BASTIODON] = {
         .textData = {
             .name = "Bastiodon",
@@ -23484,7 +23074,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 9,
         },
     },
-
     [SPECIES_BURMY] = {
         .textData = {
             .name = "Burmy",
@@ -23541,7 +23130,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -6,
         },
     },
-
     [SPECIES_WORMADAM] = {
         .textData = {
             .name = "Wormadam",
@@ -23598,7 +23186,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -12,
         },
     },
-
     [SPECIES_MOTHIM] = {
         .textData = {
             .name = "Mothim",
@@ -23655,7 +23242,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -11,
         },
     },
-
     [SPECIES_COMBEE] = {
         .textData = {
             .name = "Combee",
@@ -23712,7 +23298,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -8,
         },
     },
-
     [SPECIES_VESPIQUEN] = {
         .textData = {
             .name = "Vespiquen",
@@ -23769,7 +23354,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -4,
         },
     },
-
     [SPECIES_PACHIRISU] = {
         .textData = {
             .name = "Pachirisu",
@@ -23826,7 +23410,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_BUIZEL] = {
         .textData = {
             .name = "Buizel",
@@ -23883,7 +23466,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_FLOATZEL] = {
         .textData = {
             .name = "Floatzel",
@@ -23940,7 +23522,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 10,
         },
     },
-
     [SPECIES_CHERUBI] = {
         .textData = {
             .name = "Cherubi",
@@ -23997,7 +23578,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_CHERRIM] = {
         .textData = {
             .name = "Cherrim",
@@ -24054,7 +23634,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_SHELLOS] = {
         .textData = {
             .name = "Shellos",
@@ -24111,7 +23690,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_GASTRODON] = {
         .textData = {
             .name = "Gastrodon",
@@ -24168,7 +23746,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_AMBIPOM] = {
         .textData = {
             .name = "Ambipom",
@@ -24225,7 +23802,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_DRIFLOON] = {
         .textData = {
             .name = "Drifloon",
@@ -24282,7 +23858,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -14,
         },
     },
-
     [SPECIES_DRIFBLIM] = {
         .textData = {
             .name = "Drifblim",
@@ -24339,7 +23914,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -8,
         },
     },
-
     [SPECIES_BUNEARY] = {
         .textData = {
             .name = "Buneary",
@@ -24396,7 +23970,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_LOPUNNY] = {
         .textData = {
             .name = "Lopunny",
@@ -24453,7 +24026,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 12,
         },
     },
-
     [SPECIES_MISMAGIUS] = {
         .textData = {
             .name = "Mismagius",
@@ -24510,7 +24082,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -7,
         },
     },
-
     [SPECIES_HONCHKROW] = {
         .textData = {
             .name = "Honchkrow",
@@ -24567,7 +24138,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 18,
         },
     },
-
     [SPECIES_GLAMEOW] = {
         .textData = {
             .name = "Glameow",
@@ -24624,7 +24194,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PURUGLY] = {
         .textData = {
             .name = "Purugly",
@@ -24681,7 +24250,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 15,
         },
     },
-
     [SPECIES_CHINGLING] = {
         .textData = {
             .name = "Chingling",
@@ -24738,7 +24306,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -9,
         },
     },
-
     [SPECIES_STUNKY] = {
         .textData = {
             .name = "Stunky",
@@ -24795,7 +24362,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 9,
         },
     },
-
     [SPECIES_SKUNTANK] = {
         .textData = {
             .name = "Skuntank",
@@ -24852,7 +24418,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 15,
         },
     },
-
     [SPECIES_BRONZOR] = {
         .textData = {
             .name = "Bronzor",
@@ -24909,7 +24474,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -8,
         },
     },
-
     [SPECIES_BRONZONG] = {
         .textData = {
             .name = "Bronzong",
@@ -24966,7 +24530,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_BONSLY] = {
         .textData = {
             .name = "Bonsly",
@@ -25023,7 +24586,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_MIME_JR] = {
         .textData = {
             .name = "Mime Jr.",
@@ -25080,7 +24642,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HAPPINY] = {
         .textData = {
             .name = "Happiny",
@@ -25137,7 +24698,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CHATOT] = {
         .textData = {
             .name = "Chatot",
@@ -25194,7 +24754,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_SPIRITOMB] = {
         .textData = {
             .name = "Spiritomb",
@@ -25251,7 +24810,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_GIBLE] = {
         .textData = {
             .name = "Gible",
@@ -25308,7 +24866,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_GABITE] = {
         .textData = {
             .name = "Gabite",
@@ -25365,7 +24922,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_GARCHOMP] = {
         .textData = {
             .name = "Garchomp",
@@ -25422,7 +24978,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_MUNCHLAX] = {
         .textData = {
             .name = "Munchlax",
@@ -25479,7 +25034,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_RIOLU] = {
         .textData = {
             .name = "Riolu",
@@ -25536,7 +25090,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 21,
         },
     },
-
     [SPECIES_LUCARIO] = {
         .textData = {
             .name = "Lucario",
@@ -25593,7 +25146,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 12,
         },
     },
-
     [SPECIES_HIPPOPOTAS] = {
         .textData = {
             .name = "Hippopotas",
@@ -25650,7 +25202,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_HIPPOWDON] = {
         .textData = {
             .name = "Hippowdon",
@@ -25707,7 +25258,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 3,
         },
     },
-
     [SPECIES_SKORUPI] = {
         .textData = {
             .name = "Skorupi",
@@ -25764,7 +25314,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_DRAPION] = {
         .textData = {
             .name = "Drapion",
@@ -25821,7 +25370,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 10,
         },
     },
-
     [SPECIES_CROAGUNK] = {
         .textData = {
             .name = "Croagunk",
@@ -25878,7 +25426,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_TOXICROAK] = {
         .textData = {
             .name = "Toxicroak",
@@ -25935,7 +25482,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 11,
         },
     },
-
     [SPECIES_CARNIVINE] = {
         .textData = {
             .name = "Carnivine",
@@ -25992,7 +25538,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_FINNEON] = {
         .textData = {
             .name = "Finneon",
@@ -26049,7 +25594,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -2,
         },
     },
-
     [SPECIES_LUMINEON] = {
         .textData = {
             .name = "Lumineon",
@@ -26106,7 +25650,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_MANTYKE] = {
         .textData = {
             .name = "Mantyke",
@@ -26163,7 +25706,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -7,
         },
     },
-
     [SPECIES_SNOVER] = {
         .textData = {
             .name = "Snover",
@@ -26220,7 +25762,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_ABOMASNOW] = {
         .textData = {
             .name = "Abomasnow",
@@ -26277,7 +25818,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_WEAVILE] = {
         .textData = {
             .name = "Weavile",
@@ -26334,7 +25874,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 13,
         },
     },
-
     [SPECIES_MAGNEZONE] = {
         .textData = {
             .name = "Magnezone",
@@ -26391,7 +25930,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -7,
         },
     },
-
     [SPECIES_LICKILICKY] = {
         .textData = {
             .name = "Lickilicky",
@@ -26448,7 +25986,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -1,
         },
     },
-
     [SPECIES_RHYPERIOR] = {
         .textData = {
             .name = "Rhyperior",
@@ -26505,7 +26042,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_TANGROWTH] = {
         .textData = {
             .name = "Tangrowth",
@@ -26562,7 +26098,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_ELECTIVIRE] = {
         .textData = {
             .name = "Electivire",
@@ -26619,7 +26154,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_MAGMORTAR] = {
         .textData = {
             .name = "Magmortar",
@@ -26676,7 +26210,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TOGEKISS] = {
         .textData = {
             .name = "Togekiss",
@@ -26733,7 +26266,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -2,
         },
     },
-
     [SPECIES_YANMEGA] = {
         .textData = {
             .name = "Yanmega",
@@ -26790,7 +26322,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -4,
         },
     },
-
     [SPECIES_LEAFEON] = {
         .textData = {
             .name = "Leafeon",
@@ -26847,7 +26378,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_GLACEON] = {
         .textData = {
             .name = "Glaceon",
@@ -26904,7 +26434,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_GLISCOR] = {
         .textData = {
             .name = "Gliscor",
@@ -26961,7 +26490,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MAMOSWINE] = {
         .textData = {
             .name = "Mamoswine",
@@ -27018,7 +26546,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_PORYGON_Z] = {
         .textData = {
             .name = "Porygon-Z",
@@ -27075,7 +26602,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_GALLADE] = {
         .textData = {
             .name = "Gallade",
@@ -27132,7 +26658,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 3,
         },
     },
-
     [SPECIES_PROBOPASS] = {
         .textData = {
             .name = "Probopass",
@@ -27189,7 +26714,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_DUSKNOIR] = {
         .textData = {
             .name = "Dusknoir",
@@ -27246,7 +26770,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_FROSLASS] = {
         .textData = {
             .name = "Froslass",
@@ -27303,7 +26826,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 9,
         },
     },
-
     [SPECIES_ROTOM] = {
         .textData = {
             .name = "Rotom",
@@ -27360,7 +26882,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -8,
         },
     },
-
     [SPECIES_UXIE] = {
         .textData = {
             .name = "Uxie",
@@ -27417,7 +26938,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -10,
         },
     },
-
     [SPECIES_MESPRIT] = {
         .textData = {
             .name = "Mesprit",
@@ -27474,7 +26994,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -10,
         },
     },
-
     [SPECIES_AZELF] = {
         .textData = {
             .name = "Azelf",
@@ -27531,7 +27050,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -10,
         },
     },
-
     [SPECIES_DIALGA] = {
         .textData = {
             .name = "Dialga",
@@ -27588,7 +27106,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_PALKIA] = {
         .textData = {
             .name = "Palkia",
@@ -27645,7 +27162,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_HEATRAN] = {
         .textData = {
             .name = "Heatran",
@@ -27702,7 +27218,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_REGIGIGAS] = {
         .textData = {
             .name = "Regigigas",
@@ -27759,7 +27274,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_GIRATINA] = {
         .textData = {
             .name = "Giratina",
@@ -27816,7 +27330,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_CRESSELIA] = {
         .textData = {
             .name = "Cresselia",
@@ -27873,7 +27386,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_PHIONE] = {
         .textData = {
             .name = "Phione",
@@ -27930,7 +27442,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_MANAPHY] = {
         .textData = {
             .name = "Manaphy",
@@ -27987,7 +27498,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DARKRAI] = {
         .textData = {
             .name = "Darkrai",
@@ -28044,7 +27554,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_SHAYMIN] = {
         .textData = {
             .name = "Shaymin",
@@ -28101,7 +27610,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 32,
         },
     },
-
     [SPECIES_ARCEUS] = {
         .textData = {
             .name = "Arceus",
@@ -28158,7 +27666,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_EGG] = {
         .textData = {
             .name = "Egg",
@@ -28215,7 +27722,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BAD_EGG] = {
         .textData = {
             .name = "Bad Egg",
@@ -28272,7 +27778,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_496] = {
         .textData = {
             .name = "-----",
@@ -28329,7 +27834,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_497] = {
         .textData = {
             .name = "-----",
@@ -28386,7 +27890,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_498] = {
         .textData = {
             .name = "-----",
@@ -28443,7 +27946,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_499] = {
         .textData = {
             .name = "-----",
@@ -28500,7 +28002,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_500] = {
         .textData = {
             .name = "-----",
@@ -28557,7 +28058,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_501] = {
         .textData = {
             .name = "-----",
@@ -28614,7 +28114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_502] = {
         .textData = {
             .name = "-----",
@@ -28671,7 +28170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_503] = {
         .textData = {
             .name = "-----",
@@ -28728,7 +28226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_504] = {
         .textData = {
             .name = "-----",
@@ -28785,7 +28282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_505] = {
         .textData = {
             .name = "-----",
@@ -28842,7 +28338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_506] = {
         .textData = {
             .name = "-----",
@@ -28899,7 +28394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_507] = {
         .textData = {
             .name = "-----",
@@ -28956,7 +28450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_508] = {
         .textData = {
             .name = "-----",
@@ -29013,7 +28506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_509] = {
         .textData = {
             .name = "-----",
@@ -29070,7 +28562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_510] = {
         .textData = {
             .name = "-----",
@@ -29127,7 +28618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_511] = {
         .textData = {
             .name = "-----",
@@ -29184,7 +28674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_512] = {
         .textData = {
             .name = "-----",
@@ -29241,7 +28730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_513] = {
         .textData = {
             .name = "-----",
@@ -29298,7 +28786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_514] = {
         .textData = {
             .name = "-----",
@@ -29355,7 +28842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_515] = {
         .textData = {
             .name = "-----",
@@ -29412,7 +28898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_516] = {
         .textData = {
             .name = "-----",
@@ -29469,7 +28954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_517] = {
         .textData = {
             .name = "-----",
@@ -29526,7 +29010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_518] = {
         .textData = {
             .name = "-----",
@@ -29583,7 +29066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_519] = {
         .textData = {
             .name = "-----",
@@ -29640,7 +29122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_520] = {
         .textData = {
             .name = "-----",
@@ -29697,7 +29178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_521] = {
         .textData = {
             .name = "-----",
@@ -29754,7 +29234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_522] = {
         .textData = {
             .name = "-----",
@@ -29811,7 +29290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_523] = {
         .textData = {
             .name = "-----",
@@ -29868,7 +29346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_524] = {
         .textData = {
             .name = "-----",
@@ -29925,7 +29402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_525] = {
         .textData = {
             .name = "-----",
@@ -29982,7 +29458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_526] = {
         .textData = {
             .name = "-----",
@@ -30039,7 +29514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_527] = {
         .textData = {
             .name = "-----",
@@ -30096,7 +29570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_528] = {
         .textData = {
             .name = "-----",
@@ -30153,7 +29626,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_529] = {
         .textData = {
             .name = "-----",
@@ -30210,7 +29682,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_530] = {
         .textData = {
             .name = "-----",
@@ -30267,7 +29738,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_531] = {
         .textData = {
             .name = "-----",
@@ -30324,7 +29794,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_532] = {
         .textData = {
             .name = "-----",
@@ -30381,7 +29850,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_533] = {
         .textData = {
             .name = "-----",
@@ -30438,7 +29906,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_534] = {
         .textData = {
             .name = "-----",
@@ -30495,7 +29962,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_535] = {
         .textData = {
             .name = "-----",
@@ -30552,7 +30018,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_536] = {
         .textData = {
             .name = "-----",
@@ -30609,7 +30074,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_537] = {
         .textData = {
             .name = "-----",
@@ -30666,7 +30130,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_538] = {
         .textData = {
             .name = "-----",
@@ -30723,7 +30186,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_539] = {
         .textData = {
             .name = "-----",
@@ -30780,7 +30242,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_540] = {
         .textData = {
             .name = "-----",
@@ -30837,7 +30298,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_541] = {
         .textData = {
             .name = "-----",
@@ -30894,7 +30354,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_542] = {
         .textData = {
             .name = "-----",
@@ -30951,7 +30410,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_543] = {
         .textData = {
             .name = "-----",
@@ -31008,7 +30466,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_VICTINI] = {
         .textData = {
             .name = "Victini",
@@ -31065,7 +30522,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_SNIVY] = {
         .textData = {
             .name = "Snivy",
@@ -31122,7 +30578,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_SERVINE] = {
         .textData = {
             .name = "Servine",
@@ -31179,7 +30634,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 18,
         },
     },
-
     [SPECIES_SERPERIOR] = {
         .textData = {
             .name = "Serperior",
@@ -31236,7 +30690,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 3,
         },
     },
-
     [SPECIES_TEPIG] = {
         .textData = {
             .name = "Tepig",
@@ -31293,7 +30746,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_PIGNITE] = {
         .textData = {
             .name = "Pignite",
@@ -31350,7 +30802,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 11,
         },
     },
-
     [SPECIES_EMBOAR] = {
         .textData = {
             .name = "Emboar",
@@ -31407,7 +30858,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_OSHAWOTT] = {
         .textData = {
             .name = "Oshawott",
@@ -31464,7 +30914,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_DEWOTT] = {
         .textData = {
             .name = "Dewott",
@@ -31521,7 +30970,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_SAMUROTT] = {
         .textData = {
             .name = "Samurott",
@@ -31578,7 +31026,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -7,
         },
     },
-
     [SPECIES_PATRAT] = {
         .textData = {
             .name = "Patrat",
@@ -31635,7 +31082,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_WATCHOG] = {
         .textData = {
             .name = "Watchog",
@@ -31692,7 +31138,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 11,
         },
     },
-
     [SPECIES_LILLIPUP] = {
         .textData = {
             .name = "Lillipup",
@@ -31749,7 +31194,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HERDIER] = {
         .textData = {
             .name = "Herdier",
@@ -31806,7 +31250,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 17,
         },
     },
-
     [SPECIES_STOUTLAND] = {
         .textData = {
             .name = "Stoutland",
@@ -31863,7 +31306,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_PURRLOIN] = {
         .textData = {
             .name = "Purrloin",
@@ -31920,7 +31362,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_LIEPARD] = {
         .textData = {
             .name = "Liepard",
@@ -31977,7 +31418,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 13,
         },
     },
-
     [SPECIES_PANSAGE] = {
         .textData = {
             .name = "Pansage",
@@ -32034,7 +31474,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SIMISAGE] = {
         .textData = {
             .name = "Simisage",
@@ -32091,7 +31530,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 12,
         },
     },
-
     [SPECIES_PANSEAR] = {
         .textData = {
             .name = "Pansear",
@@ -32148,7 +31586,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_SIMISEAR] = {
         .textData = {
             .name = "Simisear",
@@ -32205,7 +31642,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_PANPOUR] = {
         .textData = {
             .name = "Panpour",
@@ -32262,7 +31698,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 21,
         },
     },
-
     [SPECIES_SIMIPOUR] = {
         .textData = {
             .name = "Simipour",
@@ -32319,7 +31754,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_MUNNA] = {
         .textData = {
             .name = "Munna",
@@ -32376,7 +31810,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_MUSHARNA] = {
         .textData = {
             .name = "Musharna",
@@ -32433,7 +31866,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_PIDOVE] = {
         .textData = {
             .name = "Pidove",
@@ -32490,7 +31922,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_TRANQUILL] = {
         .textData = {
             .name = "Tranquill",
@@ -32547,7 +31978,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_UNFEZANT] = {
         .textData = {
             .name = "Unfezant",
@@ -32604,7 +32034,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_BLITZLE] = {
         .textData = {
             .name = "Blitzle",
@@ -32661,7 +32090,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_ZEBSTRIKA] = {
         .textData = {
             .name = "Zebstrika",
@@ -32718,7 +32146,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_ROGGENROLA] = {
         .textData = {
             .name = "Roggenrola",
@@ -32775,7 +32202,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_BOLDORE] = {
         .textData = {
             .name = "Boldore",
@@ -32832,7 +32258,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 16,
         },
     },
-
     [SPECIES_GIGALITH] = {
         .textData = {
             .name = "Gigalith",
@@ -32889,7 +32314,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -6,
         },
     },
-
     [SPECIES_WOOBAT] = {
         .textData = {
             .name = "Woobat",
@@ -32946,7 +32370,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_SWOOBAT] = {
         .textData = {
             .name = "Swoobat",
@@ -33003,7 +32426,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DRILBUR] = {
         .textData = {
             .name = "Drilbur",
@@ -33060,7 +32482,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_EXCADRILL] = {
         .textData = {
             .name = "Excadrill",
@@ -33117,7 +32538,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 13,
         },
     },
-
     [SPECIES_AUDINO] = {
         .textData = {
             .name = "Audino",
@@ -33174,7 +32594,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 14,
         },
     },
-
     [SPECIES_TIMBURR] = {
         .textData = {
             .name = "Timburr",
@@ -33231,7 +32650,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_GURDURR] = {
         .textData = {
             .name = "Gurdurr",
@@ -33288,7 +32706,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_CONKELDURR] = {
         .textData = {
             .name = "Conkeldurr",
@@ -33345,7 +32762,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -2,
         },
     },
-
     [SPECIES_TYMPOLE] = {
         .textData = {
             .name = "Tympole",
@@ -33402,7 +32818,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_PALPITOAD] = {
         .textData = {
             .name = "Palpitoad",
@@ -33459,7 +32874,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_SEISMITOAD] = {
         .textData = {
             .name = "Seismitoad",
@@ -33516,7 +32930,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -1,
         },
     },
-
     [SPECIES_THROH] = {
         .textData = {
             .name = "Throh",
@@ -33573,7 +32986,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_SAWK] = {
         .textData = {
             .name = "Sawk",
@@ -33630,7 +33042,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_SEWADDLE] = {
         .textData = {
             .name = "Sewaddle",
@@ -33687,7 +33098,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_SWADLOON] = {
         .textData = {
             .name = "Swadloon",
@@ -33744,7 +33154,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_LEAVANNY] = {
         .textData = {
             .name = "Leavanny",
@@ -33801,7 +33210,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_VENIPEDE] = {
         .textData = {
             .name = "Venipede",
@@ -33858,7 +33266,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 27,
         },
     },
-
     [SPECIES_WHIRLIPEDE] = {
         .textData = {
             .name = "Whirlipede",
@@ -33915,7 +33322,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 15,
         },
     },
-
     [SPECIES_SCOLIPEDE] = {
         .textData = {
             .name = "Scolipede",
@@ -33972,7 +33378,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -7,
         },
     },
-
     [SPECIES_COTTONEE] = {
         .textData = {
             .name = "Cottonee",
@@ -34029,7 +33434,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 10,
         },
     },
-
     [SPECIES_WHIMSICOTT] = {
         .textData = {
             .name = "Whimsicott",
@@ -34086,7 +33490,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_PETILIL] = {
         .textData = {
             .name = "Petilil",
@@ -34143,7 +33546,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_LILLIGANT] = {
         .textData = {
             .name = "Lilligant",
@@ -34200,7 +33602,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 11,
         },
     },
-
     [SPECIES_BASCULIN] = {
         .textData = {
             .name = "Basculin",
@@ -34257,7 +33658,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_SANDILE] = {
         .textData = {
             .name = "Sandile",
@@ -34314,7 +33714,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 29,
         },
     },
-
     [SPECIES_KROKOROK] = {
         .textData = {
             .name = "Krokorok",
@@ -34371,7 +33770,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 10,
         },
     },
-
     [SPECIES_KROOKODILE] = {
         .textData = {
             .name = "Krookodile",
@@ -34428,7 +33826,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -2,
         },
     },
-
     [SPECIES_DARUMAKA] = {
         .textData = {
             .name = "Darumaka",
@@ -34485,7 +33882,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_DARMANITAN] = {
         .textData = {
             .name = "Darmanitan",
@@ -34542,7 +33938,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_MARACTUS] = {
         .textData = {
             .name = "Maractus",
@@ -34599,7 +33994,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_DWEBBLE] = {
         .textData = {
             .name = "Dwebble",
@@ -34656,7 +34050,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 31,
         },
     },
-
     [SPECIES_CRUSTLE] = {
         .textData = {
             .name = "Crustle",
@@ -34713,7 +34106,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_SCRAGGY] = {
         .textData = {
             .name = "Scraggy",
@@ -34770,7 +34162,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_SCRAFTY] = {
         .textData = {
             .name = "Scrafty",
@@ -34827,7 +34218,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 15,
         },
     },
-
     [SPECIES_SIGILYPH] = {
         .textData = {
             .name = "Sigilyph",
@@ -34884,7 +34274,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_YAMASK] = {
         .textData = {
             .name = "Yamask",
@@ -34941,7 +34330,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -2,
         },
     },
-
     [SPECIES_COFAGRIGUS] = {
         .textData = {
             .name = "Cofagrigus",
@@ -34998,7 +34386,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -4,
         },
     },
-
     [SPECIES_TIRTOUGA] = {
         .textData = {
             .name = "Tirtouga",
@@ -35055,7 +34442,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_CARRACOSTA] = {
         .textData = {
             .name = "Carracosta",
@@ -35112,7 +34498,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_ARCHEN] = {
         .textData = {
             .name = "Archen",
@@ -35169,7 +34554,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_ARCHEOPS] = {
         .textData = {
             .name = "Archeops",
@@ -35226,7 +34610,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -4,
         },
     },
-
     [SPECIES_TRUBBISH] = {
         .textData = {
             .name = "Trubbish",
@@ -35283,7 +34666,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_GARBODOR] = {
         .textData = {
             .name = "Garbodor",
@@ -35340,7 +34722,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_ZORUA] = {
         .textData = {
             .name = "Zorua",
@@ -35397,7 +34778,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_ZOROARK] = {
         .textData = {
             .name = "Zoroark",
@@ -35454,7 +34834,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_MINCCINO] = {
         .textData = {
             .name = "Minccino",
@@ -35511,7 +34890,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_CINCCINO] = {
         .textData = {
             .name = "Cinccino",
@@ -35568,7 +34946,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_GOTHITA] = {
         .textData = {
             .name = "Gothita",
@@ -35625,7 +35002,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_GOTHORITA] = {
         .textData = {
             .name = "Gothorita",
@@ -35682,7 +35058,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_GOTHITELLE] = {
         .textData = {
             .name = "Gothitelle",
@@ -35739,7 +35114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_SOLOSIS] = {
         .textData = {
             .name = "Solosis",
@@ -35796,7 +35170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DUOSION] = {
         .textData = {
             .name = "Duosion",
@@ -35853,7 +35226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_REUNICLUS] = {
         .textData = {
             .name = "Reuniclus",
@@ -35910,7 +35282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_DUCKLETT] = {
         .textData = {
             .name = "Ducklett",
@@ -35967,7 +35338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_SWANNA] = {
         .textData = {
             .name = "Swanna",
@@ -36024,7 +35394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_VANILLITE] = {
         .textData = {
             .name = "Vanillite",
@@ -36081,7 +35450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_VANILLISH] = {
         .textData = {
             .name = "Vanillish",
@@ -36138,7 +35506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_VANILLUXE] = {
         .textData = {
             .name = "Vanilluxe",
@@ -36195,7 +35562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DEERLING] = {
         .textData = {
             .name = "Deerling",
@@ -36252,7 +35618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_SAWSBUCK] = {
         .textData = {
             .name = "Sawsbuck",
@@ -36309,7 +35674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_EMOLGA] = {
         .textData = {
             .name = "Emolga",
@@ -36366,7 +35730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_KARRABLAST] = {
         .textData = {
             .name = "Karrablast",
@@ -36423,7 +35786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_ESCAVALIER] = {
         .textData = {
             .name = "Escavalier",
@@ -36480,7 +35842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_FOONGUS] = {
         .textData = {
             .name = "Foongus",
@@ -36537,7 +35898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 29,
         },
     },
-
     [SPECIES_AMOONGUSS] = {
         .textData = {
             .name = "Amoonguss",
@@ -36594,7 +35954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_FRILLISH] = {
         .textData = {
             .name = "Frillish",
@@ -36651,7 +36010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_JELLICENT] = {
         .textData = {
             .name = "Jellicent",
@@ -36708,7 +36066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ALOMOMOLA] = {
         .textData = {
             .name = "Alomomola",
@@ -36765,7 +36122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_JOLTIK] = {
         .textData = {
             .name = "Joltik",
@@ -36822,7 +36178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 31,
         },
     },
-
     [SPECIES_GALVANTULA] = {
         .textData = {
             .name = "Galvantula",
@@ -36879,7 +36234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 19,
         },
     },
-
     [SPECIES_FERROSEED] = {
         .textData = {
             .name = "Ferroseed",
@@ -36936,7 +36290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_FERROTHORN] = {
         .textData = {
             .name = "Ferrothorn",
@@ -36993,7 +36346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_KLINK] = {
         .textData = {
             .name = "Klink",
@@ -37050,7 +36402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_KLANG] = {
         .textData = {
             .name = "Klang",
@@ -37107,7 +36458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_KLINKLANG] = {
         .textData = {
             .name = "Klinklang",
@@ -37164,7 +36514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_TYNAMO] = {
         .textData = {
             .name = "Tynamo",
@@ -37221,7 +36570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_EELEKTRIK] = {
         .textData = {
             .name = "Eelektrik",
@@ -37278,7 +36626,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_EELEKTROSS] = {
         .textData = {
             .name = "Eelektross",
@@ -37335,7 +36682,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 10,
         },
     },
-
     [SPECIES_ELGYEM] = {
         .textData = {
             .name = "Elgyem",
@@ -37392,7 +36738,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_BEHEEYEM] = {
         .textData = {
             .name = "Beheeyem",
@@ -37449,7 +36794,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_LITWICK] = {
         .textData = {
             .name = "Litwick",
@@ -37506,7 +36850,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 30,
         },
     },
-
     [SPECIES_LAMPENT] = {
         .textData = {
             .name = "Lampent",
@@ -37563,7 +36906,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_CHANDELURE] = {
         .textData = {
             .name = "Chandelure",
@@ -37620,7 +36962,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_AXEW] = {
         .textData = {
             .name = "Axew",
@@ -37677,7 +37018,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_FRAXURE] = {
         .textData = {
             .name = "Fraxure",
@@ -37734,7 +37074,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 11,
         },
     },
-
     [SPECIES_HAXORUS] = {
         .textData = {
             .name = "Haxorus",
@@ -37791,7 +37130,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CUBCHOO] = {
         .textData = {
             .name = "Cubchoo",
@@ -37848,7 +37186,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 26,
         },
     },
-
     [SPECIES_BEARTIC] = {
         .textData = {
             .name = "Beartic",
@@ -37905,7 +37242,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -4,
         },
     },
-
     [SPECIES_CRYOGONAL] = {
         .textData = {
             .name = "Cryogonal",
@@ -37962,7 +37298,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SHELMET] = {
         .textData = {
             .name = "Shelmet",
@@ -38019,7 +37354,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 28,
         },
     },
-
     [SPECIES_ACCELGOR] = {
         .textData = {
             .name = "Accelgor",
@@ -38076,7 +37410,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_STUNFISK] = {
         .textData = {
             .name = "Stunfisk",
@@ -38133,7 +37466,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_MIENFOO] = {
         .textData = {
             .name = "Mienfoo",
@@ -38190,7 +37522,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_MIENSHAO] = {
         .textData = {
             .name = "Mienshao",
@@ -38247,7 +37578,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 5,
         },
     },
-
     [SPECIES_DRUDDIGON] = {
         .textData = {
             .name = "Druddigon",
@@ -38304,7 +37634,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_GOLETT] = {
         .textData = {
             .name = "Golett",
@@ -38361,7 +37690,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 9,
         },
     },
-
     [SPECIES_GOLURK] = {
         .textData = {
             .name = "Golurk",
@@ -38418,7 +37746,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -10,
         },
     },
-
     [SPECIES_PAWNIARD] = {
         .textData = {
             .name = "Pawniard",
@@ -38475,7 +37802,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 25,
         },
     },
-
     [SPECIES_BISHARP] = {
         .textData = {
             .name = "Bisharp",
@@ -38532,7 +37858,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_BOUFFALANT] = {
         .textData = {
             .name = "Bouffalant",
@@ -38589,7 +37914,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_RUFFLET] = {
         .textData = {
             .name = "Rufflet",
@@ -38646,7 +37970,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 23,
         },
     },
-
     [SPECIES_BRAVIARY] = {
         .textData = {
             .name = "Braviary",
@@ -38703,7 +38026,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VULLABY] = {
         .textData = {
             .name = "Vullaby",
@@ -38760,7 +38082,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 21,
         },
     },
-
     [SPECIES_MANDIBUZZ] = {
         .textData = {
             .name = "Mandibuzz",
@@ -38817,7 +38138,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 3,
         },
     },
-
     [SPECIES_HEATMOR] = {
         .textData = {
             .name = "Heatmor",
@@ -38874,7 +38194,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_DURANT] = {
         .textData = {
             .name = "Durant",
@@ -38931,7 +38250,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 30,
         },
     },
-
     [SPECIES_DEINO] = {
         .textData = {
             .name = "Deino",
@@ -38988,7 +38306,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 20,
         },
     },
-
     [SPECIES_ZWEILOUS] = {
         .textData = {
             .name = "Zweilous",
@@ -39045,7 +38362,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 8,
         },
     },
-
     [SPECIES_HYDREIGON] = {
         .textData = {
             .name = "Hydreigon",
@@ -39102,7 +38418,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_LARVESTA] = {
         .textData = {
             .name = "Larvesta",
@@ -39159,7 +38474,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 22,
         },
     },
-
     [SPECIES_VOLCARONA] = {
         .textData = {
             .name = "Volcarona",
@@ -39216,7 +38530,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_COBALION] = {
         .textData = {
             .name = "Cobalion",
@@ -39273,7 +38586,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_TERRAKION] = {
         .textData = {
             .name = "Terrakion",
@@ -39330,7 +38642,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 6,
         },
     },
-
     [SPECIES_VIRIZION] = {
         .textData = {
             .name = "Virizion",
@@ -39387,7 +38698,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_TORNADUS] = {
         .textData = {
             .name = "Tornadus",
@@ -39444,7 +38754,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_THUNDURUS] = {
         .textData = {
             .name = "Thundurus",
@@ -39501,7 +38810,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_RESHIRAM] = {
         .textData = {
             .name = "Reshiram",
@@ -39558,7 +38866,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZEKROM] = {
         .textData = {
             .name = "Zekrom",
@@ -39615,7 +38922,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_LANDORUS] = {
         .textData = {
             .name = "Landorus",
@@ -39672,7 +38978,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -5,
         },
     },
-
     [SPECIES_KYUREM] = {
         .textData = {
             .name = "Kyurem",
@@ -39729,7 +39034,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -2,
         },
     },
-
     [SPECIES_KELDEO] = {
         .textData = {
             .name = "Keldeo",
@@ -39786,7 +39090,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 7,
         },
     },
-
     [SPECIES_MELOETTA] = {
         .textData = {
             .name = "Meloetta",
@@ -39843,7 +39146,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 4,
         },
     },
-
     [SPECIES_GENESECT] = {
         .textData = {
             .name = "Genesect",
@@ -39900,7 +39202,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -3,
         },
     },
-
     [SPECIES_CHESPIN] = {
         .textData = {
             .name = "Chespin",
@@ -39957,7 +39258,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_QUILLADIN] = {
         .textData = {
             .name = "Quilladin",
@@ -40014,7 +39314,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CHESNAUGHT] = {
         .textData = {
             .name = "Chesnaught",
@@ -40071,7 +39370,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FENNEKIN] = {
         .textData = {
             .name = "Fennekin",
@@ -40128,7 +39426,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BRAIXEN] = {
         .textData = {
             .name = "Braixen",
@@ -40185,7 +39482,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DELPHOX] = {
         .textData = {
             .name = "Delphox",
@@ -40242,7 +39538,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FROAKIE] = {
         .textData = {
             .name = "Froakie",
@@ -40299,7 +39594,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FROGADIER] = {
         .textData = {
             .name = "Frogadier",
@@ -40356,7 +39650,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GRENINJA] = {
         .textData = {
             .name = "Greninja",
@@ -40413,7 +39706,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BUNNELBY] = {
         .textData = {
             .name = "Bunnelby",
@@ -40470,7 +39762,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DIGGERSBY] = {
         .textData = {
             .name = "Diggersby",
@@ -40527,7 +39818,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FLETCHLING] = {
         .textData = {
             .name = "Fletchling",
@@ -40584,7 +39874,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FLETCHINDER] = {
         .textData = {
             .name = "Flechinder",
@@ -40641,7 +39930,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TALONFLAME] = {
         .textData = {
             .name = "Talonflame",
@@ -40698,7 +39986,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SCATTERBUG] = {
         .textData = {
             .name = "Scatterbug",
@@ -40755,7 +40042,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SPEWPA] = {
         .textData = {
             .name = "Spewpa",
@@ -40812,7 +40098,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_VIVILLON] = {
         .textData = {
             .name = "Vivillon",
@@ -40869,7 +40154,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_LITLEO] = {
         .textData = {
             .name = "Litleo",
@@ -40926,7 +40210,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PYROAR] = {
         .textData = {
             .name = "Pyroar",
@@ -40983,7 +40266,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FLABEBE] = {
         .textData = {
             .name = "Flabébé",
@@ -41040,7 +40322,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FLOETTE] = {
         .textData = {
             .name = "Floette",
@@ -41097,7 +40378,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FLORGES] = {
         .textData = {
             .name = "Florges",
@@ -41154,7 +40434,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SKIDDO] = {
         .textData = {
             .name = "Skiddo",
@@ -41211,7 +40490,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GOGOAT] = {
         .textData = {
             .name = "Gogoat",
@@ -41268,7 +40546,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PANCHAM] = {
         .textData = {
             .name = "Pancham",
@@ -41325,7 +40602,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PANGORO] = {
         .textData = {
             .name = "Pangoro",
@@ -41382,7 +40658,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FURFROU] = {
         .textData = {
             .name = "Furfrou",
@@ -41439,7 +40714,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ESPURR] = {
         .textData = {
             .name = "Espurr",
@@ -41496,7 +40770,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MEOWSTIC] = {
         .textData = {
             .name = "Meowstic",
@@ -41553,7 +40826,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HONEDGE] = {
         .textData = {
             .name = "Honedge",
@@ -41610,7 +40882,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DOUBLADE] = {
         .textData = {
             .name = "Doublade",
@@ -41667,7 +40938,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_AEGISLASH] = {
         .textData = {
             .name = "Aegislash",
@@ -41724,7 +40994,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SPRITZEE] = {
         .textData = {
             .name = "Spritzee",
@@ -41781,7 +41050,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_AROMATISSE] = {
         .textData = {
             .name = "Aromatisse",
@@ -41838,7 +41106,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SWIRLIX] = {
         .textData = {
             .name = "Swirlix",
@@ -41895,7 +41162,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SLURPUFF] = {
         .textData = {
             .name = "Slurpuff",
@@ -41952,7 +41218,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_INKAY] = {
         .textData = {
             .name = "Inkay",
@@ -42009,7 +41274,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MALAMAR] = {
         .textData = {
             .name = "Malamar",
@@ -42066,7 +41330,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BINACLE] = {
         .textData = {
             .name = "Binacle",
@@ -42123,7 +41386,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BARBARACLE] = {
         .textData = {
             .name = "Barbaracle",
@@ -42180,7 +41442,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SKRELP] = {
         .textData = {
             .name = "Skrelp",
@@ -42237,7 +41498,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DRAGALGE] = {
         .textData = {
             .name = "Dragalge",
@@ -42294,7 +41554,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CLAUNCHER] = {
         .textData = {
             .name = "Clauncher",
@@ -42351,7 +41610,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CLAWITZER] = {
         .textData = {
             .name = "Clawitzer",
@@ -42408,7 +41666,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HELIOPTILE] = {
         .textData = {
             .name = "Helioptile",
@@ -42465,7 +41722,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HELIOLISK] = {
         .textData = {
             .name = "Heliolisk",
@@ -42522,7 +41778,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TYRUNT] = {
         .textData = {
             .name = "Tyrunt",
@@ -42579,7 +41834,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TYRANTRUM] = {
         .textData = {
             .name = "Tyrantrum",
@@ -42636,7 +41890,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_AMAURA] = {
         .textData = {
             .name = "Amaura",
@@ -42693,7 +41946,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_AURORUS] = {
         .textData = {
             .name = "Aurorus",
@@ -42750,7 +42002,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SYLVEON] = {
         .textData = {
             .name = "Sylveon",
@@ -42807,7 +42058,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HAWLUCHA] = {
         .textData = {
             .name = "Hawlucha",
@@ -42864,7 +42114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DEDENNE] = {
         .textData = {
             .name = "Dedenne",
@@ -42921,7 +42170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CARBINK] = {
         .textData = {
             .name = "Carbink",
@@ -42978,7 +42226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GOOMY] = {
         .textData = {
             .name = "Goomy",
@@ -43035,7 +42282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SLIGGOO] = {
         .textData = {
             .name = "Sliggoo",
@@ -43092,7 +42338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GOODRA] = {
         .textData = {
             .name = "Goodra",
@@ -43149,7 +42394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_KLEFKI] = {
         .textData = {
             .name = "Klefki",
@@ -43206,7 +42450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PHANTUMP] = {
         .textData = {
             .name = "Phantump",
@@ -43263,7 +42506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TREVENANT] = {
         .textData = {
             .name = "Trevenant",
@@ -43320,7 +42562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PUMPKABOO] = {
         .textData = {
             .name = "Pumpkaboo",
@@ -43377,7 +42618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GOURGEIST] = {
         .textData = {
             .name = "Gourgeist",
@@ -43434,7 +42674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BERGMITE] = {
         .textData = {
             .name = "Bergmite",
@@ -43491,7 +42730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_AVALUGG] = {
         .textData = {
             .name = "Avalugg",
@@ -43548,7 +42786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_NOIBAT] = {
         .textData = {
             .name = "Noibat",
@@ -43605,7 +42842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_NOIVERN] = {
         .textData = {
             .name = "Noivern",
@@ -43662,7 +42898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_XERNEAS] = {
         .textData = {
             .name = "Xerneas",
@@ -43719,7 +42954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_YVELTAL] = {
         .textData = {
             .name = "Yveltal",
@@ -43776,7 +43010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ZYGARDE] = {
         .textData = {
             .name = "Zygarde",
@@ -43833,7 +43066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DIANCIE] = {
         .textData = {
             .name = "Diancie",
@@ -43890,7 +43122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HOOPA] = {
         .textData = {
             .name = "Hoopa",
@@ -43947,7 +43178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_VOLCANION] = {
         .textData = {
             .name = "Volcanion",
@@ -44004,7 +43234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ROWLET] = {
         .textData = {
             .name = "Rowlet",
@@ -44061,7 +43290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DARTRIX] = {
         .textData = {
             .name = "Dartrix",
@@ -44118,7 +43346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DECIDUEYE] = {
         .textData = {
             .name = "Decidueye",
@@ -44175,7 +43402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_LITTEN] = {
         .textData = {
             .name = "Litten",
@@ -44232,7 +43458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TORRACAT] = {
         .textData = {
             .name = "Torracat",
@@ -44289,7 +43514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_INCINEROAR] = {
         .textData = {
             .name = "Incineroar",
@@ -44346,7 +43570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_POPPLIO] = {
         .textData = {
             .name = "Popplio",
@@ -44403,7 +43626,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BRIONNE] = {
         .textData = {
             .name = "Brionne",
@@ -44460,7 +43682,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PRIMARINA] = {
         .textData = {
             .name = "Primarina",
@@ -44517,7 +43738,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PIKIPEK] = {
         .textData = {
             .name = "Pikipek",
@@ -44574,7 +43794,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TRUMBEAK] = {
         .textData = {
             .name = "Trumbeak",
@@ -44631,7 +43850,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TOUCANNON] = {
         .textData = {
             .name = "Toucannon",
@@ -44688,7 +43906,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_YUNGOOS] = {
         .textData = {
             .name = "Yungoos",
@@ -44745,7 +43962,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GUMSHOOS] = {
         .textData = {
             .name = "Gumshoos",
@@ -44802,7 +44018,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GRUBBIN] = {
         .textData = {
             .name = "Grubbin",
@@ -44859,7 +44074,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CHARJABUG] = {
         .textData = {
             .name = "Charjabug",
@@ -44916,7 +44130,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_VIKAVOLT] = {
         .textData = {
             .name = "Vikavolt",
@@ -44973,7 +44186,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CRABRAWLER] = {
         .textData = {
             .name = "Crabrawler",
@@ -45030,7 +44242,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CRABOMINABLE] = {
         .textData = {
             .name = "Crabomnabl",
@@ -45087,7 +44298,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ORICORIO] = {
         .textData = {
             .name = "Oricorio",
@@ -45144,7 +44354,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CUTIEFLY] = {
         .textData = {
             .name = "Cutiefly",
@@ -45201,7 +44410,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_RIBOMBEE] = {
         .textData = {
             .name = "Ribombee",
@@ -45258,7 +44466,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ROCKRUFF] = {
         .textData = {
             .name = "Rockruff",
@@ -45315,7 +44522,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_LYCANROC] = {
         .textData = {
             .name = "Lycanroc",
@@ -45372,7 +44578,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_WISHIWASHI] = {
         .textData = {
             .name = "Wishiwashi",
@@ -45429,7 +44634,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MAREANIE] = {
         .textData = {
             .name = "Mareanie",
@@ -45486,7 +44690,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TOXAPEX] = {
         .textData = {
             .name = "Toxapex",
@@ -45543,7 +44746,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MUDBRAY] = {
         .textData = {
             .name = "Mudbray",
@@ -45600,7 +44802,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MUDSDALE] = {
         .textData = {
             .name = "Mudsdale",
@@ -45657,7 +44858,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DEWPIDER] = {
         .textData = {
             .name = "Dewpider",
@@ -45714,7 +44914,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ARAQUANID] = {
         .textData = {
             .name = "Araquanid",
@@ -45771,7 +44970,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FOMANTIS] = {
         .textData = {
             .name = "Fomantis",
@@ -45828,7 +45026,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_LURANTIS] = {
         .textData = {
             .name = "Lurantis",
@@ -45885,7 +45082,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MORELULL] = {
         .textData = {
             .name = "Morelull",
@@ -45942,7 +45138,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SHIINOTIC] = {
         .textData = {
             .name = "Shiinotic",
@@ -45999,7 +45194,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SALANDIT] = {
         .textData = {
             .name = "Salandit",
@@ -46056,7 +45250,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SALAZZLE] = {
         .textData = {
             .name = "Salazzle",
@@ -46113,7 +45306,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_STUFFUL] = {
         .textData = {
             .name = "Stufful",
@@ -46170,7 +45362,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BEWEAR] = {
         .textData = {
             .name = "Bewear",
@@ -46227,7 +45418,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BOUNSWEET] = {
         .textData = {
             .name = "Bounsweet",
@@ -46284,7 +45474,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_STEENEE] = {
         .textData = {
             .name = "Steenee",
@@ -46341,7 +45530,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TSAREENA] = {
         .textData = {
             .name = "Tsareena",
@@ -46398,7 +45586,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_COMFEY] = {
         .textData = {
             .name = "Comfey",
@@ -46455,7 +45642,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ORANGURU] = {
         .textData = {
             .name = "Oranguru",
@@ -46512,7 +45698,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PASSIMIAN] = {
         .textData = {
             .name = "Passimian",
@@ -46569,7 +45754,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_WIMPOD] = {
         .textData = {
             .name = "Wimpod",
@@ -46626,7 +45810,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GOLISOPOD] = {
         .textData = {
             .name = "Golisopod",
@@ -46683,7 +45866,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SANDYGAST] = {
         .textData = {
             .name = "Sandygast",
@@ -46740,7 +45922,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PALOSSAND] = {
         .textData = {
             .name = "Palossand",
@@ -46797,7 +45978,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PYUKUMUKU] = {
         .textData = {
             .name = "Pyukumuku",
@@ -46854,7 +46034,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TYPE_NULL] = {
         .textData = {
             .name = "Type: Null",
@@ -46911,7 +46090,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SILVALLY] = {
         .textData = {
             .name = "Silvally",
@@ -46968,7 +46146,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MINIOR] = {
         .textData = {
             .name = "Minior",
@@ -47025,7 +46202,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_KOMALA] = {
         .textData = {
             .name = "Komala",
@@ -47082,7 +46258,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TURTONATOR] = {
         .textData = {
             .name = "Turtonator",
@@ -47139,7 +46314,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TOGEDEMARU] = {
         .textData = {
             .name = "Togedemaru",
@@ -47196,7 +46370,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MIMIKYU] = {
         .textData = {
             .name = "Mimikyu",
@@ -47253,7 +46426,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BRUXISH] = {
         .textData = {
             .name = "Bruxish",
@@ -47310,7 +46482,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DRAMPA] = {
         .textData = {
             .name = "Drampa",
@@ -47367,7 +46538,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DHELMISE] = {
         .textData = {
             .name = "Dhelmise",
@@ -47424,7 +46594,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_JANGMO_O] = {
         .textData = {
             .name = "Jangmo-o",
@@ -47481,7 +46650,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HAKAMO_O] = {
         .textData = {
             .name = "Hakamo-o",
@@ -47538,7 +46706,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_KOMMO_O] = {
         .textData = {
             .name = "Kommo-o",
@@ -47595,7 +46762,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TAPU_KOKO] = {
         .textData = {
             .name = "Tapu Koko",
@@ -47652,7 +46818,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TAPU_LELE] = {
         .textData = {
             .name = "Tapu Lele",
@@ -47709,7 +46874,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TAPU_BULU] = {
         .textData = {
             .name = "Tapu Bulu",
@@ -47766,7 +46930,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TAPU_FINI] = {
         .textData = {
             .name = "Tapu Fini",
@@ -47823,7 +46986,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_COSMOG] = {
         .textData = {
             .name = "Cosmog",
@@ -47880,7 +47042,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_COSMOEM] = {
         .textData = {
             .name = "Cosmoem",
@@ -47937,7 +47098,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SOLGALEO] = {
         .textData = {
             .name = "Solgaleo",
@@ -47994,7 +47154,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_LUNALA] = {
         .textData = {
             .name = "Lunala",
@@ -48051,7 +47210,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_NIHILEGO] = {
         .textData = {
             .name = "Nihilego",
@@ -48108,7 +47266,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BUZZWOLE] = {
         .textData = {
             .name = "Buzzwole",
@@ -48165,7 +47322,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PHEROMOSA] = {
         .textData = {
             .name = "Pheromosa",
@@ -48222,7 +47378,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_XURKITREE] = {
         .textData = {
             .name = "Xurkitree",
@@ -48279,7 +47434,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CELESTEELA] = {
         .textData = {
             .name = "Celesteela",
@@ -48336,7 +47490,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_KARTANA] = {
         .textData = {
             .name = "Kartana",
@@ -48393,7 +47546,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GUZZLORD] = {
         .textData = {
             .name = "Guzzlord",
@@ -48450,7 +47602,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_NECROZMA] = {
         .textData = {
             .name = "Necrozma",
@@ -48507,7 +47658,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MAGEARNA] = {
         .textData = {
             .name = "Magearna",
@@ -48564,7 +47714,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MARSHADOW] = {
         .textData = {
             .name = "Marshadow",
@@ -48621,7 +47770,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_POIPOLE] = {
         .textData = {
             .name = "Poipole",
@@ -48678,7 +47826,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_NAGANADEL] = {
         .textData = {
             .name = "Naganadel",
@@ -48735,7 +47882,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_STAKATAKA] = {
         .textData = {
             .name = "Stakataka",
@@ -48792,7 +47938,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BLACEPHALON] = {
         .textData = {
             .name = "Blacefalon",
@@ -48849,7 +47994,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ZERAORA] = {
         .textData = {
             .name = "Zeraora",
@@ -48906,7 +48050,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MELTAN] = {
         .textData = {
             .name = "Meltan",
@@ -48963,7 +48106,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MELMETAL] = {
         .textData = {
             .name = "Melmetal",
@@ -49020,7 +48162,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GROOKEY] = {
         .textData = {
             .name = "Grookey",
@@ -49077,7 +48218,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_THWACKEY] = {
         .textData = {
             .name = "Thwackey",
@@ -49134,7 +48274,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_RILLABOOM] = {
         .textData = {
             .name = "Rillaboom",
@@ -49191,7 +48330,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SCORBUNNY] = {
         .textData = {
             .name = "Scorbunny",
@@ -49248,7 +48386,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_RABOOT] = {
         .textData = {
             .name = "Raboot",
@@ -49305,7 +48442,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CINDERACE] = {
         .textData = {
             .name = "Cinderace",
@@ -49362,7 +48498,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SOBBLE] = {
         .textData = {
             .name = "Sobble",
@@ -49419,7 +48554,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DRIZZILE] = {
         .textData = {
             .name = "Drizzile",
@@ -49476,7 +48610,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_INTELEON] = {
         .textData = {
             .name = "Inteleon",
@@ -49533,7 +48666,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SKWOVET] = {
         .textData = {
             .name = "Skwovet",
@@ -49590,7 +48722,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GREEDENT] = {
         .textData = {
             .name = "Greedent",
@@ -49647,7 +48778,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ROOKIDEE] = {
         .textData = {
             .name = "Rookidee",
@@ -49704,7 +48834,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CORVISQUIRE] = {
         .textData = {
             .name = "Corvsquire",
@@ -49761,7 +48890,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CORVIKNIGHT] = {
         .textData = {
             .name = "Corviknite",
@@ -49818,7 +48946,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BLIPBUG] = {
         .textData = {
             .name = "Blipbug",
@@ -49875,7 +49002,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DOTTLER] = {
         .textData = {
             .name = "Dottler",
@@ -49932,7 +49058,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ORBEETLE] = {
         .textData = {
             .name = "Orbeetle",
@@ -49989,7 +49114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_NICKIT] = {
         .textData = {
             .name = "Nickit",
@@ -50046,7 +49170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_THIEVUL] = {
         .textData = {
             .name = "Thievul",
@@ -50103,7 +49226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GOSSIFLEUR] = {
         .textData = {
             .name = "Gossifleur",
@@ -50160,7 +49282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ELDEGOSS] = {
         .textData = {
             .name = "Eldegoss",
@@ -50217,7 +49338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_WOOLOO] = {
         .textData = {
             .name = "Wooloo",
@@ -50274,7 +49394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DUBWOOL] = {
         .textData = {
             .name = "Dubwool",
@@ -50331,7 +49450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CHEWTLE] = {
         .textData = {
             .name = "Chewtle",
@@ -50388,7 +49506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DREDNAW] = {
         .textData = {
             .name = "Drednaw",
@@ -50445,7 +49562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_YAMPER] = {
         .textData = {
             .name = "Yamper",
@@ -50502,7 +49618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BOLTUND] = {
         .textData = {
             .name = "Boltund",
@@ -50559,7 +49674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ROLYCOLY] = {
         .textData = {
             .name = "Rolycoly",
@@ -50616,7 +49730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CARKOL] = {
         .textData = {
             .name = "Carkol",
@@ -50673,7 +49786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_COALOSSAL] = {
         .textData = {
             .name = "Coalossal",
@@ -50730,7 +49842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_APPLIN] = {
         .textData = {
             .name = "Applin",
@@ -50787,7 +49898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FLAPPLE] = {
         .textData = {
             .name = "Flapple",
@@ -50844,7 +49954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_APPLETUN] = {
         .textData = {
             .name = "Appletun",
@@ -50901,7 +50010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SILICOBRA] = {
         .textData = {
             .name = "Silicobra",
@@ -50958,7 +50066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SANDACONDA] = {
         .textData = {
             .name = "Sandaconda",
@@ -51015,7 +50122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CRAMORANT] = {
         .textData = {
             .name = "Cramorant",
@@ -51072,7 +50178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ARROKUDA] = {
         .textData = {
             .name = "Arrokuda",
@@ -51129,7 +50234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BARRASKEWDA] = {
         .textData = {
             .name = "Baraskewda",
@@ -51186,7 +50290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TOXEL] = {
         .textData = {
             .name = "Toxel",
@@ -51243,7 +50346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TOXTRICITY] = {
         .textData = {
             .name = "Toxtricity",
@@ -51300,7 +50402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SIZZLIPEDE] = {
         .textData = {
             .name = "Sizzlipede",
@@ -51357,7 +50458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CENTISKORCH] = {
         .textData = {
             .name = "Centskorch",
@@ -51414,7 +50514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CLOBBOPUS] = {
         .textData = {
             .name = "Clobbopus",
@@ -51471,7 +50570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GRAPPLOCT] = {
         .textData = {
             .name = "Grapploct",
@@ -51528,7 +50626,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SINISTEA] = {
         .textData = {
             .name = "Sinistea",
@@ -51585,7 +50682,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_POLTEAGEIST] = {
         .textData = {
             .name = "Poltegeist",
@@ -51642,7 +50738,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HATENNA] = {
         .textData = {
             .name = "Hatenna",
@@ -51699,7 +50794,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HATTREM] = {
         .textData = {
             .name = "Hattrem",
@@ -51756,7 +50850,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HATTERENE] = {
         .textData = {
             .name = "Hatterene",
@@ -51813,7 +50906,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_IMPIDIMP] = {
         .textData = {
             .name = "Impidimp",
@@ -51870,7 +50962,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MORGREM] = {
         .textData = {
             .name = "Morgrem",
@@ -51927,7 +51018,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GRIMMSNARL] = {
         .textData = {
             .name = "Grimmsnarl",
@@ -51984,7 +51074,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_OBSTAGOON] = {
         .textData = {
             .name = "Obstagoon",
@@ -52041,7 +51130,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PERRSERKER] = {
         .textData = {
             .name = "Perrserker",
@@ -52098,7 +51186,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CURSOLA] = {
         .textData = {
             .name = "Cursola",
@@ -52155,7 +51242,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SIRFETCHD] = {
         .textData = {
             .name = "Sirfetch’d",
@@ -52212,7 +51298,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MR_RIME] = {
         .textData = {
             .name = "Mr. Rime",
@@ -52269,7 +51354,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_RUNERIGUS] = {
         .textData = {
             .name = "Runerigus",
@@ -52326,7 +51410,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MILCERY] = {
         .textData = {
             .name = "Milcery",
@@ -52383,7 +51466,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ALCREMIE] = {
         .textData = {
             .name = "Alcremie",
@@ -52440,7 +51522,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FALINKS] = {
         .textData = {
             .name = "Falinks",
@@ -52497,7 +51578,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PINCURCHIN] = {
         .textData = {
             .name = "Pincurchin",
@@ -52554,7 +51634,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SNOM] = {
         .textData = {
             .name = "Snom",
@@ -52611,7 +51690,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FROSMOTH] = {
         .textData = {
             .name = "Frosmoth",
@@ -52668,7 +51746,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_STONJOURNER] = {
         .textData = {
             .name = "Stonjorner",
@@ -52725,7 +51802,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_EISCUE] = {
         .textData = {
             .name = "Eiscue",
@@ -52782,7 +51858,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_INDEEDEE] = {
         .textData = {
             .name = "Indeedee",
@@ -52839,7 +51914,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MORPEKO] = {
         .textData = {
             .name = "Morpeko",
@@ -52896,7 +51970,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CUFANT] = {
         .textData = {
             .name = "Cufant",
@@ -52953,7 +52026,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_COPPERAJAH] = {
         .textData = {
             .name = "Copperajah",
@@ -53010,7 +52082,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DRACOZOLT] = {
         .textData = {
             .name = "Dracozolt",
@@ -53067,7 +52138,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ARCTOZOLT] = {
         .textData = {
             .name = "Arctozolt",
@@ -53124,7 +52194,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DRACOVISH] = {
         .textData = {
             .name = "Dracovish",
@@ -53181,7 +52250,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ARCTOVISH] = {
         .textData = {
             .name = "Arctovish",
@@ -53238,7 +52306,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DURALUDON] = {
         .textData = {
             .name = "Duraludon",
@@ -53295,7 +52362,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DREEPY] = {
         .textData = {
             .name = "Dreepy",
@@ -53352,7 +52418,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DRAKLOAK] = {
         .textData = {
             .name = "Drakloak",
@@ -53409,7 +52474,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DRAGAPULT] = {
         .textData = {
             .name = "Dragapult",
@@ -53466,7 +52530,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ZACIAN] = {
         .textData = {
             .name = "Zacian",
@@ -53523,7 +52586,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ZAMAZENTA] = {
         .textData = {
             .name = "Zamazenta",
@@ -53580,7 +52642,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ETERNATUS] = {
         .textData = {
             .name = "Eternatus",
@@ -53637,7 +52698,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_KUBFU] = {
         .textData = {
             .name = "Kubfu",
@@ -53694,7 +52754,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_URSHIFU] = {
         .textData = {
             .name = "Urshifu",
@@ -53751,7 +52810,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ZARUDE] = {
         .textData = {
             .name = "Zarude",
@@ -53808,7 +52866,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_REGIELEKI] = {
         .textData = {
             .name = "Regieleki",
@@ -53865,7 +52922,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_REGIDRAGO] = {
         .textData = {
             .name = "Regidrago",
@@ -53922,7 +52978,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GLASTRIER] = {
         .textData = {
             .name = "Glastrier",
@@ -53979,7 +53034,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SPECTRIER] = {
         .textData = {
             .name = "Spectrier",
@@ -54036,7 +53090,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CALYREX] = {
         .textData = {
             .name = "Calyrex",
@@ -54093,7 +53146,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_WYRDEER] = {
         .textData = {
             .name = "Wyrdeer",
@@ -54150,7 +53202,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_KLEAVOR] = {
         .textData = {
             .name = "Kleavor",
@@ -54207,7 +53258,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_URSALUNA] = {
         .textData = {
             .name = "Ursaluna",
@@ -54264,7 +53314,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BASCULEGION] = {
         .textData = {
             .name = "Basclegion",
@@ -54321,7 +53370,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SNEASLER] = {
         .textData = {
             .name = "Sneasler",
@@ -54378,7 +53426,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_OVERQWIL] = {
         .textData = {
             .name = "Overqwil",
@@ -54435,7 +53482,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ENAMORUS] = {
         .textData = {
             .name = "Enamorus",
@@ -54492,7 +53538,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SPRIGATITO] = {
         .textData = {
             .name = "Sprigatito",
@@ -54549,7 +53594,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FLORAGATO] = {
         .textData = {
             .name = "Floragato",
@@ -54606,7 +53650,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MEOWSCARADA] = {
         .textData = {
             .name = "Mewscarada",
@@ -54663,7 +53706,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FUECOCO] = {
         .textData = {
             .name = "Fuecoco",
@@ -54720,7 +53762,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CROCALOR] = {
         .textData = {
             .name = "Crocalor",
@@ -54777,7 +53818,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SKELEDIRGE] = {
         .textData = {
             .name = "Skeledirge",
@@ -54834,7 +53874,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_QUAXLY] = {
         .textData = {
             .name = "Quaxly",
@@ -54891,7 +53930,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_QUAXWELL] = {
         .textData = {
             .name = "Quaxwell",
@@ -54948,7 +53986,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_QUAQUAVAL] = {
         .textData = {
             .name = "Quaquaval",
@@ -55005,7 +54042,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_LECHONK] = {
         .textData = {
             .name = "Lechonk",
@@ -55062,7 +54098,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_OINKOLOGNE] = {
         .textData = {
             .name = "Oinkologne",
@@ -55119,7 +54154,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TAROUNTULA] = {
         .textData = {
             .name = "Tarountula",
@@ -55176,7 +54210,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SPIDOPS] = {
         .textData = {
             .name = "Spidops",
@@ -55233,7 +54266,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_NYMBLE] = {
         .textData = {
             .name = "Nymble",
@@ -55290,7 +54322,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_LOKIX] = {
         .textData = {
             .name = "Lokix",
@@ -55347,7 +54378,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PAWMI] = {
         .textData = {
             .name = "Pawmi",
@@ -55404,7 +54434,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PAWMO] = {
         .textData = {
             .name = "Pawmo",
@@ -55461,7 +54490,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PAWMOT] = {
         .textData = {
             .name = "Pawmot",
@@ -55518,7 +54546,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TANDEMAUS] = {
         .textData = {
             .name = "Tandemaus",
@@ -55575,7 +54602,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MAUSHOLD] = {
         .textData = {
             .name = "Maushold",
@@ -55632,7 +54658,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FIDOUGH] = {
         .textData = {
             .name = "Fidough",
@@ -55689,7 +54714,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DACHSBUN] = {
         .textData = {
             .name = "Dachsbun",
@@ -55746,7 +54770,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SMOLIV] = {
         .textData = {
             .name = "Smoliv",
@@ -55803,7 +54826,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DOLLIV] = {
         .textData = {
             .name = "Dolliv",
@@ -55860,7 +54882,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ARBOLIVA] = {
         .textData = {
             .name = "Arboliva",
@@ -55917,7 +54938,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SQUAWKABILLY] = {
         .textData = {
             .name = "Squawkbily",
@@ -55974,7 +54994,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_NACLI] = {
         .textData = {
             .name = "Nacli",
@@ -56031,7 +55050,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_NACLSTACK] = {
         .textData = {
             .name = "Naclstack",
@@ -56088,7 +55106,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GARGANACL] = {
         .textData = {
             .name = "Garganacl",
@@ -56145,7 +55162,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CHARCADET] = {
         .textData = {
             .name = "Charcadet",
@@ -56202,7 +55218,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ARMAROUGE] = {
         .textData = {
             .name = "Armarouge",
@@ -56259,7 +55274,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CERULEDGE] = {
         .textData = {
             .name = "Ceruledge",
@@ -56316,7 +55330,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TADBULB] = {
         .textData = {
             .name = "Tadbulb",
@@ -56373,7 +55386,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BELLIBOLT] = {
         .textData = {
             .name = "Bellibolt",
@@ -56430,7 +55442,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_WATTREL] = {
         .textData = {
             .name = "Wattrel",
@@ -56487,7 +55498,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_KILOWATTREL] = {
         .textData = {
             .name = "Kilowatrel",
@@ -56544,7 +55554,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MASCHIFF] = {
         .textData = {
             .name = "Maschiff",
@@ -56601,7 +55610,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MABOSSTIFF] = {
         .textData = {
             .name = "Mabosstiff",
@@ -56658,7 +55666,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SHROODLE] = {
         .textData = {
             .name = "Shroodle",
@@ -56715,7 +55722,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GRAFAIAI] = {
         .textData = {
             .name = "Grafaiai",
@@ -56772,7 +55778,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BRAMBLIN] = {
         .textData = {
             .name = "Bramblin",
@@ -56829,7 +55834,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BRAMBLEGHAST] = {
         .textData = {
             .name = "Bramblgast",
@@ -56886,7 +55890,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TOEDSCOOL] = {
         .textData = {
             .name = "Toedscool",
@@ -56943,7 +55946,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TOEDSCRUEL] = {
         .textData = {
             .name = "Toedscruel",
@@ -57000,7 +56002,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_KLAWF] = {
         .textData = {
             .name = "Klawf",
@@ -57057,7 +56058,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CAPSAKID] = {
         .textData = {
             .name = "Capsakid",
@@ -57114,7 +56114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SCOVILLAIN] = {
         .textData = {
             .name = "Scovillain",
@@ -57171,7 +56170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_RELLOR] = {
         .textData = {
             .name = "Rellor",
@@ -57228,7 +56226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_RABSCA] = {
         .textData = {
             .name = "Rabsca",
@@ -57285,7 +56282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FLITTLE] = {
         .textData = {
             .name = "Flittle",
@@ -57342,7 +56338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ESPATHRA] = {
         .textData = {
             .name = "Espathra",
@@ -57399,7 +56394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TINKATINK] = {
         .textData = {
             .name = "Tinkatink",
@@ -57456,7 +56450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TINKATUFF] = {
         .textData = {
             .name = "Tinkatuff",
@@ -57513,7 +56506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TINKATON] = {
         .textData = {
             .name = "Tinkaton",
@@ -57570,7 +56562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_WIGLETT] = {
         .textData = {
             .name = "Wiglett",
@@ -57627,7 +56618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_WUGTRIO] = {
         .textData = {
             .name = "Wugtrio",
@@ -57684,7 +56674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BOMBIRDIER] = {
         .textData = {
             .name = "Bombirdier",
@@ -57741,7 +56730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FINIZEN] = {
         .textData = {
             .name = "Finizen",
@@ -57798,7 +56786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PALAFIN] = {
         .textData = {
             .name = "Palafin",
@@ -57855,7 +56842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_VAROOM] = {
         .textData = {
             .name = "Varoom",
@@ -57912,7 +56898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_REVAVROOM] = {
         .textData = {
             .name = "Revavroom",
@@ -57969,7 +56954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CYCLIZAR] = {
         .textData = {
             .name = "Cyclizar",
@@ -58026,7 +57010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ORTHWORM] = {
         .textData = {
             .name = "Orthworm",
@@ -58083,7 +57066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GLIMMET] = {
         .textData = {
             .name = "Glimmet",
@@ -58140,7 +57122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GLIMMORA] = {
         .textData = {
             .name = "Glimmora",
@@ -58197,7 +57178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GREAVARD] = {
         .textData = {
             .name = "Greavard",
@@ -58254,7 +57234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HOUNDSTONE] = {
         .textData = {
             .name = "Houndstone",
@@ -58311,7 +57290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FLAMIGO] = {
         .textData = {
             .name = "Flamigo",
@@ -58368,7 +57346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CETODDLE] = {
         .textData = {
             .name = "Cetoddle",
@@ -58425,7 +57402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CETITAN] = {
         .textData = {
             .name = "Cetitan",
@@ -58482,7 +57458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_VELUZA] = {
         .textData = {
             .name = "Veluza",
@@ -58539,7 +57514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DONDOZO] = {
         .textData = {
             .name = "Dondozo",
@@ -58596,7 +57570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TATSUGIRI] = {
         .textData = {
             .name = "Tatsugiri",
@@ -58653,7 +57626,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ANNIHILAPE] = {
         .textData = {
             .name = "Annihilape",
@@ -58710,7 +57682,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CLODSIRE] = {
         .textData = {
             .name = "Clodsire",
@@ -58767,7 +57738,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FARIGIRAF] = {
         .textData = {
             .name = "Farigiraf",
@@ -58824,7 +57794,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DUDUNSPARCE] = {
         .textData = {
             .name = "Dudunspars",
@@ -58881,7 +57850,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_KINGAMBIT] = {
         .textData = {
             .name = "Kingambit",
@@ -58938,7 +57906,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GREAT_TUSK] = {
         .textData = {
             .name = "Great Tusk",
@@ -58995,7 +57962,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SCREAM_TAIL] = {
         .textData = {
             .name = "ScreamTail",
@@ -59052,7 +58018,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BRUTE_BONNET] = {
         .textData = {
             .name = "BruteBonet",
@@ -59109,7 +58074,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FLUTTER_MANE] = {
         .textData = {
             .name = "FluttrMane",
@@ -59166,7 +58130,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SLITHER_WING] = {
         .textData = {
             .name = "SlithrWing",
@@ -59223,7 +58186,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SANDY_SHOCKS] = {
         .textData = {
             .name = "SandyShock",
@@ -59280,7 +58242,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_IRON_TREADS] = {
         .textData = {
             .name = "IronTreads",
@@ -59337,7 +58298,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_IRON_BUNDLE] = {
         .textData = {
             .name = "IronBundle",
@@ -59394,7 +58354,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_IRON_HANDS] = {
         .textData = {
             .name = "Iron Hands",
@@ -59451,7 +58410,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_IRON_JUGULIS] = {
         .textData = {
             .name = "Iron Neck",
@@ -59508,7 +58466,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_IRON_MOTH] = {
         .textData = {
             .name = "Iron Moth",
@@ -59565,7 +58522,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_IRON_THORNS] = {
         .textData = {
             .name = "IronThorns",
@@ -59622,7 +58578,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FRIGIBAX] = {
         .textData = {
             .name = "Frigibax",
@@ -59679,7 +58634,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ARCTIBAX] = {
         .textData = {
             .name = "Arctibax",
@@ -59736,7 +58690,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_BAXCALIBUR] = {
         .textData = {
             .name = "Baxcalibur",
@@ -59793,7 +58746,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GIMMIGHOUL] = {
         .textData = {
             .name = "Gimmighoul",
@@ -59850,7 +58802,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GHOLDENGO] = {
         .textData = {
             .name = "Gholdengo",
@@ -59907,7 +58858,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_WO_CHIEN] = {
         .textData = {
             .name = "Wo-Chien",
@@ -59964,7 +58914,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CHIEN_PAO] = {
         .textData = {
             .name = "Chien-Pao",
@@ -60021,7 +58970,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TING_LU] = {
         .textData = {
             .name = "Ting-Lu",
@@ -60078,7 +59026,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_CHI_YU] = {
         .textData = {
             .name = "Chi-Yu",
@@ -60135,7 +59082,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ROARING_MOON] = {
         .textData = {
             .name = "RoarinMoon",
@@ -60192,7 +59138,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_IRON_VALIANT] = {
         .textData = {
             .name = "Iron Valor",
@@ -60249,7 +59194,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_KORAIDON] = {
         .textData = {
             .name = "Koraidon",
@@ -60306,7 +59250,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MIRAIDON] = {
         .textData = {
             .name = "Miraidon",
@@ -60363,7 +59306,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_WALKING_WAKE] = {
         .textData = {
             .name = "WalkngWake",
@@ -60420,7 +59362,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_IRON_LEAVES] = {
         .textData = {
             .name = "IronLeaves",
@@ -60477,7 +59418,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_DIPPLIN] = {
         .textData = {
             .name = "Dipplin",
@@ -60534,7 +59474,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_POLTCHAGEIST] = {
         .textData = {
             .name = "Polchgeist",
@@ -60591,7 +59530,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_SINISTCHA] = {
         .textData = {
             .name = "Sinistcha",
@@ -60648,7 +59586,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_OKIDOGI] = {
         .textData = {
             .name = "Okidogi",
@@ -60705,7 +59642,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MUNKIDORI] = {
         .textData = {
             .name = "Munkidori",
@@ -60762,7 +59698,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_FEZANDIPITI] = {
         .textData = {
             .name = "Fezanditi",
@@ -60819,7 +59754,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_OGERPON] = {
         .textData = {
             .name = "Ogerpon",
@@ -60876,7 +59810,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_ARCHALUDON] = {
         .textData = {
             .name = "Archaludon",
@@ -60933,7 +59866,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_HYDRAPPLE] = {
         .textData = {
             .name = "Hydrapple",
@@ -60990,7 +59922,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_GOUGING_FIRE] = {
         .textData = {
             .name = "GouginFire",
@@ -61047,7 +59978,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_RAGING_BOLT] = {
         .textData = {
             .name = "RagingBolt",
@@ -61104,7 +60034,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_IRON_BOULDER] = {
         .textData = {
             .name = "IronBolder",
@@ -61161,7 +60090,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_IRON_CROWN] = {
         .textData = {
             .name = "Iron Crown",
@@ -61218,7 +60146,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_TERAPAGOS] = {
         .textData = {
             .name = "Terapagos",
@@ -61275,7 +60202,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_PECHARUNT] = {
         .textData = {
             .name = "Pecharunt",
@@ -61332,7 +60258,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 24,
         },
     },
-
     [SPECIES_MEGA_VENUSAUR] = {
         .textData = {
             .name = "-----",
@@ -61389,7 +60314,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_CHARIZARD_X] = {
         .textData = {
             .name = "-----",
@@ -61446,7 +60370,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_CHARIZARD_Y] = {
         .textData = {
             .name = "-----",
@@ -61503,7 +60426,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_BLASTOISE] = {
         .textData = {
             .name = "-----",
@@ -61560,7 +60482,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_BEEDRILL] = {
         .textData = {
             .name = "-----",
@@ -61617,7 +60538,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_PIDGEOT] = {
         .textData = {
             .name = "-----",
@@ -61674,7 +60594,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_ALAKAZAM] = {
         .textData = {
             .name = "-----",
@@ -61731,7 +60650,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_SLOWBRO] = {
         .textData = {
             .name = "-----",
@@ -61788,7 +60706,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_GENGAR] = {
         .textData = {
             .name = "-----",
@@ -61845,7 +60762,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_KANGASKHAN] = {
         .textData = {
             .name = "-----",
@@ -61902,7 +60818,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_PINSIR] = {
         .textData = {
             .name = "-----",
@@ -61959,7 +60874,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_GYARADOS] = {
         .textData = {
             .name = "-----",
@@ -62016,7 +60930,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_AERODACTYL] = {
         .textData = {
             .name = "-----",
@@ -62073,7 +60986,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_MEWTWO_X] = {
         .textData = {
             .name = "-----",
@@ -62130,7 +61042,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_MEWTWO_Y] = {
         .textData = {
             .name = "-----",
@@ -62187,7 +61098,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_AMPHAROS] = {
         .textData = {
             .name = "-----",
@@ -62244,7 +61154,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_STEELIX] = {
         .textData = {
             .name = "-----",
@@ -62301,7 +61210,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_SCIZOR] = {
         .textData = {
             .name = "-----",
@@ -62358,7 +61266,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_HERACROSS] = {
         .textData = {
             .name = "-----",
@@ -62415,7 +61322,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_HOUNDOOM] = {
         .textData = {
             .name = "-----",
@@ -62472,7 +61378,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_TYRANITAR] = {
         .textData = {
             .name = "-----",
@@ -62529,7 +61434,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_SCEPTILE] = {
         .textData = {
             .name = "-----",
@@ -62586,7 +61490,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_BLAZIKEN] = {
         .textData = {
             .name = "-----",
@@ -62643,7 +61546,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_SWAMPERT] = {
         .textData = {
             .name = "-----",
@@ -62700,7 +61602,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_GARDEVOIR] = {
         .textData = {
             .name = "-----",
@@ -62757,7 +61658,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_SABLEYE] = {
         .textData = {
             .name = "-----",
@@ -62814,7 +61714,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_MAWILE] = {
         .textData = {
             .name = "-----",
@@ -62871,7 +61770,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_AGGRON] = {
         .textData = {
             .name = "-----",
@@ -62928,7 +61826,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_MEDICHAM] = {
         .textData = {
             .name = "-----",
@@ -62985,7 +61882,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_MANECTRIC] = {
         .textData = {
             .name = "-----",
@@ -63042,7 +61938,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_SHARPEDO] = {
         .textData = {
             .name = "-----",
@@ -63099,7 +61994,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_CAMERUPT] = {
         .textData = {
             .name = "-----",
@@ -63156,7 +62050,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_ALTARIA] = {
         .textData = {
             .name = "-----",
@@ -63213,7 +62106,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_BANETTE] = {
         .textData = {
             .name = "-----",
@@ -63270,7 +62162,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_ABSOL] = {
         .textData = {
             .name = "-----",
@@ -63327,7 +62218,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_GLALIE] = {
         .textData = {
             .name = "-----",
@@ -63384,7 +62274,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_SALAMENCE] = {
         .textData = {
             .name = "-----",
@@ -63441,7 +62330,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_METAGROSS] = {
         .textData = {
             .name = "-----",
@@ -63498,7 +62386,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_LATIAS] = {
         .textData = {
             .name = "-----",
@@ -63555,7 +62442,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_LATIOS] = {
         .textData = {
             .name = "-----",
@@ -63612,7 +62498,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_RAYQUAZA] = {
         .textData = {
             .name = "-----",
@@ -63669,7 +62554,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_LOPUNNY] = {
         .textData = {
             .name = "-----",
@@ -63726,7 +62610,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_GARCHOMP] = {
         .textData = {
             .name = "-----",
@@ -63783,7 +62666,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_LUCARIO] = {
         .textData = {
             .name = "-----",
@@ -63840,7 +62722,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_ABOMASNOW] = {
         .textData = {
             .name = "-----",
@@ -63897,7 +62778,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_GALLADE] = {
         .textData = {
             .name = "-----",
@@ -63954,7 +62834,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_AUDINO] = {
         .textData = {
             .name = "-----",
@@ -64011,7 +62890,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_DIANCIE] = {
         .textData = {
             .name = "-----",
@@ -64068,7 +62946,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_KYOGRE_PRIMAL] = {
         .textData = {
             .name = "-----",
@@ -64125,7 +63002,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GROUDON_PRIMAL] = {
         .textData = {
             .name = "-----",
@@ -64182,7 +63058,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_RATTATA_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64239,7 +63114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_RATICATE_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64296,7 +63170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_RAICHU_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64353,7 +63226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SANDSHREW_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64410,7 +63282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SANDSLASH_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64467,7 +63338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VULPIX_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64524,7 +63394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_NINETALES_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64581,7 +63450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DIGLETT_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64638,7 +63506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DUGTRIO_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64695,7 +63562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEOWTH_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64752,7 +63618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PERSIAN_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64809,7 +63674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GEODUDE_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64866,7 +63730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GRAVELER_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64923,7 +63786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GOLEM_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -64980,7 +63842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GRIMER_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -65037,7 +63898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MUK_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -65094,7 +63954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_EXEGGUTOR_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -65151,7 +64010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MAROWAK_ALOLAN] = {
         .textData = {
             .name = "-----",
@@ -65208,7 +64066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_RATICATE_ALOLAN_LARGE] = {
         .textData = {
             .name = "-----",
@@ -65265,7 +64122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MAROWAK_ALOLAN_LARGE] = {
         .textData = {
             .name = "-----",
@@ -65322,7 +64178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GUMSHOOS_LARGE] = {
         .textData = {
             .name = "-----",
@@ -65379,7 +64234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIKAVOLT_LARGE] = {
         .textData = {
             .name = "-----",
@@ -65436,7 +64290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_RIBOMBEE_LARGE] = {
         .textData = {
             .name = "-----",
@@ -65493,7 +64346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARAQUANID_LARGE] = {
         .textData = {
             .name = "-----",
@@ -65550,7 +64402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_LURANTIS_LARGE] = {
         .textData = {
             .name = "-----",
@@ -65607,7 +64458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SALAZZLE_LARGE] = {
         .textData = {
             .name = "-----",
@@ -65664,7 +64514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TOGEDEMARU_LARGE] = {
         .textData = {
             .name = "-----",
@@ -65721,7 +64570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MIMIKYU_LARGE] = {
         .textData = {
             .name = "-----",
@@ -65778,7 +64626,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MIMIKYU_BUSTED_LARGE] = {
         .textData = {
             .name = "-----",
@@ -65835,7 +64682,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_KOMMO_O_LARGE] = {
         .textData = {
             .name = "-----",
@@ -65892,7 +64738,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEOWTH_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -65949,7 +64794,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PONYTA_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66006,7 +64850,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_RAPIDASH_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66063,7 +64906,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SLOWPOKE_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66120,7 +64962,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SLOWBRO_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66177,7 +65018,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FARFETCHD_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66234,7 +65074,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_WEEZING_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66291,7 +65130,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MR_MIME_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66348,7 +65186,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARTICUNO_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66405,7 +65242,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZAPDOS_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66462,7 +65298,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MOLTRES_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66519,7 +65354,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SLOWKING_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66576,7 +65410,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CORSOLA_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66633,7 +65466,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZIGZAGOON_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66690,7 +65522,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_LINOONE_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66747,7 +65578,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DARUMAKA_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66804,7 +65634,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DARMANITAN_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66861,7 +65690,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_YAMASK_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66918,7 +65746,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_STUNFISK_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -66975,7 +65802,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_COSPLAY] = {
         .textData = {
             .name = "-----",
@@ -67032,7 +65858,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_ROCK_STAR] = {
         .textData = {
             .name = "-----",
@@ -67089,7 +65914,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_BELLE] = {
         .textData = {
             .name = "-----",
@@ -67146,7 +65970,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_POP_STAR] = {
         .textData = {
             .name = "-----",
@@ -67203,7 +66026,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_PH_D] = {
         .textData = {
             .name = "-----",
@@ -67260,7 +66082,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_LIBRE] = {
         .textData = {
             .name = "-----",
@@ -67317,7 +66138,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_ORIGINAL_CAP] = {
         .textData = {
             .name = "-----",
@@ -67374,7 +66194,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_HOENN_CAP] = {
         .textData = {
             .name = "-----",
@@ -67431,7 +66250,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_SINNOH_CAP] = {
         .textData = {
             .name = "-----",
@@ -67488,7 +66306,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_UNOVA_CAP] = {
         .textData = {
             .name = "-----",
@@ -67545,7 +66362,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_KALOS_CAP] = {
         .textData = {
             .name = "-----",
@@ -67602,7 +66418,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_ALOLA_CAP] = {
         .textData = {
             .name = "-----",
@@ -67659,7 +66474,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_PARTNER_CAP] = {
         .textData = {
             .name = "-----",
@@ -67716,7 +66530,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_WORLD_CAP] = {
         .textData = {
             .name = "-----",
@@ -67773,7 +66586,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CASTFORM_SUNNY] = {
         .textData = {
             .name = "-----",
@@ -67830,7 +66642,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CASTFORM_RAINY] = {
         .textData = {
             .name = "-----",
@@ -67887,7 +66698,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CASTFORM_SNOWY] = {
         .textData = {
             .name = "-----",
@@ -67944,7 +66754,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CHERRIM_SUNSHINE] = {
         .textData = {
             .name = "-----",
@@ -68001,7 +66810,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SHELLOS_EAST_SEA] = {
         .textData = {
             .name = "-----",
@@ -68058,7 +66866,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GASTRODON_EAST_SEA] = {
         .textData = {
             .name = "-----",
@@ -68115,7 +66922,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DIALGA_ORIGIN] = {
         .textData = {
             .name = "-----",
@@ -68172,7 +66978,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PALKIA_ORIGIN] = {
         .textData = {
             .name = "-----",
@@ -68229,7 +67034,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_BASCULIN_BLUE_STRIPED] = {
         .textData = {
             .name = "-----",
@@ -68286,7 +67090,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_BASCULIN_WHITE_STRIPED] = {
         .textData = {
             .name = "-----",
@@ -68343,7 +67146,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DARMANITAN_ZEN_MODE] = {
         .textData = {
             .name = "-----",
@@ -68400,7 +67202,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DARMANITAN_ZEN_MODE_GALARIAN] = {
         .textData = {
             .name = "-----",
@@ -68457,7 +67258,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DEERLING_SUMMER] = {
         .textData = {
             .name = "-----",
@@ -68514,7 +67314,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DEERLING_AUTUMN] = {
         .textData = {
             .name = "-----",
@@ -68571,7 +67370,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DEERLING_WINTER] = {
         .textData = {
             .name = "-----",
@@ -68628,7 +67426,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SAWSBUCK_SUMMER] = {
         .textData = {
             .name = "-----",
@@ -68685,7 +67482,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SAWSBUCK_AUTUMN] = {
         .textData = {
             .name = "-----",
@@ -68742,7 +67538,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SAWSBUCK_WINTER] = {
         .textData = {
             .name = "-----",
@@ -68799,7 +67594,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TORNADUS_THERIAN] = {
         .textData = {
             .name = "-----",
@@ -68856,7 +67650,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_THUNDURUS_THERIAN] = {
         .textData = {
             .name = "-----",
@@ -68913,7 +67706,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_LANDORUS_THERIAN] = {
         .textData = {
             .name = "-----",
@@ -68970,7 +67762,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_KYUREM_WHITE] = {
         .textData = {
             .name = "-----",
@@ -69027,7 +67818,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_KYUREM_BLACK] = {
         .textData = {
             .name = "-----",
@@ -69084,7 +67874,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_KELDEO_RESOLUTE] = {
         .textData = {
             .name = "-----",
@@ -69141,7 +67930,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MELOETTA_PIROUETTE] = {
         .textData = {
             .name = "-----",
@@ -69198,7 +67986,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GENESECT_DOUSE_DRIVE] = {
         .textData = {
             .name = "-----",
@@ -69255,7 +68042,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GENESECT_SHOCK_DRIVE] = {
         .textData = {
             .name = "-----",
@@ -69312,7 +68098,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GENESECT_BURN_DRIVE] = {
         .textData = {
             .name = "-----",
@@ -69369,7 +68154,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GENESECT_CHILL_DRIVE] = {
         .textData = {
             .name = "-----",
@@ -69426,7 +68210,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GRENINJA_BATTLE_BOND] = {
         .textData = {
             .name = "-----",
@@ -69483,7 +68266,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GRENINJA_ASH] = {
         .textData = {
             .name = "-----",
@@ -69540,7 +68322,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_POLAR] = {
         .textData = {
             .name = "-----",
@@ -69597,7 +68378,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_TUNDRA] = {
         .textData = {
             .name = "-----",
@@ -69654,7 +68434,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_CONTINENTAL] = {
         .textData = {
             .name = "-----",
@@ -69711,7 +68490,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_GARDEN] = {
         .textData = {
             .name = "-----",
@@ -69768,7 +68546,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_ELEGANT] = {
         .textData = {
             .name = "-----",
@@ -69825,7 +68602,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_MEADOW] = {
         .textData = {
             .name = "-----",
@@ -69882,7 +68658,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_MODERN] = {
         .textData = {
             .name = "-----",
@@ -69939,7 +68714,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_MARINE] = {
         .textData = {
             .name = "-----",
@@ -69996,7 +68770,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_ARCHIPELAGO] = {
         .textData = {
             .name = "-----",
@@ -70053,7 +68826,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_HIGH_PLAINS] = {
         .textData = {
             .name = "-----",
@@ -70110,7 +68882,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_SANDSTORM] = {
         .textData = {
             .name = "-----",
@@ -70167,7 +68938,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_RIVER] = {
         .textData = {
             .name = "-----",
@@ -70224,7 +68994,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_MONSOON] = {
         .textData = {
             .name = "-----",
@@ -70281,7 +69050,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_SAVANNA] = {
         .textData = {
             .name = "-----",
@@ -70338,7 +69106,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_SUN] = {
         .textData = {
             .name = "-----",
@@ -70395,7 +69162,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_OCEAN] = {
         .textData = {
             .name = "-----",
@@ -70452,7 +69218,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_JUNGLE] = {
         .textData = {
             .name = "-----",
@@ -70509,7 +69274,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_FANCY] = {
         .textData = {
             .name = "-----",
@@ -70566,7 +69330,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VIVILLON_POKE_BALL] = {
         .textData = {
             .name = "-----",
@@ -70623,7 +69386,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLABEBE_YELLOW_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -70680,7 +69442,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLABEBE_ORANGE_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -70737,7 +69498,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLABEBE_BLUE_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -70794,7 +69554,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLABEBE_WHITE_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -70851,7 +69610,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLOETTE_YELLOW_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -70908,7 +69666,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLOETTE_ORANGE_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -70965,7 +69722,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLOETTE_BLUE_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -71022,7 +69778,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLOETTE_WHITE_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -71079,7 +69834,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLOETTE_ETERNAL_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -71136,7 +69890,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLORGES_YELLOW_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -71193,7 +69946,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLORGES_ORANGE_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -71250,7 +70002,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLORGES_BLUE_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -71307,7 +70058,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FLORGES_WHITE_FLOWER] = {
         .textData = {
             .name = "-----",
@@ -71364,7 +70114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FURFROU_HEART] = {
         .textData = {
             .name = "-----",
@@ -71421,7 +70170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FURFROU_STAR] = {
         .textData = {
             .name = "-----",
@@ -71478,7 +70226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FURFROU_DIAMOND] = {
         .textData = {
             .name = "-----",
@@ -71535,7 +70282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FURFROU_DEBUTANTE] = {
         .textData = {
             .name = "-----",
@@ -71592,7 +70338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FURFROU_MATRON] = {
         .textData = {
             .name = "-----",
@@ -71649,7 +70394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FURFROU_DANDY] = {
         .textData = {
             .name = "-----",
@@ -71706,7 +70450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FURFROU_LA_REINE] = {
         .textData = {
             .name = "-----",
@@ -71763,7 +70506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FURFROU_KABUKI] = {
         .textData = {
             .name = "-----",
@@ -71820,7 +70562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FURFROU_PHARAOH] = {
         .textData = {
             .name = "-----",
@@ -71877,7 +70618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_AEGISLASH_BLADE] = {
         .textData = {
             .name = "-----",
@@ -71934,7 +70674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PUMPKABOO_SMALL] = {
         .textData = {
             .name = "-----",
@@ -71991,7 +70730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PUMPKABOO_LARGE] = {
         .textData = {
             .name = "-----",
@@ -72048,7 +70786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PUMPKABOO_SUPER] = {
         .textData = {
             .name = "-----",
@@ -72105,7 +70842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GOURGEIST_SMALL] = {
         .textData = {
             .name = "-----",
@@ -72162,7 +70898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GOURGEIST_LARGE] = {
         .textData = {
             .name = "-----",
@@ -72219,7 +70954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GOURGEIST_SUPER] = {
         .textData = {
             .name = "-----",
@@ -72276,7 +71010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_XERNEAS_ACTIVE] = {
         .textData = {
             .name = "-----",
@@ -72333,7 +71066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZYGARDE_10] = {
         .textData = {
             .name = "-----",
@@ -72390,7 +71122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZYGARDE_10_POWER_CONSTRUCT] = {
         .textData = {
             .name = "-----",
@@ -72447,7 +71178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZYGARDE_50_POWER_CONSTRUCT] = {
         .textData = {
             .name = "-----",
@@ -72504,7 +71234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZYGARDE_COMPLETE] = {
         .textData = {
             .name = "-----",
@@ -72561,7 +71290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_HOOPA_UNBOUND] = {
         .textData = {
             .name = "-----",
@@ -72618,7 +71346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ORICORIO_POM_POM] = {
         .textData = {
             .name = "-----",
@@ -72675,7 +71402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ORICORIO_PAU] = {
         .textData = {
             .name = "-----",
@@ -72732,7 +71458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ORICORIO_SENSU] = {
         .textData = {
             .name = "-----",
@@ -72789,7 +71514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ROCKRUFF_OWN_TEMPO] = {
         .textData = {
             .name = "-----",
@@ -72846,7 +71570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_LYCANROC_MIDNIGHT] = {
         .textData = {
             .name = "-----",
@@ -72903,7 +71626,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_LYCANROC_DUSK] = {
         .textData = {
             .name = "-----",
@@ -72960,7 +71682,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_WISHIWASHI_SCHOOL] = {
         .textData = {
             .name = "-----",
@@ -73017,7 +71738,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_METEOR_ORANGE] = {
         .textData = {
             .name = "-----",
@@ -73074,7 +71794,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_METEOR_YELLOW] = {
         .textData = {
             .name = "-----",
@@ -73131,7 +71850,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_METEOR_GREEN] = {
         .textData = {
             .name = "-----",
@@ -73188,7 +71906,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_METEOR_BLUE] = {
         .textData = {
             .name = "-----",
@@ -73245,7 +71962,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_METEOR_INDIGO] = {
         .textData = {
             .name = "-----",
@@ -73302,7 +72018,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_METEOR_VIOLET] = {
         .textData = {
             .name = "-----",
@@ -73359,7 +72074,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_CORE_RED] = {
         .textData = {
             .name = "-----",
@@ -73416,7 +72130,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_CORE_ORANGE] = {
         .textData = {
             .name = "-----",
@@ -73473,7 +72186,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_CORE_YELLOW] = {
         .textData = {
             .name = "-----",
@@ -73530,7 +72242,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_CORE_GREEN] = {
         .textData = {
             .name = "-----",
@@ -73587,7 +72298,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_CORE_BLUE] = {
         .textData = {
             .name = "-----",
@@ -73644,7 +72354,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_CORE_INDIGO] = {
         .textData = {
             .name = "-----",
@@ -73701,7 +72410,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MINIOR_CORE_VIOLET] = {
         .textData = {
             .name = "-----",
@@ -73758,7 +72466,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MIMIKYU_BUSTED] = {
         .textData = {
             .name = "-----",
@@ -73815,7 +72522,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_NECROZMA_DUSK_MANE] = {
         .textData = {
             .name = "-----",
@@ -73872,7 +72578,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_NECROZMA_DAWN_WINGS] = {
         .textData = {
             .name = "-----",
@@ -73929,7 +72634,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_NECROZMA_ULTRA_DUSK_MANE] = {
         .textData = {
             .name = "-----",
@@ -73986,7 +72690,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_NECROZMA_ULTRA_DAWN_WINGS] = {
         .textData = {
             .name = "-----",
@@ -74043,7 +72746,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MAGEARNA_ORIGINAL] = {
         .textData = {
             .name = "-----",
@@ -74100,7 +72802,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PIKACHU_PARTNER] = {
         .textData = {
             .name = "-----",
@@ -74157,7 +72858,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_EEVEE_PARTNER] = {
         .textData = {
             .name = "-----",
@@ -74214,7 +72914,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CRAMORANT_GULPING] = {
         .textData = {
             .name = "-----",
@@ -74271,7 +72970,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CRAMORANT_GORGING] = {
         .textData = {
             .name = "-----",
@@ -74328,7 +73026,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TOXTRICITY_LOW_KEY] = {
         .textData = {
             .name = "-----",
@@ -74385,7 +73082,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SINISTEA_ANTIQUE] = {
         .textData = {
             .name = "-----",
@@ -74442,7 +73138,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_POLTEAGEIST_ANTIQUE] = {
         .textData = {
             .name = "-----",
@@ -74499,7 +73194,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ALCREMIE_RUBY_CREAM] = {
         .textData = {
             .name = "-----",
@@ -74556,7 +73250,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ALCREMIE_MATCHA_CREAM] = {
         .textData = {
             .name = "-----",
@@ -74613,7 +73306,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ALCREMIE_MINT_CREAM] = {
         .textData = {
             .name = "-----",
@@ -74670,7 +73362,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ALCREMIE_LEMON_CREAM] = {
         .textData = {
             .name = "-----",
@@ -74727,7 +73418,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ALCREMIE_SALTED_CREAM] = {
         .textData = {
             .name = "-----",
@@ -74784,7 +73474,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ALCREMIE_RUBY_SWIRL] = {
         .textData = {
             .name = "-----",
@@ -74841,7 +73530,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ALCREMIE_CARAMEL_SWIRL] = {
         .textData = {
             .name = "-----",
@@ -74898,7 +73586,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ALCREMIE_RAINBOW_SWIRL] = {
         .textData = {
             .name = "-----",
@@ -74955,7 +73642,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_EISCUE_NOICE_FACE] = {
         .textData = {
             .name = "-----",
@@ -75012,7 +73698,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MORPEKO_HANGRY] = {
         .textData = {
             .name = "-----",
@@ -75069,7 +73754,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZACIAN_CROWNED] = {
         .textData = {
             .name = "-----",
@@ -75126,7 +73810,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZAMAZENTA_CROWNED] = {
         .textData = {
             .name = "-----",
@@ -75183,7 +73866,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ETERNATUS_ETERNAMAX] = {
         .textData = {
             .name = "-----",
@@ -75240,7 +73922,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_URSHIFU_RAPID_STRIKE] = {
         .textData = {
             .name = "-----",
@@ -75297,7 +73978,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZARUDE_DADA] = {
         .textData = {
             .name = "-----",
@@ -75354,7 +74034,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CALYREX_ICE_RIDER] = {
         .textData = {
             .name = "-----",
@@ -75411,7 +74090,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_CALYREX_SHADOW_RIDER] = {
         .textData = {
             .name = "-----",
@@ -75468,7 +74146,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ENAMORUS_THERIAN] = {
         .textData = {
             .name = "-----",
@@ -75525,7 +74202,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GROWLITHE_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -75582,7 +74258,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCANINE_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -75639,7 +74314,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_VOLTORB_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -75696,7 +74370,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ELECTRODE_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -75753,7 +74426,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TYPHLOSION_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -75810,7 +74482,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_QWILFISH_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -75867,7 +74538,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SNEASEL_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -75924,7 +74594,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SAMUROTT_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -75981,7 +74650,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_LILLIGANT_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -76038,7 +74706,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZORUA_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -76095,7 +74762,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ZOROARK_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -76152,7 +74818,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_BRAVIARY_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -76209,7 +74874,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SLIGGOO_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -76266,7 +74930,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GOODRA_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -76323,7 +74986,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_AVALUGG_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -76380,7 +75042,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DECIDUEYE_HISUIAN] = {
         .textData = {
             .name = "-----",
@@ -76437,7 +75098,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_KLEAVOR_LORD] = {
         .textData = {
             .name = "-----",
@@ -76494,7 +75154,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_LILLIGANT_LADY] = {
         .textData = {
             .name = "-----",
@@ -76551,7 +75210,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCANINE_LORD] = {
         .textData = {
             .name = "-----",
@@ -76608,7 +75266,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ELECTRODE_LORD] = {
         .textData = {
             .name = "-----",
@@ -76665,7 +75322,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_AVALUGG_LORD] = {
         .textData = {
             .name = "-----",
@@ -76722,7 +75378,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_UNFEZANT_FEMALE] = {
         .textData = {
             .name = "-----",
@@ -76779,7 +75434,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_FRILLISH_FEMALE] = {
         .textData = {
             .name = "-----",
@@ -76836,7 +75490,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_JELLICENT_FEMALE] = {
         .textData = {
             .name = "-----",
@@ -76893,7 +75546,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PYROAR_FEMALE] = {
         .textData = {
             .name = "-----",
@@ -76950,7 +75602,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEOWSTIC_FEMALE] = {
         .textData = {
             .name = "-----",
@@ -77007,7 +75658,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_INDEEDEE_FEMALE] = {
         .textData = {
             .name = "-----",
@@ -77064,7 +75714,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_BASCULEGION_FEMALE] = {
         .textData = {
             .name = "-----",
@@ -77121,7 +75770,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MAUSHOLD_FAMILY_OF_THREE] = {
         .textData = {
             .name = "-----",
@@ -77178,7 +75826,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SQUAWKABILLY_BLUE_PLUMAGE] = {
         .textData = {
             .name = "-----",
@@ -77235,7 +75882,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SQUAWKABILLY_YELLOW_PLUMAGE] = {
         .textData = {
             .name = "-----",
@@ -77292,7 +75938,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SQUAWKABILLY_WHITE_PLUMAGE] = {
         .textData = {
             .name = "-----",
@@ -77349,7 +75994,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PALAFIN_HERO] = {
         .textData = {
             .name = "-----",
@@ -77406,7 +76050,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TATSUGIRI_DROOPY] = {
         .textData = {
             .name = "-----",
@@ -77463,7 +76106,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TATSUGIRI_STRETCHY] = {
         .textData = {
             .name = "-----",
@@ -77520,7 +76162,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DUDUNSPARCE_THREE_SEGMENT] = {
         .textData = {
             .name = "-----",
@@ -77577,7 +76218,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIMMIGHOUL_ROAMING] = {
         .textData = {
             .name = "-----",
@@ -77634,7 +76274,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_WOOPER_PALDEAN] = {
         .textData = {
             .name = "-----",
@@ -77691,7 +76330,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TAUROS_COMBAT] = {
         .textData = {
             .name = "-----",
@@ -77748,7 +76386,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TAUROS_BLAZE] = {
         .textData = {
             .name = "-----",
@@ -77805,7 +76442,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TAUROS_AQUA] = {
         .textData = {
             .name = "-----",
@@ -77862,7 +76498,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_OINKOLOGNE_FEMALE] = {
         .textData = {
             .name = "-----",
@@ -77919,7 +76554,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_KORAIDON_LIMITED_BUILD] = {
         .textData = {
             .name = "-----",
@@ -77976,7 +76610,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_KORAIDON_SPRINTING_BUILD] = {
         .textData = {
             .name = "-----",
@@ -78033,7 +76666,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_KORAIDON_SWIMMING_BUILD] = {
         .textData = {
             .name = "-----",
@@ -78090,7 +76722,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_KORAIDON_GLIDING_BUILD] = {
         .textData = {
             .name = "-----",
@@ -78147,7 +76778,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MIRAIDON_LOW_POWER_MODE] = {
         .textData = {
             .name = "-----",
@@ -78204,7 +76834,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MIRAIDON_DRIVE_MODE] = {
         .textData = {
             .name = "-----",
@@ -78261,7 +76890,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MIRAIDON_AQUATIC_MODE] = {
         .textData = {
             .name = "-----",
@@ -78318,7 +76946,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MIRAIDON_GLIDE_MODE] = {
         .textData = {
             .name = "-----",
@@ -78375,7 +77002,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_POLTCHAGEIST_MASTERPIECE] = {
         .textData = {
             .name = "-----",
@@ -78432,7 +77058,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_SINISTCHA_MASTERPIECE] = {
         .textData = {
             .name = "-----",
@@ -78489,7 +77114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_OGERPON_WELLSPRING_MASK] = {
         .textData = {
             .name = "-----",
@@ -78546,7 +77170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_OGERPON_HEARTHFLAME_MASK] = {
         .textData = {
             .name = "-----",
@@ -78603,7 +77226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_OGERPON_CORNERSTONE_MASK] = {
         .textData = {
             .name = "-----",
@@ -78660,7 +77282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_OGERPON_TEAL_MASK_TERASTAL] = {
         .textData = {
             .name = "-----",
@@ -78717,7 +77338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_OGERPON_WELLSPRING_MASK_TERASTAL] = {
         .textData = {
             .name = "-----",
@@ -78774,7 +77394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_OGERPON_HEARTHFLAME_MASK_TERASTAL] = {
         .textData = {
             .name = "-----",
@@ -78831,7 +77450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_OGERPON_CORNERSTONE_MASK_TERASTAL] = {
         .textData = {
             .name = "-----",
@@ -78888,7 +77506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_URSALUNA_BLOODMOON] = {
         .textData = {
             .name = "-----",
@@ -78945,7 +77562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TERAPAGOS_TERASTAL] = {
         .textData = {
             .name = "-----",
@@ -79002,7 +77618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_TERAPAGOS_STELLAR] = {
         .textData = {
             .name = "-----",
@@ -79059,7 +77674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_VENUSAUR] = {
         .textData = {
             .name = "-----",
@@ -79116,7 +77730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_CHARIZARD] = {
         .textData = {
             .name = "-----",
@@ -79173,7 +77786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_BLASTOISE] = {
         .textData = {
             .name = "-----",
@@ -79230,7 +77842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_BUTTERFREE] = {
         .textData = {
             .name = "-----",
@@ -79287,7 +77898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_PIKACHU] = {
         .textData = {
             .name = "-----",
@@ -79344,7 +77954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_MEOWTH] = {
         .textData = {
             .name = "-----",
@@ -79401,7 +78010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_MACHAMP] = {
         .textData = {
             .name = "-----",
@@ -79458,7 +78066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_GENGAR] = {
         .textData = {
             .name = "-----",
@@ -79515,7 +78122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_KINGLER] = {
         .textData = {
             .name = "-----",
@@ -79572,7 +78178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_LAPRAS] = {
         .textData = {
             .name = "-----",
@@ -79629,7 +78234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_EEVEE] = {
         .textData = {
             .name = "-----",
@@ -79686,7 +78290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_SNORLAX] = {
         .textData = {
             .name = "-----",
@@ -79743,7 +78346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_GARBODOR] = {
         .textData = {
             .name = "-----",
@@ -79800,7 +78402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_MELMETAL] = {
         .textData = {
             .name = "-----",
@@ -79857,7 +78458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_RILLABOOM] = {
         .textData = {
             .name = "-----",
@@ -79914,7 +78514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_CINDERACE] = {
         .textData = {
             .name = "-----",
@@ -79971,7 +78570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_INTELEON] = {
         .textData = {
             .name = "-----",
@@ -80028,7 +78626,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_CORVIKNIGHT] = {
         .textData = {
             .name = "-----",
@@ -80085,7 +78682,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_ORBEETLE] = {
         .textData = {
             .name = "-----",
@@ -80142,7 +78738,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_DREDNAW] = {
         .textData = {
             .name = "-----",
@@ -80199,7 +78794,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_COALOSSAL] = {
         .textData = {
             .name = "-----",
@@ -80256,7 +78850,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_FLAPPLE] = {
         .textData = {
             .name = "-----",
@@ -80313,7 +78906,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_APPLETUN] = {
         .textData = {
             .name = "-----",
@@ -80370,7 +78962,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_SANDACONDA] = {
         .textData = {
             .name = "-----",
@@ -80427,7 +79018,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_TOXTRICITY] = {
         .textData = {
             .name = "-----",
@@ -80484,7 +79074,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_TOXTRICITY_LOW_KEY] = {
         .textData = {
             .name = "-----",
@@ -80541,7 +79130,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_CENTISKORCH] = {
         .textData = {
             .name = "-----",
@@ -80598,7 +79186,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_HATTERENE] = {
         .textData = {
             .name = "-----",
@@ -80655,7 +79242,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_GRIMMSNARL] = {
         .textData = {
             .name = "-----",
@@ -80712,7 +79298,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_ALCREMIE] = {
         .textData = {
             .name = "-----",
@@ -80769,7 +79354,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_COPPERAJAH] = {
         .textData = {
             .name = "-----",
@@ -80826,7 +79410,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_DURALUDON] = {
         .textData = {
             .name = "-----",
@@ -80883,7 +79466,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_URSHIFU] = {
         .textData = {
             .name = "-----",
@@ -80940,7 +79522,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_GIGANTAMAX_URSHIFU_RAPID_STRIKE] = {
         .textData = {
             .name = "-----",
@@ -80997,7 +79578,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_RAICHU_X] = {
         .textData = {
             .name = "-----",
@@ -81054,7 +79634,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_RAICHU_Y] = {
         .textData = {
             .name = "-----",
@@ -81111,7 +79690,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_CLEFABLE] = {
         .textData = {
             .name = "-----",
@@ -81168,7 +79746,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_VICTREEBEL] = {
         .textData = {
             .name = "-----",
@@ -81225,7 +79802,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_STARMIE] = {
         .textData = {
             .name = "-----",
@@ -81282,7 +79858,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_DRAGONITE] = {
         .textData = {
             .name = "-----",
@@ -81339,7 +79914,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_MEGANIUM] = {
         .textData = {
             .name = "-----",
@@ -81396,7 +79970,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_FERALIGATR] = {
         .textData = {
             .name = "-----",
@@ -81453,7 +80026,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_SKARMORY] = {
         .textData = {
             .name = "-----",
@@ -81510,7 +80082,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_CHIMECHO] = {
         .textData = {
             .name = "-----",
@@ -81567,7 +80138,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_ABSOL_Z] = {
         .textData = {
             .name = "-----",
@@ -81624,7 +80194,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_STARAPTOR] = {
         .textData = {
             .name = "-----",
@@ -81681,7 +80250,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_GARCHOMP_Z] = {
         .textData = {
             .name = "-----",
@@ -81738,7 +80306,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_LUCARIO_Z] = {
         .textData = {
             .name = "-----",
@@ -81795,7 +80362,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_FROSLASS] = {
         .textData = {
             .name = "-----",
@@ -81852,7 +80418,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_HEATRAN] = {
         .textData = {
             .name = "-----",
@@ -81909,7 +80474,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_DARKRAI] = {
         .textData = {
             .name = "-----",
@@ -81966,7 +80530,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_EMBOAR] = {
         .textData = {
             .name = "-----",
@@ -82023,7 +80586,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_EXCADRILL] = {
         .textData = {
             .name = "-----",
@@ -82080,7 +80642,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_SCOLIPEDE] = {
         .textData = {
             .name = "-----",
@@ -82137,7 +80698,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_SCRAFTY] = {
         .textData = {
             .name = "-----",
@@ -82194,7 +80754,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_EELEKTROSS] = {
         .textData = {
             .name = "-----",
@@ -82251,7 +80810,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_CHANDELURE] = {
         .textData = {
             .name = "-----",
@@ -82308,7 +80866,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_GOLURK] = {
         .textData = {
             .name = "-----",
@@ -82365,7 +80922,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_CHESNAUGHT] = {
         .textData = {
             .name = "-----",
@@ -82422,7 +80978,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_DELPHOX] = {
         .textData = {
             .name = "-----",
@@ -82479,7 +81034,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_GRENINJA] = {
         .textData = {
             .name = "-----",
@@ -82536,7 +81090,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_PYROAR] = {
         .textData = {
             .name = "-----",
@@ -82593,7 +81146,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_FLOETTE] = {
         .textData = {
             .name = "-----",
@@ -82650,7 +81202,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_MEOWSTIC] = {
         .textData = {
             .name = "-----",
@@ -82707,7 +81258,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_MEOWSTIC_FEMALE] = {
         .textData = {
             .name = "-----",
@@ -82764,7 +81314,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_MALAMAR] = {
         .textData = {
             .name = "-----",
@@ -82821,7 +81370,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_BARBARACLE] = {
         .textData = {
             .name = "-----",
@@ -82878,7 +81426,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_DRAGALGE] = {
         .textData = {
             .name = "-----",
@@ -82935,7 +81482,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_HAWLUCHA] = {
         .textData = {
             .name = "-----",
@@ -82992,7 +81538,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_ZYGARDE] = {
         .textData = {
             .name = "-----",
@@ -83049,7 +81594,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_CRABOMINABLE] = {
         .textData = {
             .name = "-----",
@@ -83106,7 +81650,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_GOLISOPOD] = {
         .textData = {
             .name = "-----",
@@ -83163,7 +81706,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_DRAMPA] = {
         .textData = {
             .name = "-----",
@@ -83220,7 +81762,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_MAGEARNA] = {
         .textData = {
             .name = "-----",
@@ -83277,7 +81818,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_MAGEARNA_ORIGINAL] = {
         .textData = {
             .name = "-----",
@@ -83334,7 +81874,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_ZERAORA] = {
         .textData = {
             .name = "-----",
@@ -83391,7 +81930,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_FALINKS] = {
         .textData = {
             .name = "-----",
@@ -83448,7 +81986,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_SCOVILLAIN] = {
         .textData = {
             .name = "-----",
@@ -83505,7 +82042,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_GLIMMORA] = {
         .textData = {
             .name = "-----",
@@ -83562,7 +82098,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_TATSUGIRI] = {
         .textData = {
             .name = "-----",
@@ -83619,7 +82154,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_TATSUGIRI_DROOPY] = {
         .textData = {
             .name = "-----",
@@ -83676,7 +82210,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_TATSUGIRI_STRETCHY] = {
         .textData = {
             .name = "-----",
@@ -83733,7 +82266,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_MEGA_BAXCALIBUR] = {
         .textData = {
             .name = "-----",
@@ -83790,7 +82322,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_DEOXYS_ATTACK] = {
         .textData = {
             .name = "Deoxys",
@@ -83847,7 +82378,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_DEOXYS_DEFENSE] = {
         .textData = {
             .name = "Deoxys",
@@ -83904,7 +82434,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_DEOXYS_SPEED] = {
         .textData = {
             .name = "Deoxys",
@@ -83961,7 +82490,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 2,
         },
     },
-
     [SPECIES_WORMADAM_SANDY] = {
         .textData = {
             .name = "Wormadam",
@@ -84018,7 +82546,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -12,
         },
     },
-
     [SPECIES_WORMADAM_TRASH] = {
         .textData = {
             .name = "Wormadam",
@@ -84075,7 +82602,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -12,
         },
     },
-
     [SPECIES_GIRATINA_ORIGIN] = {
         .textData = {
             .name = "Giratina",
@@ -84132,7 +82658,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_SHAYMIN_SKY] = {
         .textData = {
             .name = "Shaymin",
@@ -84189,7 +82714,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 32,
         },
     },
-
     [SPECIES_ROTOM_HEAT] = {
         .textData = {
             .name = "Rotom",
@@ -84246,7 +82770,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -8,
         },
     },
-
     [SPECIES_ROTOM_WASH] = {
         .textData = {
             .name = "Rotom",
@@ -84303,7 +82826,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -8,
         },
     },
-
     [SPECIES_ROTOM_FROST] = {
         .textData = {
             .name = "Rotom",
@@ -84360,7 +82882,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -8,
         },
     },
-
     [SPECIES_ROTOM_FAN] = {
         .textData = {
             .name = "Rotom",
@@ -84417,7 +82938,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -8,
         },
     },
-
     [SPECIES_ROTOM_MOW] = {
         .textData = {
             .name = "Rotom",
@@ -84474,7 +82994,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -8,
         },
     },
-
     [SPECIES_UNOWN_B] = {
         .textData = {
             .name = "Unown",
@@ -84531,7 +83050,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_C] = {
         .textData = {
             .name = "Unown",
@@ -84588,7 +83106,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_D] = {
         .textData = {
             .name = "Unown",
@@ -84645,7 +83162,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_E] = {
         .textData = {
             .name = "Unown",
@@ -84702,7 +83218,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_F] = {
         .textData = {
             .name = "Unown",
@@ -84759,7 +83274,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_G] = {
         .textData = {
             .name = "Unown",
@@ -84816,7 +83330,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_H] = {
         .textData = {
             .name = "Unown",
@@ -84873,7 +83386,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_I] = {
         .textData = {
             .name = "Unown",
@@ -84930,7 +83442,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_J] = {
         .textData = {
             .name = "Unown",
@@ -84987,7 +83498,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_K] = {
         .textData = {
             .name = "Unown",
@@ -85044,7 +83554,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_L] = {
         .textData = {
             .name = "Unown",
@@ -85101,7 +83610,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_M] = {
         .textData = {
             .name = "Unown",
@@ -85158,7 +83666,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_N] = {
         .textData = {
             .name = "Unown",
@@ -85215,7 +83722,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_O] = {
         .textData = {
             .name = "Unown",
@@ -85272,7 +83778,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_P] = {
         .textData = {
             .name = "Unown",
@@ -85329,7 +83834,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_Q] = {
         .textData = {
             .name = "Unown",
@@ -85386,7 +83890,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_R] = {
         .textData = {
             .name = "Unown",
@@ -85443,7 +83946,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_S] = {
         .textData = {
             .name = "Unown",
@@ -85500,7 +84002,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_T] = {
         .textData = {
             .name = "Unown",
@@ -85557,7 +84058,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_U] = {
         .textData = {
             .name = "Unown",
@@ -85614,7 +84114,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_V] = {
         .textData = {
             .name = "Unown",
@@ -85671,7 +84170,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_W] = {
         .textData = {
             .name = "Unown",
@@ -85728,7 +84226,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_X] = {
         .textData = {
             .name = "Unown",
@@ -85785,7 +84282,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_Y] = {
         .textData = {
             .name = "Unown",
@@ -85842,7 +84338,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_Z] = {
         .textData = {
             .name = "Unown",
@@ -85899,7 +84394,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_EXCLAMATION] = {
         .textData = {
             .name = "Unown",
@@ -85956,7 +84450,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_UNOWN_QUESTION] = {
         .textData = {
             .name = "Unown",
@@ -86013,7 +84506,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 1,
         },
     },
-
     [SPECIES_BURMY_SANDY] = {
         .textData = {
             .name = "Burmy",
@@ -86070,7 +84562,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -6,
         },
     },
-
     [SPECIES_BURMY_TRASH] = {
         .textData = {
             .name = "Burmy",
@@ -86127,7 +84618,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = -6,
         },
     },
-
     [SPECIES_ARCEUS_FIGHTING] = {
         .textData = {
             .name = "Arceus",
@@ -86184,7 +84674,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_FLYING] = {
         .textData = {
             .name = "Arceus",
@@ -86241,7 +84730,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_POISON] = {
         .textData = {
             .name = "Arceus",
@@ -86298,7 +84786,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_GROUND] = {
         .textData = {
             .name = "Arceus",
@@ -86355,7 +84842,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_ROCK] = {
         .textData = {
             .name = "Arceus",
@@ -86412,7 +84898,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_BUG] = {
         .textData = {
             .name = "Arceus",
@@ -86469,7 +84954,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_GHOST] = {
         .textData = {
             .name = "Arceus",
@@ -86526,7 +85010,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_STEEL] = {
         .textData = {
             .name = "Arceus",
@@ -86583,7 +85066,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_FAIRY] = {
         .textData = {
             .name = "Arceus",
@@ -86640,7 +85122,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_FIRE] = {
         .textData = {
             .name = "Arceus",
@@ -86697,7 +85178,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_WATER] = {
         .textData = {
             .name = "Arceus",
@@ -86754,7 +85234,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_GRASS] = {
         .textData = {
             .name = "Arceus",
@@ -86811,7 +85290,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_ELECTRIC] = {
         .textData = {
             .name = "Arceus",
@@ -86868,7 +85346,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_PSYCHIC] = {
         .textData = {
             .name = "Arceus",
@@ -86925,7 +85402,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_ICE] = {
         .textData = {
             .name = "Arceus",
@@ -86982,7 +85458,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_DRAGON] = {
         .textData = {
             .name = "Arceus",
@@ -87039,7 +85514,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_ARCEUS_DARK] = {
         .textData = {
             .name = "Arceus",
@@ -87096,7 +85570,6 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .malePokemonYOffset = 0,
         },
     },
-
     [SPECIES_PICHU_SPIKY_EAR] = {
         .textData = {
             .name = "Pichu",

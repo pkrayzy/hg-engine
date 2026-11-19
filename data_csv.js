@@ -111,6 +111,18 @@ function tokenize(str) {
         else if (c === ',') { tokens.push({ type: TokenType.COMMA, value: ',' }); i++; }
         else if (c === '.') { tokens.push({ type: TokenType.DOT, value: '.' }); i++; }
         else if (c === '|') { tokens.push({ type: TokenType.PIPE, value: '|' }); i++; }
+        else if (c === '(') {
+            let val = '(';
+            let depth = 1;
+            i++;
+            while (i < str.length && depth > 0) {
+                val += str[i];
+                if (str[i] === '(') depth++;
+                else if (str[i] === ')') depth--;
+                i++;
+            }
+            tokens.push({ type: TokenType.STRING, value: val });
+        }
         else if (/\s/.test(c)) { i++; }
         else if (c === '"') {
             let val = '"';
@@ -128,10 +140,40 @@ function tokenize(str) {
                 val += str[i];
                 i++;
             }
+            // Function-like macro: IDENT(...) — keep as one token
+            if (i < str.length && str[i] === '(') {
+                let depth = 1;
+                val += '(';
+                i++;
+                while (i < str.length && depth > 0) {
+                    val += str[i];
+                    if (str[i] === '(') depth++;
+                    else if (str[i] === ')') depth--;
+                    i++;
+                }
+            }
             tokens.push({ type: TokenType.IDENT, value: val });
+        }
+        else if (c === '0' && str[i + 1] === 'x') {
+            let val = '0x';
+            i += 2;
+            while (i < str.length && /[0-9a-fA-F]/.test(str[i])) {
+                val += str[i];
+                i++;
+            }
+            tokens.push({ type: TokenType.NUMBER, value: val });
         }
         else if (/[0-9]/.test(c)) {
             let val = '';
+            while (i < str.length && /[0-9]/.test(str[i])) {
+                val += str[i];
+                i++;
+            }
+            tokens.push({ type: TokenType.NUMBER, value: val });
+        }
+        else if (c === '-' && /[0-9]/.test(str[i + 1])) {
+            let val = '-';
+            i++;
             while (i < str.length && /[0-9]/.test(str[i])) {
                 val += str[i];
                 i++;
@@ -178,18 +220,15 @@ class Parser {
         throw new Error(`Unexpected token ${t.type} (${t.value}) at pos ${this.pos}`);
     }
 
-    // Parse { ... } - can be struct init (.field = val) or array init (val1, val2)
     parseBraceInit() {
         this.consume(TokenType.LBRACE);
         const parts = [];
         while (!this.match(TokenType.RBRACE)) {
             const t = this.peek();
             if (t.type === TokenType.DOT) {
-                // Designated initializer: .field = value
                 const field = this.parseDesignatedField();
                 parts.push(field);
             } else {
-                // Regular value in array init
                 const val = this.parseValue();
                 parts.push(val);
             }
@@ -198,7 +237,6 @@ class Parser {
         return '{' + parts.join(',') + '}';
     }
 
-    // Parse .field = value
     parseDesignatedField() {
         this.consume(TokenType.DOT);
         const field = this.consume(TokenType.IDENT).value;
@@ -214,7 +252,6 @@ class Parser {
         return `.${field}${suffix} = ${value}`;
     }
 
-    // Parse top-level entry: [KEY] = { ... }
     parseEntry() {
         this.consume(TokenType.LBRACKET);
         const key = this.consume(TokenType.IDENT).value;
@@ -239,15 +276,12 @@ class Parser {
 }
 
 // ============================================================================
-// ENTRY PROCESSING - Convert between flat CSV and nested C
+// ENTRY PROCESSING
 // ============================================================================
 
-// Parse entry body (string like "{ .textData = { ... }, .speciesData = { ... } }")
-// into nested object structure
 function parseEntryBody(bodyStr) {
     const tokens = tokenize(bodyStr);
     const parser = new Parser(tokens);
-    // Skip outer braces if present
     if (parser.peek().type === TokenType.LBRACE) {
         parser.consume(TokenType.LBRACE);
     }
@@ -262,7 +296,6 @@ function parseBraceToObject(parser) {
     while (!parser.match(TokenType.RBRACE)) {
         const t = parser.peek();
         if (t.type === TokenType.DOT) {
-            // Designated initializer
             parser.consume(TokenType.DOT);
             const field = parser.consume(TokenType.IDENT).value;
             let suffix = '';
@@ -291,14 +324,12 @@ function parseBraceToObject(parser) {
             parser.match(TokenType.COMMA);
             result[field + suffix] = value;
         } else if (t.type === TokenType.LBRACE) {
-            // Nested brace - could be positional array entry or nested struct
             parser.consume(TokenType.LBRACE);
             const value = parseBraceToObject(parser);
             isPositionalArray = true;
             positionalValues.push(value);
             parser.match(TokenType.COMMA);
         } else if (t.type === TokenType.IDENT || t.type === TokenType.NUMBER || t.type === TokenType.STRING) {
-            // Positional array value
             isPositionalArray = true;
             const value = parser.parseValue();
             positionalValues.push(value);
@@ -318,22 +349,23 @@ function entryToFlat(entry, config) {
     const obj = parseEntryBody(entry.body);
     const flat = { [config.keyColumn]: entry.key };
 
-    // Special handling for Evolutions.c: entries is a positional array of [method, param, target]
     if (config.fieldMapping && config.fieldMapping.evo1_method === 'entries[0].method') {
         const entriesArr = obj.entries;
         if (Array.isArray(entriesArr)) {
             for (let i = 0; i < 10; i++) {
-                const entry = entriesArr[i] || [];
+                const entry = entriesArr[i];
+                if (!entry) continue;
                 flat[`evo${i + 1}_method`] = entry[0] || '';
                 flat[`evo${i + 1}_param`] = entry[1] || '';
                 flat[`evo${i + 1}_target`] = entry[2] || '';
             }
         }
-        return flat;
+        return { ...flat, obj, key: flat[config.keyColumn] };
     }
 
     for (const [csvField, cPath] of Object.entries(config.fieldMapping)) {
-        // Check if this is an array element path: entries[0].method or speciesData.types[0]
+        if (csvField === config.keyColumn) continue;
+
         const m = cPath.match(/^(.+)\[(\d+)\](.*)$/);
         if (m) {
             const basePath = m[1];
@@ -353,7 +385,7 @@ function entryToFlat(entry, config) {
             flat[csvField] = getNested(obj, cPath) || '';
         }
     }
-    return flat;
+    return { ...flat, obj, key: flat[config.keyColumn] };
 }
 
 function getNested(obj, path) {
@@ -376,7 +408,6 @@ function getNested(obj, path) {
     return cur;
 }
 
-// Get all values for an array field (for CSV export)
 function getArrayValues(obj, path) {
     const basePath = path.replace(/\[\d+\]$/, '');
     const arr = getNested(obj, basePath);
@@ -413,14 +444,13 @@ function setNested(obj, path, value) {
 
 function flatToEntry(flat, config) {
     const obj = {};
-    // Collect array element fields (paths containing [N])
-    const arraySubFields = {}; // basePath -> index -> { subFieldName -> val }
+    const key = flat[config.keyColumn];
+    const arraySubFields = {};
 
     for (const [csvField, cPath] of Object.entries(config.fieldMapping)) {
         const val = flat[csvField];
-        if (val === undefined) continue;
+        if (val === undefined || csvField === config.keyColumn) continue;
 
-        // Check if this is an array element path: entries[0].method or speciesData.types[0]
         const m = cPath.match(/^(.+)\[(\d+)\](.*)$/);
         if (m) {
             const basePath = m[1];
@@ -431,24 +461,20 @@ function flatToEntry(flat, config) {
             if (subField) {
                 arraySubFields[basePath][index][subField] = val;
             } else {
-                // Direct array element like speciesData.types[0]
                 arraySubFields[basePath][index][''] = val;
             }
         } else {
-            // Simple non-array field
             setNested(obj, cPath, val);
         }
     }
 
-    // Apply array fields
     for (const [basePath, indices] of Object.entries(arraySubFields)) {
         const arr = [];
         for (const [index, subFields] of Object.entries(indices)) {
             if (subFields[''] !== undefined) {
-                // Direct value array element
                 arr[parseInt(index)] = subFields[''];
-            } else if (basePath === 'entries' && subFields.method !== undefined) {
-                // Evolution entry as positional array [method, param, target]
+            } else if (basePath === 'entries') {
+                if (subFields.method === undefined || subFields.method === '') continue;
                 arr[parseInt(index)] = [
                     subFields.method || 'EVO_NONE',
                     subFields.param || '0',
@@ -460,10 +486,14 @@ function flatToEntry(flat, config) {
         }
         setNested(obj, basePath, arr);
     }
-
-    const body = objectToCBody(obj, config);
-    return { key: flat[config.keyColumn], body };
+    return { obj, key };
 }
+
+// ============================================================================
+// C OUTPUT - Pretty-printed C array text
+// ============================================================================
+
+const INDENT4 = '    ';
 
 function isArrayField(path) {
     return /\[\d+\]$/.test(path);
@@ -473,53 +503,52 @@ function getArrayBasePath(path) {
     return path.replace(/\[\d+\]$/, '');
 }
 
-function getArrayIndex(path) {
-    const m = path.match(/\[(\d+)\]$/);
-    return m ? parseInt(m[1]) : null;
-}
-
-// ============================================================================
-// C OUTPUT - Build C array text from flat CSV rows
-// ============================================================================
-
 function objectToCBody(obj, config) {
-    const parts = [];
-
-    // First, find all top-level structs in fieldMapping
-    // Skip paths like entries[0] - those are positional array elements
-    const topLevelStructs = new Set();
+    const topLevelStructs = [];
     for (const cPath of Object.values(config.fieldMapping)) {
         const top = cPath.split('.')[0];
         if (top.match(/\[\d+\]$/)) continue;
-        topLevelStructs.add(top);
+        if (!topLevelStructs.includes(top)) topLevelStructs.push(top);
     }
 
-    // For each top-level struct, output its fields
+    const structIndent = INDENT4 + INDENT4; // 8 spaces: fields inside entry
+
+    const structSections = [];
     for (const topLevel of topLevelStructs) {
-        // Skip positional arrays at top level - handled separately
         if (config.positionalArrays && config.positionalArrays.has(topLevel)) {
             continue;
         }
 
-        const structStr = formatStruct(obj, config, topLevel);
-        if (structStr) {
-            parts.push(`.${topLevel} = { ${structStr} }`);
+        const structBody = formatStruct(obj, config, topLevel, structIndent);
+        if (structBody) {
+            structSections.push(`        .${topLevel} = {\n${structBody}\n        }`);
         }
     }
 
-    // Handle arrays that are direct children of root (Evolutions.c entries)
+    // Top-level scalar fields (direct entry fields, not inside a sub-struct)
+    const topLevelScalars = [];
+    for (const [csvField, cPath] of Object.entries(config.fieldMapping)) {
+        if (cPath.includes('.')) continue;
+        const val = getNested(obj, cPath);
+        if (val !== undefined && val !== null) {
+            let value = val;
+            if (config.stringFields && config.stringFields.has(csvField)) {
+                if (!value.startsWith('"')) value = '"' + value + '"';
+            }
+            topLevelScalars.push(`        .${csvField} = ${value}`);
+        }
+    }
+
+    const bodyParts = [...structSections, ...topLevelScalars].map(p => p + ',');
+
+    const entryLines = [`    [__FLAT_KEY__] = {`];
+    if (bodyParts.length > 0) {
+        entryLines.push(bodyParts.join('\n'));
+    }
+    entryLines.push('    },');
+
     if (config.positionalArrays) {
         for (const arrayName of config.positionalArrays) {
-            // Skip if formatStruct already output this via isArrayField paths
-            let alreadyOutput = false;
-            for (const cPath of Object.values(config.fieldMapping)) {
-                if (cPath.startsWith(arrayName + '[') && isArrayField(cPath)) {
-                    alreadyOutput = true;
-                    break;
-                }
-            }
-            if (alreadyOutput) continue;
-
             const arr = getNested(obj, arrayName);
             if (Array.isArray(arr)) {
                 const entryStrs = [];
@@ -537,24 +566,44 @@ function objectToCBody(obj, config) {
                         entryStrs.push('{ 0, 0, 0 }');
                     }
                 }
-                parts.push(`.${arrayName} = { ${entryStrs.join(', ')} }`);
+                const arrayIndent = INDENT4 + INDENT4 + INDENT4; // 12 spaces inside .entries
+                const entriesText = entryStrs.join(',\n' + arrayIndent);
+                entryLines.splice(entryLines.length - 1, 0, `        .${arrayName} = {\n${arrayIndent}${entriesText}${entriesText ? ',\n' : '\n'}        },`);
             }
         }
     }
 
-    return parts.join(', ');
+    return entryLines.join('\n');
 }
 
-function formatStruct(obj, config, path) {
-    // If path itself is a positional array, skip - objectToCBody handles it
+const FLAT_KEY_PLACEHOLDER = '__FLAT_KEY__';
+
+function writeCArray(header, footer, rows, config) {
+    const lines = [''];
+    for (const row of rows) {
+        let result;
+        if (row.obj !== undefined) {
+            result = row;
+        } else {
+            result = flatToEntry(row, config);
+        }
+        const body = objectToCBody(result.obj, config);
+        const entryText = body.replace(FLAT_KEY_PLACEHOLDER, result.key || '<EMPTY_KEY>');
+        lines.push(entryText);
+    }
+    lines.push('');
+    return header + '\n' + lines.join('\n') + '\n' + footer;
+}
+
+function formatStruct(obj, config, path, indent) {
     if (config.positionalArrays && config.positionalArrays.has(path)) {
         return '';
     }
 
     const parts = [];
     const processedKeys = new Set();
+    const childIndent = indent + '    ';
 
-    // Get all fields under this path
     for (const [csvField, cPath] of Object.entries(config.fieldMapping)) {
         if (!cPath.startsWith(path + '.')) continue;
 
@@ -564,30 +613,28 @@ function formatStruct(obj, config, path) {
 
         if (processedKeys.has(firstPart)) continue;
 
-        // Skip positional arrays - let objectToCBody handle them
         if (config.positionalArrays && config.positionalArrays.has(firstPart)) {
             processedKeys.add(firstPart);
             continue;
         }
 
-        // Also skip if this firstPart looks like entries[0] (positional array element)
-        if (/\[\d+\]$/.test(firstPart)) {
+        if (config.positionalArrays && config.positionalArrays.some(arrName => cPath.startsWith(arrName + '['))) {
             processedKeys.add(firstPart);
             continue;
         }
 
         if (isArrayField(cPath)) {
-            // Check if this is the base array
             const basePath = getArrayBasePath(cPath);
             if (basePath === cPath.replace(/\[\d+\]$/, '')) {
                 if (!processedKeys.has(basePath.split('.').pop())) {
                     processedKeys.add(basePath.split('.').pop());
                     const arr = getArrayValues(obj, basePath);
                     if (arr) {
-                        // Output as positional array entries
                         const entryStrs = [];
                         for (const entry of arr) {
-                            if (Array.isArray(entry)) {
+                            if (typeof entry === 'string') {
+                                entryStrs.push(entry);
+                            } else if (Array.isArray(entry)) {
                                 entryStrs.push(`{ ${entry.join(', ')} }`);
                             } else if (entry && typeof entry === 'object') {
                                 const entryParts = [];
@@ -600,7 +647,7 @@ function formatStruct(obj, config, path) {
                                 entryStrs.push('{ 0, 0, 0 }');
                             }
                         }
-                        parts.push(`.${basePath.split('.').pop()} = { ${entryStrs.join(', ')} }`);
+                        parts.push(`${childIndent}.${basePath.split('.').pop()} = { ${entryStrs.join(', ')} },`);
                     }
                 }
             }
@@ -608,34 +655,32 @@ function formatStruct(obj, config, path) {
         }
 
         if (pathParts.length === 1) {
-            // Direct field
             const val = getNested(obj, cPath);
             if (val !== undefined && val !== null) {
                 let value = val;
                 if (config.stringFields && config.stringFields.has(firstPart)) {
                     if (!value.startsWith('"')) value = '"' + value + '"';
                 }
-                parts.push(`.${firstPart} = ${value}`);
+                parts.push(`${childIndent}.${firstPart} = ${value},`);
                 processedKeys.add(firstPart);
             }
         } else {
-            // Nested struct - recursively format
             const nestedPath = path + '.' + firstPart;
             if (!processedKeys.has(firstPart)) {
                 processedKeys.add(firstPart);
-                const nestedStr = formatStruct(obj, config, nestedPath);
+                const nestedStr = formatStruct(obj, config, nestedPath, childIndent);
                 if (nestedStr) {
-                    parts.push(`.${firstPart} = { ${nestedStr} }`);
+                    parts.push(`${childIndent}.${firstPart} = {\n${nestedStr}\n${childIndent}},`);
                 }
             }
         }
     }
 
-    return parts.join(', ');
+    return parts.join('\n');
 }
 
 // ============================================================================
-// C FILE READ/WRITE - Preserve headers/footers
+// C FILE READ/WRITE
 // ============================================================================
 
 function splitCFile(content) {
@@ -664,14 +709,16 @@ function parseCArray(content, config) {
     return { header, footer, rows };
 }
 
-function writeCArray(header, footer, rows, config) {
-    const lines = [''];
-    for (const row of rows) {
-        const entry = flatToEntry(row, config);
-        lines.push(`    [${entry.key}] = { ${entry.body} },`);
+function importFile(config, inPath) {
+    const { headers, rows } = readCsv(inPath);
+    if (!headers.includes(config.keyColumn)) {
+        throw new Error(`CSV missing key column: ${config.keyColumn}`);
     }
-    lines.push('');
-    return header + '\n' + lines.join('\n') + '\n' + footer;
+    const content = fs.readFileSync(config.filePath, 'utf8');
+    const { header, footer } = splitCFile(content);
+    const newContent = writeCArray(header, footer, rows, config);
+    fs.writeFileSync(config.filePath, newContent, 'utf8');
+    console.log(`Imported ${rows.length} entries from ${inPath} to ${config.filePath}`);
 }
 
 // ============================================================================
@@ -733,7 +780,7 @@ const FILE_CONFIGS = {
             'bodyColor': 'speciesData.bodyColor',
             'flipSprite': 'speciesData.flipSprite',
             'heightDecimetres': 'metricsData.heightDecimetres',
-            'weightHectometers': 'metricsData.weightHectometers',
+            'weightHectograms': 'metricsData.weightHectograms',
             'bodyType': 'metricsData.bodyType',
             'fTrainerScale': 'metricsData.femaleTrainerScale',
             'fPokemonScale': 'metricsData.femalePokemonScale',
@@ -801,7 +848,6 @@ const FILE_CONFIGS = {
             return map;
         })(),
         stringFields: new Set(),
-        // entries is a positional array of [method, param, target]
         positionalArrays: new Set(['entries']),
     },
 };
@@ -813,20 +859,9 @@ const FILE_CONFIGS = {
 function exportFile(config, outPath) {
     const content = fs.readFileSync(config.filePath, 'utf8');
     const { rows } = parseCArray(content, config);
-    writeCsv(outPath, [config.keyColumn, ...config.fieldOrder], rows);
+    const headers = [config.keyColumn, ...config.fieldOrder];
+    writeCsv(outPath, headers, rows);
     console.log(`Exported ${rows.length} entries to ${outPath}`);
-}
-
-function importFile(config, inPath) {
-    const { headers, rows } = readCsv(inPath);
-    if (!headers.includes(config.keyColumn)) {
-        throw new Error(`CSV missing key column: ${config.keyColumn}`);
-    }
-    const content = fs.readFileSync(config.filePath, 'utf8');
-    const { header, footer } = splitCFile(content);
-    const newContent = writeCArray(header, footer, rows, config);
-    fs.writeFileSync(config.filePath, newContent, 'utf8');
-    console.log(`Imported ${rows.length} entries from ${inPath} to ${config.filePath}`);
 }
 
 function selftest() {
@@ -848,7 +883,7 @@ function selftest() {
                 const n = norm(newContent);
                 for (let i = 0; i < Math.min(o.length, n.length); i++) {
                     if (o[i] !== n[i]) {
-                        console.error(`  Diff at ${i}: orig="${o.slice(i, i+80)}" new="${n.slice(i, i+80)}"`);
+                        console.error(`  Diff at ${i}: orig="${o.slice(i, i+100)}" new="${n.slice(i, i+100)}"`);
                         break;
                     }
                 }
@@ -872,9 +907,16 @@ function selftest() {
     }
 }
 
-// ============================================================================
-// CLI
-// ============================================================================
+function getConfig(fileArg) {
+    if (fileArg === 'Species.c' || fileArg === 'data/Species.c') return FILE_CONFIGS['Species.c'];
+    if (fileArg === 'Moves.c' || fileArg === 'data/Moves.c') return FILE_CONFIGS['Moves.c'];
+    if (fileArg === 'Evolutions.c' || fileArg === 'data/Evolutions.c') return FILE_CONFIGS['Evolutions.c'];
+    return null;
+}
+
+function csvNameFor(config) {
+    return path.basename(config.filePath, '.c') + '.csv';
+}
 
 function main() {
     const args = process.argv.slice(2);
@@ -882,13 +924,30 @@ function main() {
         console.log(`Usage:
   node data_csv.js export <Species.c|Moves.c|Evolutions.c> <out.csv>
   node data_csv.js import <Species.c|Moves.c|Evolutions.c> <in.csv>
+  node data_csv.js export       (exports all three to the root directory)
+  node data_csv.js import       (imports all three from the root directory)
   node data_csv.js selftest`);
         process.exit(1);
     }
 
     const cmd = args[0];
+
     if (cmd === 'selftest') {
         selftest();
+        return;
+    }
+
+    if (cmd === 'export' && args.length === 1) {
+        for (const config of Object.values(FILE_CONFIGS)) {
+            exportFile(config, csvNameFor(config));
+        }
+        return;
+    }
+
+    if (cmd === 'import' && args.length === 1) {
+        for (const config of Object.values(FILE_CONFIGS)) {
+            importFile(config, csvNameFor(config));
+        }
         return;
     }
 
@@ -900,11 +959,8 @@ function main() {
     const fileArg = args[1];
     const csvPath = args[2];
 
-    let config;
-    if (fileArg === 'Species.c' || fileArg === 'data/Species.c') config = FILE_CONFIGS['Species.c'];
-    else if (fileArg === 'Moves.c' || fileArg === 'data/Moves.c') config = FILE_CONFIGS['Moves.c'];
-    else if (fileArg === 'Evolutions.c' || fileArg === 'data/Evolutions.c') config = FILE_CONFIGS['Evolutions.c'];
-    else {
+    const config = getConfig(fileArg);
+    if (!config) {
         console.error(`Unknown file: ${fileArg}`);
         process.exit(1);
     }
