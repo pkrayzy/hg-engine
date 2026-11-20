@@ -54,16 +54,20 @@ function parseCsvLine(line) {
     return cells.map(unescapeCsvCell);
 }
 
+const UTF8_BOM = '﻿';
+
 function writeCsv(filePath, headers, rows) {
     const lines = [headers.join(',')];
     for (const row of rows) {
         lines.push(headers.map(h => escapeCsvCell(row[h])).join(','));
     }
-    fs.writeFileSync(filePath, lines.join('\n') + '\n', 'utf8');
+    fs.writeFileSync(filePath, UTF8_BOM + lines.join('\n') + '\n', 'utf8');
 }
 
 function readCsv(filePath) {
-    const content = fs.readFileSync(filePath, 'utf8');
+    let content = fs.readFileSync(filePath, 'utf8');
+    // Strip leading UTF-8 BOM if present
+    if (content.charCodeAt(0) === 0xFEFF) content = content.slice(1);
     const lines = content.trim().split('\n');
     if (lines.length === 0) return { headers: [], rows: [] };
     const headers = parseCsvLine(lines[0]);
@@ -566,9 +570,9 @@ function objectToCBody(obj, config) {
                         entryStrs.push('{ 0, 0, 0 }');
                     }
                 }
-                const arrayIndent = INDENT4 + INDENT4 + INDENT4; // 12 spaces inside .entries
-                const entriesText = entryStrs.join(',\n' + arrayIndent);
-                entryLines.splice(entryLines.length - 1, 0, `        .${arrayName} = {\n${arrayIndent}${entriesText}${entriesText ? ',\n' : '\n'}        },`);
+                const arrayIndent = INDENT4 + INDENT4; // 8 spaces: same as .entries = {
+                const entriesText = entryStrs.join(',\n' + arrayIndent) + ',';
+                entryLines.splice(entryLines.length - 1, 0, `        .${arrayName} = {\n${arrayIndent}${entriesText}\n        }`);
             }
         }
     }

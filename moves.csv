@@ -1,4 +1,4 @@
-move,name,capsName,fullName,description,effect,split,power,type,accuracy,pp,effectChance,target,priority,flags,appeal,contestType
+﻿move,name,capsName,fullName,description,effect,split,power,type,accuracy,pp,effectChance,target,priority,flags,appeal,contestType
 MOVE_NONE,"""-""","""-""","""-""","""\\n\\n\\n\\n""",MOVE_EFFECT_HIT,SPLIT_PHYSICAL,0,TYPE_NORMAL,0,0,0,RANGE_SINGLE_TARGET,0,0x00,0,CONTEST_COOL
 MOVE_POUND,"""Pound""","""POUND""","""Pound""","""The foe is physically\\npounded with a long\\ntail or a foreleg,\\netc.\\n""",MOVE_EFFECT_HIT,SPLIT_PHYSICAL,40,TYPE_NORMAL,100,35,0,RANGE_SINGLE_TARGET,0,FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT,APPEAL_BASIC,CONTEST_TOUGH
 MOVE_KARATE_CHOP,"""Karate Chop""","""KARATE CHOP""","""Karate Chop""","""The foe is attacked\\nwith a sharp chop.\\nIt has a high\\ncritical-hit ratio.\\n""",MOVE_EFFECT_HIGH_CRITICAL,SPLIT_PHYSICAL,50,TYPE_FIGHTING,100,25,0,RANGE_SINGLE_TARGET,0,FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT,APPEAL_BASIC,CONTEST_TOUGH
