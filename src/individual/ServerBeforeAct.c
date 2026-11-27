@@ -226,6 +226,15 @@ void __attribute__((section(".init"))) ServerBeforeActInternal(struct BattleSyst
 
                 // debug_printf("client %d: SELECT_POKEMON_COMMAND\n", client_no);
                 if ((BattleTypeGet(bw) & (BATTLE_TYPE_SAFARI | BATTLE_TYPE_BUG_CONTEST | BATTLE_TYPE_PAL_PARK)) == 0) {
+                    // Clear recharge flag on opponents when this battler switches (Gen 5+ mechanic)
+                    int maxBattlers = BattleWorkClientSetMaxGet(bw);
+                    for (int i = 0; i < maxBattlers; i++) {
+                        if (IsClientEnemy(bw, i) != IsClientEnemy(bw, client_no)) {
+                            if (sp->battlemon[i].condition2 & STATUS2_RECHARGE) {
+                                sp->battlemon[i].condition2 &= ~STATUS2_RECHARGE;
+                            }
+                        }
+                    }
                     BattleControllerPlayer_PokemonInput(bw, sp);
                     sp->next_server_seq_no = tempSequenceNumber;
                     sp->waza_status_flag = tempMoveStatusFlag;

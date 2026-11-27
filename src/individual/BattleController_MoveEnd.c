@@ -146,6 +146,13 @@ void LONG_CALL BattleController_MoveEndInternal(struct BattleSystem *bsys, struc
     ctx->moveContext.isAllyHit = FALSE;
     ctx->moveContext.currentMoveCalcDone = FALSE;
 
+    // Clear recharge flag if defender fainted (Gen 5+ mechanic)
+    if (ctx->defence_client != BATTLER_NONE && ctx->battlemon[ctx->defence_client].hp == 0) {
+        if (ctx->battlemon[ctx->attack_client].condition2 & STATUS2_RECHARGE) {
+            ctx->battlemon[ctx->attack_client].condition2 &= ~STATUS2_RECHARGE;
+        }
+    }
+
     ctx->pursuitContext.isActive = FALSE;
 
     ctx->magicBounceContext.isActive = FALSE;
