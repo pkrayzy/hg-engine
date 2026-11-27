@@ -1469,10 +1469,10 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
         .speciesData = {
             .baseStats = {
                 .hp = 60,
-                .attack = 90,
-                .defense = 55,
+                .attack = 95,
+                .defense = 80,
                 .spAttack = 90,
-                .spDefense = 80,
+                .spDefense = 90,
                 .speed = 110,
             },
             .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
@@ -2980,10 +2980,10 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
         },
         .speciesData = {
             .baseStats = {
-                .hp = 65,
-                .attack = 70,
-                .defense = 60,
-                .spAttack = 65,
+                .hp = 70,
+                .attack = 110,
+                .defense = 65,
+                .spAttack = 75,
                 .spDefense = 65,
                 .speed = 115,
             },
@@ -51140,12 +51140,12 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
         },
         .speciesData = {
             .baseStats = {
-                .hp = 70,
-                .attack = 110,
-                .defense = 100,
+                .hp = 80,
+                .attack = 120,
+                .defense = 110,
                 .spAttack = 50,
                 .spDefense = 60,
-                .speed = 50,
+                .speed = 80,
             },
             .types = { TYPE_STEEL, TYPE_STEEL },
             .catchRate = 90,
@@ -63182,9 +63182,9 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseStats = {
                 .hp = 60,
                 .attack = 85,
-                .defense = 50,
+                .defense = 80,
                 .spAttack = 95,
-                .spDefense = 85,
+                .spDefense = 95,
                 .speed = 110,
             },
             .types = { TYPE_ELECTRIC, TYPE_PSYCHIC },
@@ -63628,11 +63628,12 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
         },
         .speciesData = {
             .baseStats = {
-                .hp = 65,
-                .attack = 60,
-                .defense = 60,
-                .spAttack = 75,
-                .spDefense = 65,
+
+                .hp = 70,
+                .attack = 85,
+                .defense = 70,
+                .spAttack = 85,
+                .spDefense = 75,
                 .speed = 115,
             },
             .types = { TYPE_DARK, TYPE_DARK },
