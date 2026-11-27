@@ -5861,11 +5861,11 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         .data = {
             .effect = MOVE_EFFECT_RANDOM_PRIMARY_STATUS_HIT,
             .split = SPLIT_SPECIAL,
-            .power = 80,
+            .power = 60,
             .type = TYPE_DRAGON,
             .accuracy = 100,
             .pp = 20,
-            .effectChance = 20,
+            .effectChance = 30,
         },
         .battle = {
             .target = RANGE_SINGLE_TARGET,
