@@ -3317,10 +3317,10 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
         .speciesData = {
             .baseStats = {
                 .hp = 90,
-                .attack = 110,
-                .defense = 80,
+                .attack = 125,
+                .defense = 85,
                 .spAttack = 100,
-                .spDefense = 80,
+                .spDefense = 85,
                 .speed = 95,
             },
             .types = { TYPE_FIRE, TYPE_FIRE },
@@ -74261,19 +74261,19 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
     },
     [SPECIES_ARCANINE_HISUIAN] = {
         .textData = {
-            .name = "-----",
-            .pokedexEntry = "",
-            .classification = "Legendary Pokémon",
-            .height = "???’??”",
-            .weight = "????.? lbs.",
+            .name = “-----”,
+            .pokedexEntry = “”,
+            .classification = “Legendary Pokémon”,
+            .height = “???’??””,
+            .weight = “????.? lbs.”,
         },
         .speciesData = {
             .baseStats = {
-                .hp = 95,
-                .attack = 115,
-                .defense = 80,
+                .hp = 100,
+                .attack = 125,
+                .defense = 85,
                 .spAttack = 95,
-                .spDefense = 80,
+                .spDefense = 85,
                 .speed = 90,
             },
             .types = { TYPE_FIRE, TYPE_ROCK },
