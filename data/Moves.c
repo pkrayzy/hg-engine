@@ -1648,7 +1648,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .data = {
             .effect = MOVE_EFFECT_RECHARGE_AFTER,
-            .split = SPLIT_SPECIAL,
+            .split = SPLIT_PHYSICAL,
             .power = 150,
             .type = TYPE_NORMAL,
             .accuracy = 90,
@@ -2141,9 +2141,9 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .fullName = "Dragon Rage",
         },
         .data = {
-            .effect = MOVE_EFFECT_40_DAMAGE_FLAT,
-            .split = SPLIT_SPECIAL,
-            .power = 1,
+            .effect = MOVE_EFFECT_RANDOM_PRIMARY_STATUS_HIT ,
+            .split = SPLIT_PHYSICAL,
+            .power = 80,
             .type = TYPE_DRAGON,
             .accuracy = 100,
             .pp = 10,

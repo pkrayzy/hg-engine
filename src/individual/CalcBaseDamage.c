@@ -1452,11 +1452,15 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
     debug_printf("[CalcBaseDamage] DefendingMon.spdefstate: %d\n", DefendingMon.spdefstate);
 #endif
 
-    // Step 4.3. Psyshock / Psystrike / Secret Sword
-    // ignores Sand, Assault Vest, but Grass Pelt etc are applied
+    // Step 4.3. Psyshock / Psystrike / Secret Sword / Hyper Beam / Dragon Rage
+    // Psyshock family: special moves targeting physical defense
+    // Hyper Beam / Dragon Rage: physical moves targeting special defense
     u8 defensiveSplit = movesplit;
     if ((moveno == MOVE_PSYSHOCK) || (moveno == MOVE_PSYSTRIKE) || (moveno == MOVE_SECRET_SWORD)) {
         defensiveSplit = SPLIT_PHYSICAL;
+    }
+    if ((moveno == MOVE_HYPER_BEAM) || (moveno == MOVE_DRAGON_RAGE)) {
+        defensiveSplit = SPLIT_SPECIAL;
     }
 
 #ifdef DEBUG_DAMAGE_CALC
