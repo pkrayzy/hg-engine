@@ -563,7 +563,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
     },
     [SPECIES_GOLBAT] = {
         .entries = {
-        { EVO_FRIENDSHIP, 0, SPECIES_CROBAT },
+        { EVO_FRIENDSHIP_HI, 0, SPECIES_CROBAT },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
@@ -771,7 +771,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
     },
     [SPECIES_GROWLITHE] = {
         .entries = {
-        { EVO_FRIENDSHIP, 0, SPECIES_ARCANINE },
+        { EVO_FRIENDSHIP_HI, 0, SPECIES_ARCANINE },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
@@ -1486,7 +1486,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
     },
     [SPECIES_CHANSEY] = {
         .entries = {
-        { EVO_FRIENDSHIP, 0, SPECIES_BLISSEY },
+        { EVO_FRIENDSHIP_HI, 0, SPECIES_BLISSEY },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
@@ -2305,7 +2305,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
     },
     [SPECIES_TOGETIC] = {
         .entries = {
-        { EVO_STONE, ITEM_SHINY_STONE, SPECIES_TOGEKISS },
+        { EVO_FRIENDSHIP_HI, 0, SPECIES_TOGEKISS },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
@@ -5815,7 +5815,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
     },
     [SPECIES_MUNCHLAX] = {
         .entries = {
-        { EVO_FRIENDSHIP, 0, SPECIES_SNORLAX },
+        { EVO_FRIENDSHIP_HI, 0, SPECIES_SNORLAX },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
@@ -5828,7 +5828,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
     },
     [SPECIES_RIOLU] = {
         .entries = {
-        { EVO_FRIENDSHIP_DAY, 0, SPECIES_LUCARIO },
+        { EVO_FRIENDSHIP_HI, 0, SPECIES_LUCARIO },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
@@ -17242,7 +17242,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
     },
     [SPECIES_GROWLITHE_HISUIAN] = {
         .entries = {
-        { EVO_FRIENDSHIP, 0, MON_WITH_FORM(SPECIES_ARCANINE, 1) },
+        { EVO_FRIENDSHIP_HI, 0, MON_WITH_FORM(SPECIES_ARCANINE, 1) },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },

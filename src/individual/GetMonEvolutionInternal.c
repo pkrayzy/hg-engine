@@ -103,6 +103,12 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     *method_ret = EVO_FRIENDSHIP_NIGHT;
                 }
                 break;
+            case EVO_FRIENDSHIP_HI:
+                if (friendship >= 250) {
+                    target = evoTable[i].target & 0x7FF;
+                    *method_ret = EVO_FRIENDSHIP_HI;
+                }
+                break;
             case EVO_LEVEL:
                 if (evoTable[i].param <= level) {
                     target = evoTable[i].target & 0x7FF;
