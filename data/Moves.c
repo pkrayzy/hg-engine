@@ -1664,7 +1664,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .appeal = APPEAL_AFTER_MAX_VOLTAGE_HEARTS,
             .contestType = CONTEST_COOL,
         },
-        .description = "The foe is attacked\\nwith a powerful beam.\\nUses Attack stat but\\ntargets Sp. Def.\\nUser must recharge\\nnext turn.",
+        .description = "The foe is attacked\\nwith a powerful beam\\nthat does special\\ndamage. The user\\nmust rest on the\\nnext turn.",
     },
     [MOVE_PECK] = {
         .names = {
@@ -2158,7 +2158,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .appeal = APPEAL_BASIC,
             .contestType = CONTEST_COOL,
         },
-        .description = "The foe is stricken\\nby a shock wave.\\nUses Attack but targets\\nSp. Def. May cause\\nburn, paralysis, or\\nfreeze.",
+        .description = "The foe is stricken\\nby a shock wave that\\ndoes special damage\\nand may cause burn,\\nparalysis, or freeze.",
     },
     [MOVE_FIRE_SPIN] = {
         .names = {
