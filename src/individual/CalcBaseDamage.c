@@ -1370,9 +1370,9 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
                 attackModifier = QMul_RoundUp(attackModifier, UQ412__1_5);
             }
 
-            // handle Eevee holding Everstone (same effect as Light Ball)
+            // handle Eevee/Mew holding Everstone (same effect as Light Ball)
             if ((AttackingMon.item_held_effect == HOLD_EFFECT_NO_EVOLVE)
-                && ((AttackingMon.species == SPECIES_PIKACHU) || (AttackingMon.species == SPECIES_MEW))
+                && ((AttackingMon.species == SPECIES_EEVEE) || (AttackingMon.species == SPECIES_MEW))
                 // it’s not a Ditto/Smeargle/Mew Transformed into the species
                 && !(AttackingMon.condition2 & STATUS2_TRANSFORM)) {
                 attackModifier = QMul_RoundUp(attackModifier, UQ412__1_5);
