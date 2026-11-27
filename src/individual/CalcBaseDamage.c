@@ -973,7 +973,7 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
             // handle Griseous Orb
             if ((AttackingMon.item_held_effect == HOLD_EFFECT_GIRATINA_BOOST)
                 && ((movetype == TYPE_DRAGON) || (movetype == TYPE_GHOST))
-                && (AttackingMon.species == SPECIES_GIRATINA)) {
+                && ((AttackingMon.species == SPECIES_GIRATINA) || (AttackingMon.species == SPECIES_MEW))) {
                 basePowerModifier = QMul_RoundUp(basePowerModifier, UQ412__1_2);
                 continue;
             }
@@ -997,7 +997,7 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
             // handle Griseous Core
             if ((AttackingMon.item_held_effect == HOLD_EFFECT_GIRATINA_BOOST_AND_TRANSFORM)
                 && ((movetype == TYPE_DRAGON) || (movetype == TYPE_GHOST))
-                && (AttackingMon.species == SPECIES_GIRATINA)) {
+                && ((AttackingMon.species == SPECIES_GIRATINA) || (AttackingMon.species == SPECIES_MEW))) {
                 basePowerModifier = QMul_RoundUp(basePowerModifier, UQ412__1_2);
                 continue;
             }
@@ -1348,14 +1348,14 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
 
             // handle Thick Club
             if ((AttackingMon.item_held_effect == HOLD_EFFECT_CUBONE_ATK_UP)
-                && ((AttackingMon.species == SPECIES_CUBONE) || (AttackingMon.species == SPECIES_MAROWAK))
+                && ((AttackingMon.species == SPECIES_CUBONE) || (AttackingMon.species == SPECIES_MAROWAK) || (AttackingMon.species == SPECIES_MEW))
                 && (movesplit == SPLIT_PHYSICAL)) {
                 attackModifier = QMul_RoundUp(attackModifier, UQ412__2_0);
             }
 
             // handle Deep Sea Tooth
             if ((AttackingMon.item_held_effect == HOLD_EFFECT_CLAMPERL_SPATK)
-                && (AttackingMon.species == SPECIES_CLAMPERL)
+                && ((AttackingMon.species == SPECIES_CLAMPERL) || (AttackingMon.species == SPECIES_MEW))
                 // it’s not a Ditto/Smeargle/Mew Transformed into the species
                 && !(AttackingMon.condition2 & STATUS2_TRANSFORM)
                 && (movesplit == SPLIT_SPECIAL)) {
@@ -1364,10 +1364,18 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
 
             // handle Light Ball
             if ((AttackingMon.item_held_effect == HOLD_EFFECT_PIKA_SPATK_UP)
-                && (AttackingMon.species == SPECIES_PIKACHU)
+                && ((AttackingMon.species == SPECIES_PIKACHU) || (AttackingMon.species == SPECIES_MEW))
                 // it’s not a Ditto/Smeargle/Mew Transformed into the species
                 && !(AttackingMon.condition2 & STATUS2_TRANSFORM)) {
-                attackModifier = QMul_RoundUp(attackModifier, UQ412__2_0);
+                attackModifier = QMul_RoundUp(attackModifier, UQ412__1_5);
+            }
+
+            // handle Eevee holding Everstone (same effect as Light Ball)
+            if ((AttackingMon.item_held_effect == HOLD_EFFECT_NO_EVOLVE)
+                && ((AttackingMon.species == SPECIES_PIKACHU) || (AttackingMon.species == SPECIES_MEW))
+                // it’s not a Ditto/Smeargle/Mew Transformed into the species
+                && !(AttackingMon.condition2 & STATUS2_TRANSFORM)) {
+                attackModifier = QMul_RoundUp(attackModifier, UQ412__1_5);
             }
         }
     }
@@ -1614,7 +1622,7 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
 
             // handle Deep Sea Scale
             if ((DefendingMon.item_held_effect == HOLD_EFFECT_CLAMPERL_SPDEF)
-                && (DefendingMon.species == SPECIES_CLAMPERL)
+                && ((DefendingMon.species == SPECIES_CLAMPERL) || (DefendingMon.species == SPECIES_MEW))
                 // it’s not a Ditto/Smeargle/Mew Transformed into the species
                 && !(DefendingMon.condition2 & STATUS2_TRANSFORM)
                 && (defensiveSplit == SPLIT_SPECIAL)) {
@@ -1623,11 +1631,10 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
 
             // handle Metal Powder
             if ((DefendingMon.item_held_effect == HOLD_EFFECT_DITTO_DEF_UP)
-                && (DefendingMon.species == SPECIES_DITTO)
+                && ((DefendingMon.species == SPECIES_DITTO) || (DefendingMon.species == SPECIES_MEW))
                 // it’s not a Ditto/Smeargle/Mew Transformed into the species
-                && !(DefendingMon.condition2 & STATUS2_TRANSFORM)
-                && (defensiveSplit == SPLIT_PHYSICAL)) {
-                defenseModifier = QMul_RoundUp(defenseModifier, UQ412__2_0);
+                && !(DefendingMon.condition2 & STATUS2_TRANSFORM)) {
+                defenseModifier = QMul_RoundUp(defenseModifier, UQ412__1_5);
             }
         }
     }
