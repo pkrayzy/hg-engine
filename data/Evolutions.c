@@ -771,7 +771,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
     },
     [SPECIES_GROWLITHE] = {
         .entries = {
-        { EVO_STONE, ITEM_FIRE_STONE, SPECIES_ARCANINE },
+        { EVO_FRIENDSHIP, 0, SPECIES_ARCANINE },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
@@ -17242,7 +17242,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
     },
     [SPECIES_GROWLITHE_HISUIAN] = {
         .entries = {
-        { EVO_STONE, ITEM_FIRE_STONE, MON_WITH_FORM(SPECIES_ARCANINE, 1) },
+        { EVO_FRIENDSHIP, 0, MON_WITH_FORM(SPECIES_ARCANINE, 1) },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
         { EVO_NONE, 0, SPECIES_NONE },
