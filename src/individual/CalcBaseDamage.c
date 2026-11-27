@@ -1609,8 +1609,7 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
                 // If a Pokémon has any evolutions, there should be an entry at the top that isn't EVO_NONE.
                 // In that case, the Pokémon is capable of evolving, and so the effect of Eviolite should apply.
                 if (evoTable[0].method != EVO_NONE) {
-                    defenseModifier = QMul_RoundUp(defenseModifier, UQ412__1_25);
-                    attackModifier = QMul_RoundUp(attackModifier, UQ412__1_25);
+                    defenseModifier = QMul_RoundUp(defenseModifier, UQ412__1_5);
                 }
 
                 sys_FreeMemoryEz(evoTable);
