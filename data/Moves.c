@@ -2141,9 +2141,9 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .fullName = "Dragon Rage",
         },
         .data = {
-            .effect = MOVE_EFFECT_RANDOM_PRIMARY_STATUS_HIT ,
+            .effect = MOVE_EFFECT_HIT,
             .split = SPLIT_PHYSICAL,
-            .power = 80,
+            .power = 90,
             .type = TYPE_DRAGON,
             .accuracy = 100,
             .pp = 10,
@@ -2158,7 +2158,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .appeal = APPEAL_BASIC,
             .contestType = CONTEST_COOL,
         },
-        .description = "The foe is stricken\\nby a shock wave that\\ndoes special damage\\nand may cause burn,\\nparalysis, or freeze.",
+        .description = "The foe is stricken\\nby a shock wave of\\npure rage. This\\nattack does special\\ndamage.",
     },
     [MOVE_FIRE_SPIN] = {
         .names = {
@@ -5859,13 +5859,13 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .fullName = "Dragon Breath",
         },
         .data = {
-            .effect = MOVE_EFFECT_PARALYZE_HIT,
+            .effect = MOVE_EFFECT_RANDOM_PRIMARY_STATUS_HIT,
             .split = SPLIT_SPECIAL,
-            .power = 60,
+            .power = 80,
             .type = TYPE_DRAGON,
             .accuracy = 100,
             .pp = 20,
-            .effectChance = 30,
+            .effectChance = 20,
         },
         .battle = {
             .target = RANGE_SINGLE_TARGET,
@@ -5876,7 +5876,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .appeal = APPEAL_FIRST_HEARTS,
             .contestType = CONTEST_COOL,
         },
-        .description = "The user exhales\\na mighty gust that\\ninflicts damage.\\nIt may also paralyze\\nthe target.",
+        .description = "The user exhales\\na mighty gust that\\ninflicts damage.\\nMay also paralyze,\\nburn, or freeze the\\ntarget.",
     },
     [MOVE_BATON_PASS] = {
         .names = {
