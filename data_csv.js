@@ -138,6 +138,17 @@ function tokenize(str) {
             if (i < str.length) { val += '"'; i++; }
             tokens.push({ type: TokenType.STRING, value: val });
         }
+        else if (c === '“' || c === '‘') {
+            const end = c === '“' ? '”' : '’';
+            let val = c;
+            i++;
+            while (i < str.length && str[i] !== end) {
+                val += str[i];
+                i++;
+            }
+            if (i < str.length) { val += end; i++; }
+            tokens.push({ type: TokenType.STRING, value: val });
+        }
         else if (/[A-Za-z_]/.test(c)) {
             let val = '';
             while (i < str.length && /[A-Za-z0-9_]/.test(str[i])) {
