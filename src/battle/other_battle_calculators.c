@@ -1902,6 +1902,8 @@ u8 LONG_CALL UpdateTypeEffectiveness(u32 move_no, u8 defender_type, u8 defaultEf
 {
     if (move_no == MOVE_FREEZE_DRY && defender_type == TYPE_WATER) {
         defaultEffectiveness = TYPE_MUL_SUPER_EFFECTIVE;
+    } else if (move_no == MOVE_BONEMERANG && defender_type == TYPE_FLYING) {
+        defaultEffectiveness = TYPE_MUL_SUPER_EFFECTIVE;
     } else if (move_no == MOVE_THOUSAND_ARROWS && defender_type == TYPE_FLYING) {
         defaultEffectiveness = TYPE_MUL_NORMAL;
     }
